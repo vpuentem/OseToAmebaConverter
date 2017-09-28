@@ -45,84 +45,6 @@ BLOCK_LENGTH = 'tabla_duracion.csv'
 
 
 """_______________________________________________________________________________"""
-""" GENERATOR PARAMETERS """
-
-NAME_PV=['PV','Solar']
-NAME_WIND=['Eolica']
-NAME_THERMAL=['Petróleo Diesel', 'Carbón', 'Petróleo IFO-180', 'Biomasa']
-NAME_HYDRO=['Pasada','Embalse','Serie']
-
-FILE_OSE_THERMAL_SING_1='CenTerPar_SING.csv'
-FILE_OSE_THERMAL_SIC_OPT_1='CenTerPar_Esc_SIC_Opt.csv'
-FILE_OSE_THERMAL_SIC_OPT_2='CenTerPar_Exist+Const_SIC_Opt.csv'
-FILE_OSE_THERMAL_SIC_OPT_3='CenTerPar_GNL_SIC_Opt.csv'
-FILE_OSE_THERMAL_SIC_OPE_1='CenTerPar_Esc_SIC_Ope.csv'
-FILE_OSE_THERMAL_SIC_OPE_2='CenTerPar_Exist+Const_SIC_Ope.csv'
-FILE_OSE_THERMAL_SIC_OPE_3='CenTerPar_GNL_SIC_Ope.csv'
-FILE_OSE_PAS_SIC_OPT_1='cenpaspar_Exis+Const_Opt.csv'
-FILE_OSE_PAS_SIC_OPT_2='cenpaspar_Esc_Opt.csv'
-FILE_OSE_PAS_SIC_OPE_1='cenpaspar_Exis+Const_Ope.csv'
-FILE_OSE_PAS_SIC_OPE_2='cenpaspar_Esc_Ope.csv'
-FILE_OSE_EMB_SIC_OPT_1='cenembparOpt.csv'
-FILE_OSE_EMB_SIC_OPE_1='cenembparOpe.csv'
-FILE_OSE_SER_SIC_OPT_1='censerparOpt.csv'
-FILE_OSE_SER_SIC_OPE_1='censerparOpe.csv'
-
-FILE_AMEBA_HYDRO='ele-hydro.csv'
-FILE_AMEBA_THERMAL='ele-thermal.csv'
-FILE_AMEBA_PV='ele-pv.csv'
-FILE_AMEBA_CEN_WIND='ele-wind.csv'
-""" OSE GENERATOR COLUMNS"""
-GEN_NAME_OSE = 'CenNom'
-GEN_START_TIME_OSE = 'CenFecOpeIni'
-GEN_END_TIME_OSE = 'CenFecOpeFin'
-GEN_LIFETIME_OSE = 'CenVidUti'
-GEN_TYPE_OSE = 'CenAux'
-GEN_CONNECTED_OSE = 'CenFOpe'
-GEN_CO2_EMISSION_OSE = 'CenEmiDpz [tCO2e/GWh]'
-GEN_CONTROL_AREAS_OSE = 'CenUbc'
-GEN_IS_NCRE_OSE = 'CenFERNC'
-GEN_PMAX_OSE = 'CenPotMax'
-GEN_PMAX_OSE_PAS = 'CenPMax'
-GEN_EFF_OSE = 'CenTurRen'
-GEN_PMIN_OSE = 'CenPotMin'
-GEN_HEATRATE_AVG_OSE = 'CenRenTer'
-GEN_VOMC_AVG_OSE = 'CenCosOpe'
-GEN_FORCED_OUTAGE_RATE_OSE = 'CenDisEne'
-GEN_FUELNAME_OSE = 'CenEtaCVar'
-GEN_AUXSERV_OSE = 'CenConPro%'
-GEN_CANDIDATE_OSE = 'CenFInv'
-GEN_INV_COST_OSE = 'CenVI'
-GEN_FOM_COST_OSE = 'CenCOMA'
-GEN_OWNER_OSE = 'CenCmr'
-GEN_BUSBAR_OSE = 'CenBar'
-
-GEN_NAME_AMEBA = 'name'
-GEN_START_TIME_AMEBA = 'start_time'
-GEN_END_TIME_AMEBA = 'end_time'
-GEN_LIFETIME_AMEBA = 'lifetime'
-GEN_TYPE_AMEBA = 'gtype'
-GEN_CONNECTED_AMEBA = 'connected'
-GEN_CO2_EMISSION_AMEBA = 'co2_emission'
-GEN_CONTROL_AREAS_AMEBA = 'control_areas'
-GEN_IS_NCRE_AMEBA = 'is_ncre'
-GEN_PMAX_AMEBA = 'pmax'
-GEN_EFF_AMEBA = 'eff'
-GEN_PMIN_AMEBA = 'pmin'
-GEN_HEATRATE_AVG_AMEBA = 'heatrate_avg'
-GEN_VOMC_AVG_AMEBA = 'vomc_avg'
-GEN_FORCED_OUTAGE_RATE_AMEBA = 'forced_outage_rate'
-GEN_FUELNAME_AMEBA = 'fuel_name'
-GEN_AUXSERV_AMEBA = 'auxserv'
-GEN_CANDIDATE_AMEBA = 'candidate'
-GEN_INV_COST_AMEBA = 'inv_cost'
-GEN_FOM_COST_AMEBA = 'fom_cost'
-GEN_OWNER_AMEBA = 'owner'
-GEN_INITIAL_INVESTMENT_AMEBA = 'initial_investment'
-GEN_ZONE_AMEBA = 'zone'
-GEN_BUSBAR_AMEBA = 'busbar'
-
-"""_______________________________________________________________________________"""
 """ GENERATOR UNAVAILABILITY PARAMETERS """
 
 FILE_OSE_THERMAL_SIC_UNAV='CenTerMan.csv'
@@ -142,7 +64,6 @@ FILE_OSE_GNL_PROFILE_SIC2='CenTerEtaPMax_TERMICAS.csv'
 FILE_OSE_GNL_PROFILE_SING='CenTerEtaPMax_GNL_SING.csv'
 
 GEN_TIME_AMEBA = 'time'
-GEN_NAME_AMEBA = 'name'
 GEN_VALUE_AMEBA = 'value'
 
 """_______________________________________________________________________________"""

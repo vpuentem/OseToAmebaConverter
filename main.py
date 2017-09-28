@@ -12,9 +12,8 @@ import os
 
 from module import busbar
 from module import branch
+from module import generator
 
-# from ose2ameba_branch import *
-# from ose2ameba_branch_maxflow import *
 # from ose2ameba_generator import *
 # from ose2ameba_gen_unavailability import *
 # from ose2ameba_profile_GNLv2 import *
@@ -27,7 +26,7 @@ from module import branch
 # from ose2ameba_demand_load_blocks import *
 # from ose2ameba_profile_inflow_block import *
 # from ose2ameba_profiles_ERNC_blocks import *
-# import debugger
+
 
 parser = argparse.ArgumentParser(description='OSE2000 to Ameba converter')
 parser.add_argument(
@@ -55,14 +54,16 @@ if not os.path.exists(path_resultados):
 #  - - - - - - CONFIG PARAMETERS  - - - - - - #
 BLOCK_RESOLUTION = False
 
+#  - - - - - - RUN  - - - - - - #
 busbar = busbar.Busbar(path_datos, path_resultados, args.model)
 busbar.run()
 
 branch = branch.Branch(path_datos, path_resultados, args.model)
 branch.run()
 
-# branch_maxflow = BranchMaxflow(self._ose_dir, self._ameba_dir, self._model)
-# generator = Generator(self._ose_dir, self._ameba_dir, self._model)
+generator = generator.Generator(path_datos, path_resultados, args.model)
+generator.run()
+
 # gen_unav = GenUnav(self._ose_dir, self._ameba_dir, self._model)
 # fuel = Fuel(self._ose_dir, self._ameba_dir, self._model)
 # profile_gnl = ProfileGnl(self._ose_dir, self._ameba_dir, self._model)
@@ -71,9 +72,6 @@ branch.run()
 # irrigation = Irrigation(self._ose_dir, self._ameba_dir, self._model)
 # demand = DemandLoad(self._ose_dir, self._ameba_dir, self._model)
 # dam = DamCot(self._ose_dir, self._ameba_dir, self._model)
-
-#branch_maxflow.run()
-# generator.run()
 
 # gen_unav.run()
 #fuel.run()
