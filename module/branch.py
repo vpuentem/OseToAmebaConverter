@@ -12,15 +12,17 @@ _______________________________________________________________________________
 """
 
 import argparse
-import csv
 import os
-import string
 import itertools
 
-from ose2ameba_functions import *
-from ose2ameba_parameters import *
+from functions import *
+from parameters import *
 
 COLUMNS_AMEBA = [BRANCH_NAME_AMEBA,
+BRANCH_BUSBARI_AMEBA,
+BRANCH_BUSBARF_AMEBA,
+BRANCH_CONNECTED_AMEBA,
+BRANCH_REPORT_AMEBA,
 BRANCH_START_TIME_AMEBA,
 BRANCH_END_TIME_AMEBA,
 BRANCH_VOLTAGE_AMEBA,
@@ -30,11 +32,7 @@ BRANCH_X_AMEBA,
 BRANCH_LOSSES_AMEBA,
 BRANCH_LIFETIME_AMEBA,
 BRANCH_INV_COST_AMEBA,
-BRANCH_COMA_COST_AMEBA,
-BRANCH_BUSBARI_AMEBA,
-BRANCH_BUSBARF_AMEBA,
-BRANCH_CONNECTED_AMEBA,
-BRANCH_REPORT_AMEBA]
+BRANCH_COMA_COST_AMEBA]
 
 DATE_FLAG = False
 #potencia base para pasar de ohm a °/1
@@ -42,7 +40,6 @@ S_BASE=100
 
 class Branch(object):
     """Script to convert an OSE2000 database into Ameba CSV format."""
-
     def __init__(self, ose_dir, ameba_dir, model):
         """Constructor of OSE2Ameba__branch.
         @param ose_dir: string directory to read OSE2000 files from
@@ -58,9 +55,9 @@ class Branch(object):
         branch_OSE_SING = list(reader_csv(os.path.join(DIR_OSE_SING,DIR_OSE_BRANCH), FILE_OSE_BRANCH_SING, self._ose_dir))
         branch_OSE_SIX = list(reader_csv(os.path.join(DIR_OSE_SIX,DIR_OSE_BRANCH), FILE_OSE_BRANCH_SIX, self._ose_dir))
 
-        if self._model == 'Opt':
+        if self._model in ['Opt','opt']:
             branch_OSE_SIC = list(reader_csv(os.path.join(DIR_OSE_SIC,DIR_OSE_BRANCH), FILE_OSE_BRANCH_SIC_OPT, self._ose_dir))
-        elif self._model == 'Ope':
+        elif self._model in ['Ope','ope']:
             branch_OSE_SIC = list(reader_csv(os.path.join(DIR_OSE_SIC,DIR_OSE_BRANCH), FILE_OSE_BRANCH_SIC_OPE, self._ose_dir))
 
         directory = os.path.join(self._ameba_dir,DIR_AMEBA_BRANCH)

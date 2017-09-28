@@ -1,0 +1,505 @@
+name,busbari,busbarf,connected,report,start_time,end_time,voltage,max_flow,r,x,losses,lifetime,inv_cost,coma_cost
+Chapiquina 066->El Aguila 066,Chapiquina 066,El Aguila 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,48.0,0.2,0.341,true,30,0,0
+El Aguila 066->Arica 066,El Aguila 066,Arica 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,48.0,0.253,0.433,true,30,0,0
+CD Arica 066->Arica 066,CD Arica 066,Arica 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,17.0,0.078,0.098,true,30,0,0
+Arica 110->Arica 066,Arica 110,Arica 066,true,true,1970-01-01-00:00,3000-01-01-00:00,110,30.0,0.0,0.197,true,30,0,0
+Arica 110->Dolores 110,Arica 110,Dolores 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,29.0,0.334,0.428,true,30,0,0
+Dolores 110->Pozo Almonte 110,Dolores 110,Pozo Almonte 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,29.0,0.193,0.247,true,30,0,0
+Pozo Almonte 066->Tamarugal 066,Pozo Almonte 066,Tamarugal 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,10.0,0.144,0.213,true,30,0,0
+Iquique 066->Pozo Almonte 066,Iquique 066,Pozo Almonte 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,46.0,0.214,0.376,true,30,0,0
+Iquique 066->Cavancha 066,Iquique 066,Cavancha 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,41.0,0.023,0.033,true,30,0,0
+Cavancha 066->Pozo Almonte 066,Cavancha 066,Pozo Almonte 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,41.0,0.3,0.438,true,30,0,0
+CD Iquique 066->Iquique 066,CD Iquique 066,Iquique 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,48.0,0.011,0.014,true,30,0,0
+Pozo Almonte 220->Pozo Almonte1 110,Pozo Almonte 220,Pozo Almonte1 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,100.0,0.0,0.133,true,30,0,0
+Pozo Almonte1 110->Cerro Colorado 110,Pozo Almonte1 110,Cerro Colorado 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,164.0,0.05,0.201,true,30,0,0
+Lagunas 220->Pozo Almonte 220,Lagunas 220,Pozo Almonte 220,true,true,1970-01-01-00:00,2019-06-01-00:00,220,183.0,0.014,0.06,true,30,0,0
+Lagunas 220->Lagunas 023,Lagunas 220,Lagunas 023,true,true,1970-01-01-00:00,3000-01-01-00:00,220,24.0,0.0,0.796,true,30,0,0
+Tarapaca 220->Lagunas 220,Tarapaca 220,Lagunas 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.003,0.023,true,30,0,0
+Tarapaca 220->Condores 220,Tarapaca 220,Condores 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,182.9,0.013,0.059,true,30,0,0
+Condores 220->Condores 110,Condores 220,Condores 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,195.0,0.0,0.071,true,30,0,0
+Condores 110->Pacifico 110,Condores 110,Pacifico 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,98.0,0.011,0.027,true,30,0,0
+Condores 110->Palafitos 110,Condores 110,Palafitos 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,98.0,0.01,0.026,true,30,0,0
+Condores 110->Alto Hospicio 110,Condores 110,Alto Hospicio 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,98.0,0.003,0.008,true,30,0,0
+Alto Hospicio 110->Cerro Dragon 110,Alto Hospicio 110,Cerro Dragon 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,98.0,0.003,0.007,true,30,0,0
+Condores 220->Parinacota 220,Condores 220,Parinacota 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,91.45,0.041,0.188,true,30,0,0
+Parinacota 220->Parinacota 066,Parinacota 220,Parinacota 066,true,true,1970-01-01-00:00,3000-01-01-00:00,220,120.0,0.0,0.11,true,30,0,0
+Parinacota 066->Pukara 066,Parinacota 066,Pukara 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,59.0,0.008,0.021,true,30,0,0
+Parinacota 066->Chinchorro 066,Parinacota 066,Chinchorro 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,59.0,0.011,0.029,true,30,0,0
+Parinacota 066->Quiani 066,Parinacota 066,Quiani 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,59.0,0.013,0.034,true,30,0,0
+Lagunas 220->Collahuasi 220,Lagunas 220,Collahuasi 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,218.0,0.01,0.049,true,30,0,0
+Collahuasi 220->Quebrada Blanca 220,Collahuasi 220,Quebrada Blanca 220,true,true,1970-01-01-00:00,2019-01-01-00:00,220,180.0,0.003,0.02,true,30,0,0
+Encuentro 220->Collahuasi 220,Encuentro 220,Collahuasi 220,false,false,1970-01-01-00:00,2012-05-01-00:00,220,129.0,0.037,0.17,true,30,0,0
+Crucero 220->Lagunas 220 AUX,Crucero 220,Lagunas AUX 220,false,false,1970-01-01-00:00,2013-09-01-00:00,220,122.0,0.032,0.142,true,30,0,0
+Crucero 220->Nueva Victoria 220,Crucero 220,Nueva Victoria 220,false,false,1970-01-01-00:00,2013-09-01-00:00,220,122.0,0.032,0.132,true,30,0,0
+Nueva Victoria 220->Lagunas 220,Nueva Victoria 220,Lagunas 220,false,false,1970-01-01-00:00,2013-09-01-00:00,220,122.0,0.003,0.014,true,30,0,0
+La Cruz 220->Crucero 220,La Cruz 220,Crucero 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,750.0,0.001,0.005,true,30,0,0
+Barril 220->La Cruz 220,Barril 220,La Cruz 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,750.0,0.002,0.017,true,30,0,0
+Barril 220->Barril 110,Barril 220,Barril 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,30.0,0.0,0.4,true,30,0,0
+Norgener 220->Barril 220,Norgener 220,Barril 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,750.0,0.001,0.007,true,30,0,0
+Barril 110->Mantos de la Luna 110,Barril 110,Mantos de la Luna 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,70.0,0.06,0.088,true,30,0,0
+Tocopilla 220->El Loa 220,Tocopilla 220,El Loa 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,714.0,0.004,0.026,true,30,0,0
+El Loa 220->Crucero 220,El Loa 220,Crucero 220,true,true,1970-01-01-00:00,2019-05-01-00:00,220,714.0,0.001,0.004,true,30,0,0
+Tocopilla 220->Tocopilla 110,Tocopilla 220,Tocopilla 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,200.0,0.0,0.072,true,30,0,0
+Tocopilla 110->Tocopilla 005,Tocopilla 110,Tocopilla 005,true,true,1970-01-01-00:00,3000-01-01-00:00,110,30.0,0.0,0.022,true,30,0,0
+Tocopilla 110->Salar 110,Tocopilla 110,Salar 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,90.0,0.147,0.441,true,30,0,0
+Tocopilla 110->A 110,Tocopilla 110,A 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,270.0,0.048,0.137,true,30,0,0
+Crucero 220->Radomiro Tomic 220,Crucero 220,Radomiro Tomic 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,218.3,0.009,0.067,true,30,0,0
+Crucero 220->El Abra 220,Crucero 220,El Abra 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,218.3,0.011,0.084,true,30,0,0
+Crucero 220->Chuquicamata 220,Crucero 220,Chuquicamata 220,true,true,1970-01-01-00:00,2019-05-01-00:00,220,356.7,0.008,0.058,true,30,0,0
+Chuquicamata 220->Chuquicamata 110,Chuquicamata 220,Chuquicamata 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,240.0,0.0,0.058,true,30,0,0
+Chuquicamata 110->A 110,Chuquicamata 110,A 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,200.0,0.002,0.006,true,30,0,0
+Chuquicamata 110->KM6 110,Chuquicamata 110,KM6 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,100.0,0.004,0.017,true,30,0,0
+Salar 220->Chuquicamata 220,Salar 220,Chuquicamata 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,458.0,0.002,0.016,true,30,0,0
+Crucero 220->Salar 220,Crucero 220,Salar 220,true,true,1970-01-01-00:00,2019-05-01-00:00,220,356.7,0.009,0.061,true,30,0,0
+Salar 220->Salar 110,Salar 220,Salar 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,120.0,0.0,0.071,true,30,0,0
+Salar 110->KM6 110,Salar 110,KM6 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,62.0,0.005,0.014,true,30,0,0
+Salar 110->Calama 110,Salar 110,Calama 110,false,false,1970-01-01-00:00,3000-01-01-00:00,110,44.0,0.023,0.038,true,30,0,0
+Crucero 220->Encuentro 220  I,Crucero 220,Encuentro 220 Aux,true,true,1970-01-01-00:00,2015-12-01-00:00,220,365.81,0.0,0.001,true,30,0,10000
+Crucero 220->Encuentro 220  II,Crucero 220,Encuentro 220 Aux,true,true,1970-01-01-00:00,2015-12-01-00:00,220,365.81,0.0,0.001,true,30,0,10000
+Encuentro 220->Encuentro 220 Aux,Encuentro 220,Encuentro 220 Aux,true,true,1970-01-01-00:00,2015-12-01-00:00,220,470.0,0.0,0.001,true,30,0,0
+Crucero 220->Laberinto 220 I,Crucero 220,Laberinto 220 Aux,true,true,1970-01-01-00:00,2019-05-01-00:00,220,293.03,0.022,0.113,true,30,0,0
+Crucero 220->Escondida 220,Crucero 220,Escondida 220,false,false,1970-01-01-00:00,2010-07-01-00:00,220,180.0,0.039,0.2,true,30,0,0
+Crucero 220->Laberinto 220 II,Crucero 220,Laberinto 220 Aux,true,true,1970-01-01-00:00,2019-05-01-00:00,220,304.84,0.02,0.11,true,30,0,0
+Laberinto 220->Nueva Zaldivar 220 II,Laberinto 220,Nueva Zaldivar 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,377.0,0.011,0.06,true,30,0,0
+Nueva Zaldivar 220->Escondida 220,Nueva Zaldivar 220,Escondida 220,false,false,1970-01-01-00:00,3000-01-01-00:00,220,293.0,0.002,0.011,true,30,0,0
+Chacaya 220->Crucero 220,Chacaya 220,Crucero 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,266.0,0.032,0.131,true,30,0,0
+Chacaya 220->El Cobre 220,Chacaya 220,El Cobre 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,846.0,0.007,0.058,true,30,0,0
+Encuentro 220->El Tesoro 220,Encuentro 220,El Tesoro 220,true,true,1970-01-01-00:00,2020-05-01-00:00,220,125.0,0.02,0.077,true,30,0,0
+El Tesoro 220->Esperanza SING 220,El Tesoro 220,Esperanza SING 220,true,true,1970-01-01-00:00,2020-05-01-00:00,220,266.0,0.003,0.011,true,30,0,0
+Encuentro 220->El Tesoro 220 2,Encuentro 220,Centinela 220,true,true,2020-05-01-00:00,3000-01-01-00:00,220,125.0,0.021,0.082,true,30,0,0
+El Tesoro 220->Centinela 220,El Tesoro 220,Centinela 220,true,true,2020-05-01-00:00,3000-01-01-00:00,220,266.0,0.001,0.005,true,30,0,0
+Centinela 220->Esperanza SING 220,Centinela 220,Esperanza SING 220,true,true,2020-05-01-00:00,3000-01-01-00:00,220,266.0,0.001,0.006,true,30,0,0
+El Cobre 220->Esperanza SING 220,El Cobre 220,Esperanza SING 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,222.0,0.009,0.034,true,30,0,0
+Encuentro 220->Spence 220,Encuentro 220,Spence 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,318.0,0.01,0.056,true,30,0,0
+Atacama 220->Encuentro 220 I,Atacama 220 Aux,Encuentro 220,true,true,1970-01-01-00:00,2016-01-01-00:00,220,386.0,0.015,0.095,true,30,0,10000
+Atacama 220->Encuentro 220 II,Atacama 220 Aux,Encuentro 220,true,true,1970-01-01-00:00,2016-01-01-00:00,220,386.0,0.015,0.095,true,30,0,10000
+Chacaya 220->Capricornio 220,Chacaya 220,Capricornio 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,305.0,0.008,0.042,true,30,0,0
+Chacaya 220->Mejillones 220,Chacaya 220,Mejillones 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,305.0,0.0,0.001,true,30,0,0
+Capricornio 220->Capricornio 110,Capricornio 220,Capricornio 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,80.0,0.0,0.161,true,30,0,0
+Capricornio 220->Mantos Blancos 220,Capricornio 220,Mantos Blancos 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,305.0,0.003,0.014,true,30,0,0
+Laberinto 220->Gaby 220,Laberinto 220,Gaby 220,false,false,1970-01-01-00:00,2010-07-01-00:00,220,274.0,0.013,0.053,true,30,0,0
+Laberinto 220->El Cobre 220,Laberinto 220,El Cobre 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,360.86,0.0,0.002,true,30,0,0
+El Cobre 220->Gaby 220,El Cobre 220,Gaby 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,266.0,0.012,0.051,true,30,0,0
+Laberinto 220->Mantos Blancos 220,Laberinto 220,Mantos Blancos 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,290.0,0.013,0.06,true,30,0,0
+Laberinto 220->Lomas Bayas 220,Laberinto 220,Lomas Bayas 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,209.0,0.002,0.009,true,30,0,0
+Laberinto 220->Nueva Zaldivar 220 I,Laberinto 220,Nueva Zaldivar 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,293.0,0.016,0.08,true,30,0,0
+Oeste 220->Laberinto 220,Oeste 220,Laberinto 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,242.0,0.016,0.073,true,30,0,0
+Oeste 220->Oeste 110,Oeste 220,Oeste 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,55.0,0.0,0.271,true,30,0,0
+Oeste 110->Minsal 110,Oeste 110,Minsal 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,50.0,0.058,0.115,true,30,0,0
+Minsal 110->Minsal 023,Minsal 110,Minsal 023,true,true,1970-01-01-00:00,3000-01-01-00:00,110,20.0,0.0,0.337,true,30,0,0
+Andes 220->Oeste 220,Andes 220,Oeste 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,242.0,0.007,0.033,true,30,0,0
+Salta 345->Andes 345,Salta 345,Andes 345,true,true,1970-01-01-00:00,3000-01-01-00:00,345,777.0,0.01,0.12,true,30,0,0
+Andes 345->Andes 220,Andes 345,Andes 220,true,true,1970-01-01-00:00,3000-01-01-00:00,345,750.0,0.0,0.015,true,30,0,0
+Andes 220->Nueva Zaldivar 220,Andes 220,Nueva Zaldivar 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,634.0,0.004,0.026,true,30,0,0
+Nueva Zaldivar 220->Zaldivar 220,Nueva Zaldivar 220,Zaldivar 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,269.0,0.0,0.001,true,30,0,0
+Zaldivar 220->Escondida 220,Zaldivar 220,Escondida 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,293.0,0.002,0.011,true,30,0,0
+Nueva Zaldivar 220->Sulfuros 220,Nueva Zaldivar 220,Sulfuros 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,293.0,0.003,0.011,true,30,0,0
+Domeyko 220->Sulfuros 220,Domeyko 220,Sulfuros 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,293.0,0.0,0.001,true,30,0,0
+Domeyko 220->Escondida 220,Domeyko 220,Escondida 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,246.0,0.001,0.006,true,30,0,0
+Atacama 220->Domeyko 220,Atacama 220,Domeyko 220,true,true,1970-01-01-00:00,2016-06-01-00:00,220,512.0,0.021,0.087,true,30,0,0
+Ohiggins 220->Palestina 220,Ohiggins 220,Palestina 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.01,0.048,true,30,0,0
+Palestina 220->Domeyko 220,Palestina 220,Domeyko 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.014,0.064,true,30,0,0
+Mejillones 220->Ohiggins 220,Mejillones 220,Ohiggins 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.011,0.043,true,30,0,0
+Atacama 220->Esmeralda 220,Atacama 220,Esmeralda 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,127.0,0.013,0.058,true,30,0,0
+Esmeralda 220->Esmeralda 110,Esmeralda 220,Esmeralda 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,195.0,0.0,0.071,true,30,0,0
+Esmeralda 110->Centro 110,Esmeralda 110,Centro 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,98.0,0.001,0.002,true,30,0,0
+Esmeralda 110->La Portada 110,Esmeralda 110,La Portada 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,98.0,0.02,0.051,true,30,0,0
+Esmeralda 110->Sur 110,Esmeralda 110,Sur 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,98.0,0.008,0.02,true,30,0,0
+Esmeralda 110->Uribe 110,Esmeralda 110,Uribe 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,98.0,0.019,0.048,true,30,0,0
+Mejillones 220->Mejillones 110,Mejillones 220,Mejillones 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,100.0,0.0,0.132,true,30,0,0
+Mejillones 110->Enaex 110,Mejillones 110,Enaex 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,93.0,0.003,0.005,true,30,0,0
+Mejillones 110->Lince 110,Mejillones 110,Lince 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,48.0,0.094,0.234,true,30,0,0
+Pampa 110->Mejillones 110,Pampa 110,Mejillones 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,57.0,0.04,0.096,true,30,0,0
+Desalant 110->Pampa 110,Desalant 110,Pampa 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,57.0,0.026,0.063,true,30,0,0
+Antofagasta 110->Desalant 110,Antofagasta 110,Desalant 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,57.0,0.015,0.035,true,30,0,0
+Antofagasta 110->Capricornio 110,Antofagasta 110,Capricornio 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,91.0,0.017,0.055,true,30,0,0
+Antofagasta 110->La Negra 110,Antofagasta 110,La Negra 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,122.0,0.025,0.062,true,30,0,0
+La Negra 110->Alto Norte 110,La Negra 110,Alto Norte 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,122.0,0.006,0.016,true,30,0,0
+Capricornio 110->El Negro 110,Capricornio 110,El Negro 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,137.0,0.028,0.088,true,30,0,0
+El Negro 110->Alto Norte 110,El Negro 110,Alto Norte 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,137.0,0.005,0.017,true,30,0,0
+Antofagasta 013->Antofagasta 110,Antofagasta 013,Antofagasta 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,30.0,0.0,0.386,true,30,0,0
+CD Antofagasta 013->Antofagasta 013,CD Antofagasta 013,Antofagasta 013,true,true,1970-01-01-00:00,3000-01-01-00:00,13.8,28.0,0.105,0.158,true,30,0,0
+Crucero 220->Chuquicamata 220 II,Crucero 220,Chuquicamata 220,false,false,2014-01-01-00:00,3000-01-01-00:00,220,330.0,0.008,0.058,true,30,0,0
+Salar 110->Calama 110 II,Salar 110,Calama 110,false,false,2014-01-01-00:00,3000-01-01-00:00,110,44.0,0.023,0.038,true,30,0,0
+Salar 110->Calama 110 III,Salar 110,Calama 110,false,false,2014-01-01-00:00,3000-01-01-00:00,110,44.0,0.023,0.038,true,30,0,0
+Salar 220->Salar 110 II,Salar 220,Salar 110,false,false,2014-01-01-00:00,3000-01-01-00:00,220,120.0,0.0,0.071,true,30,0,0
+Salar 220->Salar 110 III,Salar 220,Salar 110,false,false,2014-01-01-00:00,3000-01-01-00:00,220,120.0,0.0,0.071,true,30,0,0
+Dolores 110->Cerro Balcon 110,Dolores 110,Cerro Balcon 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,29.0,0.046,0.058,true,30,0,0
+Cerro Balcon 110->Pozo Almonte 110,Cerro Balcon 110,Pozo Almonte 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,29.0,0.147,0.189,true,30,0,0
+Pozo Almonte 220->Pozo Almonte PMT,Pozo Almonte 220,Pozo Almonte PMT,true,true,1970-01-01-00:00,3000-01-01-00:00,220,100.0,0.001,0.013,true,30,0,0
+Pozo Almonte PMT->Pozo Almonte 110,Pozo Almonte PMT,Pozo Almonte 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,100.0,0.014,0.205,true,30,0,0
+Pozo Almonte PMT->Pozo Almonte 13.8,Pozo Almonte PMT,Pozo Almonte 13.8,true,true,1970-01-01-00:00,3000-01-01-00:00,13.8,20.0,0.127,33.738,true,30,0,0
+Pozo Almonte 110->Pozo Almonte 066,Pozo Almonte 110,Pozo Almonte 066,true,true,1970-01-01-00:00,3000-01-01-00:00,110,30.0,0.005,0.343,true,30,0,0
+Capricornio 110->Salar del Carmen 110,Capricornio 110,Salar del Carmen 110,false,false,2007-01-01-00:00,3000-01-01-00:00,110,116.0,0.013,0.042,true,30,0,0
+Salar del Carmen 110->Antofagasta 110,Salar del Carmen 110,Antofagasta 110,false,false,2007-01-01-00:00,3000-01-01-00:00,110,116.0,0.004,0.013,true,30,0,0
+Salar del Carmen 110->Uribe 110,Salar del Carmen 110,Uribe 110,false,false,2007-01-01-00:00,3000-01-01-00:00,110,80.0,0.004,0.014,true,30,0,0
+Chacaya 220->Andes 220 I,Chacaya 220,Andes 220,false,false,2018-07-01-00:00,3000-01-01-00:00,220,740.0,0.012,0.084,true,30,0,0
+Chacaya 220->Andes 220 II,Chacaya 220,Andes 220,false,false,2018-07-01-00:00,3000-01-01-00:00,220,740.0,0.012,0.084,true,30,0,0
+Tarapaca 220->Lagunas 220 II,Tarapaca 220,Lagunas 220,false,false,2027-01-01-00:00,3000-01-01-00:00,220,366.0,0.002,0.015,true,30,0,0
+Tarapaca 220->Lagunas 220 III,Tarapaca 220,Lagunas 220,false,false,2017-01-01-00:00,3000-01-01-00:00,220,366.0,0.002,0.015,true,30,0,0
+Crucero 220->Lagunas 220 II,Crucero 220,Lagunas AUX 220,false,false,1970-01-01-00:00,2019-05-01-00:00,220,183.0,0.032,0.142,true,30,0,0
+Crucero 220->Nueva Victoria 220 II,Crucero 220,Nueva Victoria 220,true,true,1970-01-01-00:00,2018-09-01-00:00,220,183.0,0.033,0.136,true,30,0,0
+Nueva Victoria 220->Lagunas 220 II,Nueva Victoria 220,Lagunas AUX 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.003,0.014,true,30,0,0
+Encuentro 220->Lagunas 220 III,Encuentro 220,Lagunas AUX 220,true,true,2017-04-01-00:00,3000-01-01-00:00,220,290.0,0.032,0.142,true,30,0,0
+Encuentro 220->Lagunas 220 IV,Encuentro 220,Lagunas AUX 220,true,true,2017-04-01-00:00,3000-01-01-00:00,220,290.0,0.032,0.142,true,30,0,0
+Mejillones 220->Mejillones 110 I,Mejillones 220,Mejillones 110,true,true,2015-01-01-00:00,3000-01-01-00:00,220,100.0,0.0,0.132,true,30,0,0
+Mejillones 220->Mejillones 110 II,Mejillones 220,Mejillones 110,true,true,2015-01-01-00:00,3000-01-01-00:00,220,100.0,0.0,0.132,true,30,0,0
+Salar 110->KM6 110 I,Salar 110,KM6 110,true,true,2015-01-01-00:00,3000-01-01-00:00,110,62.0,0.005,0.014,true,30,0,0
+Salar 110->KM6 110 II,Salar 110,KM6 110,true,true,2016-01-01-00:00,3000-01-01-00:00,110,62.0,0.005,0.014,true,30,0,0
+Minsal 110->Minsal 023 I,Minsal 110,Minsal 023,true,true,2015-01-01-00:00,3000-01-01-00:00,110,20.0,0.0,0.337,true,30,0,0
+Chuquicamata 110->KM6 110 I,Chuquicamata 110,KM6 110,true,true,2015-01-01-00:00,3000-01-01-00:00,110,100.0,0.004,0.017,true,30,0,0
+Capricornio 220->Capricornio 110 I,Capricornio 220,Capricornio 110,true,true,2015-01-01-00:00,3000-01-01-00:00,220,80.0,0.0,0.161,true,30,0,0
+Lagunas 220->Collahuasi 220 I,Lagunas 220,Collahuasi 220,false,false,2015-01-01-00:00,3000-01-01-00:00,220,240.0,0.01,0.049,true,30,0,0
+Mejillones 220->Ohiggins 220 I,Mejillones 220,Ohiggins 220,false,false,2015-01-01-00:00,3000-01-01-00:00,220,183.0,0.011,0.043,true,30,0,0
+Mejillones 220->Ohiggins 220 II,Mejillones 220,Ohiggins 220,true,true,2020-01-01-00:00,3000-01-01-00:00,220,183.0,0.011,0.043,true,30,0,0
+Chacaya 220->Mejillones 220 I,Chacaya 220,Mejillones 220,false,false,2015-01-01-00:00,3000-01-01-00:00,220,332.0,0.0,0.001,true,30,0,0
+Ohiggins 220->Palestina 220 I,Ohiggins 220,Palestina 220,false,false,2015-01-01-00:00,3000-01-01-00:00,220,183.0,0.008,0.033,true,30,0,0
+Salar 110->Calama 110 I,Salar 110,Calama 110,false,false,2015-01-01-00:00,3000-01-01-00:00,110,44.0,0.023,0.038,true,30,0,0
+Barril 220->Barril 110 I,Barril 220,Barril 110,true,true,2015-01-01-00:00,3000-01-01-00:00,220,30.0,0.0,0.4,true,30,0,0
+Pozo Almonte 110->Pozo Almonte 066 I,Pozo Almonte 110,Pozo Almonte 066,true,true,2015-01-01-00:00,3000-01-01-00:00,110,30.0,0.005,0.343,true,30,0,0
+Palestina 220->Domeyko 220 I,Palestina 220,Domeyko 220,false,false,2015-01-01-00:00,3000-01-01-00:00,220,183.0,0.011,0.043,true,30,0,0
+Laberinto 220->Nueva Zaldivar 220 III,Laberinto 220,Nueva Zaldivar 220,false,false,2015-01-01-00:00,3000-01-01-00:00,220,183.0,0.013,0.074,true,30,0,0
+Encuentro 220->Collahuasi 220 I,Encuentro 220,Collahuasi 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,170.0,0.037,0.168,true,30,0,0
+Antofagasta 110->Capricornio 110 I,Antofagasta 110,Capricornio 110,true,true,2016-01-01-00:00,3000-01-01-00:00,110,76.0,0.017,0.055,true,30,0,0
+Arica 110->Arica 066 I,Arica 110,Arica 066,true,true,2016-05-01-00:00,3000-01-01-00:00,110,30.0,0.0,0.197,true,30,0,0
+Arica 110->Arica 066 II,Arica 110,Arica 066,true,true,2016-05-01-00:00,3000-01-01-00:00,110,30.0,0.0,0.197,true,30,0,0
+Arica 110->Dolores 110 I,Arica 110,Dolores 110,true,true,2016-05-01-00:00,3000-01-01-00:00,110,29.0,0.334,0.428,true,30,0,0
+Arica 110->Dolores 110 II,Arica 110,Dolores 110,true,true,2016-05-01-00:00,3000-01-01-00:00,110,29.0,0.334,0.428,true,30,0,0
+Chapiquina 066->El Aguila 066 I,Chapiquina 066,El Aguila 066,true,true,2016-05-01-00:00,3000-01-01-00:00,66,48.0,0.2,0.341,true,30,0,0
+El Aguila 066->Arica 066 I,El Aguila 066,Arica 066,true,true,2016-05-01-00:00,3000-01-01-00:00,66,48.0,0.253,0.433,true,30,0,0
+Tarapaca 220->Condores 220 I,Tarapaca 220,Condores 220,false,false,2017-01-01-00:00,3000-01-01-00:00,220,160.0,0.013,0.058,true,30,0,0
+Dolores 110->Cerro Balcon 110 I,Dolores 110,Cerro Balcon 110,true,true,2016-05-01-00:00,3000-01-01-00:00,110,29.0,0.046,0.058,true,30,0,0
+Dolores 110->Pozo Almonte 110 I,Dolores 110,Pozo Almonte 110,true,true,2016-05-01-00:00,3000-01-01-00:00,110,29.0,0.193,0.247,true,30,0,0
+Cerro Balcon 110->Pozo Almonte 110 I,Cerro Balcon 110,Pozo Almonte 110,true,true,2016-05-01-00:00,3000-01-01-00:00,110,29.0,0.147,0.189,true,30,0,0
+Pozo Almonte 220->Pozo Almonte1 110 I,Pozo Almonte 220,Pozo Almonte1 110,true,true,2018-01-01-00:00,3000-01-01-00:00,220,100.0,0.0,0.133,true,30,0,0
+Salar 220->Salar 110 I,Salar 220,Salar 110,true,true,2018-01-01-00:00,3000-01-01-00:00,220,120.0,0.0,0.071,true,30,0,0
+Chuquicamata 220->Chuquicamata 110 I,Chuquicamata 220,Chuquicamata 110,true,true,2018-01-01-00:00,3000-01-01-00:00,220,240.0,0.0,0.058,true,30,0,0
+Nueva Zaldivar 220->Escondida 220 II,Nueva Zaldivar 220,Escondida 220,false,false,2018-01-01-00:00,3000-01-01-00:00,220,183.0,0.002,0.011,true,30,0,0
+Esmeralda 110->Centro 110 I,Esmeralda 110,Centro 110,true,true,2018-01-01-00:00,3000-01-01-00:00,110,98.0,0.001,0.002,true,30,0,0
+Laberinto 220->Lomas Bayas 220 I,Laberinto 220,Lomas Bayas 220,true,true,2020-01-01-00:00,3000-01-01-00:00,220,209.0,0.002,0.009,true,30,0,0
+Pampa 110->Mejillones 110 I,Pampa 110,Mejillones 110,true,true,2020-01-01-00:00,3000-01-01-00:00,110,57.0,0.04,0.096,true,30,0,0
+Pozo Almonte 066->Tamarugal 066 I,Pozo Almonte 066,Tamarugal 066,true,true,2020-01-01-00:00,3000-01-01-00:00,66,10.0,0.144,0.213,true,30,0,0
+Desalant 110->Pampa 110 I,Desalant 110,Pampa 110,true,true,2020-01-01-00:00,3000-01-01-00:00,110,57.0,0.026,0.063,true,30,0,0
+Nueva Zaldivar 220->Zaldivar 220 I,Nueva Zaldivar 220,Zaldivar 220,true,true,2020-01-01-00:00,3000-01-01-00:00,220,360.0,0.0,0.001,true,30,0,0
+Antofagasta 110->Desalant 110 I,Antofagasta 110,Desalant 110,true,true,2020-01-01-00:00,3000-01-01-00:00,110,57.0,0.015,0.035,true,30,0,0
+Encuentro 220->Spence 220 I,Encuentro 220,Spence 220,true,true,2020-01-01-00:00,3000-01-01-00:00,220,318.0,0.01,0.056,true,30,0,0
+Condores 220->Parinacota 220 I,Condores 220,Parinacota 220,false,false,2020-01-01-00:00,3000-01-01-00:00,220,91.0,0.042,0.187,true,30,0,0
+Lagunas 220->Lagunas 220 AUX,Lagunas 220,Lagunas AUX 220,false,false,1970-01-01-00:00,2013-04-01-00:00,220,160.0,0.0,0.001,true,30,0,0
+Lagunas 220->Lagunas 220 AUX II,Lagunas 220,Lagunas AUX 220,false,false,1970-01-01-00:00,2013-09-01-00:00,220,180.0,0.0,0.001,true,30,0,0
+Lagunas 220->Lagunas 220 AUX III,Lagunas 220,Lagunas AUX 220,true,true,1970-01-01-00:00,2017-04-01-00:00,220,183.0,0.0,0.001,true,30,0,0
+Lagunas 220->Lagunas 220 AUX IV,Lagunas 220,Lagunas AUX 220,true,true,2017-04-01-00:00,3000-01-01-00:00,220,549.0,0.0,0.001,true,30,0,0
+Encuentro 220->Collahuasi 220 II,Encuentro 220,Collahuasi 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,170.0,0.037,0.168,true,30,0,0
+Crucero 220->Encuentro 220 III,Crucero 220,Encuentro 220,false,false,2018-08-01-00:00,3000-01-01-00:00,220,1098.0,0.0,0.001,true,30,0,0
+CD Arica 066->Tap Quiani 066,CD Arica 066,Tap Quiani,true,true,1970-01-01-00:00,3000-01-01-00:00,66,17.0,0.037,0.046,true,30,0,0
+Tap Quiani 066->Arica 066,Tap Quiani,Arica 066,true,true,1970-01-01-00:00,3000-01-01-00:00,66,17.0,0.041,0.052,true,30,0,0
+Tap Quiani 066->Quiani 066,Tap Quiani,Quiani 066,false,false,2012-04-01-00:00,2012-06-01-00:00,66,17.0,0.0,0.001,true,30,0,0
+Nueva Mejillones 220->Chacaya 220,Nueva Mejillones 220,Chacaya 220,false,false,2020-02-01-00:00,3000-01-01-00:00,220,1500.0,0.0,0.001,true,30,0,0
+Nueva Mejillones 220->Nueva Mejillones 500 I,Nueva Mejillones 220,Nueva Mejillones 500,false,false,2020-02-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.018,true,30,0,0
+Nueva Mejillones 220->Nueva Mejillones 500 II,Nueva Mejillones 220,Nueva Mejillones 500,false,false,2020-02-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.018,true,30,0,0
+Atacama 220->Nueva Mejillones 220,Atacama 220,Nueva Mejillones 220,false,false,2021-04-01-00:00,3000-01-01-00:00,220,1500.0,0.0,0.001,true,30,0,0
+Crucero 220->Encuentro 220  III,Crucero 220,Encuentro 220 Aux,true,true,2015-12-01-00:00,2018-11-01-00:00,220,1000.0,0.0,0.001,true,30,0,10000
+Crucero 220->Encuentro 220  IV,Crucero 220,Encuentro 220 Aux,true,true,2015-12-01-00:00,2018-11-01-00:00,220,1000.0,0.0,0.001,true,30,0,10000
+Encuentro 220->Encuentro 220 Aux II,Encuentro 220,Encuentro 220 Aux,true,true,2015-12-01-00:00,2018-12-01-00:00,220,1000.0,0.0,0.001,true,30,0,0
+Crucero 220->Crucero 220 Aux S,Crucero 220,Crucero 220 Aux S,true,true,2018-11-01-00:00,3000-01-01-00:00,220,500.0,0.0,0.001,true,30,0,0
+Encuentro 220 Aux->EnlaceCE 220 I,Encuentro 220 Aux,EnlaceCE 220,false,false,2018-08-01-00:00,3000-01-01-00:00,220,1000.0,0.0,0.001,true,30,0,10000
+Encuentro 220 Aux->EnlaceCE 220 II,Encuentro 220 Aux,EnlaceCE 220,false,false,2018-08-01-00:00,3000-01-01-00:00,220,1000.0,0.0,0.001,true,30,0,10000
+EnlaceCE 220->EnlaceCE 220 Aux,EnlaceCE 220,EnlaceCE 220 Aux,false,false,2018-08-01-00:00,3000-01-01-00:00,220,1500.0,0.0,0.001,true,30,0,0
+Crucero 220 Aux S->EnlaceCE 220 I,Crucero 220 Aux S,EnlaceCE 220,false,false,2018-08-01-00:00,3000-01-01-00:00,220,1000.0,0.0,0.001,true,30,0,10000
+Crucero 220 Aux S->EnlaceCE 220 II,Crucero 220 Aux S,EnlaceCE 220,false,false,2018-08-01-00:00,3000-01-01-00:00,220,1000.0,0.0,0.001,true,30,0,10000
+EnlaceCE 220 Aux->Nueva Crucero Encuentro 220 I,EnlaceCE 220 Aux,Nueva Crucero Encuentro 220,false,false,2018-08-01-00:00,3000-01-01-00:00,220,500.0,0.001,0.101,true,30,0,0
+EnlaceCE 220 Aux->Nueva Crucero Encuentro 220 II,EnlaceCE 220 Aux,Nueva Crucero Encuentro 220,false,false,2018-08-01-00:00,3000-01-01-00:00,220,500.0,0.001,0.101,true,30,0,0
+EnlaceCE 220 Aux->Nueva Crucero Encuentro 220 III,EnlaceCE 220 Aux,Nueva Crucero Encuentro 220,false,false,2018-08-01-00:00,3000-01-01-00:00,220,500.0,0.001,0.101,true,30,0,0
+EnlaceCE 220 Aux->Nueva Crucero Encuentro 220 IV,EnlaceCE 220 Aux,Nueva Crucero Encuentro 220,false,false,2018-08-01-00:00,3000-01-01-00:00,220,500.0,0.001,0.101,true,30,0,0
+Lagunas 220->Lagunas 220 Aux S,Lagunas 220,Lagunas 220 Aux S,false,false,2017-04-01-00:00,3000-01-01-00:00,220,1000.0,0.0,0.001,true,30,0,0
+Encuentro 220->Lagunas 220 I,Encuentro 220,Lagunas 220 Aux S,false,false,2017-04-01-00:00,3000-01-01-00:00,220,290.0,0.032,0.142,true,30,0,0
+Encuentro 220->Lagunas 220 II,Encuentro 220,Lagunas 220 Aux S,false,false,2017-04-01-00:00,3000-01-01-00:00,220,290.0,0.032,0.142,true,30,0,0
+Miraje 220->Miraje 220 Aux,Miraje 220,Miraje 220 Aux,true,true,2016-01-01-00:00,3000-01-01-00:00,220,245.8,0.0,0.001,true,30,0,0
+Encuentro 220->Miraje 220 Aux I,Encuentro 220,Miraje 220 Aux,true,true,2016-01-01-00:00,3000-01-01-00:00,220,245.8,0.001,0.008,true,30,0,10000
+Encuentro 220->Miraje 220 Aux II,Encuentro 220,Miraje 220 Aux,true,true,2016-01-01-00:00,3000-01-01-00:00,220,245.8,0.001,0.008,true,30,0,10000
+Miraje 220->Atacama 220 Aux I,Miraje 220,Atacama 220 Aux,true,true,2016-01-01-00:00,3000-01-01-00:00,220,245.8,0.014,0.087,true,30,0,10000
+Miraje 220->Atacama 220 Aux II,Miraje 220,Atacama 220 Aux,true,true,2016-01-01-00:00,3000-01-01-00:00,220,245.8,0.014,0.087,true,30,0,10000
+Nueva Crucero Encuentro 500->Nueva Crucero Encuentro 220 I,Nueva Crucero Encuentro 500,Nueva Crucero Encuentro 220,true,true,2020-12-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.018,true,30,0,0
+Nueva Crucero Encuentro 500->Nueva Crucero Encuentro 220 II,Nueva Crucero Encuentro 500,Nueva Crucero Encuentro 220,true,true,2020-12-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.018,true,30,0,0
+Nueva Mejillones 500->Nueva Mejillones 500 Aux,Nueva Mejillones 500,Nueva Mejillones 500 Aux,false,false,2020-02-01-00:00,3000-01-01-00:00,500,1500.0,0.0,0.001,true,30,0,0
+Nueva Mejillones 500->Nueva Crucero Encuentro 500 I,Nueva Mejillones 500 Aux,Nueva Crucero Encuentro 500,false,false,2020-02-01-00:00,3000-01-01-00:00,500,1500.0,0.001,0.007,true,30,0,0
+Nueva Mejillones 500->Nueva Crucero Encuentro 500 II,Nueva Mejillones 500 Aux,Nueva Crucero Encuentro 500,false,false,2020-02-01-00:00,3000-01-01-00:00,500,1500.0,0.001,0.007,true,30,0,0
+Atacama 220->Atacama 220 Aux,Atacama 220,Atacama 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,386.0,0.0,0.001,true,30,0,0
+Encuentro 220 Aux->Nueva Crucero Encuentro 220 I,Encuentro 220 Aux,Nueva Crucero Encuentro 220,true,true,2018-11-01-00:00,3000-01-01-00:00,220,500.0,0.0,0.001,true,30,0,10000
+Encuentro 220 Aux->Nueva Crucero Encuentro 220 II,Encuentro 220 Aux,Nueva Crucero Encuentro 220,true,true,2018-11-01-00:00,3000-01-01-00:00,220,500.0,0.0,0.001,true,30,0,10000
+Nueva Crucero Encuentro 220->Crucero 220 Aux S I,Nueva Crucero Encuentro 220,Crucero 220 Aux S,true,true,2018-11-01-00:00,3000-01-01-00:00,220,500.0,0.0,0.001,true,30,0,10000
+Nueva Crucero Encuentro 220->Crucero 220 Aux S II,Nueva Crucero Encuentro 220,Crucero 220 Aux S,true,true,2018-11-01-00:00,3000-01-01-00:00,220,500.0,0.0,0.001,true,30,0,10000
+Laberinto 220->Kapatur 220,Laberinto 220,Kapatur 220,true,true,2016-10-01-00:00,3000-01-01-00:00,220,700.0,0.004,0.042,true,30,0,0
+Kapatur 220->Ohiggins 220,Kapatur 220,Ohiggins 220,true,true,2016-10-01-00:00,3000-01-01-00:00,220,700.0,0.002,0.021,true,30,0,0
+Quebrada Blanca 220->Lagunas 220,Quebrada Blanca 220,Lagunas 220,true,true,2019-01-01-00:00,3000-01-01-00:00,220,610.0,0.008,0.059,true,30,0,0
+Atacama 220->Ohiggins 220,Atacama 220,Ohiggins 220,true,true,2016-06-01-00:00,3000-01-01-00:00,220,245.78,0.008,0.032,true,30,0,0
+OHiggins 220->Domeyko 220,Ohiggins 220,Domeyko 220,true,true,2016-06-01-00:00,3000-01-01-00:00,220,512.0,0.013,0.054,true,30,0,0
+Enlace->Nueva Crucero Encuentro 220,Kapatur 220,Nueva Crucero Encuentro 220,false,false,2020-02-01-00:00,3000-01-01-00:00,500,1500.0,0.001,0.011,true,30,600,13
+Nueva Crucero-Encuentro 220->Chuquicamata 220,Nueva Crucero Encuentro 220,Chuquicamata 220,true,true,2019-05-01-00:00,2020-06-01-00:00,220,357.0,0.008,0.058,true,30,0,0
+Nueva Crucero Encuentro 220->Laberinto 220 I,Nueva Crucero Encuentro 220,Laberinto 220 Aux,true,true,2019-05-01-00:00,3000-01-01-00:00,220,293.03,0.022,0.113,true,30,0,0
+Nueva Crucero Encuentro 220->Laberinto 220 II,Nueva Crucero Encuentro 220,Laberinto 220 Aux,true,true,2019-05-01-00:00,3000-01-01-00:00,220,304.84,0.02,0.11,true,30,0,0
+Nueva Crucero Encuentro 220->Lagunas 220 II,Nueva Crucero Encuentro 220,Lagunas AUX 220,false,false,2019-05-01-00:00,3000-01-01-00:00,220,183.0,0.032,0.142,true,30,0,0
+Nueva Crucero Encuentro 220->Nueva Victoria 220,Nueva Crucero Encuentro 220,Nueva Victoria 220,false,false,2019-05-01-00:00,3000-01-01-00:00,220,183.0,0.033,0.136,true,30,0,0
+El Loa 220->Nueva Crucero Encuentro 220,El Loa 220,Nueva Crucero Encuentro 220,true,true,2019-05-01-00:00,3000-01-01-00:00,220,714.0,0.001,0.004,true,30,0,0
+Nueva Crucero Encuentro 220->Salar 220,Nueva Crucero Encuentro 220,Salar 220,true,true,2019-05-01-00:00,2020-06-01-00:00,220,330.0,0.009,0.061,true,30,0,0
+Nueva Crucero Encuentro 220->Nueva Chuquicamata 220 1,Nueva Crucero Encuentro 220,Nueva Chuquicamata 220,true,true,2020-06-01-00:00,3000-01-01-00:00,220,357.0,0.006,0.042,true,30,0,0
+Nueva Crucero Encuentro 220->Nueva Chuquicamata 220 2,Nueva Crucero Encuentro 220,Nueva Chuquicamata 220,true,true,2020-06-01-00:00,3000-01-01-00:00,220,330.0,0.006,0.042,true,30,0,0
+Nueva Chuquicamata 220->Nueva Chuquicamata 220 Aux,Nueva Chuquicamata 220,Nueva Chuquicamata 220 Aux,true,true,2020-06-01-00:00,3000-01-01-00:00,220,330.0,0.0,0.001,true,30,0,0
+Nueva Chuquicamata 220 Aux->Chuquicamata 220,Nueva Chuquicamata 220 Aux,Chuquicamata 220,true,true,2020-06-01-00:00,3000-01-01-00:00,220,357.0,0.002,0.016,true,30,0,0
+Nueva Chuquicamata 220 Aux->Salar 220,Nueva Chuquicamata 220 Aux,Salar 220,true,true,2020-06-01-00:00,3000-01-01-00:00,220,330.0,0.003,0.019,true,30,0,0
+Nueva Chuquicamata 220 Aux->Calama 220,Nueva Chuquicamata 220 Aux,Calama 220,true,true,2022-06-01-00:00,3000-01-01-00:00,220,330.0,0.004,0.017,true,30,0,0
+Collahuasi 220->Collahuasi 220 Aux,Collahuasi 220,Collahuasi 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,340.0,0.0,0.001,true,30,0,0
+Laberinto 220 Aux->Laberinto 220,Laberinto 220 Aux,Laberinto 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,293.03,0.0,0.001,true,30,0,0
+Salar 220->Calama 220,Salar 220,Calama 220,true,true,2015-03-01-00:00,3000-01-01-00:00,220,330.0,0.002,0.015,true,30,0,0
+Calama 220->Calama 100,Calama 220,Calama 110,true,true,2015-03-01-00:00,3000-01-01-00:00,220,150.0,0.0,0.057,true,30,0,0
+Parinacota 220 Aux->Parinacota 220,Parinacota 220 Aux,Parinacota 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,91.45,0.0,0.001,true,30,0,0
+Parinacota 220 Aux->Nueva Pozo Almonte 220 Aux,Parinacota 220 Aux,Nueva Pozo Almonte 220 Aux,true,true,2021-06-01-00:00,3000-01-01-00:00,220,260.0,0.046,0.194,true,30,0,0
+Condores 220->Nueva Pozo Almonte 220 Aux,Condores 220,Nueva Pozo Almonte 220 Aux,true,true,2021-06-01-00:00,3000-01-01-00:00,220,260.0,0.008,0.033,true,30,0,0
+Nueva Pozo Almonte 220 Aux->Nueva Pozo Almonte 220,Nueva Pozo Almonte 220 Aux,Nueva Pozo Almonte 220,true,true,2021-06-01-00:00,3000-01-01-00:00,220,260.0,0.0,0.001,true,30,0,0
+Pozo Almonte 220 Aux->Pozo Almonte 220,Pozo Almonte 220 Aux,Pozo Almonte 220,true,true,2019-06-01-00:00,3000-01-01-00:00,220,183.0,0.0,0.001,true,30,0,0
+Nueva Pozo Almonte 220->Pozo Almonte 220 Aux I,Nueva Pozo Almonte 220,Pozo Almonte 220 Aux,true,true,2019-06-01-00:00,3000-01-01-00:00,220,183.0,0.002,0.007,true,30,0,0
+Lagunas 220->Nueva Pozo Almonte 220,Lagunas 220,Nueva Pozo Almonte 220,true,true,2019-06-01-00:00,3000-01-01-00:00,220,183.0,0.013,0.053,true,30,0,0
+Nueva Pozo Almonte 220->Pozo Almonte 220 Aux II,Nueva Pozo Almonte 220,Pozo Almonte 220 Aux,true,true,2021-06-01-00:00,3000-01-01-00:00,220,260.0,0.002,0.007,true,30,0,0
+Quillagua 220 Aux->Lagunas AUX 220,Quillagua 220 Aux,Lagunas AUX 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.018,0.081,true,30,0,0
+Quillagua 220->Quillagua 220 Aux,Quillagua 220,Quillagua 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.0,0.001,true,30,0,0
+Maria Elena 220 Aux->Quillagua 220 I,Maria Elena 220 Aux,Quillagua 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.012,0.055,true,30,0,0
+Maria Elena 220->Maria Elena 220 Aux,Maria Elena 220,Maria Elena 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.0,0.001,true,30,0,0
+Crucero 220->Maria Elena 220 I,Crucero 220,Maria Elena 220,true,true,1970-01-01-00:00,2019-05-01-00:00,220,183.0,0.001,0.006,true,30,0,0
+Quillagua 220 Aux->Nueva Victoria 220,Quillagua 220 Aux,Nueva Victoria 220,true,true,2018-09-01-00:00,3000-01-01-00:00,220,183.0,0.017,0.072,true,30,0,0
+Maria Elena 220 Aux->Quillagua 220 II,Maria Elena 220 Aux,Quillagua 220,true,true,2018-09-01-00:00,3000-01-01-00:00,220,183.0,0.014,0.058,true,30,0,0
+Crucero 220->Maria Elena 220 II,Crucero 220,Maria Elena 220,true,true,2018-09-01-00:00,2019-05-01-00:00,220,183.0,0.001,0.006,true,30,0,0
+Nueva Crucero Encuentro 220->Maria Elena 220 I,Nueva Crucero Encuentro 220,Maria Elena 220,true,true,2019-05-01-00:00,3000-01-01-00:00,220,183.0,0.001,0.006,true,30,0,0
+Nueva Crucero Encuentro 220->Maria Elena 220 II,Nueva Crucero Encuentro 220,Maria Elena 220,true,true,2019-05-01-00:00,3000-01-01-00:00,220,183.0,0.001,0.006,true,30,0,0
+Encuentro 220->Encuentro 220 Aux III,Encuentro 220,Encuentro 220 Aux,true,true,2018-12-01-00:00,3000-01-01-00:00,220,500.0,0.0,0.001,true,30,0,0
+Antucoya 220 Aux->Antucoya 220,Antucoya 220 Aux,Antucoya 220,false,false,2018-07-01-00:00,3000-01-01-00:00,220,386.0,0.0,0.001,true,30,0,0
+Miraje 220->Antucoya 220 Aux,Miraje 220,Antucoya 220 Aux,false,false,2018-07-01-00:00,3000-01-01-00:00,220,386.0,0.008,0.049,true,30,0,0
+Miraje 220->Antucoya 220 Aux II,Miraje 220,Antucoya 220 Aux,false,false,2018-07-01-00:00,3000-01-01-00:00,220,386.0,0.008,0.049,true,30,0,0
+Antucoya 220->Atacama 220 Aux,Antucoya 220,Atacama 220 Aux,false,false,2018-07-01-00:00,3000-01-01-00:00,220,386.0,0.006,0.038,true,30,0,0
+Antucoya 220->Atacama 220 Aux II,Antucoya 220,Atacama 220 Aux,false,false,2018-07-01-00:00,3000-01-01-00:00,220,386.0,0.006,0.038,true,30,0,0
+Zaldivar 220->OGP1 220,Zaldivar 220,OGP1 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,264.0,0.018,0.068,true,30,0,0
+OGP1 220->Domeyko 220,OGP1 220,Domeyko 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,264.0,0.009,0.036,true,30,0,0
+Diego de Almagro 220->Carrera Pinto 220,Diego de Almagro 220 Aux,Carrera Pinto 220,true,true,1970-01-01-00:00,2017-05-01-00:00,220,197.0,0.015,0.059,true,30,11.341,0.311
+Carrera Pinto 220->Carrera Pinto 220 Aux II,Carrera Pinto 220,Carrera Pinto 220 Aux,true,true,2017-10-01-00:00,2017-12-01-00:00,220,394.0,0.0,0.001,false,30,0,0
+Carrera Pinto 220->Carrera Pinto 220 Aux III,Carrera Pinto 220,Carrera Pinto 220 Aux,true,true,2017-12-01-00:00,2018-01-01-00:00,220,342.0,0.0,0.001,false,30,0,0
+Carrera Pinto 220->Carrera Pinto 220 Aux,Carrera Pinto 220,Carrera Pinto 220 Aux,true,true,1970-01-01-00:00,2017-10-01-00:00,220,197.0,0.0,0.001,false,30,0,0
+Cardones 220->Diego de Almagro 220,Cardones 220,Diego de Almagro 220 Aux,true,true,2015-11-01-00:00,2017-10-01-00:00,220,342.0,0.03,0.121,true,30,26.609,0.649
+Diego de Almagro 220->Carrera Pinto 220 I,Diego de Almagro 220 Aux,Carrera Pinto 220,true,true,2017-07-01-00:00,3000-01-01-00:00,220,400.0,0.015,0.059,true,30,11.341,0.311
+Carrera Pinto 220->Carrera Pinto 220 Aux IV,Carrera Pinto 220,Carrera Pinto 220 Aux,true,true,2018-01-01-00:00,3000-01-01-00:00,220,684.0,0.0,0.001,false,30,0,0
+Diego de Almagro 220->Carrera Pinto 220 III,Diego de Almagro 220 Aux,Carrera Pinto 220,true,true,2016-11-01-00:00,3000-01-01-00:00,220,342.0,0.016,0.062,true,30,11.341,0.311
+Carrera Pinto 220 Aux->Cardones 220 III,Carrera Pinto 220 Aux,Cardones 220,true,true,2016-11-01-00:00,2019-05-01-00:00,220,342.0,0.015,0.059,true,30,10.179,0.275
+Diego de Almagro 220->Carrera Pinto 220 IV,Diego de Almagro 220 Aux,Carrera Pinto 220,true,true,2017-10-01-00:00,3000-01-01-00:00,220,342.0,0.016,0.062,true,30,11.341,0.311
+Carrera Pinto 220 Aux->Cardones 220 IV,Carrera Pinto 220 Aux,Cardones 220,true,true,2017-10-01-00:00,2019-05-01-00:00,220,342.0,0.015,0.059,true,30,10.179,0.275
+Diego de Almagro 220->Diego de Almagro 220 Aux,Diego de Almagro 220,Diego de Almagro 220 Aux,true,true,1970-01-01-00:00,2017-07-01-00:00,220,342.0,0.0,0.001,true,30,0,0
+Diego de Almagro 220->Diego de Almagro 220 Aux II,Diego de Almagro 220,Diego de Almagro 220 Aux,true,true,2017-07-01-00:00,3000-01-01-00:00,220,684.0,0.0,0.001,true,30,0,0
+Pan de Azucar 500->Polpaico 500,Pan de Azucar 500,Polpaico 500,true,true,2018-01-01-00:00,3000-01-01-00:00,500,1700.0,0.002,0.01,true,30,100,10
+Pan de Azucar 500->Pan de Azucar 220,Pan de Azucar 500,Pan de Azucar 220,true,true,2018-01-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,19.488,0.53
+Pan de Azucar 500->Maitencillo 500,Pan de Azucar 500,Maitencillo 500,true,true,2017-12-01-00:00,3000-01-01-00:00,500,1700.0,0.001,0.005,true,30,100,10
+Maitencillo 500->Maitencillo 220,Maitencillo 500,Maitencillo 220,true,true,2018-01-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,19.488,0.53
+Maitencillo 500->Cardones 500,Maitencillo 500,Cardones 500,true,true,2017-12-01-00:00,3000-01-01-00:00,500,1700.0,0.001,0.007,true,30,100,10
+Cardones 500->Cardones 220,Cardones 500,Cardones 220,true,true,2018-01-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,19.488,0.53
+Cardones 220->Maitencillo 220,Cardones 220,Maitencillo 220,true,true,1970-01-01-00:00,2016-09-01-00:00,220,420.0,0.009,0.036,true,30,35.857,0.875
+Cardones 220->Maitencillo 220 II,Cardones 220,Maitencillo 220,true,true,2016-09-01-00:00,2018-01-01-00:00,220,520.0,0.009,0.036,true,30,35.857,0.875
+Cardones 220->Maitencillo 220 III,Cardones 220,Maitencillo 220,true,true,2018-01-01-00:00,2019-11-01-00:00,220,660.0,0.009,0.036,true,30,35.857,0.875
+Cardones 220->Algarrobal 220,Cardones 220,Algarrobal 220,true,true,2019-11-01-00:00,3000-01-01-00:00,220,660.0,0.005,0.018,true,30,35.857,0.875
+Algarrobal 220->Algarrobal 220 Aux,Algarrobal 220,Algarrobal 220 Aux,true,true,2019-11-01-00:00,3000-01-01-00:00,220,660.0,0.0,0.001,true,30,0,0
+Algarrobal 220 Aux->Maitencillo 220,Algarrobal 220 Aux,Maitencillo 220,true,true,2019-11-01-00:00,3000-01-01-00:00,220,660.0,0.005,0.018,true,30,35.857,0.875
+Maitencillo 220->Don Hector 220,Maitencillo 220,Don Hector 220,true,true,1970-01-01-00:00,2018-01-01-00:00,220,394.0,0.008,0.031,true,30,0,0
+Don Hector 220->Don Hector 220 Aux,Don Hector 220,Don Hector 220 Aux,true,true,1970-01-01-00:00,2018-01-01-00:00,220,394.0,0.0,0.001,true,30,0,0
+Don Hector 220 Aux->Punta Colorada 220,Don Hector 220 Aux,Punta Colorada 220,true,true,1970-01-01-00:00,2018-01-01-00:00,220,394.0,0.003,0.013,true,30,0,0
+Punta Colorada 220->Pan de Azucar 220,Punta Colorada 220,Pan de Azucar 220,true,true,1970-01-01-00:00,2018-01-01-00:00,220,394.0,0.009,0.036,true,30,16.969,0.4285
+Las Palmas 220->Los Vilos 220,Las Palmas 220,Los Vilos 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,400.0,0.007,0.031,true,30,14.327,0.383
+Los Vilos 220->Nogales 220,Los Vilos 220,Nogales 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,400.0,0.01,0.039,true,30,100,10
+Nogales 220->Polpaico 220,Nogales 220,Polpaico 220,true,true,2011-11-01-00:00,3000-01-01-00:00,220,1500.0,0.001,0.015,true,30,100,10
+Quillota 220->Polpaico 220,Quillota 220,Polpaico 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,1422.0,0.001,0.012,true,30,21.139,0.466
+San Luis 220->Quillota 220,San Luis 220,Quillota 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,2352.0,0.0,0.002,true,30,13.532,0.332
+Agua Santa 220->San Luis 220,Agua Santa 220,San Luis 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,321.15,0.003,0.019,true,30,10.942,0.246
+Agua Santa 220->Agua Santa 110,Agua Santa 220,Agua Santa 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,294.0,0.0,0.042,true,30,2.162,0.074
+Quillota 220->Quillota 110 1,Quillota 220,Quillota 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,225.0,0.001,0.059,true,30,7.253,0.222
+Quillota 220->Quillota 110 2,Quillota 220,Quillota 110,true,true,2017-09-01-00:00,3000-01-01-00:00,220,150.0,0.001,0.093,true,30,6.202,0.192
+Agua Santa 110->Quillota 110,Agua Santa 110,Quillota 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,800.0,0.017,0.043,true,30,35.467,0.685
+Las Vegas 110->Quillota 110,Las Vegas 110,Quillota 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,366.0,0.008,0.045,true,30,14.75,0.214
+Polpaico 220->El Llano 220,Polpaico 220,El Llano 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,294.0,0.006,0.024,true,30,0,0
+El Llano 220->Los Maquis 220,El Llano 220,Los Maquis 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,294.0,0.008,0.033,true,30,0,0
+Polpaico 220->Los Maquis 220,Polpaico 220,Los Maquis 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,294.0,0.014,0.057,true,30,0,0
+Los Maquis 220 Aux->Los Maquis 220,Los Maquis 220 Aux,Los Maquis 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,294.0,0.0,0.001,true,30,0,0
+Chena 220->Chena 110,Chena 220,Chena 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,784.0,0.001,0.013,true,30,14.93,0.361
+Cerro Navia 220->Cerro Navia 110,Cerro Navia 220,Cerro Navia 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,735.0,0.0,0.016,true,30,18.88,0.525
+Cerro Navia 110->Las Vegas 110,Cerro Navia 110,Las Vegas 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,162.0,0.032,0.116,true,30,24.724,0.31
+Polpaico 220->Polpaico Desf 220,Polpaico 220,Polpaico Desf 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,700.0,0.0,0.012,true,30,10,1
+Lampa 220->Polpaico Desf 220,Lampa 220,Polpaico Desf 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,530.0,0.002,0.007,true,30,5.426,0.138
+Cerro Navia 220->Lampa 220,Cerro Navia 220,Lampa 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,530.0,0.001,0.005,true,30,4.526,0.116
+Chena 220->Cerro Navia 220,Chena 220,Cerro Navia 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,510.0,0.001,0.005,true,30,4.632,0.118
+Melipilla 220->Cerro Navia 220,Melipilla 220,Cerro Navia 220,true,true,1970-01-01-00:00,2015-06-01-00:00,220,386.0,0.006,0.023,true,30,6.996,0.158
+Rapel 220->Melipilla 220,Rapel 220,Melipilla 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,386.0,0.006,0.023,true,30,6.861,0.154
+Melipilla 220->Lo Aguirre 220,Melipilla 220,Lo Aguirre 220,true,true,2015-06-01-00:00,3000-01-01-00:00,220,386.0,0.004,0.017,true,30,5.247,0.1185
+Lo Aguirre 220->Cerro Navia 220,Lo Aguirre 220,Cerro Navia 220,true,true,2015-06-01-00:00,2019-01-01-00:00,220,193.0,0.001,0.006,true,30,1.749,0.0395
+Lo Aguirre 220->Cerro Navia 220 II,Lo Aguirre 220,Cerro Navia 220,true,true,2019-01-01-00:00,3000-01-01-00:00,220,1500.0,0.0,0.004,true,30,12.255,0.27
+Lo Aguirre 500->Lo Aguirre 220 I,Lo Aguirre 500,Lo Aguirre 220,true,true,2015-06-01-00:00,3000-01-01-00:00,500,771.26,0.0,0.019,true,30,43.11,1.17
+Alto Jahuel 500->Lo Aguirre 500,Alto Jahuel 500 Aux,Lo Aguirre 500,true,true,2015-09-01-00:00,3000-01-01-00:00,500,1870.0,0.0,0.004,true,30,22.41204542,0.36708
+Lo Aguirre 500->Polpaico 500,Lo Aguirre 500,Polpaico 500 Aux,true,true,2015-06-01-00:00,3000-01-01-00:00,500,1870.0,0.0,0.004,true,30,19.33959223,0.31676
+Polpaico 220->El Salto 220,Polpaico 220,El Salto 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,1640.0,0.002,0.016,true,30,0,0
+El Salto 220->El Salto 110,El Salto 220,El Salto 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,784.0,0.001,0.013,true,30,0,0
+Los Almendros 110->El Salto 110,Los Almendros 110,El Salto 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,316.0,0.007,0.026,true,30,4.596,0.058
+El Salto 110->Cerro Navia 110,El Salto 110,Cerro Navia 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,316.0,0.021,0.055,true,30,18.352,0.224
+Chena 110->Los Almendros 110,Chena 110,Los Almendros 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,1368.0,0.01,0.031,true,30,41.186,0.497
+Chena 110->Cerro Navia 110,Chena 110,Cerro Navia 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,128.0,0.005,0.019,true,30,6.47,0.076
+Alto Jahuel 110->Chena 110,Alto Jahuel 110,Chena 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,316.0,0.009,0.03,true,30,12.692,0.154
+Alto Jahuel 110->Los Almendros 110,Alto Jahuel 110,Los Almendros 110,true,true,1970-01-01-00:00,3000-01-01-00:00,110,162.0,0.021,0.067,true,30,11.064,0.134
+Alto Jahuel 220->El Rodeo 220,Alto Jahuel 220,El Rodeo 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,1050.0,0.0,0.001,true,30,1.579,0.037
+El Rodeo 220->Chena 220,El Rodeo 220,Chena 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,1050.0,0.001,0.006,true,30,5.547,0.131
+Colbun 220->Candelaria 220,Colbun 220,Candelaria 220,true,true,1970-01-01-00:00,2017-10-01-00:00,220,610.0,0.008,0.032,true,30,0,0
+Candelaria 220->Maipo 220,Candelaria 220,Maipo 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,610.0,0.002,0.015,true,30,1.977,0.05
+Maipo 220->Alto Jahuel 220,Maipo 220,Alto Jahuel 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,610.0,0.0,0.001,true,30,0.016,0.001
+Los Almendros 220->Alto Jahuel 220,Los Almendros 220,Alto Jahuel 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,818.0,0.004,0.017,true,30,24.246,0.292
+Los Almendros 220->Los Almendros 110,Los Almendros 220,Los Almendros 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,392.0,0.003,0.026,true,30,28.268,0.683
+Polpaico 500->Polpaico 220,Polpaico 500,Polpaico 220,true,true,1970-01-01-00:00,3000-01-01-00:00,500,1542.52,0.0,0.01,true,30,19.488,0.53
+Alto Jahuel 500->Alto Jahuel 500 Aux,Alto Jahuel 500,Alto Jahuel 500 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,500,1400.0,0.0,0.001,true,30,0,0
+Polpaico 500->Polpaico 500 Aux,Polpaico 500,Polpaico 500 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,500,1400.0,0.0,0.001,true,30,0,0
+Alto Jahuel 500->Alto Jahuel 220,Alto Jahuel 500,Alto Jahuel 220,true,true,1970-01-01-00:00,3000-01-01-00:00,500,1542.52,0.0,0.01,true,30,43.11,1.17
+Alto Jahuel 500->Polpaico 500,Alto Jahuel 500 Aux,Polpaico 500 Aux,true,true,1970-01-01-00:00,2015-06-01-00:00,500,1870.0,0.001,0.008,true,30,17.57,0.363
+Ancoa 500->Alto Jahuel 500,Ancoa 500 Aux,Alto Jahuel 500,true,true,1970-01-01-00:00,3000-01-01-00:00,500,1400.0,0.003,0.014,true,30,71.5755,1.509
+Ancoa 500->Alto Jahuel 500 II,Ancoa 500 Aux,Alto Jahuel 500,true,true,2014-01-01-00:00,3000-01-01-00:00,500,1400.0,0.002,0.012,true,30,76.448,1.603
+Alto Jahuel 500->Polpaico 500 II,Alto Jahuel 500 Aux,Polpaico 500 Aux,true,true,2014-01-01-00:00,2018-09-01-00:00,500,1870.0,0.001,0.008,true,30,76.448,1.603
+Ancoa 500->Alto Jahuel 500 III,Ancoa 500 Aux,Alto Jahuel 500,true,true,2015-10-01-00:00,3000-01-01-00:00,500,1400.0,0.002,0.014,true,30,76.448,1.603
+Ancoa 500->Alto Jahuel 500 IV,Ancoa 500 Aux,Alto Jahuel 500,true,true,2016-01-01-00:00,3000-01-01-00:00,500,1400.0,0.002,0.014,true,30,76.448,1.603
+Ancoa 500->Ancoa 500 Aux,Ancoa 500,Ancoa 500 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,500,1900.0,0.0,0.001,true,30,0,0
+Ancoa 500->Ancoa 220,Ancoa 500,Ancoa 220,true,true,1970-01-01-00:00,3000-01-01-00:00,500,771.26,0.0,0.019,true,30,19.488,0.53
+Alto Jahuel 220->Alto Jahuel 110,Alto Jahuel 220,Alto Jahuel 110,true,true,1970-01-01-00:00,3000-01-01-00:00,220,821.0,0.0,0.015,true,30,11.183,0.338
+Alto Jahuel 220->Alto Jahuel 154,Alto Jahuel 220,Alto Jahuel 154,true,true,1970-01-01-00:00,3000-01-01-00:00,220,300.0,0.0,0.032,true,30,6.99,0.211
+Itahue 220->Itahue 154,Itahue 220,Itahue 154,true,true,1970-01-01-00:00,3000-01-01-00:00,220,300.0,0.0,0.032,true,30,0,0
+Ancoa 220->Itahue 220,Ancoa 220,Itahue 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,400.0,0.003,0.028,true,30,10,0.27
+Charrua 220->Lagunillas 220,Charrua 220,Lagunillas 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,300.0,0.006,0.043,true,30,5.062,0.154
+Charrua 220->Hualpen 220,Charrua 220,Hualpen 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,229.6,0.006,0.049,true,30,5.062,0.154
+Charrua 220->Charrua 500,Charrua 220,Charrua 500,true,true,1970-01-01-00:00,3000-01-01-00:00,500,1300.0,0.0,0.01,true,30,43.11,1.17
+Charrua 500->Ancoa 500,Charrua 500,Ancoa 500,true,true,1970-01-01-00:00,2017-12-01-00:00,500,1600.0,0.001,0.006,true,30,144,3
+Charrua 220->Tap Laja 220,Charrua 220,El Rosal 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,264.0,0.003,0.015,true,30,31.33,0.76
+Tap Laja 220->Duqueco 220,El Rosal 220,Duqueco 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,264.0,0.005,0.024,true,30,31.33,0.76
+Duqueco 220->Temuco 220,Duqueco 220,Temuco 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,264.0,0.024,0.121,true,30,31.33,0.76
+Charrua 220->Mulchen 220,Charrua 220,Mulchen 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,500.0,0.003,0.021,true,30,61.5,1.535
+Mulchen 220->Cautin 220,Mulchen 220,Cautin 220,true,true,1970-01-01-00:00,2019-07-01-00:00,220,500.0,0.007,0.042,true,30,61.5,1.535
+Mulchen 220->Rio Malleco 220,Mulchen 220,Rio Malleco 220,true,true,2019-07-01-00:00,3000-01-01-00:00,220,500.0,0.002,0.013,true,30,61.5,1.535
+Rio Malleco 220->Cautin 220,Rio Malleco 220,Cautin 220,true,true,2019-07-01-00:00,3000-01-01-00:00,220,500.0,0.005,0.029,true,30,61.5,1.535
+Temuco 220->Cautin 220,Temuco 220,Cautin 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,193.0,0.001,0.004,true,30,1.3522,0.03095
+Valdivia 220->Cautin 220,Valdivia 220,Cautin 220,true,true,1970-01-01-00:00,2017-01-01-00:00,220,166.0,0.031,0.123,true,30,0,0
+Valdivia 220->Ciruelos 220,Valdivia 220,Ciruelos 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,166.0,0.011,0.03,true,30,0,0
+Ciruelos 220->Cautin 220,Ciruelos 220,Cautin 220,true,true,1970-01-01-00:00,2019-11-01-00:00,220,192.0,0.024,0.094,true,30,0,0
+Ciruelos 220->Rio Tolten 220 I,Ciruelos 220,Rio Tolten 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,145.0,0.014,0.038,true,30,0,0
+Rio Tolten 220->Rio Tolten 220 Aux,Rio Tolten 220,Rio Tolten 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,145.0,0.0,0.001,true,30,0,0
+Rio Tolten 220 Aux->Cautin 220 I,Rio Tolten 220 Aux,Cautin 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,145.0,0.01,0.057,true,30,0,0
+Ciruelos 220->Rio Tolten 220 II,Ciruelos 220,Rio Tolten 220,true,true,2019-11-01-00:00,3000-01-01-00:00,220,192.0,0.014,0.038,true,30,0,0
+Rio Tolten 220 Aux->Cautin 220 II,Rio Tolten 220 Aux,Cautin 220,true,true,2019-11-01-00:00,3000-01-01-00:00,220,192.0,0.01,0.057,true,30,0,0
+Rahue 220->Valdivia 220,Rahue 220,Valdivia 220,true,true,1970-01-01-00:00,2018-05-01-00:00,220,182.0,0.022,0.087,true,30,11.315,0.253
+Puerto Montt 220->Rahue 220,Puerto Montt 220 Aux,Rahue 220,true,true,1970-01-01-00:00,2016-12-01-00:00,220,183.0,0.023,0.094,true,30,11.404,0.258
+Puerto Montt 220->Rahue 220 III,Puerto Montt 220 Aux,Rahue 220,true,true,2016-12-01-00:00,2020-05-01-00:00,220,183.0,0.014,0.046,true,30,11.404,0.258
+Puerto Montt 220 Aux->Frutillar Norte 220,Puerto Montt 220 Aux,Frutillar Norte 220,true,true,2020-05-01-00:00,3000-01-01-00:00,220,366.0,0.006,0.019,true,30,11.404,0.258
+Frutillar Norte 220->Frutillar Norte 220 Aux,Frutillar Norte 220,Frutillar Norte 220 Aux,true,true,2020-05-01-00:00,3000-01-01-00:00,220,183.0,0.0,0.001,true,30,11.404,0.258
+Frutillar Norte 220 Aux->Rahue 220,Frutillar Norte 220 Aux,Rahue 220,true,true,2020-05-01-00:00,3000-01-01-00:00,220,366.0,0.008,0.026,true,30,11.404,0.258
+Pichirropulli 220->Valdivia 220,Pichirropulli 220 Aux,Valdivia 220,true,true,2018-05-01-00:00,2018-09-01-00:00,220,145.0,0.01,0.026,true,30,10.774,0.25
+Pichirropulli 220->Rahue 220,Pichirropulli 220,Rahue 220,true,true,2018-05-01-00:00,2028-01-01-00:00,220,183.0,0.01,0.041,true,30,6.465,0.15
+Ciruelos 220->Pichirropulli 220,Ciruelos 220,Pichirropulli 220 Aux,true,true,2018-05-01-00:00,2020-05-01-00:00,220,580.0,0.007,0.028,true,30,36.678,0.513
+Ciruelos 220->Cerros de Huichahue 220 Aux II,Ciruelos 220,Cerros de Huichahue 220 Aux,true,true,2020-05-01-00:00,3000-01-01-00:00,220,580.0,0.005,0.02,true,30,36.678,0.513
+Cerros de Huichahue 220 Aux->Cerros de Huichahue 220 II,Cerros de Huichahue 220 Aux,Cerros de Huichahue 220,true,true,2020-05-01-00:00,3000-01-01-00:00,220,290.0,0.0,0.001,true,30,0,0
+Cerros de Huichahue 220->Pichirropulli 220 Aux II,Cerros de Huichahue 220,Pichirropulli 220 Aux,true,true,2020-05-01-00:00,3000-01-01-00:00,220,580.0,0.002,0.008,true,30,36.678,0.513
+Pichirropulli 220->Pichirropulli 220 Aux,Pichirropulli 220,Pichirropulli 220 Aux,true,true,2018-05-01-00:00,3000-01-01-00:00,220,435.0,0.0,0.001,true,30,0,0
+Pichirropulli 220->Puerto Montt 220,Pichirropulli 220,Puerto Montt 220 Aux,true,true,2021-07-01-00:00,2028-01-01-00:00,220,660.0,0.003,0.041,true,30,32.69,0.458
+Charrua 220->Nueva Charrua 220,Charrua 220,Nueva Charrua 220,true,true,2018-12-01-00:00,3000-01-01-00:00,220,1000.0,0.0,0.003,true,30,61.5,1.535
+Nueva Charrua 500->Nueva Charrua 220,Nueva Charrua 500,Nueva Charrua 220,true,true,2017-12-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,61.5,1.535
+Nueva Charrua 500->Ancoa 500 Aux Sur,Nueva Charrua 500,Ancoa 500 Aux Sur,true,true,2017-12-01-00:00,3000-01-01-00:00,500,1600.0,0.001,0.006,true,30,61.5,1.535
+Nueva Charrua 500->Charrua 500,Charrua 500,Nueva Charrua 500,true,true,2017-12-01-00:00,3000-01-01-00:00,500,1300.0,0.0,0.001,true,30,61.5,1.535
+Charrua 500->Ancoa 500 Aux Sur III,Charrua 500,Ancoa 500 Aux Sur,true,true,2018-02-01-00:00,3000-01-01-00:00,500,1500.0,0.002,0.013,true,30,0,0
+Puerto Montt 500->Puerto Montt 220,Puerto Montt 500,Puerto Montt 220,true,true,2028-01-01-00:00,3000-01-01-00:00,500,771.0,0.0,0.019,true,30,16.0925,0.3475
+Puerto Montt 220->Puerto Montt 220 Aux I,Puerto Montt 220,Puerto Montt 220 Aux,true,true,1970-01-01-00:00,2021-07-01-00:00,220,183.0,0.0,0.001,true,30,0,0
+Puerto Montt 220->Puerto Montt 220 Aux II,Puerto Montt 220,Puerto Montt 220 Aux,true,true,2021-07-01-00:00,3000-01-01-00:00,220,549.0,0.0,0.001,true,30,0,0
+Colbun 220->Ancoa 220,Colbun 220,Ancoa 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,600.0,0.0,0.001,true,30,0,0
+Ancoa 500->Ancoa 500 Aux Sur,Ancoa 500,Ancoa 500 Aux Sur,true,true,2017-12-01-00:00,3000-01-01-00:00,500,3000.0,0.0,0.001,true,30,0,0
+Los Changos 500->Cumbre 500,Los Changos 500,Cumbre 500,true,true,2017-08-01-00:00,3000-01-01-00:00,500,1500.0,0.002,0.007,true,30,600,13
+Los Changos 500->Los Changos 220,Los Changos 500,Los Changos 220,true,true,2017-08-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,16.0925,0.3475
+Cumbre 500->Cardones 500,Cumbre 500,Cardones 500,true,true,2017-08-01-00:00,3000-01-01-00:00,500,1500.0,0.001,0.005,true,30,600,13
+Los Changos 500->Los Changos 220 II,Los Changos 500,Los Changos 220,true,true,2017-08-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,16.0925,0.3475
+Diego de Almagro 220->Cumbre 220 I,Diego de Almagro 220,Cumbre 220 Aux,true,true,2019-11-01-00:00,3000-01-01-00:00,220,600.0,0.002,0.016,true,30,11.341,0.311
+Diego de Almagro 220->Cumbre 220 II,Diego de Almagro 220,Cumbre 220 Aux,true,true,2019-11-01-00:00,3000-01-01-00:00,220,600.0,0.002,0.016,true,30,11.341,0.311
+Cumbre 500->Cumbre 220 I,Cumbre 500,Cumbre 220,true,true,2019-11-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,16.0925,0.3475
+Candelaria 220->Puente Negro 220,Candelaria 220,Puente Negro 220,true,true,2017-10-01-00:00,3000-01-01-00:00,220,680.0,0.003,0.027,true,30,0,0
+Puente Negro220->Colbun 220,Puente Negro 220,Colbun 220,true,true,2017-10-01-00:00,3000-01-01-00:00,220,680.0,0.005,0.042,true,30,0,0
+Cumbre 220 Aux->Cumbre 220 II,Cumbre 220 Aux,Cumbre 220,true,true,2019-11-01-00:00,3000-01-01-00:00,220,600.0,0.0,0.001,true,30,0,0
+Los Changos 500->Los Changos 220 III,Los Changos 500,Los Changos 220,true,true,2020-12-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,16.0925,0.3475
+Carrera Pinto 220 Aux->San Andres 220 I,Carrera Pinto 220 Aux,San Andres 220,true,true,1970-01-01-00:00,2017-12-01-00:00,220,197.0,0.009,0.035,true,30,0,0
+Carrera Pinto 220 Aux->San Andres 220 I REF,Carrera Pinto 220 Aux,San Andres 220,true,true,2018-01-01-00:00,3000-01-01-00:00,220,400.0,0.009,0.036,true,30,0,0
+Carrera Pinto 220 Aux->San Andres 220 II,Carrera Pinto 220 Aux,San Andres 220,true,true,2019-05-01-00:00,3000-01-01-00:00,220,342.0,0.009,0.036,true,30,0,0
+Carrera Pinto 220 Aux->San Andres 220 III,Carrera Pinto 220 Aux,San Andres 220,true,true,2019-05-01-00:00,3000-01-01-00:00,220,342.0,0.009,0.036,true,30,0,0
+San Andres 220->San Andres 220 Aux,San Andres 220,San Andres 220 Aux,true,true,1970-01-01-00:00,2017-09-01-00:00,220,197.0,0.0,0.001,true,30,0,0
+San Andres 220->San Andres 220 Aux II,San Andres 220,San Andres 220 Aux,true,true,2017-09-01-00:00,2019-05-01-00:00,220,400.0,0.0,0.001,true,30,0,0
+San Andres 220->San Andres 220 Aux III,San Andres 220,San Andres 220 Aux,true,true,2019-05-01-00:00,3000-01-01-00:00,220,684.0,0.0,0.001,true,30,0,0
+San Andres 220 Aux->Cardones 220 I,San Andres 220 Aux,Cardones 220,true,true,1970-01-01-00:00,2017-09-01-00:00,220,197.0,0.006,0.023,true,30,0,0
+San Andres 220 Aux->Cardones 220 I REF,San Andres 220 Aux,Cardones 220,true,true,2017-10-01-00:00,3000-01-01-00:00,220,400.0,0.006,0.024,true,30,0,0
+San Andres 220 Aux->Cardones 220 II,San Andres 220 Aux,Cardones 220,true,true,2019-05-01-00:00,3000-01-01-00:00,220,342.0,0.006,0.024,true,30,0,0
+San Andres 220 Aux->Cardones 220 III,San Andres 220 Aux,Cardones 220,true,true,2019-05-01-00:00,3000-01-01-00:00,220,342.0,0.006,0.024,true,30,0,0
+Cardones 500->Cardones 220 II,Cardones 500,Cardones 220,true,true,2020-06-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.01,true,30,19.488,0.53
+Maitencillo 500->Maitencillo 220 II,Maitencillo 500,Maitencillo 220,true,true,2020-06-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,19.488,0.53
+Pan de Azucar 500->Pan de Azucar 220 II,Pan de Azucar 500,Pan de Azucar 220,true,true,2020-06-01-00:00,3000-01-01-00:00,500,750.0,0.0,0.019,true,30,19.488,0.53
+Maitencillo 220->Maitencillo 220 Aux,Maitencillo 220,Maitencillo 220 Aux,true,true,2018-01-01-00:00,2021-06-01-00:00,220,225.0,0.0,0.001,true,30,0,0
+Maitencillo 220->Don Hector 220 I,Maitencillo 220 Aux,Don Hector 220,true,true,2018-01-01-00:00,3000-01-01-00:00,220,225.0,0.008,0.031,true,30,0,0
+Don Hector 220->Don Hector 220 Aux I,Don Hector 220,Don Hector 220 Aux,true,true,2018-01-01-00:00,3000-01-01-00:00,220,225.0,0.0,0.001,true,30,0,0
+Don Hector 220 Aux->Punta Colorada 220 I,Don Hector 220 Aux,Punta Colorada 220,true,true,2018-01-01-00:00,3000-01-01-00:00,220,225.0,0.003,0.013,true,30,0,0
+Maitencillo 220->Maitencillo 220 Aux II,Maitencillo 220,Maitencillo 220 Aux,true,true,2021-06-01-00:00,3000-01-01-00:00,220,675.0,0.0,0.001,true,30,0,0
+Maitencillo 220 Aux->Punta Colorada 220 II,Maitencillo 220 Aux,Punta Colorada 220,true,true,2021-06-01-00:00,3000-01-01-00:00,220,500.0,0.006,0.035,true,30,0,0
+Punta Colorada 220->Punta Colorada 220 Aux,Punta Colorada 220,Punta Colorada 220 Aux,true,true,2018-01-01-00:00,2021-06-01-00:00,220,394.0,0.0,0.001,true,30,0,0
+Punta Colorada 220 Aux->Pan de Azucar 220 I,Punta Colorada 220 Aux,Pan de Azucar 220,true,true,2018-01-01-00:00,3000-01-01-00:00,220,394.0,0.009,0.036,true,30,0,0
+Punta Colorada 220->Punta Colorada 220 Aux II,Punta Colorada 220,Punta Colorada 220 Aux,true,true,2021-06-01-00:00,3000-01-01-00:00,220,675.0,0.0,0.001,true,30,0,0
+Punta Colorada 220 Aux->Pan de Azucar 220 II,Punta Colorada 220 Aux,Pan de Azucar 220,true,true,2021-06-01-00:00,3000-01-01-00:00,220,1000.0,0.005,0.028,true,30,0,0
+Pan de Azucar 220->Pan de Azucar 220 Aux,Pan de Azucar 220,Pan de Azucar 220 Aux,true,true,1970-01-01-00:00,2018-01-01-00:00,220,400.0,0.0,0.001,true,30,0,0
+Pan de Azucar 220 Aux->La Cebada 220,Pan de Azucar 220 Aux,La Cebada 220,true,true,1970-01-01-00:00,2018-11-01-00:00,220,224.0,0.024,0.105,true,30,0,0
+La Cebada 220->La Cebada 220 Aux,La Cebada 220,La Cebada 220 Aux,true,true,1970-01-01-00:00,2018-01-01-00:00,220,400.0,0.0,0.001,true,30,0,0
+La Cebada 220 Aux->Monte Redondo 220,La Cebada 220 Aux,Monte Redondo 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,224.0,0.001,0.003,true,30,0,0
+Monte Redondo 220->Las Palmas 220,Monte Redondo 220,Las Palmas 220,true,true,1970-01-01-00:00,2018-01-01-00:00,220,224.0,0.005,0.021,true,30,0,0
+Pan de Azucar 220 Aux->Don Goyo 220 I,Pan de Azucar 220 Aux,Don Goyo 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,224.0,0.014,0.061,true,30,0,0
+Don Goyo 220->Don Goyo 220 Aux,Don Goyo 220,Don Goyo 220 Aux,true,true,1970-01-01-00:00,2018-01-01-00:00,220,400.0,0.0,0.001,true,30,0,0
+Don Goyo 220 Aux->Talinay 220,Don Goyo 220 Aux,Talinay 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,224.0,0.006,0.029,true,30,0,0
+Talinay 220->Las Palmas 220,Talinay 220,Las Palmas 220,true,true,1970-01-01-00:00,2018-01-01-00:00,220,224.0,0.009,0.04,true,30,0,0
+Pan de Azucar 220->Pan de Azucar 220 Aux II,Pan de Azucar 220,Pan de Azucar 220 Aux,true,true,2018-01-01-00:00,2023-06-01-00:00,220,270.0,0.0,0.001,true,30,0,0
+Punta Sierra 220->Las Palmas 220 I,Punta Sierra 220 Aux,Las Palmas 220,true,true,2018-01-01-00:00,3000-01-01-00:00,220,224.0,0.003,0.014,true,30,0,0
+Punta Sierra 220->Las Palmas 220 II,Punta Sierra 220 Aux,Las Palmas 220,true,true,2018-01-01-00:00,3000-01-01-00:00,220,224.0,0.003,0.014,true,30,0,0
+Monte Redondo 220->Punta Sierra 220,Monte Redondo 220,Punta Sierra 220,true,true,2018-01-01-00:00,3000-01-01-00:00,220,224.0,0.002,0.007,true,30,0,0
+Talinay 220->Punta Sierra 220,Talinay 220,Punta Sierra 220,true,true,2018-01-01-00:00,2018-11-01-00:00,220,224.0,0.006,0.025,true,30,0,0
+La Cebada 220 Aux->Punta Sierra 220,La Cebada 220 Aux,Punta Sierra 220,true,true,2018-11-01-00:00,3000-01-01-00:00,220,224.0,0.002,0.01,true,30,0,0
+Punta Sierra 220->Punta Sierra 220 Aux,Punta Sierra 220,Punta Sierra 220 Aux,true,true,2018-01-01-00:00,2023-06-01-00:00,220,224.0,0.0,0.001,true,30,0,0
+Tap Mauro 220->Quillota 220,Tap Mauro 220,Quillota 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,394.0,0.014,0.055,true,30,0,0
+Punta Sierra 220 Aux->Pelambres 220,Punta Sierra 220 Aux,Tap Mauro 220,true,true,2023-06-01-00:00,3000-01-01-00:00,220,580.0,0.006,0.028,true,30,0,0
+Pan de Azucar 220 Aux->Punta Sierra 220,Pan de Azucar 220 Aux,Punta Sierra 220,true,true,2023-06-01-00:00,3000-01-01-00:00,220,1160.0,0.007,0.031,true,30,0,0
+Punta Sierra 220->Punta Sierra 220 Aux II,Punta Sierra 220,Punta Sierra 220 Aux,true,true,2023-06-01-00:00,3000-01-01-00:00,220,672.0,0.0,0.001,true,30,0,0
+Pan de Azucar 220->Pan de Azucar 220 Aux III,Pan de Azucar 220,Pan de Azucar 220 Aux,true,true,2023-06-01-00:00,3000-01-01-00:00,220,672.0,0.0,0.001,true,30,0,0
+Don Goyo 220->Don Goyo 220 Aux II,Don Goyo 220,Don Goyo 220 Aux,true,true,2018-01-01-00:00,3000-01-01-00:00,220,270.0,0.0,0.001,true,30,0,0
+La Cebada 220->La Cebada 220 Aux II,La Cebada 220,La Cebada 220 Aux,true,true,2018-01-01-00:00,3000-01-01-00:00,220,270.0,0.0,0.001,true,30,0,0
+Pan de Azucar 220 Aux->Don Goyo 220 II,Pan de Azucar 220 Aux,Don Goyo 220,true,true,2018-11-01-00:00,3000-01-01-00:00,220,224.0,0.014,0.061,true,30,0,0
+Don Goyo 220 Aux->La Cebada 220,Don Goyo 220 Aux,La Cebada 220,true,true,2018-11-01-00:00,3000-01-01-00:00,220,224.0,0.01,0.044,true,30,0,0
+Talinay 220->La Cebada 220,Talinay 220,La Cebada 220,true,true,2018-11-01-00:00,3000-01-01-00:00,220,224.0,0.004,0.016,true,30,0,0
+Pichirropulli 220 Aux->Nueva Valdivia 220 I,Pichirropulli 220 Aux,Nueva Valdivia 220,true,true,2018-09-01-00:00,3000-01-01-00:00,220,145.0,0.001,0.004,true,30,0,0
+Pichirropulli 220 Aux->Nueva Valdivia 220 II,Pichirropulli 220 Aux,Nueva Valdivia 220,true,true,2018-09-01-00:00,3000-01-01-00:00,220,145.0,0.001,0.004,true,30,0,0
+Nueva Valdivia 220->Nueva Valdivia 220 Aux,Nueva Valdivia 220,Nueva Valdivia 220 Aux,true,true,2018-09-01-00:00,3000-01-01-00:00,220,145.0,0.0,0.001,true,30,0,0
+Nueva Valdivia 220 Aux->Valdivia 220 I,Nueva Valdivia 220 Aux,Valdivia 220,true,true,2018-09-01-00:00,3000-01-01-00:00,220,145.0,0.013,0.041,true,30,0,0
+Nueva Valdivia 220 Aux->Valdivia 220 II,Nueva Valdivia 220 Aux,Valdivia 220,true,true,2018-09-01-00:00,3000-01-01-00:00,220,145.0,0.013,0.041,true,30,0,0
+Puerto Montt 220->Melipulli 220,Puerto Montt 220,Melipulli 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,183.0,0.0,0.001,true,30,0,0
+Melipulli 220->Pta Barranco 220,Melipulli 220,Pta Barranco 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,187.0,0.012,0.053,true,30,0,0
+Pta Barranco 220->Pta Barranco 220 Aux,Pta Barranco 220,Pta Barranco 220 Aux,true,true,1970-01-01-00:00,3000-01-01-00:00,220,102.0,0.0,0.001,true,30,0,0
+Pta Barranco 220 Aux->Pta San Gallan 220,Pta Barranco 220 Aux,Pta San Gallan 220,true,true,1970-01-01-00:00,3000-01-01-00:00,220,102.0,0.002,0.004,true,30,0,0
+Pta San Gallan 220->Chiloe 220,Pta San Gallan 220,Chiloe 220,true,true,1970-01-01-00:00,2020-12-01-00:00,220,187.0,0.008,0.035,true,30,0,0
+Pta San Gallan 220->Ancud 220,Pta San Gallan 220,Ancud 220,true,true,2020-12-01-00:00,3000-01-01-00:00,220,187.0,0.004,0.018,true,30,0,0
+Ancud 220->Chiloe 220,Ancud 220,Chiloe 220,true,true,2020-12-01-00:00,3000-01-01-00:00,220,187.0,0.004,0.018,true,30,0,0
+Puerto Montt 220->Pta Barranco I,Puerto Montt 220,Pta Barranco 220 II,true,true,2023-06-01-00:00,3000-01-01-00:00,220,660.0,0.003,0.013,true,30,0,0
+Puerto Montt 220->Pta Barranco II,Puerto Montt 220,Pta Barranco 220 II,true,true,2023-06-01-00:00,3000-01-01-00:00,220,660.0,0.003,0.013,true,30,0,0
+Pta Barranco 220 II->Pta Barranco 220 Aux II,Pta Barranco 220 II,Pta Barranco 220 Aux II,true,true,2023-06-01-00:00,3000-01-01-00:00,220,660.0,0.0,0.001,true,30,0,0
+Pta Barranco 220 Aux->Pta San Gallan 220 III,Pta Barranco 220 Aux II,Pta San Gallan 220 II,true,true,2023-06-01-00:00,3000-01-01-00:00,220,660.0,0.0,0.002,true,30,0,0
+Pta Barranco 220 Aux->Pta San Gallan 220 IV,Pta Barranco 220 Aux II,Pta San Gallan 220 II,true,true,2023-06-01-00:00,3000-01-01-00:00,220,660.0,0.0,0.002,true,30,0,0
+Pta San Gallan->Ancud I,Pta San Gallan 220 II,Ancud 220,true,true,2023-06-01-00:00,3000-01-01-00:00,220,660.0,0.001,0.004,true,30,0,0
+Pta San Gallan->Ancud II,Pta San Gallan 220 II,Ancud 220,true,true,2023-06-01-00:00,3000-01-01-00:00,220,660.0,0.001,0.004,true,30,0,0
+Puerto Montt 220->Pichirrahue 220,Puerto Montt 220,Pichirrahue 220,true,true,1970-01-01-00:00,2016-12-01-00:00,220,145.0,0.032,0.085,true,30,23.359,0.541
+Pichirrahue 220->Valdivia 220,Pichirrahue 220,Valdivia 220,true,true,1970-01-01-00:00,2018-05-01-00:00,220,145.0,0.032,0.085,true,30,23.359,0.541
+Rahue 220->Pichirrahue 220,Rahue 220,Pichirrahue 220,true,true,2016-12-01-00:00,3000-01-01-00:00,220,145.0,0.001,0.002,true,30,11.315,0.253
+Pichirrahue 220->Pichirropulli 220,Pichirrahue 220,Pichirropulli 220,true,true,2018-05-01-00:00,2028-01-01-00:00,220,145.0,0.015,0.039,true,30,23.359,0.541
+Ciruelos 500->Charrua 500,Ciruelos 500,Charrua 500,true,true,2028-01-01-00:00,3000-01-01-00:00,500,750.0,0.003,0.019,true,30,229.513,1.52
+Puerto Montt 500->Ciruelos 500,Puerto Montt 500,Ciruelos 500,true,true,2028-01-01-00:00,3000-01-01-00:00,500,750.0,0.002,0.015,true,30,229.513,1.52
+Ciruelos 500->Ciruelos 220,Ciruelos 500,Ciruelos 220,true,true,2028-01-01-00:00,3000-01-01-00:00,500,771.0,0.0,0.019,true,30,16.0925,0.3475
+SUEZ_Los Changos 220->Kapatur 220,Los Changos 220,Kapatur 220,true,true,2017-10-01-00:00,3000-01-01-00:00,220,1500.0,0.0,0.001,true,30,600,13
+Los Changos 500->Nva Crucero Encuentro 500,Los Changos 500,Nueva Crucero Encuentro 500,true,true,2020-12-01-00:00,3000-01-01-00:00,500,1500.0,0.001,0.004,true,30,600,13
+HVDC Maitencillo->Alto Jahuel,Maitencillo 220,Alto Jahuel 220,true,true,2028-01-01-00:00,3000-01-01-00:00,500,1500.0,0.002,0.001,true,30,600,13
+HVDC Changos->Maitencillo,Los Changos 220,Maitencillo 220,true,true,2028-01-01-00:00,3000-01-01-00:00,500,1500.0,0.002,0.001,true,30,600,13
+Alto Jahuel 220->AltoJahuel 500_Aux,Alto Jahuel 220,Alto Jahuel 500,true,true,2028-01-01-00:00,3000-01-01-00:00,500,1500.0,0.0,0.001,true,30,600,13

@@ -11,10 +11,10 @@ import argparse
 import csv
 import os
 import itertools
-import debugger
+# import debugger
 
-from ose2ameba_functions import *
-from ose2ameba_parameters import *
+from functions import *
+from parameters import *
 
 DATE_FLAG = True
 
@@ -27,23 +27,19 @@ class Busbar(object):
         @param ameba_dir: string directory to write Ameba files to
         @param model: string with value 'Ope' or Opt'
         """
-
         self._ose_dir = ose_dir
         self._ameba_dir = ameba_dir
         self._model = model
 
-
     def __convert_busbars(self):
         """Reads busbars from OSE2000 format and write Ameba busbars."""
-        # TODO: Replace directory and file name below with correct one
-        """ read files y writer """
         busbar_OSE_SING = reader_csv (os.path.join(DIR_OSE_SING,DIR_OSE_BUSBAR),
-        FILE_OSE_BUSBAR_SING, self._ose_dir)
+                                    FILE_OSE_BUSBAR_SING, self._ose_dir)
 
-        if self._model == 'Opt':
+        if self._model in 'Opt' or 'opt':
             busbar_OSE_SIC = reader_csv (os.path.join(DIR_OSE_SIC,DIR_OSE_BUSBAR),
                                             FILE_OSE_BUSBAR_SIC_OPT, self._ose_dir)
-        elif self._model == 'Ope':
+        elif self._model in 'Ope' or 'ope':
             busbar_OSE_SIC = reader_csv (os.path.join(DIR_OSE_SIC,DIR_OSE_BUSBAR),
                                             FILE_OSE_BUSBAR_SIC_OPE, self._ose_dir)
 
@@ -61,6 +57,7 @@ class Busbar(object):
 
         """ Main iteration"""
         busbar_ameba=[]
+
         for row in itertools.chain(busbar_OSE_SING,busbar_OSE_SIC):
             #if row[BUSBAR_OPE_OSE]=='T':
             #debugger.debugger()
