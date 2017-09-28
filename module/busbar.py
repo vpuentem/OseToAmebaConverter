@@ -7,30 +7,27 @@ For more information, visit ameba.spec.cl
 Current version developer: Ameba Team
 _______________________________________________________________________________
 """
-import argparse
-import csv
-import os
-import itertools
 # import debugger
 
 from functions import *
 from parameters import *
 
-#------------------------------------------------------------------#
-                        #BUSBAR PARAMETERS#
-#------------------------------------------------------------------#
-#FILE NAMES
+import itertools
+# ------------------------------------------------------------------#
+# BUSBAR PARAMETERS#
+# ------------------------------------------------------------------#
+# FILE NAMES
 FILE_OSE_BUSBAR_SIC_OPT = 'BarDatParOpt.csv'
 FILE_OSE_BUSBAR_SIC_OPE = 'BarDatParOpe.csv'
 FILE_OSE_BUSBAR_SING = 'BarDatPar.csv'
 FILE_AMEBA_BUSBAR = 'ele-busbar.csv'
 
-#OSE & AMEBA COLUMN NAMES
+# OSE & AMEBA COLUMN NAMES
 BUSBAR_NAME_OSE = 'BarNom'
 BUSBAR_START_TIME_OSE = 'BarFecOpeIni'
 BUSBAR_END_TIME_OSE = 'BarFecOpeFin'
 BUSBAR_VOLTAGE_OSE = 'BarVtjBas'
-BUSBAR_OPE_OSE='BarFOpe'
+BUSBAR_OPE_OSE = 'BarFOpe'
 
 BUSBAR_NAME_AMEBA = 'name'
 BUSBAR_START_TIME_AMEBA = 'start_time'
@@ -38,6 +35,7 @@ BUSBAR_END_TIME_AMEBA = 'end_time'
 BUSBAR_VOLTAGE_AMEBA = 'voltage'
 
 DATE_FLAG = True
+
 
 class Busbar(object):
     """Script to convert an OSE2000 database into Ameba CSV format."""
@@ -54,54 +52,55 @@ class Busbar(object):
 
     def __parameters(self):
         """Reads busbars from OSE2000 format and write Ameba busbars."""
-        busbar_OSE_SING = reader_csv (os.path.join(DIR_OSE_SING,DIR_OSE_BUSBAR),
-                                    FILE_OSE_BUSBAR_SING, self._ose_dir)
+        busbar_OSE_SING = reader_csv(os.path.join(DIR_OSE_SING, DIR_OSE_BUSBAR),
+                                     FILE_OSE_BUSBAR_SING, self._ose_dir)
 
-        if self._model in ['Ope','ope','OPE']:
-            busbar_OSE_SIC = reader_csv (os.path.join(DIR_OSE_SIC,DIR_OSE_BUSBAR),
-                                            FILE_OSE_BUSBAR_SIC_OPE, self._ose_dir)
-        else: #if self._model in ['Opt','opt','OPT']:
-            busbar_OSE_SIC = reader_csv (os.path.join(DIR_OSE_SIC,DIR_OSE_BUSBAR),
-                                            FILE_OSE_BUSBAR_SIC_OPT, self._ose_dir)
+        if self._model in ['Ope', 'ope', 'OPE']:
+            busbar_OSE_SIC = reader_csv(os.path.join(DIR_OSE_SIC, DIR_OSE_BUSBAR),
+                                        FILE_OSE_BUSBAR_SIC_OPE, self._ose_dir)
+        else:  # if self._model in ['Opt','opt','OPT']:
+            busbar_OSE_SIC = reader_csv(os.path.join(DIR_OSE_SIC, DIR_OSE_BUSBAR),
+                                        FILE_OSE_BUSBAR_SIC_OPT, self._ose_dir)
 
-        directory = os.path.join(self._ameba_dir,DIR_AMEBA_BUSBAR)
+        directory = os.path.join(self._ameba_dir, DIR_AMEBA_BUSBAR)
         check_directory(directory)
 
-        COLUMNS_AMEBA = [ BUSBAR_NAME_AMEBA,
-                          BUSBAR_START_TIME_AMEBA,
-                          BUSBAR_END_TIME_AMEBA,
-                          BUSBAR_VOLTAGE_AMEBA
-                        ]
+        COLUMNS_AMEBA = [BUSBAR_NAME_AMEBA,
+                         BUSBAR_START_TIME_AMEBA,
+                         BUSBAR_END_TIME_AMEBA,
+                         BUSBAR_VOLTAGE_AMEBA
+                         ]
 
-        writer = writer_csv (os.path.join(DIR_AMEBA_BUSBAR,FILE_AMEBA_BUSBAR), COLUMNS_AMEBA, self._ameba_dir)
+        writer = writer_csv(os.path.join(DIR_AMEBA_BUSBAR, FILE_AMEBA_BUSBAR), COLUMNS_AMEBA, self._ameba_dir)
         writer.writeheader()
 
         """ Main iteration"""
-        busbar_ameba=[]
+        busbar_ameba = []
 
-        for row in itertools.chain(busbar_OSE_SING,busbar_OSE_SIC):
+        for row in itertools.chain(busbar_OSE_SING, busbar_OSE_SIC):
 
             busbar_ameba.append({})
             name = remove(row[BUSBAR_NAME_OSE])
 
             if not DATE_FLAG:
-                date_ini = date_ini_ose (row[BUSBAR_START_TIME_OSE])
+                date_ini = date_ini_ose(row[BUSBAR_START_TIME_OSE])
             else:
                 date_ini = date_ini_ose('*')
-            date_end = date_end_ose (row[BUSBAR_END_TIME_OSE])
+            date_end = date_end_ose(row[BUSBAR_END_TIME_OSE])
             voltage = row[BUSBAR_VOLTAGE_OSE]
             busbar_ameba[-1].update({
-                    BUSBAR_NAME_AMEBA: name,
-                    BUSBAR_START_TIME_AMEBA: date_ini,
-                    BUSBAR_END_TIME_AMEBA: date_end,
-                    BUSBAR_VOLTAGE_AMEBA: voltage
-                    })
+                BUSBAR_NAME_AMEBA: name,
+                BUSBAR_START_TIME_AMEBA: date_ini,
+                BUSBAR_END_TIME_AMEBA: date_end,
+                BUSBAR_VOLTAGE_AMEBA: voltage
+            })
             writer.writerow(busbar_ameba[-1])
 
     def run(self):
         """Main execution point."""
         self.__parameters()
         print 'busbar parameters ready'
+
 
 def main():
     """Main program."""
@@ -114,6 +113,7 @@ def main():
         'model', type=str, help='select model to get data from (Opt or Ope)')
     args = parser.parse_args()
     Busbar(args.ose_dir, args.ameba_dir, args.model).run()
+
 
 if __name__ == '__main__':
     main()

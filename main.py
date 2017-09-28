@@ -41,17 +41,17 @@ path_resultados = ''
 tmp_line = ''
 
 for line in config_rutas:
-     if tmp_line == '[data]':
-         path_datos = line.split()[0]
-     elif tmp_line == '[output]':
-         path_resultados = line.split()[0]
-     tmp_line = line.split()[0]
+    if tmp_line == '[data]':
+        path_datos = line.split()[0]
+    elif tmp_line == '[output]':
+        path_resultados = line.split()[0]
+    tmp_line = line.split()[0]
 
 if not os.path.exists(path_resultados):
-     print "output directory: " + path_resultados + " does not exists. Creating..."
-     os.mkdir(path_resultados)
+    print "output directory: " + path_resultados + " does not exists. Creating..."
+    os.mkdir(path_resultados)
 
-#  - - - - - - CONFIG PARAMETERS  - - - - - - #
+# - - - - - - CONFIG PARAMETERS  - - - - - - #
 BLOCK_RESOLUTION = False
 
 #  - - - - - - RUN  - - - - - - #
@@ -74,13 +74,13 @@ generator.run()
 # dam = DamCot(self._ose_dir, self._ameba_dir, self._model)
 
 # gen_unav.run()
-#fuel.run()
+# fuel.run()
 # profile_gnl.run()
-#profile_inflow.run()
-#profile_power.run()
-#irrigation.run()
-#demand.run()
-#dam.run()
+# profile_inflow.run()
+# profile_power.run()
+# irrigation.run()
+# demand.run()
+# dam.run()
 
 # demand_block = DemandLoadBlock(self._ose_dir, self._ameba_dir, self._model)
 # profile_power_block = ProfilesBlock(self._ose_dir, self._ameba_dir, self._model)
