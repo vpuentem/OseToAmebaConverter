@@ -16,6 +16,27 @@ import itertools
 from functions import *
 from parameters import *
 
+#------------------------------------------------------------------#
+                        #BUSBAR PARAMETERS#
+#------------------------------------------------------------------#
+#FILE NAMES
+FILE_OSE_BUSBAR_SIC_OPT = 'BarDatParOpt.csv'
+FILE_OSE_BUSBAR_SIC_OPE = 'BarDatParOpe.csv'
+FILE_OSE_BUSBAR_SING = 'BarDatPar.csv'
+FILE_AMEBA_BUSBAR = 'ele-busbar.csv'
+
+#OSE & AMEBA COLUMN NAMES
+BUSBAR_NAME_OSE = 'BarNom'
+BUSBAR_START_TIME_OSE = 'BarFecOpeIni'
+BUSBAR_END_TIME_OSE = 'BarFecOpeFin'
+BUSBAR_VOLTAGE_OSE = 'BarVtjBas'
+BUSBAR_OPE_OSE='BarFOpe'
+
+BUSBAR_NAME_AMEBA = 'name'
+BUSBAR_START_TIME_AMEBA = 'start_time'
+BUSBAR_END_TIME_AMEBA = 'end_time'
+BUSBAR_VOLTAGE_AMEBA = 'voltage'
+
 DATE_FLAG = True
 
 class Busbar(object):
@@ -31,17 +52,17 @@ class Busbar(object):
         self._ameba_dir = ameba_dir
         self._model = model
 
-    def __convert_busbars(self):
+    def __parameters(self):
         """Reads busbars from OSE2000 format and write Ameba busbars."""
         busbar_OSE_SING = reader_csv (os.path.join(DIR_OSE_SING,DIR_OSE_BUSBAR),
                                     FILE_OSE_BUSBAR_SING, self._ose_dir)
 
-        if self._model in 'Opt' or 'opt':
-            busbar_OSE_SIC = reader_csv (os.path.join(DIR_OSE_SIC,DIR_OSE_BUSBAR),
-                                            FILE_OSE_BUSBAR_SIC_OPT, self._ose_dir)
-        elif self._model in 'Ope' or 'ope':
+        if self._model in ['Ope','ope','OPE']:
             busbar_OSE_SIC = reader_csv (os.path.join(DIR_OSE_SIC,DIR_OSE_BUSBAR),
                                             FILE_OSE_BUSBAR_SIC_OPE, self._ose_dir)
+        else: #if self._model in ['Opt','opt','OPT']:
+            busbar_OSE_SIC = reader_csv (os.path.join(DIR_OSE_SIC,DIR_OSE_BUSBAR),
+                                            FILE_OSE_BUSBAR_SIC_OPT, self._ose_dir)
 
         directory = os.path.join(self._ameba_dir,DIR_AMEBA_BUSBAR)
         check_directory(directory)
@@ -59,8 +80,7 @@ class Busbar(object):
         busbar_ameba=[]
 
         for row in itertools.chain(busbar_OSE_SING,busbar_OSE_SIC):
-            #if row[BUSBAR_OPE_OSE]=='T':
-            #debugger.debugger()
+
             busbar_ameba.append({})
             name = remove(row[BUSBAR_NAME_OSE])
 
@@ -78,13 +98,10 @@ class Busbar(object):
                     })
             writer.writerow(busbar_ameba[-1])
 
-
-        print 'busbar ready'
-
     def run(self):
         """Main execution point."""
-        self.__convert_busbars()
-
+        self.__parameters()
+        print 'busbar parameters ready'
 
 def main():
     """Main program."""

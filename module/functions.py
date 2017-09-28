@@ -84,7 +84,6 @@ def t_true(te):
         return 'false'
     return 'None'
 
-
 def remove(name):
     name=str(name).replace('\xf1','n')
     name=str(name).replace('\xb0','')
@@ -117,6 +116,7 @@ def ameba_to_datetime(date_ameba):
     day = int(date_ameba[8:10])
     hour = int(date_ameba[11:13])
     return datetime.datetime(year, month, day, hour, 00)
+
 def get_block(tablaAsign, hour, month):
     for element in tablaAsign:
         if str(element['hora']) == hour:
