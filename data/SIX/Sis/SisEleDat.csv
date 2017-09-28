@@ -1,0 +1,16 @@
+SisINum,SisNomEle,SisFOpe,SisFecOpeIni,SisFecOpeFin,SisAsoEle,SisGblEle,SisAsoPea,SisOpeFPri,SisDemFPri,SisCmrFPri,SisNAnoPNd,SisBarRefPNdEne,SisBarRefPNdPot,BarSisFUni,CenFalBarUni,CenFalFBarUni,CenFalFBarAlt
+1,Sistema,T,*,*,*,*,*,T,T,T,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+2,Chile,T,*,*,Sistema,Sistema,Sistema,F,F,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+3,SING,T,*,*,Chile,Chile,Chile,T,T,F,4,Crucero 220,Crucero 220,F,Crucero 220,F,F
+4,SING TxT,T,*,*,SING,Chile,SING,F,F,T,4,Crucero 220,Crucero 220,F,Crucero 220,F,F
+5,SING TxT Comun,T,*,*,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220,F,F
+6,SING TxT Tarapaca,T,*,*,SING TxT Comun,Chile,SING TxT Comun,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220,F,F
+7,SING TxT Atacama,T,*,*,SING TxT Comun,Chile,SING TxT Comun,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220,F,F
+8,SING TxA,T,*,*,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220,F,F
+9,SIC,T,*,*,Chile,Chile,Chile,T,T,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+10,SIC TxT,T,*,*,SIC,Chile,SIC,F,F,T,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+11,SIC TxT Comun,T,*,*,SIC TxT,Chile,SIC TxT,F,F,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+12,SIC TxT Norte,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+13,SIC TxT Sur,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,F,4,Quillota 220,Valdivia 220,F,Polpaico 220,F,F
+14,SIC TxT Rapel,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,F,4,Quillota 220,Valdivia 220,F,Polpaico 220,F,F
+15,SIC TxT Hualpen,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,F,4,Quillota 220,Valdivia 220,F,Polpaico 220,F,F

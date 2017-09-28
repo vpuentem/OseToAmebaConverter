@@ -1,0 +1,2 @@
+CamHdr,AñoHid,AñoCld,IAño,EtaTip,EtaHid,EtaCld,EtaNom,MesHid,MesCld,MesNom,TriHid,TriCld,TriNom,IBlo,BarNum,BarNom,BarCliNom,SisGbl,SisPri,SisSec,BarDemPot [MW],BarDemEne [GWh],BarTipPNd,BarPriPNdAsoNum,BarPriPNdAsoNom,BarDemPotAsoPNd [MW],BarDemEneAsoPNd [GWh],EtaHrs,EtaTas
+CamFlg,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,F,F

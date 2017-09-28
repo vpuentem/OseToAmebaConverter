@@ -1,0 +1,5 @@
+SisINum,SisNom,SisTipDat,SisTipEta,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic,Ene,Feb,Mar
+1,Chile,PNdEne,EtaMes,T,T,T,T,T,T,T,T,T,T,T,T
+2,Chile,PNdPot,EtaMes,T,T,T,T,T,T,T,T,T,T,T,T
+3,SIC,PNdEne,EtaMes,T,T,T,T,T,T,T,T,T,T,T,T
+4,SIC,PNdPot,EtaMes,T,T,T,T,T,T,F,F,F,F,F,F

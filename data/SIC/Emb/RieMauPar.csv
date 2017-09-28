@@ -1,0 +1,36 @@
+ParInd,ParNom,ParCam01
+1,RieFMod,T
+2,RieFSimLim,T
+3,RieFSimR105,T
+4,RieFSimCMau,T
+5,RieFOptLim,F
+6,RieFOptR105,T
+7,RieFOptCMau,T
+8,RieFEvaLInv,F
+9,RieFEvaLMau,F
+10,RieFEvaECol,F
+11,QExtMaxLMau,100
+12,QExtGenLMau,25
+13,QRieArmTol%,0.5
+14,EmbExtLInvNom,Laguna Invernada
+15,EmbExtLMauNom,Laguna Del Maule
+16,EmbExtLColNom,Embalse Colbun
+17,CenRieLMauNom,Boc. Riego Laguna Del Maule
+18,CenGenLInvNom,Cipreses
+19,CenGenLMauNom,Los Condores
+20,CenBalR105Nom,Balance Riego Armerillo R105
+21,CenBalCMauNom,Balance Riego Laguna Del Maule
+22,NCenRie,10
+23,CenRieNom01,Riego Garsas y Suizas
+24,CenRieNom02,Riego Maule Norte Alto
+25,CenRieNom03,Riego Melado
+26,CenRieNom04,Riego Maule Norte Bajo
+27,CenRieNom05,Riego Sistema Maitenes
+28,CenRieNom06,Riego Maule Sur
+29,CenRieNom07,Riego Estero Machicura
+30,CenRieNom08,Riego Sur 1-2 y 3
+31,CenRieNom09,Riego San Clemente y Duao Zapata
+32,CenRieNom10,Riego Ribera Sur
+33,RieFQFilLInv,F
+34,dTolQFilLInv,0.01
+35,NIteQFilLInv,15

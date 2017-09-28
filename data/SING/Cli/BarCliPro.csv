@@ -1,0 +1,68 @@
+BarINum,BarAñoFRlt,BarAñoIni,BarAñoFin,BarNom,BarCli,BarEmpCli,BarEmpCmr,BarDatTip,BarDemTip,BarEtaTip,Año
+1,F,*,*,Chapiquina 66,EDELNOR-Chapiquina 66,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+2,F,*,*,El Aguila 66,EDELNOR-El Aguila 66,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+3,F,*,*,Arica 66,EDELNOR-Arica 66,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+4,F,*,*,Arica 110,EDELNOR-Arica 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+5,F,*,*,Parinacota 66,GASATACAMA-Parinacota 66,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+6,F,*,*,Dolores 110,EDELNOR-Dolores 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+7,F,*,*,Pozo Almonte 13.8,EDELNOR-Pozo Almonte 13.8,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,0.74
+8,F,*,*,Pozo Almonte 13.8,GASATACAMA-Pozo Almonte 13.8,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,0.26
+9,F,2006,2007,Cerro Colorado 110,EDELNOR-Cerro Colorado 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,0.49
+10,F,2006,2007,Cerro Colorado 110,CELTA-Cerro Colorado 110,Cli-CELTA,CELTA,BarDemPro,*,EtaAño,0.51
+9,F,2008,2008,Cerro Colorado 110,EDELNOR-Cerro Colorado 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,0.49
+10,F,2008,2008,Cerro Colorado 110,OTRO-Cerro Colorado 110,Cli-OTRO,OTRO,BarDemPro,*,EtaAño,0.51
+11,F,2009,*,Cerro Colorado 110,OTRO-Cerro Colorado 110,Cli-OTRO,OTRO,BarDemPro,*,EtaAño,1
+11,F,*,*,Cascada 66,EDELNOR-Cascada 66,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+12,F,*,*,Tamarugal 66,EDELNOR-Tamarugal 66,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,0.61
+13,F,*,*,Tamarugal 66,GASATACAMA-Tamarugal 66,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,0.39
+14,F,*,*,Iquique 66,GASATACAMA-Iquique 66,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+15,F,*,*,Condores 110,GASATACAMA-Condores 110,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+16,F,*,*,Collahuasi 220,CELTA-Collahuasi 220,Cli-CELTA,CELTA,BarDemPro,*,EtaAño,0.7
+17,F,*,*,Collahuasi 220,GASATACAMA-Collahuasi 220,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,0.3
+18,F,*,*,Tarapaca 220,CELTA-Tarapaca 220,Cli-CELTA,CELTA,BarDemPro,*,EtaAño,1
+19,F,*,*,Lagunas 220,CELTA-Lagunas 220,Cli-CELTA,CELTA,BarDemPro,*,EtaAño,1
+20,F,*,*,Victoria 220,ELECTROANDINA-Victoria 220,Cli-ELECTROANDINA,ELECTROANDINA,BarDemPro,*,EtaAño,1
+21,F,*,*,Quebrada Blanca 220,GASATACAMA-Quebrada Blanca 220,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+22,F,*,*,Radomiro Tomic 220,ELECTROANDINA-Radomiro Tomic 220,Cli-ELECTROANDINA,ELECTROANDINA,BarDemPro,*,EtaAño,1
+23,F,2006,2007,El Abra 220,ELECTROANDINA-El Abra 220,Cli-ELECTROANDINA,ELECTROANDINA,BarDemPro,*,EtaAño,1
+24,F,2008,*,El Abra 220,OTRO-El Abra 220,Cli-OTRO,OTRO,BarDemPro,*,EtaAño,1
+25,F,*,*,Norgener 220,AES GENER-Norgener 220,Cli-AES GENER,AES GENER,BarDemPro,*,EtaAño,1
+26,F,*,*,Tocopilla 5,ELECTROANDINA-Tocopilla 5,Cli-ELECTROANDINA,ELECTROANDINA,BarDemPro,*,EtaAño,0.2
+27,F,*,*,Tocopilla 5,GASATACAMA-Tocopilla 5,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,0.8
+28,F,*,*,Tesoro 220,GASATACAMA-Tesoro 220,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+29,F,*,*,El Loa 220,ELECTROANDINA-El Loa 220,Cli-ELECTROANDINA,ELECTROANDINA,BarDemPro,*,EtaAño,1
+30,F,*,*,Chuquicamata 220,OTRO-Chuquicamata 220,Cli-OTRO,OTRO,BarDemPro,*,EtaAño,1
+31,F,*,*,Chuquicamata 100,ELECTROANDINA-Chuquicamata 100,Cli-ELECTROANDINA,ELECTROANDINA,BarDemPro,*,EtaAño,1
+32,F,*,*,Subestacion A 100,ELECTROANDINA-Subestacion A 100,Cli-ELECTROANDINA,ELECTROANDINA,BarDemPro,*,EtaAño,1
+33,F,*,*,Calama 100,ELECTROANDINA-Calama 100,Cli-ELECTROANDINA,ELECTROANDINA,BarDemPro,*,EtaAño,1
+34,F,*,*,Calama 23,GASATACAMA-Calama 23,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+35,F,*,*,La Cruz 220,NORGENER-La Cruz 220,Cli-NORGENER,NORGENER,BarDemPro,*,EtaAño,1
+36,F,*,*,Spence 220,EDELNOR-Spence 220,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+37,F,*,*,Spence 23,OTRO-Spence 23,Cli-OTRO,OTRO,BarDemPro,*,EtaAño,1
+38,F,*,*,Chacaya 220-2,EDELNOR-Chacaya 220-2,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+39,F,*,*,Mejillones 13.8,EDELNOR-Mejillones 13.8,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,0.55
+40,F,*,*,Mejillones 13.8,GASATACAMA-Mejillones 13.8,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,0.45
+41,F,*,*,Enaex 110,GASATACAMA-Enaex 110,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+42,F,*,*,Lince 110,EDELNOR-Lince 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+43,F,*,*,Mantos Blancos 220,EDELNOR-Mantos Blancos 220,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+44,F,*,*,Capricornio 110,EDELNOR-Capricornio 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+45,F,*,*,Laberinto 220,OTRO-Laberinto 220,Cli-OTRO,OTRO,BarDemPro,*,EtaAño,1
+46,F,*,*,Lomas Bayas 220,AES GENER-Lomas Bayas 220,Cli-AES GENER,AES GENER,BarDemPro,*,EtaAño,1
+47,F,*,*,Zaldivar 220,AES GENER-Zaldivar 220,Cli-AES GENER,AES GENER,BarDemPro,*,EtaAño,1
+48,F,*,*,Planta Oxidos 220,GASATACAMA-Planta Oxidos 220,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+49,F,*,*,Domeyko 220,EDELNOR-Domeyko 220,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+50,F,*,*,Palestina 220,GASATACAMA-Palestina 220,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+51,F,*,*,Escondida AB 220,NORGENER-Escondida AB 220,Cli-NORGENER,NORGENER,BarDemPro,*,EtaAño,1
+52,F,*,*,Minsal 110,NORGENER-Minsal 110,Cli-NORGENER,NORGENER,BarDemPro,*,EtaAño,1
+53,F,*,*,Sulfuros 220,OTRO-Sulfuros 220,Cli-OTRO,OTRO,BarDemPro,*,EtaAño,1
+54,F,*,*,Coloso 220,NORGENER-Coloso 220,Cli-NORGENER,NORGENER,BarDemPro,*,EtaAño,1
+55,F,*,*,Negro 110,EDELNOR-Negro 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,0.33
+56,F,*,*,Negro 110,ELECTROANDINA-Negro 110,Cli-ELECTROANDINA,ELECTROANDINA,BarDemPro,*,EtaAño,0.67
+57,F,2006,2006,La Negra 110,EDELNOR-La Negra 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,0.2
+58,F,2006,2006,La Negra 110,GASATACAMA-La Negra 110,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,0.8
+59,F,2007,*,La Negra 110,GASATACAMA-La Negra 110,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+60,F,*,*,Desalant 110,EDELNOR-Desalant 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+61,F,*,*,Pampa 110,EDELNOR-Pampa 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+62,F,*,*,Diesel Antofagasta 13.8,EDELNOR-Diesel Antofagasta 13.8,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1
+63,F,*,*,Esmeralda 110,GASATACAMA-Esmeralda 110,Cli-GASATACAMA,GASATACAMA,BarDemPro,*,EtaAño,1
+64,F,*,*,Alto Norte 110,EDELNOR-Alto Norte 110,Cli-EDELNOR,EDELNOR,BarDemPro,*,EtaAño,1

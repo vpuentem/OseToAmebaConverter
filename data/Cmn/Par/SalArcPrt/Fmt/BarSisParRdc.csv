@@ -1,0 +1,2 @@
+CamHdr,BarINum,BarNom,BarFOpe,BarFecOpeIni,BarFecOpeFin,BarSis,BarTip,BarSTxPNdEne,BarSTxPNdPot,BarEmp,BarAux,CenFalFBarAlt,CenFalBarAlt,BarFPri,BarPriAso,BarFRdc,BarRdcAso,BarVtjOpe,BarVtjBas,BarFacPen,CenFalFOpe,BarSis%LinPer,BarCliTip
+CamFlg,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,F,F,F,F

@@ -1,0 +1,45 @@
+EmpINum,EmpNom,GrpNom,EmpRelGrp
+1,Aes Gener,GrpCli,1
+2,Endesa,GrpCli,1
+3,Colbun,GrpCli,1
+4,HGV,GrpCli,1
+5,Essa,GrpCli,1
+6,HASA,GrpCli,1
+7,Ibener,GrpCli,1
+8,Pehuenche,GrpCli,1
+9,Pullinque,GrpCli,1
+10,Puyehue,GrpCli,1
+11,Guacolda,GrpCli,1
+12,San Isidro,GrpCli,1
+13,Nehuenco,GrpCli,1
+14,Chilectra,GrpCli,1
+15,Chilquinta,GrpCli,1
+16,Emelectric,GrpCli,1
+17,Emelat,GrpCli,1
+18,CGE,GrpCli,1
+19,Rio Maipo,GrpCli,1
+20,Saesa,GrpCli,1
+21,Frontel,GrpCli,1
+22,Conafe,GrpCli,1
+23,E.E. Puente Alto,GrpCli,1
+24,Otros,GrpCli,1
+25,Litoral,GrpCli,1
+26,Copelec,GrpCli,1
+28,CEC,GrpCli,1
+29,Emel,GrpCli,1
+30,Luz Linares,GrpCli,1
+31,Transelec,GrpCli,1
+32,Celco,GrpCli,1
+33,Suez,GrpCli,1
+34,Barrick,GrpCli,1
+35,Termoelectrica Los Espinos,GrpCli,1
+36,Energia Latina,GrpCli,1
+37,Agrocomercial AS,GrpCli,1
+38,Cli-EDELNOR,GrpCli,1
+39,Cli-GASATACAMA,GrpCli,1
+40,Cli-CELTA,GrpCli,1
+41,Cli-OTRO,GrpCli,1
+42,Cli-AES GENER,GrpCli,1
+43,Cli-ELECTROANDINA,GrpCli,1
+44,Cli-NORGENER,GrpCli,1
+45,Cli-TRASEMEL,GrpCli,1

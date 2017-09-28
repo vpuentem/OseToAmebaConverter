@@ -1,0 +1,6 @@
+LinINum,LinNom,LinFPrt,LinFOpe,LinFecOpeIni,LinFecOpeFin,LinBarA,LinBarB,LinBarSis,LinFPrtFlu,LinFPrtHis,LinNIntHis,LinFPrtInd,LinFCC,LinPotMaxA->B,LinPotMaxB->A,LinFMax,LinFPri,LinFN-1,LinPotN-1A->B,LinPotN-1B->A,LinVolt,LinR,LinX,LinFPer,LinNTra,LinDisEne,LinFPeaCal,LinPeaSis,LinPeaTip,LinFTipDef,LinFInv,LinFecInv,LinVI,LinCOMA,LinVidUti,LinEmp,LinAux
+5001,SUEZ_Los Changos 220->Kapatur 220,T,T,MesOct-2017,*,Los Changos 220,Kapatur 220,BarA,F,T,101,F,F,3000,3000,T,T,T,1500,1500,220,0.038946875,0.462825,T,5,1,T,TxT,Lat,F,F,*,600,13,30,CNE,CNE
+5002,Los Changos 500->Nva Crucero Encuentro 500,T,T,MesDic-2020,*,Los Changos 500,Nueva Crucero Encuentro 500,BarA,F,T,101,F,F,3000,3000,T,T,T,1500,1500,500,1.6032,9.2011,T,5,1,T,TxT,Lat,F,F,*,600,13,30,CNE,CNE
+5003,HVDC Maitencillo->Alto Jahuel,T,T,MesEne-2028,*,Maitencillo 220,Alto Jahuel 220,BarB,F,F,101,F,T,1500,1500,T,T,F,1500,1500,500,5,0.00001,T,5,1,T,TxT,Lat,F,F,*,600,13,30,CNE,CNE
+5004,HVDC Changos->Maitencillo,T,T,MesEne-2028,*,Los Changos 220,Maitencillo 220,BarB,F,F,101,F,T,1500,1500,T,T,F,1500,1500,500,5,0.00001,T,5,1,T,TxT,Lat,F,F,*,600,13,30,CNE,CNE
+5005,Alto Jahuel 220->AltoJahuel 500_Aux,T,T,MesEne-2028,*,Alto Jahuel 220,Alto Jahuel 500,BarB,F,F,101,F,T,1500,1500,T,T,F,1500,1500,500,0,0.0001,T,5,1,T,TxT,Lat,F,F,*,600,13,30,CNE,CNE

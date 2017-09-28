@@ -1,0 +1,44 @@
+ParInd,ParNom,ParCam01,ParCam02,ParCam03,ParCam04,ParCam05,ParCam06,ParCam07,ParCam08,ParCam09,ParCam10,ParCam11,ParCam12,ParCam13,ParCam14,ParCam15,ParCam16,ParCam17,ParCam18,ParCam19,ParCam20,ParCam21,ParCam22,ParCam23,ParCam24,ParCam25,ParCam26
+1,SisPeaFGblCal,F,,,,,,,,,,,,,,,,,,,,,,,,,
+2,SisPeaNAno,1,2012,,,,,,,,,,,,,,,,,,,,,,,,
+3,SisPeaFPerAju,T,,,,,,,,,,,,,,,,,,,,,,,,,
+4,SisPeaFPerAjuTra,T,,,,,,,,,,,,,,,,,,,,,,,,,
+5,SisPeaFITPer2,T,,,,,,,,,,,,,,,,,,,,,,,,,
+6,SisPeaFPer2,T,,,,,,,,,,,,,,,,,,,,,,,,,
+7,VolSisBas,220,,,,,,,,,,,,,,,,,,,,,,,,,
+8,SisPeaVAnuFIni,F,"Salidad Valores Anualidad (T=Inicio Ano, F=Fin Ano)",,,,,,,,,,,,,,,,,,,,,,,,
+9,SisPeaVCOMAFIni,F,"Entrada Valores COMA (T=Inicio Ano, F=Fin Ano)",,,,,,,,,,,,,,,,,,,,,,,,
+10,SisPeaFSalPrtGbl,F,,,,,,,,,,,,,,,,,,,,,,,,,
+11,SisPeaFSalPrtGblBarCen,T,,,,,,,,,,,,,,,,,,,,,,,,,
+12,SisPeaFSalPrtGblBarCli,T,,,,,,,,,,,,,,,,,,,,,,,,,
+13,SisPeaFSalAño,T,,,,,,,,,,,,,,,,,,,,,,,,,
+14,SisPeaFSalAñoCon,F,,,,,,,,,,,,,,,,,,,,,,,,,
+15,SisPeaFSalAñoDstIny,T,,,,,,,,,,,,,,,,,,,,,,,,,
+16,SisPeaFSalAñoDstInyCon,F,,,,,,,,,,,,,,,,,,,,,,,,,
+17,SisPeaFSalAñoDstRet,T,,,,,,,,,,,,,,,,,,,,,,,,,
+18,SisPeaFSalAñoDstRetCon,F,,,,,,,,,,,,,,,,,,,,,,,,,
+19,SisPeaFSalEtaSim,F,,,,,,,,,,,,,,,,,,,,,,,,,
+20,SisPeaFSalEtaSimCon,F,,,,,,,,,,,,,,,,,,,,,,,,,
+21,SisPeaFSalEtaDst,F,,,,,,,,,,,,,,,,,,,,,,,,,
+22,SisPeaFSalEtaDstCon,F,,,,,,,,,,,,,,,,,,,,,,,,,
+23,SisPeaFSalEtaDstIny,T,,,,,,,,,,,,,,,,,,,,,,,,,
+24,SisPeaFSalEtaDstInyCon,F,,,,,,,,,,,,,,,,,,,,,,,,,
+25,SisPeaFSalEtaDstRet,T,,,,,,,,,,,,,,,,,,,,,,,,,
+26,SisPeaFSalEtaDstRetCon,F,,,,,,,,,,,,,,,,,,,,,,,,,
+27,SisPeaTasDesSTT,0.1,,,,,,,,,,,,,,,,,,,,,,,,,
+28,SisPeaProInyFEneMax,T,,,,,,,,,,,,,,,,,,,,,,,,,
+29,SisPeaKRsvIny,0.7,,,,,,,,,,,,,,,,,,,,,,,,,
+30,SisPeaKRsvRet,1,,,,,,,,,,,,,,,,,,,,,,,,,
+31,SisPeaNIteAjtInyRet,10,,,,,,,,,,,,,,,,,,,,,,,,,
+32,#Rem,Tramo,Ponderador,,,,,,,,,,,,,,,,,,,,,,,,
+33,SisPeaLinRlvFac01,0,0.2,,,,,,,,,,,,,,,,,,,,,,,,
+34,SisPeaLinRlvFac02,0.25,0.3,,,,,,,,,,,,,,,,,,,,,,,,
+35,SisPeaLinRlvFac03,0.75,0.5,,,,,,,,,,,,,,,,,,,,,,,,
+36,#Rem,SisPeaCasINum,SisPeaCasNom,SisPeaFCasCal,SisPeaCasMet,SisPeaFLinUmb,SisPeaLinUmb,SisPeaProGblBarIny,SisPeaProGblBarRet,SisPeaPonFEtaFre,SisPeaPonFEtaPot,SisPeaFAgtLoc,SisPeaFBarVrtIny,SisPeaFBarVrtRet,SisPeaFCnxDstIny,SisPeaFCnxDstRet,SisPeaFCnxDirIny,SisPeaFCnxDirRet,SisPeaFLinNoPagIny,SisPeaFLinNoPagRet,SisPeaFLinNoOpeIny,SisPeaFLinNoOpeRet,SisPeaFLinAjtIny,SisPeaFLinAjtRet,SisPeaFLinAjtDst,SisPeaFLinAjtPMGD,SisPeaFLinRlv
+37,SisPeaCasDef,1,Base SU TxT,F,LeyCorTxT,F,0.9,0.8,0.2,T,F,T,T,T,*,*,*,*,*,*,*,*,*,*,*,*,*
+38,SisPeaCasDef,2,Base CU TxT,F,LeyCorTxT,T,0.9,0.8,0.2,T,F,T,T,T,*,*,*,*,*,*,*,*,*,*,*,*,*
+39,SisPeaCasDef,1,Base SU TxTKas,F,LeyCorTxTKas,F,0.9,0.8,0.2,T,F,T,T,T,*,*,*,*,*,*,*,*,*,*,*,*,*
+40,SisPeaCasDef,2,Base CU TxTKas,F,LeyCorTxTKas,T,0.9,0.8,0.2,T,F,T,T,T,*,*,*,*,*,*,*,*,*,*,*,*,*
+41,SisPeaCasDef,3,Base SU STx Si Rlv,T,LeyCorSTx,F,0.9,0.8,0.2,T,F,T,T,T,T,F,T,F,F,T,F,F,F,T,F,T,T
+42,SisPeaCasDef,4,Base CU STx Si Rlv,F,LeyCorSTx,T,0.9,0.8,0.2,T,F,T,T,T,T,F,T,F,F,T,F,F,F,T,F,T,T
+43,SisPeaCasDef,5,Base SU STx No Rlv,T,LeyCorSTx,F,0.9,0.8,0.2,T,F,T,T,T,T,F,T,F,F,T,F,F,F,T,F,T,F

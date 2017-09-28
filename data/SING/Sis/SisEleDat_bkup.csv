@@ -1,0 +1,34 @@
+SisINum,SisNomEle,SisFOpe,SisFecOpeIni,SisFecOpeFin,CenFalFBarAlt,CenFalFBarUni,SisAsoEle,SisGblEle,SisAsoPea,SisOpeFPri,SisDemFPri,SisCmrFPri,SisNAnoPNd,SisBarRefPNdEne,SisBarRefPNdPot,BarSisFUni,CenFalBarUni
+1,Sistema,T,*,*,F,F,*,*,*,T,T,T,4,Crucero 220,Crucero 220,F,Crucero 220
+2,Chile,T,*,*,F,F,*,*,*,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+3,SING,T,*,*,F,F,Chile,Chile,Chile,T,T,T,4,Crucero 220,Crucero 220,F,Crucero 220
+4,SING TxT,T,*,*,F,F,SING,Chile,SING,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+5,SING Norte,T,*,*,F,F,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+6,SING Noreste,T,*,*,F,F,SING Norte,Chile,SING Norte,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+7,SING Arica Diesel,T,*,*,F,F,SING Norte,Chile,SING Norte,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+8,SING Arica,T,*,*,F,F,SING Norte,Chile,SING Norte,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+9,SING Iquique,T,*,*,F,F,SING Norte,Chile,SING Norte,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+10,SING Iquique Diesel,T,*,*,F,F,SING Norte,Chile,SING Norte,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+11,SING Cascada,T,*,*,F,F,SING Norte,Chile,SING Norte,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+12,SING Cerro Colorado,T,*,*,F,F,SING Norte,Chile,SING Norte,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+13,SING Collahuasi,T,*,*,F,F,SING Norte,Chile,SING Norte,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+14,SING Centro,T,*,*,F,F,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+15,SING Calama,T,*,*,F,F,SING Centro,Chile,SING Centro,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+16,SING Norgener,T,*,*,F,F,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+17,SING El Abra,T,*,*,F,F,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+18,SING Radomiro Tomic,T,*,*,F,F,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+19,SING Lomas Bayas,T,*,*,F,F,SING Oeste,Chile,SING Oeste,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+20,SING Tesoro,T,*,*,F,F,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+21,SING Spence,T,*,*,F,F,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+22,SING Oeste,T,*,*,F,F,SING TxT,Chile,SING TxT,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+23,SING Este,T,*,*,F,F,SING Oeste,Chile,SING Oeste,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+24,SING Salta,T,*,*,F,F,SING Este,Chile,SING Este,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+25,SING Minsal,T,*,*,F,F,SING Este,Chile,SING Este,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+26,SING Sur,T,*,*,F,F,SING Oeste,Chile,SING Oeste,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+27,SING Enaex,T,*,*,F,F,SING Sur,Chile,SING Sur,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+28,SING Lince,T,*,*,F,F,SING Sur,Chile,SING Sur,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+29,SING Antofagasta,T,*,*,F,F,SING Sur,Chile,SING Sur,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+30,SING Antofagasta Diesel,T,*,*,F,F,SING Sur,Chile,SING Sur,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+31,SING Coloso,T,*,*,F,F,SING Este,Chile,SING Este,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+32,SING Planta Oxidos,T,*,*,F,F,SING Este,Chile,SING Este,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220
+33,SING Laguna Seca,T,*,*,F,F,SING Este,Chile,SING Este,F,F,F,4,Crucero 220,Crucero 220,F,Crucero 220

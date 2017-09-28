@@ -1,0 +1,56 @@
+EmpINum,EmpNom,GrpNom,EmpRelGrp
+1,Transelec,Transelec,1
+2,AesGener S.A.,AesGener S.A.,1
+3,Guacolda,AesGener S.A.,1
+4,CGE Transmision,CGE,1
+5,Endesa,Enersis,1
+6,STS,Saesa,1
+7,Emel,Emel,1
+8,Emelectric,Emel,1
+9,Emelat,Emel,1
+10,Chilquinta,Chilquinta,1
+11,Colbun S.A.,Colbun S.A.,1
+12,Minera Valparaiso,Colbun S.A.,1
+13,HGV,Colbun S.A.,1
+14,HASA,Colbun S.A.,1
+15,Rio Maipo,CGE,1
+16,Conafe,CGE,1
+17,CMP,CMP,1
+18,Transelec/Guacolda,Transelec/Guacolda,1
+19,Transelec/CGE Transmision,Transelec/CGE,1
+20,E.E.Puente Alto,E.E.Puente Alto,1
+21,Otros,Otros,1
+22,Alusa,Alusa,1
+23,CNE,CNE,1
+24,Chilectra,Enersis,1
+25,Transquillota,Transquillota,1
+26,El Indio,El Indio,1
+27,Energia Verde,AesGener S.A.,1
+28,Ibener,Ibener,1
+29,Puyehue,Puyehue,1
+30,Copelec,Otros,1
+31,Luz Linares,Otros,1
+32,CEC,Otros,1
+33,Frontel,Saesa,1
+34,CMPC,CMPC,1
+35,Suez,Suez,1
+36,Barrick,Barrick,1
+37,Transelec/Chilectra,Transelec/Chilectra,1
+38,Otro,Otro,1
+39,Plan de Obra,Plan de Obra,1
+40,Hidroeléctrica La Higuera S.A.,Hidroeléctrica La Higuera S.A.,1
+41,Hidroeléctrica La Confluencia S.A.,Hidroeléctrica La Confluencia S.A.,1
+42,SN Power,SN Power,1
+43,Termopacífico,Termopacífico,1
+44,AES GENER,GENER,1
+45,EDELNOR,SUEZ,1
+46,ELECTROANDINA,SUEZ,1
+47,GASATACAMA,ENDESA,1
+48,CELTA,ENDESA,1
+49,NORGENER,GENER,1
+50,CELTA-EDELNOR,ENDESA-SUEZ,1
+51,CODELCO,CODELCO,1
+52,ESCONDIDA,ESCONDIDA,1
+53,ZALDIVAR,ZALDIVAR,1
+54,PROY CODELCO,CODELCO,1
+55,TRASEMEL,TRASEMEL,1

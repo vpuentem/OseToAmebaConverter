@@ -1,0 +1,218 @@
+CenManINum,CenManFOpe,CenManFecIni,CenManFecFin,CenManFTip,CenManNom,CenBar,CenPotMax,CenTurRen,CenDisEne,CenFacCol,CenConPro%,SisRegPot
+1,T,SemAgo01-2017,SemAgo04-2017,F,Alfalfal,*,98.29214286,*,*,*,*,*
+2,T,SemMay04-2017,SemJul04-2017,F,Alfalfal,*,101.4628571,*,*,*,*,*
+3,T,SemMay04-2017,SemJul04-2017,F,Alto Renaico,*,0,*,*,*,*,*
+4,T,SemMar04-2018,SemMar04-2018,F,Blanco,*,30.22857143,*,*,*,*,*
+5,T,SemSep02-2017,SemSep02-2017,F,Blanco,*,30.22857143,*,*,*,*,*
+6,T,SemMar02-2018,SemMar02-2018,F,Capullo,*,6.742857143,*,*,*,*,*
+7,T,SemDic01-2017,SemDic01-2017,F,Capullo,*,6.742857143,*,*,*,*,*
+8,T,SemAgo04-2017,SemAgo04-2017,F,Carena,*,7.5,*,*,*,*,*
+10,T,SemAgo01-2017,SemAgo03-2017,F,Carena,*,0.4,*,*,*,*,*
+12,T,SemNov04-2017,SemNov04-2017,F,Chacabuquito,*,23.80857143,*,*,*,*,*
+13,T,SemNov03-2017,SemNov03-2017,F,Chacabuquito,*,23.80857143,*,*,*,*,*
+15,T,SemNov02-2017,SemNov02-2017,F,Chacabuquito,*,23.80857143,*,*,*,*,*
+17,T,SemAgo04-2017,SemAgo04-2017,F,Chacabuquito,*,10.98857143,*,*,*,*,*
+19,T,SemAgo02-2017,SemAgo03-2017,F,Chacabuquito,*,21.06142857,*,*,*,*,*
+20,T,SemJul03-2017,SemJul04-2017,F,Chacabuquito,*,21.06142857,*,*,*,*,*
+21,T,SemJun03-2017,SemJun04-2017,F,Chacabuquito,*,21.06142857,*,*,*,*,*
+22,T,SemAbr01-2018,SemMay01-2018,F,Chacayes,*,65.38285714,*,*,*,*,*
+23,T,SemMar04-2018,SemMar04-2018,F,Chacayes,*,55.8,*,*,*,*,*
+24,T,SemOct02-2017,SemOct02-2017,F,Chacayes,*,95.72857143,*,*,*,*,*
+26,T,SemOct01-2017,SemOct01-2017,F,Chacayes,*,95.72857143,*,*,*,*,*
+27,T,SemAgo01-2017,SemAgo03-2017,F,Confluencia,*,104.6571429,*,*,*,*,*
+28,T,SemJun04-2017,SemJul01-2017,F,Confluencia,*,34.88571429,*,*,*,*,*
+29,T,SemJun02-2017,SemJun03-2017,F,Confluencia,*,46.51428571,*,*,*,*,*
+30,T,SemMar02-2018,SemMar02-2018,F,Coya,*,0,*,*,*,*,*
+31,T,SemSep02-2017,SemSep02-2017,F,Coya,*,8.571428571,*,*,*,*,*
+32,T,SemOct03-2017,SemOct03-2017,F,El Llano,*,0,*,*,*,*,*
+33,T,SemOct01-2017,SemOct02-2017,F,El Llano,*,0.271428571,*,*,*,*,*
+34,T,SemAgo01-2017,SemAgo02-2017,F,El Llano,*,0.542857143,*,*,*,*,*
+35,T,SemAgo01-2017,SemAgo02-2017,F,El Paso,*,17.14285714,*,*,*,*,*
+36,T,SemJul03-2017,SemJul03-2017,F,El Paso,*,0,*,*,*,*,*
+37,T,SemJul01-2017,SemJul01-2017,F,El Paso,*,40.3,*,*,*,*,*
+38,T,SemJun04-2017,SemJun04-2017,F,El Paso,*,39.8,*,*,*,*,*
+39,T,SemJun02-2017,SemJun02-2017,F,El Paso,*,39.8,*,*,*,*,*
+40,T,SemAbr01-2018,SemAbr01-2018,F,El Rincón,*,0.121999286,*,*,*,*,*
+41,T,SemJun03-2017,SemJul01-2017,F,Eyzaguirre,*,0.180952381,*,*,*,*,*
+42,T,SemJul01-2017,SemAgo01-2017,F,Guayacan,*,0.685714286,*,*,*,*,*
+43,T,SemOct01-2017,SemOct01-2017,F,Hornitos,*,43.46428571,*,*,*,*,*
+44,T,SemSep01-2017,SemSep02-2017,F,Hornitos,*,17.38571429,*,*,*,*,*
+46,T,SemEne04-2018,SemEne04-2018,F,Itata,*,10,*,*,*,*,*
+47,T,SemEne03-2018,SemEne03-2018,F,Itata,*,10,*,*,*,*,*
+48,T,SemSep04-2017,SemSep04-2017,F,Juncal-Juncalito,*,21.83571429,*,*,*,*,*
+49,T,SemJun02-2017,SemJun03-2017,F,Juncal-Juncalito,*,8.734285714,*,*,*,*,*
+50,T,SemSep03-2017,SemOct01-2017,F,La Higuera,*,99.38571429,*,*,*,*,*
+51,T,SemAgo03-2017,SemSep01-2017,F,La Higuera,*,99.38571429,*,*,*,*,*
+52,T,SemAbr03-2018,SemAbr04-2018,F,La Mina,*,19.42857143,*,*,*,*,*
+53,T,SemAbr01-2018,SemAbr02-2018,F,La Mina,*,19.42857143,*,*,*,*,*
+54,T,SemNov02-2017,SemNov03-2017,F,Las Vertientes,*,0,*,*,*,*,*
+55,T,SemMar03-2018,SemMar03-2018,F,Lican,*,12.85714286,*,*,*,*,*
+57,T,SemMar02-2018,SemMar02-2018,F,Lican,*,7.714285714,*,*,*,*,*
+58,T,SemAgo04-2017,SemAgo04-2017,F,Lircay,*,5.428571429,*,*,*,*,*
+59,T,SemOct01-2017,SemDic01-2017,F,Los Molles,*,0.854761905,*,*,*,*,*
+61,T,SemAgo01-2017,SemAgo02-2017,F,Los Molles,*,6.410714286,*,*,*,*,*
+62,T,SemSep02-2017,SemOct01-2017,F,Los Quilos,*,28.04657143,*,*,*,*,*
+63,T,SemAgo02-2017,SemSep01-2017,F,Los Quilos,*,28.04657143,*,*,*,*,*
+64,T,SemJul01-2017,SemAgo01-2017,F,Los Quilos,*,28.04657143,*,*,*,*,*
+65,T,SemAbr02-2018,SemMay02-2018,F,Maitenes,*,19.23142857,*,*,*,*,*
+66,T,SemMar01-2018,SemAbr01-2018,F,Maitenes,*,19.23142857,*,*,*,*,*
+67,T,SemSep04-2017,SemNov04-2017,F,Maitenes,*,19.23142857,*,*,*,*,*
+68,T,SemJun04-2017,SemAgo04-2017,F,Maitenes,*,19.23142857,*,*,*,*,*
+69,T,SemMar04-2018,SemAbr01-2018,F,Mampil,*,23.52857143,*,*,*,*,*
+70,T,SemAgo04-2017,SemAgo04-2017,F,Mariposas,*,1.8,*,*,*,*,*
+71,T,SemMar02-2018,SemMar03-2018,F,Peuchen,*,30.32142857,*,*,*,*,*
+72,T,SemAbr02-2018,SemAbr03-2018,F,Pilmaiquen,*,30.44,*,*,*,*,*
+73,T,SemMar04-2018,SemMar04-2018,F,Pilmaiquen,*,36.71428571,*,*,*,*,*
+74,T,SemMar03-2018,SemMar03-2018,F,Pilmaiquen,*,36.71428571,*,*,*,*,*
+75,T,SemMar01-2018,SemMar01-2018,F,Pilmaiquen,*,36.71428571,*,*,*,*,*
+76,T,SemFeb01-2018,SemFeb04-2018,F,Pilmaiquen,*,29.585,*,*,*,*,*
+77,T,SemAgo04-2017,SemAgo04-2017,F,Providencia,*,4.028571429,*,*,*,*,*
+78,T,SemMar04-2018,SemMar04-2018,F,Pulelfu,*,5.12,*,*,*,*,*
+80,T,SemMar02-2018,SemMar02-2018,F,Pulelfu,*,5.76,*,*,*,*,*
+81,T,SemDic01-2017,SemDic01-2017,F,Pulelfu,*,5.12,*,*,*,*,*
+82,T,SemMay01-2018,SemMay02-2018,F,Pullinque,*,36.56857143,*,*,*,*,*
+83,T,SemEne01-2018,SemEne04-2018,F,Pullinque,*,35.95892857,*,*,*,*,*
+84,T,SemDic01-2017,SemDic02-2017,F,Pullinque,*,36.56857143,*,*,*,*,*
+85,T,SemAgo01-2017,SemAgo02-2017,F,Puntilla,*,14.15714286,*,*,*,*,*
+87,T,SemAgo03-2017,SemAgo03-2017,F,Puntilla,*,18.48571429,*,*,*,*,*
+89,T,SemJul02-2017,SemJul04-2017,F,Puntilla,*,15.52857143,*,*,*,*,*
+90,T,SemMay04-2017,SemJul04-2017,F,Renaico Hidro,*,0,*,*,*,*,*
+91,T,SemFeb04-2018,SemMar01-2018,F,Rucatayo,*,8.471428571,*,*,*,*,*
+92,T,SemJul04-2017,SemAgo01-2017,F,San Andres_220,*,14.28571429,*,*,*,*,*
+93,T,SemJun04-2017,SemJun04-2017,F,San Clemente,*,1.685714286,*,*,*,*,*
+94,T,SemJul01-2017,SemSep01-2017,F,Sauce Andes,*,0.123214286,*,*,*,*,*
+95,T,SemAgo02-2017,SemAgo02-2017,F,Sauzalito,*,0,*,*,*,*,*
+96,T,SemMay04-2018,SemJun02-*,T,Alfalfal,*,88.78,*,*,*,*,*
+97,T,SemAgo03-2020,SemSep01-*,T,Alfalfal 02,*,0,*,*,*,*,*
+98,T,SemEne03-2017,SemEne03-*,T,Allipén,*,0,*,*,*,*,*
+99,T,SemMar04-2018,SemAbr01-*,T,Alto Renaico,*,0,*,*,*,*,*
+100,T,SemSep01-2017,SemSep01-*,T,Ancoa,*,0,*,*,*,*,*
+101,T,SemAbr01-2017,SemAbr01-*,T,Auxiliar del Maipo,*,0,*,*,*,*,*
+102,T,SemAbr01-2019,SemAbr02-*,T,Blanco,*,0,*,*,*,*,*
+103,T,SemFeb01-2017,SemFeb01-*,T,Boquiamargo,*,0,*,*,*,*,*
+104,T,SemFeb02-2017,SemFeb02-*,T,Bureo,*,0,*,*,*,*,*
+105,T,SemFeb01-2019,SemFeb02-*,T,Capullo,*,0,*,*,*,*,*
+106,T,SemAgo01-2018,SemAgo01-*,T,Carena,*,0,*,*,*,*,*
+107,T,SemDic03-2017,SemDic03-*,T,Carilafquén,*,0,*,*,*,*,*
+108,T,SemEne04-2017,SemEne04-*,T,CH Bonito 1,*,0,*,*,*,*,*
+109,T,SemAbr01-2017,SemAbr01-*,T,CH Bonito 2,*,0,*,*,*,*,*
+110,T,SemFeb04-2017,SemFeb04-*,T,CH Callao,*,0,*,*,*,*,*
+111,T,SemEne03-2017,SemEne03-*,T,CH Nalcas,*,0,*,*,*,*,*
+112,T,SemSep01-2017,SemSep01-*,T,CH Rio Huasco,*,0,*,*,*,*,*
+113,T,SemAbr01-2018,SemAbr02-*,T,Chacabuquito,*,19.23,*,*,*,*,*
+114,T,SemMay04-2019,SemJun02-*,T,Chacayes,*,55.85,*,*,*,*,*
+115,T,SemAgo04-2017,SemAgo04-*,T,Chanleufu,*,0,*,*,*,*,*
+116,T,SemFeb01-2017,SemFeb02-*,T,Collil,*,0,*,*,*,*,*
+117,T,SemFeb01-2018,SemFeb03-*,T,Confluencia,*,81.4,*,*,*,*,*
+118,T,SemMar03-2019,SemAbr01-*,T,Confluencia_220,*,0,*,*,*,*,*
+119,T,SemAgo04-2017,SemSep01-*,T,Contra,*,0,*,*,*,*,*
+120,T,SemAbr03-2019,SemAbr03-*,T,Coya,*,0,*,*,*,*,*
+121,T,SemMay04-2017,SemMay04-*,T,Cumpeo,*,0,*,*,*,*,*
+122,T,SemEne03-2017,SemEne03-*,T,Curileufu,*,0,*,*,*,*,*
+123,T,SemFeb01-2017,SemFeb02-*,T,Don Walterio,*,0,*,*,*,*,*
+124,T,SemEne02-2017,SemEne02-*,T,Dongo,*,0,*,*,*,*,*
+125,T,SemFeb02-2017,SemFeb03-*,T,Donguil,*,0,*,*,*,*,*
+126,T,SemFeb02-2017,SemFeb02-*,T,Doña Hilda,*,0,*,*,*,*,*
+127,T,SemMay04-2017,SemMay04-*,T,El Agrio,*,0,*,*,*,*,*
+128,T,SemFeb02-2017,SemFeb02-*,T,El Arrayan,*,0,*,*,*,*,*
+129,T,SemFeb01-2017,SemFeb02-*,T,El Canelo,*,0,*,*,*,*,*
+131,T,SemFeb02-2017,SemFeb02-*,T,El Diuto,*,0,*,*,*,*,*
+132,T,SemFeb02-2017,SemFeb02-*,T,El Galpon,*,0,*,*,*,*,*
+133,T,SemAgo01-2018,SemAgo01-*,T,El Llano,*,0,*,*,*,*,*
+134,T,SemAbr02-2017,SemAbr02-*,T,El Manzano,*,0,*,*,*,*,*
+135,T,SemMar02-2017,SemMar02-*,T,El Mirador,*,0,*,*,*,*,*
+136,T,SemEne01-2018,SemEne02-*,T,El Paso,*,0,*,*,*,*,*
+137,T,SemEne03-2019,SemEne03-*,T,El Paso_220,*,0,*,*,*,*,*
+138,T,SemAbr01-2019,SemAbr01-*,T,El Rincón,*,0,*,*,*,*,*
+139,T,SemAbr03-2017,SemAbr04-*,T,El Tártaro,*,0,*,*,*,*,*
+140,T,SemAbr01-2017,SemAbr02-*,T,Ensenada,*,0,*,*,*,*,*
+141,T,SemMay01-2018,SemMay01-*,T,Eyzaguirre,*,0,*,*,*,*,*
+142,T,SemMay01-2017,SemMay02-*,T,Florida,*,23.66666667,*,*,*,*,*
+143,T,SemAbr01-2030,SemAbr02-*,T,Grupo MH X Región 01,*,0,*,*,*,*,*
+144,T,SemMay03-2018,SemMay04-*,T,Guayacan,*,0,*,*,*,*,*
+145,T,SemJul04-2017,SemAgo01-*,T,San Andres,*,20,*,*,*,*,*
+146,T,SemMar01-2028,SemMar02-*,T,Hidroeléctrica VII Región 02,*,0,*,*,*,*,*
+147,T,SemMar03-2027,SemMar04-*,T,Hidroeléctrica VII Región 03,*,0,*,*,*,*,*
+148,T,SemFeb04-2032,SemMar01-*,T,Hidroeléctrica VIII Región 02,*,0,*,*,*,*,*
+149,T,SemFeb04-2031,SemMar01-*,T,Hidroeléctrica VIII Región 03,*,0,*,*,*,*,*
+150,T,SemEne01-2034,SemEne02-*,T,Hidroeléctrica VIII Región 05,*,0,*,*,*,*,*
+151,T,SemMar03-2035,SemMar04-*,T,Hidroeléctrica VIII Región 06,*,0,*,*,*,*,*
+152,T,SemAbr03-2018,SemAbr04-*,T,Hornitos,*,0,*,*,*,*,*
+153,T,SemEne02-2019,SemEne03-*,T,Itata,*,0,*,*,*,*,*
+154,T,SemAbr01-2018,SemAbr02-*,T,Juncal-Juncalito,*,0,*,*,*,*,*
+155,T,SemEne01-2017,SemEne01-*,T,La Arena,*,0,*,*,*,*,*
+156,T,SemFeb01-2018,SemFeb03-*,T,La Higuera,*,77.3,*,*,*,*,*
+157,T,SemMar04-2019,SemAbr01-*,T,La Higuera_220,*,0,*,*,*,*,*
+158,T,SemMar02-2019,SemMar03-*,T,La Mina,*,0,*,*,*,*,*
+159,T,SemFeb02-2017,SemFeb02-*,T,La Montaña,*,0,*,*,*,*,*
+160,T,SemFeb02-2017,SemFeb02-*,T,La Paloma,*,2.21,*,*,*,*,*
+161,T,SemFeb02-2017,SemFeb03-*,T,Laja I,*,0,*,*,*,*,*
+162,T,SemFeb02-2017,SemFeb02-*,T,Las Flores,*,0,*,*,*,*,*
+163,T,SemMar01-2019,SemMar03-*,T,Las Lajas,*,0,*,*,*,*,*
+164,T,SemMar01-2019,SemMar01-*,T,Las Nieves,*,0,*,*,*,*,*
+165,T,SemAgo01-2018,SemAgo01-*,T,Las Vertientes,*,0,*,*,*,*,*
+166,T,SemEne03-2019,SemEne04-*,T,Lican,*,9,*,*,*,*,*
+167,T,SemAbr01-2018,SemAbr02-*,T,Lircay,*,9.5,*,*,*,*,*
+168,T,SemMar02-2017,SemMar02-*,T,Lleuquereo,*,0,*,*,*,*,*
+169,T,SemMay03-2017,SemMay03-*,T,Los Bajos,*,0,*,*,*,*,*
+170,T,SemAgo04-2017,SemAgo04-*,T,Los Colonos,*,0,*,*,*,*,*
+171,T,SemEne01-2017,SemEne01-*,T,Los Corrales,*,0,*,*,*,*,*
+172,T,SemFeb01-2017,SemFeb03-*,T,Los Corrales 2,*,0,*,*,*,*,*
+173,T,SemAgo04-2017,SemSep01-*,T,Los Hierros,*,0,*,*,*,*,*
+174,T,SemEne03-2017,SemEne03-*,T,Los Hierros 2,*,0,*,*,*,*,*
+175,T,SemFeb01-2018,SemFeb02-*,T,Los Molles,*,8.975,*,*,*,*,*
+176,T,SemEne03-2017,SemEne03-*,T,Los Morros,*,2.48,*,*,*,*,*
+177,T,SemFeb02-2017,SemFeb03-*,T,Los Padres,*,0,*,*,*,*,*
+178,T,SemMar04-2018,SemAbr01-*,T,Los Quilos,*,26.53333333,*,*,*,*,*
+179,T,SemAbr03-2017,SemAbr03-*,T,Maisan,*,0,*,*,*,*,*
+180,T,SemMar02-2019,SemMar03-*,T,Maitenes,*,21.536,*,*,*,*,*
+181,T,SemDic02-2017,SemDic02-*,T,Malalcahuello,*,0,*,*,*,*,*
+182,T,SemEne04-2017,SemEne04-*,T,Mallarauco,*,0,*,*,*,*,*
+183,T,SemAbr01-2019,SemAbr02-*,T,Mampil,*,27.45,*,*,*,*,*
+184,T,SemEne03-2017,SemEne03-*,T,María Elena,*,0,*,*,*,*,*
+185,T,SemAgo04-2018,SemAgo04-*,T,Mariposas,*,0,*,*,*,*,*
+186,T,SemAbr03-2017,SemAbr03-*,T,MCH Dosal,*,0,*,*,*,*,*
+187,T,SemEne03-2017,SemEne03-*,T,Molinera Villarica,*,0,*,*,*,*,*
+188,T,SemMar01-2017,SemMar01-*,T,Muchi,*,0,*,*,*,*,*
+189,T,SemAbr01-2017,SemAbr01-*,T,Mulchen,*,0,*,*,*,*,*
+190,T,SemAbr01-2017,SemAbr01-*,T,Munilque 1,*,0,*,*,*,*,*
+191,T,SemAbr01-2017,SemAbr01-*,T,Munilque 2,*,0,*,*,*,*,*
+192,T,SemFeb02-2020,SemFeb04-*,T,Ñuble,*,0,*,*,*,*,*
+193,T,SemFeb01-2017,SemFeb01-*,T,Panguipulli,*,0,*,*,*,*,*
+194,T,SemMar01-2017,SemMar01-*,T,Pehui,*,0,*,*,*,*,*
+195,T,SemFeb04-2019,SemMar01-*,T,Peuchen,*,42.45,*,*,*,*,*
+196,T,SemEne03-2017,SemEne03-*,T,Pichilonco,*,0,*,*,*,*,*
+197,T,SemAgo04-2017,SemSep01-*,T,Picoiquen,*,0,*,*,*,*,*
+198,T,SemMar04-2019,SemAbr01-*,T,Pilmaiquen,*,32.56,*,*,*,*,*
+199,T,SemAgo04-2018,SemSep01-*,T,Providencia,*,7.05,*,*,*,*,*
+200,T,SemAbr03-2017,SemAbr03-*,T,Puclaro,*,2.69,*,*,*,*,*
+201,T,SemMar02-2019,SemMar02-*,T,Pulelfu,*,0,*,*,*,*,*
+202,T,SemFeb02-2019,SemFeb03-*,T,Pullinque,*,34.13333333,*,*,*,*,*
+203,T,SemFeb03-2018,SemFeb04-*,T,Puntilla,*,14.46666667,*,*,*,*,*
+204,T,SemEne03-2017,SemEne03-*,T,Purísima,*,0,*,*,*,*,*
+205,T,SemFeb01-2017,SemFeb02-*,T,Queltehues,*,32.6,*,*,*,*,*
+206,T,SemMar02-2017,SemMar02-*,T,Quillaileo,*,0,*,*,*,*,*
+207,T,SemMar01-2017,SemMar03-*,T,Reca,*,0,*,*,*,*,*
+208,T,SemEne04-2018,SemEne04-*,T,Renaico Hidro,*,0,*,*,*,*,*
+209,T,SemFeb04-2017,SemMar01-*,T,Rio Colorado,*,0,*,*,*,*,*
+210,T,SemEne01-2017,SemEne01-*,T,Rio Trueno,*,0,*,*,*,*,*
+211,T,SemFeb02-2017,SemFeb02-*,T,Robleria,*,0,*,*,*,*,*
+212,T,SemMar01-2019,SemMar02-*,T,Rucatayo,*,0,*,*,*,*,*
+213,T,SemFeb04-2018,SemFeb04-*,T,San Andres_220,*,0,*,*,*,*,*
+214,T,SemFeb03-2018,SemFeb03-*,T,San Clemente,*,0,*,*,*,*,*
+215,T,SemFeb01-2021,SemFeb03-*,T,San Pedro,*,85,*,*,*,*,*
+216,T,SemAbr01-2018,SemAbr01-*,T,Sauce Andes,*,1.035,*,*,*,*,*
+217,T,SemMay03-2017,SemMay04-*,T,Sauzal,*,51,*,*,*,*,*
+218,T,SemFeb01-2018,SemFeb01-*,T,Sauzalito,*,0,*,*,*,*,*
+219,T,SemFeb01-2017,SemFeb02-*,T,Trailelfu,*,0,*,*,*,*,*
+220,T,SemAbr01-2017,SemAbr02-*,T,Trufultruful,*,0,*,*,*,*,*
+221,T,SemMay04-2017,SemMay04-*,T,Viña Tarapacá,*,0,*,*,*,*,*
+222,T,SemFeb01-2017,SemFeb02-*,T,Volcan,*,0,*,*,*,*,*
+223,T,SemEne02-2017,SemEne02-*,T,Convento Viejo,*,0,*,*,*,*,*
+224,T,SemFeb01-2019,SemFeb01-*,T,Cumbres,*,0,*,*,*,*,*
+225,T,SemFeb03-2017,SemFeb03-*,T,Tranquil,*,0,*,*,*,*,*
+226,T,SemFeb01-2019,SemFeb01-*,T,Dos Valles_220,*,0,*,*,*,*,*
+227,T,SemEne02-2017,SemEne02-*,T,Chanleufu 2,*,0,*,*,*,*,*
+228,T,SemFeb03-2017,SemFeb03-*,T,Hidroriñinahue,*,0,*,*,*,*,*
+229,T,SemEne02-2017,SemEne02-*,T,Puitel,*,0,*,*,*,*,*
+230,T,SemFeb03-2017,SemFeb03-*,T,Dos Valles,*,0,*,*,*,*,*

@@ -1,0 +1,173 @@
+CenManINum,CenManFOpe,CenManFecIni,CenManFecFin,CenManFTip,CenManNom,CenBar,CenPotMax,CenPotMin,CenCosVar,CenRenTer,CenCosOpe,CenDisEne,CenFacCol,CenConPro%
+1,T,SemJun02-2017,SemJun03-2017,F,CHAP,*,7.754857143,*,*,*,*,*,*,*
+2,T,SemMar01-2018,SemMar01-2018,F,CC1 GNL,*,291.1885714,*,*,*,*,*,*,*
+3,T,SemFeb01-2019,SemFeb01-2019,F,CC1 GNL,*,291.1885714,*,*,*,*,*,*,*
+4,T,SemAgo01-2017,SemAgo02-2017,F,CC1 GNL,*,138.4285714,*,*,*,*,*,*,*
+5,T,SemAbr01-2018,SemAbr01-2018,F,CC1 GNL,*,250.7428571,*,*,*,*,*,*,*
+6,T,SemMar01-2019,SemMar01-2019,F,CC1 GNL,*,250.7428571,*,*,*,*,*,*,*
+7,T,SemJul01-2018,SemJul01-2018,F,CC2 GNL,*,290.5257143,*,*,*,*,*,*,*
+8,T,SemEne03-2019,SemEne03-2019,F,CC2 GNL,*,290.5257143,*,*,*,*,*,*,*
+9,T,SemAgo01-2018,SemAgo01-2018,F,CC2 GNL,*,290.1571429,*,*,*,*,*,*,*
+10,T,SemFeb03-2019,SemFeb03-2019,F,CC2 GNL,*,290.1571429,*,*,*,*,*,*,*
+11,T,SemAgo01-2018,SemAgo01-2018,F,CTM3d,*,165.4541429,*,*,*,*,*,*,*
+12,T,SemFeb03-2019,SemFeb03-2019,F,CTM3d,*,162.2398571,*,*,*,*,*,*,*
+13,T,SemFeb01-2018,SemFeb03-2018,F,NTO1,*,5.982857143,*,*,*,*,*,*,*
+14,T,SemMay02-2018,SemMay04-2018,F,NTO2,*,5.991904762,*,*,*,*,*,*,*
+16,T,SemJun01-2017,SemJun02-2017,F,CTM1,*,9.857142857,*,*,*,*,*,*,*
+17,T,SemFeb03-2018,SemAbr03-2018,F,CTM1,*,0,*,*,*,*,*,*,*
+18,T,SemOct01-2017,SemNov03-2017,F,CTM2,*,8.755102041,*,*,*,*,*,*,*
+19,T,SemAgo01-2017,SemOct01-2017,F,CTM3d,*,9.56652381,*,*,*,*,*,*,*
+20,T,SemJun03-2017,SemJun04-2017,F,CTTAR,*,0,*,*,*,*,*,*,*
+21,T,SemAbr01-2018,SemAbr02-2018,F,CTTAR,*,27.96857143,*,*,*,*,*,*,*
+22,T,SemJul01-2017,SemJul03-2017,F,TGTAR,*,5.4,*,*,*,*,*,*,*
+23,T,SemMar01-2018,SemMar03-2018,F,TGTAR,*,4.5,*,*,*,*,*,*,*
+24,T,SemFeb01-2019,SemFeb01-2019,F,TGTAR,*,8.1,*,*,*,*,*,*,*
+25,T,SemJul01-2017,SemJul02-2017,F,U14,*,0,*,*,*,*,*,*,*
+26,T,SemJul03-2017,SemJul04-2017,F,U15,*,0,*,*,*,*,*,*,*
+27,T,SemOct01-2017,SemOct02-2017,F,U16 GNL,*,94.82857143,*,*,*,*,*,*,*
+28,T,SemMay01-2018,SemMay03-2018,F,U16 GNL,*,94.82857143,*,*,*,*,*,*,*
+29,T,SemMar01-2018,SemMar03-2018,F,CTA,*,42.40285714,*,*,*,*,*,*,*
+30,T,SemFeb01-2019,SemMar03-2019,F,CTA,*,6.05755102,*,*,*,*,*,*,*
+31,T,SemDic01-2017,SemDic02-2017,F,CTH,*,20.25714286,*,*,*,*,*,*,*
+32,T,SemJun01-2018,SemJul01-2018,F,CTH,*,8.102857143,*,*,*,*,*,*,*
+33,T,SemJun03-2018,SemAgo02-2018,F,ANG I,*,25.62589286,*,*,*,*,*,*,*
+34,T,SemAgo04-2018,SemSep02-2018,F,ANG II,*,11.58452381,*,*,*,*,*,*,*
+35,T,SemFeb02-2018,SemFeb04-2018,F,COCHRANE 1,*,10.8067619,*,*,*,*,*,*,*
+36,T,SemJun02-2017,SemJun04-2017,F,COCHRANE 2,*,10.8067619,*,*,*,*,*,*,*
+37,T,SemNov02-2018,SemNov04-2018,F,COCHRANE 2,*,10.8067619,*,*,*,*,*,*,*
+40,T,SemOct02-2018,SemOct02-2018,F,KELAR_GNL,*,366.2078571,*,*,*,*,*,*,*
+41,T,SemOct02-2018,SemOct02-2018,F,KELAR_D,*,315.2978571,*,*,*,*,*,*,*
+42,T,SemSep02-2017,SemSep02-2017,F,KELAR_GNL,*,308.5957143,*,*,*,*,*,*,*
+43,T,SemSep02-2017,SemSep02-2017,F,KELAR_D,*,257.6857143,*,*,*,*,*,*,*
+44,T,SemOct03-2018,SemOct04-2018,F,KELAR_GNL,*,360.7535714,*,*,*,*,*,*,*
+45,T,SemOct03-2018,SemOct04-2018,F,KELAR_D,*,309.8435714,*,*,*,*,*,*,*
+46,T,SemOct01-2017,SemOct01-2017,F,UJINA 1,*,3.626285714,*,*,*,*,*,*,*
+47,T,SemFeb01-2018,SemFeb01-2018,F,UJINA 1,*,4.532857143,*,*,*,*,*,*,*
+48,T,SemJun01-2017,SemJun01-2017,F,UJINA 2,*,4.532857143,*,*,*,*,*,*,*
+49,T,SemOct02-2017,SemOct02-2017,F,UJINA 2,*,3.626285714,*,*,*,*,*,*,*
+50,T,SemFeb02-2018,SemFeb02-2018,F,UJINA 2,*,4.532857143,*,*,*,*,*,*,*
+51,T,SemSep03-2017,SemSep03-2017,F,UJINA 3,*,3.626285714,*,*,*,*,*,*,*
+52,T,SemEne04-2018,SemEne04-2018,F,UJINA 3,*,4.532857143,*,*,*,*,*,*,*
+53,T,SemMay04-2018,SemJun01-2018,F,UJINA 3,*,1.359857143,*,*,*,*,*,*,*
+54,T,SemSep04-2017,SemOct01-2017,F,UJINA 4,*,1.359857143,*,*,*,*,*,*,*
+55,T,SemEne04-2018,SemEne04-2018,F,UJINA 4,*,4.532857143,*,*,*,*,*,*,*
+56,T,SemJul02-2017,SemJul02-2017,F,UJINA 5,*,4.825714286,*,*,*,*,*,*,*
+57,T,SemNov02-2017,SemNov02-2017,F,UJINA 5,*,6.032142857,*,*,*,*,*,*,*
+58,T,SemMar03-2018,SemMar04-2018,F,UJINA 5,*,1.809642857,*,*,*,*,*,*,*
+59,T,SemSep02-2017,SemSep02-2017,F,UJINA 6,*,6.032142857,*,*,*,*,*,*,*
+60,T,SemEne03-2018,SemEne03-2018,F,UJINA 6,*,4.825714286,*,*,*,*,*,*,*
+61,T,SemMay03-2018,SemMay03-2018,F,UJINA 6,*,6.032142857,*,*,*,*,*,*,*
+62,T,SemOct04-2017,SemOct04-2017,F,PORTADA,*,1.714285714,*,*,*,*,*,*,*
+63,T,SemMar03-2018,SemMar03-2018,F,PORTADA,*,1.714285714,*,*,*,*,*,*,*
+64,T,SemSep01-2018,SemSep01-2018,F,PORTADA,*,1.714285714,*,*,*,*,*,*,*
+65,T,SemEne04-2019,SemEne04-2019,F,PORTADA,*,1.714285714,*,*,*,*,*,*,*
+66,T,SemAgo03-2017,SemAgo04-2017,F,CERRO PABELLÓN,*,13.83142857,*,*,*,*,*,*,*
+67,T,SemNov02-2017,SemNov03-2017,F,CERRO PABELLÓN,*,13.83142857,*,*,*,*,*,*,*
+68,T,SemMay01-2018,SemMay02-2018,F,CERRO PABELLÓN,*,13.83142857,*,*,*,*,*,*,*
+69,T,SemNov02-2018,SemNov03-2018,F,CERRO PABELLÓN,*,13.83142857,*,*,*,*,*,*,*
+70,T,SemFeb01-2018,SemFeb02-2018,F,CERRO PABELLÓN,*,13.83142857,*,*,*,*,*,*,*
+71,T,SemSep01-2018,SemSep02-2018,F,CERRO PABELLÓN,*,13.83142857,*,*,*,*,*,*,*
+72,T,SemFeb01-2019,SemFeb02-2019,F,CERRO PABELLÓN,*,13.83142857,*,*,*,*,*,*,*
+73,T,SemEne01-2017,SemEne01-*,T,CAVA,*,0,*,*,*,*,*,*,*
+74,T,SemEne01-2017,SemEne01-*,T,MHAH,*,0,*,*,*,*,*,*,*
+75,T,SemEne01-2017,SemEne01-*,T,MHT2,*,0,*,*,*,*,*,*,*
+76,T,SemEne01-2018,SemEne01-*,T,CHAP,*,5.416,*,*,*,*,*,*,*
+77,T,SemMar01-2017,SemMar01-*,T,MHSR,*,0,*,*,*,*,*,*,*
+78,T,SemEne01-2017,SemEne01-*,T,GMAR,*,5.967,*,*,*,*,*,*,*
+79,T,SemEne01-2017,SemEne01-*,T,M1AR,*,1.948,*,*,*,*,*,*,*
+80,T,SemEne01-2017,SemEne01-*,T,M2AR,*,1.462,*,*,*,*,*,*,*
+81,T,SemEne01-2017,SemEne01-*,T,MIIQ,*,1.445,*,*,*,*,*,*,*
+82,T,SemEne01-2017,SemEne01-*,T,SUIQ,*,2.573333333,*,*,*,*,*,*,*
+83,T,SemFeb02-2017,SemFeb02-*,T,TGIQ,*,0,*,*,*,*,*,*,*
+84,T,SemEne01-2017,SemEne01-*,T,MAIQ,*,0,*,*,*,*,*,*,*
+85,T,SemEne01-2017,SemEne01-*,T,MSIQ,*,0,*,*,*,*,*,*,*
+86,T,SemJul04-2018,SemAgo02-*,T,CTM1,*,0,*,*,*,*,*,*,*
+87,T,SemSep02-2018,SemSep04-*,T,CTM2,*,0,*,*,*,*,*,*,*
+88,T,SemOct02-2017,SemOct03-*,T,MIMB,*,25.128,*,*,*,*,*,*,*
+89,T,SemMar04-2017,SemAbr01-*,T,U10,*,0,*,*,*,*,*,*,*
+90,T,SemSep03-2017,SemSep04-*,T,U11,*,0,*,*,*,*,*,*,*
+91,T,SemOct01-2017,SemOct02-*,T,U12,*,0,*,*,*,*,*,*,*
+92,T,SemJun04-2017,SemJul02-*,T,U13,*,0,*,*,*,*,*,*,*
+93,T,SemOct01-2018,SemOct03-*,T,U14,*,0,*,*,*,*,*,*,*
+94,T,SemOct03-2018,SemNov01-*,T,U15,*,0,*,*,*,*,*,*,*
+95,T,SemEne01-2017,SemEne01-*,T,TG1,*,0,*,*,*,*,*,*,*
+96,T,SemFeb02-2017,SemFeb02-*,T,TG2,*,0,*,*,*,*,*,*,*
+97,T,SemJun04-2017,SemJul01-*,T,TG3d,*,0,*,*,*,*,*,*,*
+98,T,SemOct04-2019,SemNov02-*,T,NTO1,*,0,*,*,*,*,*,*,*
+99,T,SemEne01-2019,SemEne03-*,T,NTO2,*,0,*,*,*,*,*,*,*
+100,T,SemMar01-2018,SemMar04-*,T,CTTAR,*,0,*,*,*,*,*,*,*
+101,T,SemMay04-2018,SemMay04-*,T,TGTAR,*,0,*,*,*,*,*,*,*
+102,T,SemEne01-2017,SemEne01-*,T,CUMMINS,*,0,*,*,*,*,*,*,*
+103,T,SemEne01-2017,SemEne01-*,T,DEUTZ,*,0,*,*,*,*,*,*,*
+104,T,SemFeb02-2017,SemFeb02-*,T,CC SALTA,*,0,*,*,*,*,*,*,*
+105,T,SemEne01-2017,SemEne01-*,T,ZOFRI_1,*,0,*,*,*,*,*,*,*
+106,T,SemEne01-2017,SemEne01-*,T,ZOFRI_6,*,0,*,*,*,*,*,*,*
+107,T,SemEne01-2017,SemEne01-*,T,ZOFRI_2-5,*,0,*,*,*,*,*,*,*
+108,T,SemEne01-2017,SemEne01-*,T,INACAL,*,4.96725,*,*,*,*,*,*,*
+109,T,SemDic02-2017,SemDic04-*,T,U16d,*,165.95,*,*,*,*,*,*,*
+110,T,SemDic02-2018,SemDic04-*,T,U16 GNL,*,165.95,*,*,*,*,*,*,*
+111,T,SemNov03-2017,SemDic01-*,T,CC1d,*,0,*,*,*,*,*,*,*
+112,T,SemNov03-2019,SemDic01-*,T,CC1 GNL,*,0,*,*,*,*,*,*,*
+113,T,SemAgo03-2017,SemSep01-*,T,CC2d,*,0,*,*,*,*,*,*,*
+114,T,SemAgo03-2019,SemSep01-*,T,CC2 GNL,*,0,*,*,*,*,*,*,*
+115,T,SemOct04-2019,SemNov02-*,T,CTM3d,*,100.4485,*,*,*,*,*,*,*
+116,T,SemOct04-2017,SemNov02-*,T,CTM3 GNL,*,100.4485,*,*,*,*,*,*,*
+117,T,SemMay03-2017,SemMay04-*,T,TAMAYA,*,89.9892,*,*,*,*,*,*,*
+118,T,SemMar04-2019,SemAbr02-*,T,CTA,*,0,*,*,*,*,*,*,*
+119,T,SemOct01-2018,SemOct03-*,T,CTH,*,0,*,*,*,*,*,*,*
+120,T,SemMay02-2019,SemMay04-*,T,ANG I,*,0,*,*,*,*,*,*,*
+121,T,SemJun04-2019,SemJul02-*,T,ANG II,*,0,*,*,*,*,*,*,*
+122,T,SemEne01-2017,SemEne01-*,T,NORACID,*,0,*,*,*,*,*,*,*
+123,T,SemEne01-2017,SemEne01-*,T,ESTANDARTES (13),*,0,*,*,*,*,*,*,*
+124,T,SemEne01-2017,SemEne01-*,T,INGENOVA,*,0,*,*,*,*,*,*,*
+125,T,SemEne01-2018,SemEne01-*,T,PORTADA,*,0,*,*,*,*,*,*,*
+126,T,SemJul04-2017,SemAgo01-*,T,EL AGUILA,*,0,*,*,*,*,*,*,*
+127,T,SemJul01-2017,SemJul02-*,T,POZO ALMONTE 2,*,0,*,*,*,*,*,*,*
+128,T,SemOct01-2017,SemOct02-*,T,VALLE DE LOS VIENTOS,*,86.92444444,*,*,*,*,*,*,*
+129,T,SemAgo04-2017,SemSep01-*,T,ARICA SOLAR 1,*,0,*,*,*,*,*,*,*
+130,T,SemAgo02-2017,SemAgo02-*,T,LA HUAYCA,*,0,*,*,*,*,*,*,*
+131,T,SemAgo04-2017,SemSep01-*,T,ARICA SOLAR 2,*,0,*,*,*,*,*,*,*
+132,T,SemMar04-2017,SemAbr01-*,T,POZO ALMONTE 3,*,0,*,*,*,*,*,*,*
+133,T,SemAbr03-2017,SemAbr04-*,T,MARIA ELENA,*,0,*,*,*,*,*,*,*
+134,T,SemDic03-2019,SemDic04-*,T,PARUMA,*,0,*,*,*,*,*,*,*
+135,T,SemDic03-2017,SemDic04-*,T,JAMA 1,*,0,*,*,*,*,*,*,*
+136,T,SemDic03-2019,SemDic04-*,T,PULAR,*,0,*,*,*,*,*,*,*
+137,T,SemAbr04-2019,SemMay01-*,T,LASCAR 1,*,0,*,*,*,*,*,*,*
+138,T,SemAbr04-2019,SemMay01-*,T,LASCAR 2,*,0,*,*,*,*,*,*,*
+139,T,SemAbr03-2019,SemMay01-*,T,COCHRANE 1,*,0,*,*,*,*,*,*,*
+140,T,SemFeb02-2018,SemFeb04-*,T,COCHRANE 2,*,0,*,*,*,*,*,*,*
+141,T,SemJun01-2018,SemJun03-*,T,KELAR_GNL,*,0,*,*,*,*,*,*,*
+142,T,SemJun01-2018,SemJun03-*,T,KELAR_D,*,0,*,*,*,*,*,*,*
+143,T,SemJul03-2019,SemJul04-*,T,Infraestructura Energetica Mejillones,*,0,*,*,*,*,*,*,*
+144,T,SemJun04-2032,SemJul01-*,T,EOLICO SING III,*,0,*,*,*,*,*,*,*
+145,T,SemDic03-2027,SemDic04-*,T,EOLICO SING I,*,0,*,*,*,*,*,*,*
+146,T,SemJun04-2026,SemJul01-*,T,Solar SING III,*,0,*,*,*,*,*,*,*
+147,T,SemFeb04-2025,SemMar01-*,T,Solar SING I,*,0,*,*,*,*,*,*,*
+148,T,SemDic03-2028,SemDic04-*,T,Solar SING IV,*,0,*,*,*,*,*,*,*
+149,T,SemDic03-2031,SemDic04-*,T,Solar SING V,*,0,*,*,*,*,*,*,*
+150,T,SemJun04-2017,SemJul01-*,T,URIBE SOLAR,*,0,*,*,*,*,*,*,*
+151,T,SemAbr01-2019,SemAbr03-*,T,CERRO DOMINADOR,*,0,*,*,*,*,*,*,*
+152,T,SemFeb01-2029,SemFeb02-*,T,EOLICO SING IV,*,0,*,*,*,*,*,*,*
+153,T,SemJul03-2017,SemJul03-*,T,LOS PUQUIOS,*,0,*,*,*,*,*,*,*
+154,T,SemAgo02-2017,SemAgo02-*,T,PICA I,*,0,*,*,*,*,*,*,*
+155,T,SemAgo02-2017,SemAgo02-*,T,ANDES SOLAR,*,0,*,*,*,*,*,*,*
+156,T,SemMay02-2017,SemMay02-*,T,PV CERRO DOMINADOR,*,0,*,*,*,*,*,*,*
+157,T,SemAgo02-2017,SemAgo02-*,T,BOLERO I,*,0,*,*,*,*,*,*,*
+158,T,SemAgo02-2017,SemAgo02-*,T,BOLERO II,*,0,*,*,*,*,*,*,*
+159,T,SemAgo02-2017,SemAgo02-*,T,BOLERO III,*,0,*,*,*,*,*,*,*
+160,T,SemJun04-2017,SemJul01-*,T,CALAMA SOLAR 1,*,0,*,*,*,*,*,*,*
+161,T,SemMay03-2017,SemMay03-*,T,FINIS TERRAE I,*,0,*,*,*,*,*,*,*
+162,T,SemAgo02-2019,SemAgo02-*,T,HUATACONDO,*,0,*,*,*,*,*,*,*
+163,T,SemDic03-2017,SemDic04-*,T,JAMA II,*,0,*,*,*,*,*,*,*
+164,T,SemAgo02-2017,SemAgo02-*,T,POZO ALMONTE 1,*,0,*,*,*,*,*,*,*
+165,T,SemJun04-2017,SemJun04-*,T,PAMPA CAMARONES 1,*,0,*,*,*,*,*,*,*
+166,T,SemMay03-2018,SemMay04-*,T,CERRO PABELLÓN,*,0,*,*,*,*,*,*,*
+167,T,SemEne01-2017,SemEne01-*,T,ESTANDARTES (7-12),*,0,*,*,*,*,*,*,*
+168,T,SemJul02-2017,SemJul02-*,T,SIERRA GORDA,*,0,*,*,*,*,*,*,*
+169,T,SemMay03-2019,SemMay04-*,T,UJINA 1,*,0,*,*,*,*,*,*,*
+170,T,SemMay03-2019,SemMay04-*,T,UJINA 2,*,0,*,*,*,*,*,*,*
+171,T,SemMay03-2019,SemMay04-*,T,UJINA 3,*,0,*,*,*,*,*,*,*
+172,T,SemMay03-2019,SemMay04-*,T,UJINA 4,*,0,*,*,*,*,*,*,*
+173,T,SemMay03-2019,SemMay04-*,T,UJINA 5,*,0,*,*,*,*,*,*,*
+174,T,SemMay03-2019,SemMay04-*,T,UJINA 6,*,0,*,*,*,*,*,*,*
+175,T,SemJul01-2017,SemJul01-*,T,Puerto Seco Solar,*,0,*,*,*,*,*,*,*

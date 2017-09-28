@@ -1,0 +1,57 @@
+SisINum,SisNomEle,SisFOpe,SisFecOpeIni,SisFecOpeFin,SisAsoEle,SisGblEle,SisAsoPea,SisOpeFPri,SisDemFPri,SisCmrFPri,SisNAnoPNd,SisBarRefPNdEne,SisBarRefPNdPot,BarSisFUni,CenFalBarUni,CenFalFBarUni,CenFalFBarAlt
+1,Sistema,T,*,*,*,*,*,T,T,T,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+2,Chile,T,*,*,*,*,*,F,F,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+3,SIC,T,*,*,*,Chile,*,T,T,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+4,TxT,T,*,*,SIC,Chile,SIC,F,F,T,4,Quillota 220,Polpaico 220,F,Cardones 220,F,F
+5,SIC TxT Norte,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Cardones 220,F,F
+6,Area 1,T,*,*,SIC TxT Norte,Chile,SIC TxT Norte,F,F,T,4,Quillota 220,Polpaico 220,F,Cardones 220,F,F
+7,Area 1 Norte,T,*,*,Area 1,Chile,Area 1,F,F,F,4,Quillota 220,Polpaico 220,F,Cardones 220,F,F
+8,Paposo,T,*,*,SIC TxT Norte,Chile,SIC TxT Norte,F,F,T,4,Quillota 220,Polpaico 220,F,Cardones 220,F,F
+9,Huasco,T,*,*,Area 1,Chile,Area 1,F,F,F,4,Quillota 220,Polpaico 220,F,Cardones 220,F,F
+10,Guacolda,T,*,*,SIC TxT Norte,Chile,SIC TxT Norte,F,F,T,4,Quillota 220,Polpaico 220,F,Cardones 220,F,F
+11,El Indio,T,*,*,SIC TxT Norte,Chile,SIC TxT Norte,F,F,T,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+12,Area 1 Centro,T,*,*,Area 1,Chile,Area 1,F,F,F,4,Quillota 220,Polpaico 220,F,Cardones 220,F,F
+13,Area 1 Sur,T,*,*,Area 1,Chile,Area 1,F,F,F,4,Quillota 220,Polpaico 220,F,Cardones 220,F,F
+14,SIC TxT Comun,T,*,*,TxT,Chile,TxT,F,F,T,4,Quillota 220,Polpaico 220,F,Alto Jahuel 220,F,F
+15,Los Maquis,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+16,Area 2,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+17,Area 2 Norte,T,*,*,Area 2,Chile,Area 2,F,F,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+18,Area 2 Sur,T,*,*,Area 2,Chile,Area 2,F,F,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+19,Area 2 Melipilla,T,*,*,Area 2,Chile,Area 2,F,F,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+20,Area 3,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Alto Jahuel 220,F,F
+21,Area 4,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+22,Area 4 Pirque,T,*,*,Colbun,Chile,Colbun,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+23,Area 4 Paine,T,*,*,Area 4,Chile,Area 4,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+24,Area 4 Rancagua,T,*,*,Area 4,Chile,Area 4,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+25,Area 4 Melipilla-San Fernando,T,*,*,Area 4,Chile,Area 4,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+26,Area 4 Itahue,T,*,*,Area 4,Chile,Area 4,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+27,Area 4 Maule,T,*,*,Area 4,Chile,Area 4,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+28,Area 4 Linares-Parral,T,*,*,Area 4,Chile,Area 4,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+29,Area 4 Chillan,T,*,*,Area 4,Chile,Area 4,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+30,Area 4 Charrua,T,*,*,Area 4,Chile,Area 4,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+31,Area 5 Charrua,T,*,*,Area 4,Chile,Area 4,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+32,Area 5,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+33,Area 5 Concepcion,T,*,*,Area 5,Chile,Area 5,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+34,Area 5 Penco,T,*,*,Area 5,Chile,Area 5,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+35,Area 5 Talcahuano,T,*,*,Area 5,Chile,Area 5,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+36,Area 5 Los Angeles,T,*,*,Area 5,Chile,Area 5,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+37,Area 5 Temuco,T,*,*,Area 5,Chile,Area 5,F,F,F,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+38,Piuquenes,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,F,4,Quillota 220,Polpaico 220,F,Polpaico 220,F,F
+39,Rapel,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Alto Jahuel 220,F,F
+40,San Luis,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Alto Jahuel 220,F,F
+41,Colbun,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Alto Jahuel 220,F,F
+42,Sauzal,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Alto Jahuel 220,F,F
+43,Cipreses,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Alto Jahuel 220,F,F
+44,Calabozo,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Alto Jahuel 220,F,F
+45,Pehuenche,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+46,Abanico,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+47,Pangue,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+48,Antuco,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+49,Rucue,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Polpaico 220,F,Charrua 220,F,F
+50,SIC TxT Sur,T,*,*,SIC TxT Comun,Chile,SIC TxT Comun,F,F,T,4,Quillota 220,Valdivia 220,F,Polpaico 220,F,F
+51,Area 6,T,*,*,SIC TxT Sur,Chile,SIC TxT Sur,F,F,T,4,Quillota 220,Valdivia 220,F,Temuco 220,F,F
+52,Area 6 Norte,T,*,*,Area 6,Chile,Area 6,F,F,F,4,Quillota 220,Valdivia 220,F,Temuco 220,F,F
+53,Area 6 Sur,T,*,*,Area 6,Chile,Area 6,F,F,F,4,Quillota 220,Valdivia 220,F,Temuco 220,F,F
+54,Area 6 Pilmaiquen,T,*,*,Area 6,Chile,Area 6,F,F,F,4,Quillota 220,Valdivia 220,F,Temuco 220,F,F
+55,Area 6 Chiloe,T,*,*,Area 6,Chile,Area 6,F,F,F,4,Quillota 220,Valdivia 220,F,Temuco 220,F,F
+56,Canutillar,T,*,*,SIC TxT Sur,Chile,SIC TxT Sur,F,F,T,4,Quillota 220,Valdivia 220,F,Temuco 220,F,F

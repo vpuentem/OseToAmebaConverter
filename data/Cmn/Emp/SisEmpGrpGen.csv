@@ -1,0 +1,106 @@
+EmpINum,EmpNom,GrpNom,EmpRelGrp
+1,AES GENER,AES GENER,0.5
+2,AesGener S.A.,AesGener S.A.,1
+3,ARAUCO GENERACIÓN,ARAUCO GENERACIÓN,1
+4,Arauco Generación S.A.,Arauco Generación S.A.,1
+5,Barrick,Barrick,1
+6,Campanario,Campanario,1
+7,CAMPANARIO GENERACIÓN,CAMPANARIO GENERACIÓN,1
+8,CDEC,CDEC,1
+9,Celco,Arauco Generacion,1
+10,CEN,CEN,1
+11,Cenelca,Colbún S.A.,1
+12,CGE Generacion,CGE,1
+13,Chilquinta,Chilquinta,1
+14,CNE,CNE,1
+15,Codelco,Codelco,1
+16,COLBÚN,COLBÚN,1
+17,Colbún S.A.,Colbún S.A.,1
+18,E.E. Capullo S.A.,E.E. Capullo S.A.,1
+19,E.E. Puntilla S.A.,E.E. Puntilla S.A.,1
+20,ELÉCTRICA SANTIAGO,ELÉCTRICA SANTIAGO,1
+21,Elektragen,Elektragen,1
+22,ELEKTRAGEN GENERACIÓN,ELEKTRAGEN GENERACIÓN,1
+23,Endesa,Enersis,1
+24,Endesa-Eco,Enersis,1
+25,ENERGÍA VERDE,ENERGÍA VERDE,1
+26,Energía Verde S.A.,AesGener S.A.,1
+27,Enor,Enor,1
+28,ENOR CHILE,ENOR CHILE,1
+29,Esperanza,Esperanza,1
+30,F.P.C.,F.P.C.,1
+31,FOSTER WHEELER,FOSTER WHEELER,1
+32,Gassur,Gassur,1
+33,Generadora Sauce Andes,Chilquinta,1
+34,GUACOLDA,GUACOLDA,1
+35,Guacolda S.A.,Aes Gener S.A.,0.5
+36,Guacolda S.A.,Guacolda S.A.,0.5
+37,HGV,Colbún S.A.,1
+38,Hidroeléctrica Aconcagua S.A.,Colbún S.A.,1
+39,Hidroeléctrica La Confluencia S.A.,Hidroeléctrica La Confluencia S.A.,1
+40,HIDROELECTRICA LA HIGUERA,HIDROELECTRICA LA HIGUERA,1
+41,Hidroeléctrica La Higuera S.A.,Hidroeléctrica La Higuera S.A.,1
+42,Ibener S.A.,Ibener S.A.,1
+43,Los Morros,Los Morros,1
+44,MINERA LAS CENIZAS,MINERA LAS CENIZAS,1
+45,Obra recomendada CNE-2007,Obra recomendada CNE-2007,1
+46,Obras y Desarrollo S.A.,Colbún S.A.,1
+47,Otros,Otros,1
+48,Pacific Hydro,Pacific Hydro,1
+49,Pehuenche S.A.,Enersis,1
+50,PetroPower S.A.,PetroPower S.A.,1
+51,Plan de Obra,Plan de Obra,1
+52,POTENCIA S.A.,POTENCIA S.A.,1
+53,PSEG Generacion y Energia Chile Ltda.,PSEG,1
+54,PSEG Generación y Energía Chile Ltda.,PSEG Generación y Energía Chile Ltda.,1
+55,Pullinque S.A.,Puyehue S.A.,1
+56,Puyehue S.A.,Puyehue S.A.,1
+57,Riego Laja,Sociedad de Canalistas del Laja,1
+58,Riego Maule,Sociedad de Canalistas del Maule,1
+59,SAESA,SAESA,1
+60,San Isidro S.A.,Enersis,0.5
+61,San Isidro S.A.,San Isidro S.A.,0.5
+62,SGA,SGA,1
+63,Soc. de Canalistas del Maipo,Soc. de Canalistas del Maipo,1
+64,Sociedad Eléctrica de Santiago S.A.,AesGener S.A.,0.5
+65,Sociedad Eléctrica de Santiago S.A.,Sociedad Eléctrica de Santiago S.A.,0.5
+66,Suez,Suez,1
+67,SWC,SWC,1
+68,TECNORED,TECNORED,1
+69,SN Power,SN Power,1
+70,Termopacífico,Termopacífico,1
+71,Termoelectrica Los Espinos,Termoelectrica Los Espinos,1
+72,Energia Latina,Energia Latina,1
+73,Agrocomercial AS,Agrocomercial AS,1
+74,KDM,KDM,1
+75,ENERGIA PACIFICO S.A.,ENERGIA PACIFICO S.A.,1
+76,CMPC,CMPC,1
+77,AES GENER,GENER,0.5
+78,EDELNOR,SUEZ,1
+79,ELECTROANDINA,SUEZ,1
+80,GASATACAMA,ENDESA,1
+81,CELTA,ENDESA,1
+82,NORGENER,GENER,1
+83,MANTOS BLANCOS,MANTOS BLANCOS,1
+84,EECSA,EECSA,1
+85,ENAEX,ENAEX,1
+86,NORACID,NORACID,1
+87,TECNET,TECNET,1
+88,MRP,MRP,1
+89,INGENOVA,INGENOVA,1
+90,ECL,ECL,1
+91,SOLARPACK,SOLARPACK,1
+92,ENEL,ENEL,1
+93,SKYSOLARGROUP,SKYSOLARGROUP,1
+94,LAHUAYCA,LAHUAYCA,1
+95,QUILLAGUA,QUILLAGUA,1
+96,SUNEDISON,SUNEDISON,1
+97,RIJNCAPITAL,RIJNCAPITAL,1
+98,BHPBILLITON,BHPBILLITON,1
+99,GESTAMP,GESTAMP,1
+100,ABENGOA,ABENGOA,1
+101,ENEL GREEN POWER,ENEL GREEN POWER,1
+102,ELÉCTRICA PANGUIPULLI,ELÉCTRICA PANGUIPULLI,1
+103,SANTA MARTA,SANTA MARTA,1
+104,ANDES GENERACIÓN,ANDES GENERACIÓN,1
+105,HBS GNL S.A.,HBS GNL S.A.,1

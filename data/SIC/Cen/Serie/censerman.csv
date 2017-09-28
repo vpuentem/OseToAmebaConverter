@@ -1,0 +1,34 @@
+CenManINum,CenManFecIni,CenManFecFin,CenManFTip,CenManNom,CenBar,CenConQGen,CenConQVer,CenPotMax,CenPotMin,CenTurRen,CenDisEne,CenFacCol,CenConPro%
+1,SemFeb01-2018,SemFeb01-2018,F,Abanico,*,*,*,123.0285714,*,*,*,*,*
+2,SemEne03-2018,SemEne03-2018,F,Abanico,*,*,*,116.5428571,*,*,*,*,*
+3,SemEne02-2018,SemEne02-2018,F,Abanico,*,*,*,129.5142857,*,*,*,*,*
+4,SemJul03-2017,SemJul03-2017,F,Abanico,*,*,*,113.3,*,*,*,*,*
+5,SemJul02-2017,SemJul02-2017,F,Abanico,*,*,*,113.3,*,*,*,*,*
+6,SemJul01-2017,SemJul01-2017,F,Abanico,*,*,*,113.3,*,*,*,*,*
+7,SemJun04-2017,SemJun04-2017,F,Abanico,*,*,*,113.3,*,*,*,*,*
+8,SemAbr02-2018,SemAbr03-2018,F,Angostura,*,*,*,174.615622,*,*,*,*,*
+9,SemMar03-2018,SemAbr01-2018,F,Angostura,*,*,*,174.615622,*,*,*,*,*
+10,SemSep01-2017,SemSep03-2017,F,Angostura,*,*,*,247.6822887,*,*,*,*,*
+11,SemJun03-2017,SemJun03-2017,F,Chiburgo,*,*,*,12.47142857,*,*,*,*,*
+12,SemJun03-2017,SemJun03-2017,F,Chiburgo,*,*,*,12.47142857,*,*,*,*,*
+13,SemAgo04-2017,SemAgo04-2017,F,Curillinque,*,*,*,0,*,*,*,*,*
+14,SemJun03-2017,SemJul03-2017,F,Isla,*,*,*,38.85714286,*,*,*,*,*
+15,SemAgo04-2017,SemAgo04-2017,F,Loma Alta,*,*,*,0,*,*,*,*,*
+16,SemSep01-2017,SemSep02-2017,F,Ojos de Agua,*,*,*,3.857142857,*,*,*,*,*
+17,SemOct01-2017,SemOct01-2017,F,Palmucho,*,*,*,0,*,*,*,*,*
+18,SemAbr01-2018,SemAbr02-2018,F,Quilleco,*,*,*,37.5,*,*,*,*,*
+19,SemMar03-2018,SemMar04-2018,F,Quilleco,*,*,*,37.5,*,*,*,*,*
+20,SemAbr02-2018,SemAbr03-2018,F,Rucue,*,*,*,108.6428571,*,*,*,*,*
+21,SemMar03-2018,SemAbr01-2018,F,Rucue,*,*,*,108.6428571,*,*,*,*,*
+22,SemOct01-2017,SemOct02-2017,F,San Ignacio,*,*,*,2.642857143,*,*,*,*,*
+23,SemEne04-2019,SemFeb02-*,T,Abanico,*,*,*,113.3333333,*,*,*,*,*
+24,SemMar04-2019,SemAbr02-*,T,Angostura,*,*,*,0,*,*,*,*,*
+25,SemFeb01-2018,SemFeb02-*,T,Chiburgo,*,*,*,9.7,*,*,*,*,*
+26,SemAbr01-2018,SemAbr02-*,T,Curillinque,*,*,*,0,*,*,*,*,*
+27,SemMay02-2018,SemMay04-*,T,Isla,*,*,*,34,*,*,*,*,*
+28,SemMar03-2018,SemMar04-*,T,Loma Alta,*,*,*,0,*,*,*,*,*
+29,SemFeb02-2018,SemFeb03-*,T,Ojos de Agua,*,*,*,0,*,*,*,*,*
+30,SemEne04-2018,SemFeb01-*,T,Palmucho,*,*,*,0,*,*,*,*,*
+31,SemAbr01-2019,SemAbr03-*,T,Quilleco,*,*,*,35,*,*,*,*,*
+32,SemAbr01-2019,SemAbr04-*,T,Rucue,*,*,*,84.5,*,*,*,*,*
+33,SemMay02-2018,SemMay03-*,T,San Ignacio,*,*,*,0,*,*,*,*,*

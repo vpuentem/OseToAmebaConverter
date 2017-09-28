@@ -1,0 +1,28 @@
+LinINum,LinFMan,LinFecIni,LinFecFin,LinFManTip,LinNom,LinBarA,LinBarB,LinFOpe,LinPotMaxA->B,LinPotMaxB->A,LinFN-1,LinPotN-1A->B,LinPotN-1B->A,LinVolt,LinR,LinX,LinDisEne,LinVI,LinCOMA
+1,T,MesSep-2018,*,F,Alto Jahuel 500->Lo Aguirre 500,*,*,*,3740,3740,*,*,*,*,0.44703,5.19829,*,*,*
+2,T,MesJul-2017,*,F,Alto Jahuel 500->Alto Jahuel 220,*,*,*,2250,2250,*,2250,2250,*,0.166666667,16.33333333,*,*,*
+3,F,MesEne-2022,*,F,Ancoa 220->Itahue 220,*,*,*,1200,1200,*,800,800,*,0.9196,8.954,*,*,*
+4,T,MesSep-2015,*,F,Ancoa 500->Ancoa 220,*,*,*,1542.52,1542.52,*,1542.52,1542.52,*,0.25,24.375,*,*,*
+5,T,MesOct-2015,MesDic-2015,F,Ancoa 500->Ancoa 500 Aux,*,*,*,4200,4200,*,2800,2800,*,*,*,*,*,*
+6,T,MesEne-2016,*,F,Ancoa 500->Ancoa 500 Aux,*,*,*,5600,5600,*,3550,3550,*,*,*,*,*,*
+7,T,MesJul-2013,*,F,Charrua 220->Charrua 500,*,*,*,2250,2250,*,1950,1950,*,0.166666667,16.25,*,*,*
+8,T,MesJul-2013,MesEne-2018,F,Charrua 500->Ancoa 500,*,*,*,*,*,*,1500,1500,*,*,*,*,*,*
+9,F,MesJul-2013,*,F,Concepcion 220->Concepcion 154,*,*,*,450,450,*,450,450,*,0.161,9.68,*,*,*
+10,F,MesAgo-2019,*,F,Lo Aguirre 500->Lo Aguirre 220 I,*,*,*,1542.52,1542.52,*,771.26,771.26,*,0.25,24.5,*,*,*
+11,T,MesSep-2018,*,F,Lo Aguirre 500->Polpaico 500,*,*,*,3740,3740,*,*,*,*,0.39997,4.65111,*,*,*
+12,T,MesJun-2012,MesJul-2014,F,Punta Cortes 154->Tilcoco 154,*,*,*,198,198,*,198,198,*,1.7034681,7.752003885,*,*,*
+13,T,MesAgo-2014,*,F,Punta Cortes 154->Tilcoco 154,*,*,*,*,*,*,*,*,*,1.920996,7.494256,*,*,*
+14,T,MesJul-2010,MesMay-2012,F,Rancagua 154->Tinguiririca 154,*,*,F,*,*,*,*,*,*,*,*,*,*,*
+15,T,MesJun-2012,MesJul-2014,F,Rancagua 154->Tinguiririca 154,*,*,*,198,198,*,198,198,*,2.3282519,11.45795612,*,*,*
+16,T,MesEne-2017,*,F,Valdivia 220->Ciruelos 220,*,*,*,*,*,*,*,*,*,2.73042,7.27736625,*,0,0
+17,F,MesEne-2017,*,F,Ciruelos 220->Cautin 220,*,*,*,*,*,*,*,*,*,6.775545,23.27472875,*,*,*
+18,F,MesMar-2018,*,F,Charrua 500->Ancoa 500,*,*,*,3900,3900,*,2600,2600,*,1.6253,10.6347,*,216,4.5
+19,F,MesMar-2018,*,F,Charrua 220->Charrua 500,*,*,*,3000,3000,*,2600,2600,*,0.166666667,16.25,*,*,*
+20,T,MesAbr-2012,*,F,Candelaria 220->Maipo 220,*,*,*,910,910,*,910,910,*,*,*,*,*,*
+21,T,MesAbr-2012,*,F,Maipo 220->Alto Jahuel 220,*,*,*,910,910,*,910,910,*,*,*,*,*,*
+22,T,MesAbr-2012,*,F,Colbun 220->Candelaria 220,*,*,*,910,910,*,910,910,*,*,*,*,*,*
+23,F,MesAbr-2020,*,F,Ciruelos 220->Cautin 220,*,*,*,664,664,T,332,332,*,6.358298745,20.08426781,*,0,0
+24,T,MesOct-2018,*,F,Rapel 220->Melipilla 220,*,*,*,579,579,T,386,386,*,1.8876,7.389066667,*,*,*
+25,T,MesOct-2018,*,F,Melipilla 220->Lo Aguirre 220,*,*,*,579,579,T,386,386,*,1.4157,5.5418,*,*,*
+26,T,MesMar-2021,*,F,Pichirropulli 220->Rahue 220,*,*,*,*,*,F,*,*,*,*,*,*,*,*
+27,T,MesNov-2018,*,F,Puente Negro220->Colbun 220,*,*,*,*,*,*,*,*,*,*,14.0665,*,*,*

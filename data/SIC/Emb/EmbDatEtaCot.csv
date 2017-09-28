@@ -1,0 +1,6 @@
+EmbINum,EmbAñoFRlt,EmbAñoIni,EmbAñoFin,EmbNom,EmbDatTip,EmbDatIHid,EmbEtaTip,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic,Ene,Feb,Mar
+1,T,*,*,Embalse Colbun,EmbCotMax,*,EtaMes,436,436,436,436,436,436,437,437,437,437,437,437
+2,T,1,1,Lago Laja,EmbCotInc,*,EtaMes,0,0,0,0,0,0,0,0,0,4,0,0
+3,T,1,1,Lago Rapel,EmbCotMin,*,EtaMes,100.5,100.5,100.5,100.5,100.5,103.8,103.8,103.9,104,104,104,102
+3,T,2,2,Lago Rapel,EmbCotMin,*,EtaMes,100.5,100.5,100.5,100.5,100.5,103.8,103.8,103.9,104,104,104,102
+3,T,*,*,Embalse Colbun,EmbCotMin,*,EtaMes,425.71,425.71,425.71,425.71,425.71,423.5,424,425,425,425,425,425

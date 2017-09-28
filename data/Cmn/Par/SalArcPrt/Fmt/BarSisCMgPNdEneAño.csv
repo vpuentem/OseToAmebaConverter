@@ -1,0 +1,2 @@
+CamHdr,AñoHid,AñoCld,IAño,BarNum,BarNom,BarPNdMed [US$/MWh],BarPNdSig [US$/MWh],BarPNdAsi [PU],BarFacPen [PU],SisGbl,SisPri,SisSec,BarDemEnePNd [GWh],BarDemEnePNdInd [GWh],BarDemEnePNdVeg [GWh],AñoHrs
+CamFlg,T,T,F,T,T,T,T,T,T,T,T,T,T,T,T,T

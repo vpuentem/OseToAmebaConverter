@@ -1,0 +1,290 @@
+BarINum,BarNom,BarFOpe,BarFecOpeIni,BarFecOpeFin,BarFacPen,BarVtjOpe,BarVtjBas,BarSis,BarTip,BarSTxPNdEne,BarSTxPNdPot,BarEmp,BarAux,CenFalFBarAlt,CenFalBarAlt,BarFPri,BarPriAso,BarCliTip,BarFOpt,BarOptAso
+1,Diego de Almagro 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Diego de Almagro 220,T,Diego de Almagro 220,CliCmn,T,Diego de Almagro 220
+2,Diego de Almagro 220 Aux,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,T,Diego de Almagro 220 Aux,F,Diego de Almagro 220,CliCmn,T,Diego de Almagro 220 Aux
+3,Diego de Almagro 110,T,*,*,1,110,110,SIC TxT Norte,STx,50,6,CNE,CNE,F,Diego de Almagro 110,F,Diego de Almagro 220,CliCmn,F,Diego de Almagro 220
+4,Paposo 220,T,*,*,1,220,220,SIC TxT Norte,TxA,50,6,CNE,CNE,F,Paposo 220,F,Diego de Almagro 220,CliCmn,F,Diego de Almagro 220
+5,Carrera Pinto 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Carrera Pinto 220,T,Carrera Pinto 220,CliCmn,T,Carrera Pinto 220
+6,Cardones 500,T,MesAgo-2017,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Cardones 500,T,Cardones 500,CliCmn,T,Cardones 500
+7,Cardones 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Cardones 220,T,Cardones 220,CliCmn,T,Cardones 220
+8,Cardones 110,T,*,*,1,110,110,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Cardones 110,F,Cardones 220,CliCmn,F,Cardones 220
+9,Maitencillo 500,T,MesDic-2017,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Maitencillo 500,T,Maitencillo 500,CliCmn,T,Maitencillo 500
+10,Maitencillo 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Maitencillo 220,T,Maitencillo 220,CliCmn,T,Maitencillo 220
+11,Punta Colorada 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Punta Colorada 220,T,Punta Colorada 220,CliCmn,T,Punta Colorada 220
+12,Don Hector 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Don Hector 220,T,Don Hector 220,CliCmn,T,Don Hector 220
+13,Don Hector 220 Aux,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Don Hector 220 Aux,F,Don Hector 220,CliCmn,T,Don Hector 220
+14,Maitencillo 110,T,*,*,1,110,110,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Maitencillo 110,F,Maitencillo 220,CliCmn,F,Maitencillo 220
+15,Huasco 110,T,*,*,1,110,110,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Huasco 110,F,Maitencillo 220,CliCmn,F,Maitencillo 220
+16,Guacolda 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Guacolda 220,F,Maitencillo 220,CliCmn,F,Maitencillo 220
+17,Pan de Azucar 500,T,MesDic-2017,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Pan de Azucar 500,T,Pan de Azucar 500,CliCmn,T,Pan de Azucar 500
+18,Pan de Azucar 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Pan de Azucar 220,T,Pan de Azucar 220,CliCmn,T,Pan de Azucar 220
+19,Pan de Azucar 110,T,*,*,1,110,110,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Pan de Azucar 110,F,Pan de Azucar 220,CliCmn,F,Pan de Azucar 220
+20,Las Palmas 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Las Palmas 220,T,Las Palmas 220,CliCmn,T,Las Palmas 220
+21,EI Indio 110,T,*,*,1,110,110,SIC TxT Norte,TxT,50,6,CNE,CNE,F,EI Indio 110,F,Pan de Azucar 220,CliCmn,F,Pan de Azucar 220
+22,Los Vilos 500,F,MesOct-2012,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Los Vilos 500,T,Los Vilos 500,CliCmn,T,Los Vilos 500
+23,Los Vilos 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Los Vilos 220,T,Los Vilos 220,CliCmn,T,Los Vilos 220
+24,Nogales 220,T,MesOct-2009,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nogales 220,T,Nogales 220,CliCmn,T,Nogales 220
+25,Nogales 500,F,MesOct-2012,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nogales 500,T,Nogales 500,CliCmn,T,Nogales 500
+26,Quillota 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Quillota 220,T,Quillota 220,CliCmn,T,Quillota 220
+27,San Luis 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,San Luis 220,F,Quillota 220,CliCmn,T,San Luis 220
+28,Agua Santa 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Agua Santa 220,F,Quillota 220,CliCmn,T,Agua Santa 220
+29,Agua Santa 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Agua Santa 110,F,Quillota 220,CliCmn,T,Agua Santa 110
+30,Quillota 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Quillota 110,F,Quillota 220,CliCmn,T,Quillota 110
+31,Ventanas 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Ventanas 110,F,Nogales 220,CliCmn,F,Quillota 110
+32,Miraflores 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Miraflores 110,F,Quillota 220,CliCmn,F,Quillota 110
+33,San Pedro 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,San Pedro 110,F,Quillota 220,CliCmn,F,Quillota 110
+34,Las Vegas 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Las Vegas 110,F,Quillota 220,CliCmn,T,Las Vegas 110
+35,Pachacama 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Pachacama 110,F,Quillota 220,CliCmn,F,Las Vegas 110
+36,Punta Peuco 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Punta Peuco 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+37,Batuco 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Batuco 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+38,Polpaico 500,T,MesJun-2008,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Polpaico 500,T,Polpaico 500,CliCmn,T,Polpaico 500
+39,Polpaico 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Polpaico 220,T,Polpaico 220,CliCmn,T,Polpaico 220
+40,Polpaico Desf 220,T,MesAgo-2010,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Polpaico Desf 220,F,Polpaico 220,CliCmn,T,Polpaico Desf 220
+41,Lampa 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Lampa 220,T,Lampa 220,CliCmn,T,Lampa 220
+42,Cerro Navia 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Cerro Navia 220,T,Cerro Navia 220,CliCmn,T,Cerro Navia 220
+43,Cerro Navia 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Cerro Navia 110,F,Cerro Navia 220,CliCmn,T,Cerro Navia 110
+44,Chena 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Chena 110,F,Chena 220,CliCmn,T,Chena 110
+45,San Cristobal 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,San Cristobal 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+46,Florida 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Florida 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+47,Ochagavia 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Ochagavia 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+48,Lo Espejo 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Lo Espejo 110,F,Chena 220,CliCmn,F,Chena 220
+49,Los Almendros 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Los Almendros 220,F,Alto Jahuel 220,CliCmn,T,Los Almendros 220
+50,Chena 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Chena 220,T,Chena 220,CliCmn,T,Chena 220
+51,El Rodeo 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,El Rodeo 220,T,El Rodeo 220,CliCmn,T,El Rodeo 220
+52,Alfalfal 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Alfalfal 220,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 220
+53,Maipo 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Maipo 220,T,Maipo 220,CliCmn,T,Maipo 220
+54,Candelaria 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Candelaria 220,T,Candelaria 220,CliCmn,T,Candelaria 220
+55,Colbun 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Colbun 220,T,Colbun 220,CliCmn,F,Ancoa 220
+56,Renca 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Renca 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+57,Los Almendros 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Los Almendros 110,F,Alto Jahuel 220,CliCmn,T,Los Almendros 110
+58,Alto Jahuel 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Alto Jahuel 220,T,Alto Jahuel 220,CliCmn,T,Alto Jahuel 220
+59,Alto Jahuel 500,T,*,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Alto Jahuel 500,T,Alto Jahuel 500,CliCmn,T,Alto Jahuel 500
+60,Alto Jahuel 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Alto Jahuel 110,F,Alto Jahuel 220,CliCmn,T,Alto Jahuel 110
+61,Melipilla 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Melipilla 220,T,Melipilla 220,CliCmn,F,Cerro Navia 220
+62,Rapel 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Rapel 220,T,Rapel 220,CliCmn,F,Cerro Navia 220
+63,Sauzal 110,T,*,*,1,110,110,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Sauzal 110,F,Itahue 220,CliCmn,F,Itahue 154
+64,Sauzal 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Sauzal 154,F,Itahue 220,CliCmn,F,Itahue 154
+65,Alto Jahuel 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Alto Jahuel 154,F,Alto Jahuel 220,CliCmn,T,Alto Jahuel 154
+66,Paine 220,F,MesDic-2010,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Paine 220,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 220
+67,Paine 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Paine 154,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 220
+68,Rancagua 220,F,MesDic-2010,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Rancagua 220,F,Alto Jahuel 220,CliCmn,T,Rancagua 220
+69,Rancagua 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Rancagua 154,F,Alto Jahuel 220,CliCmn,T,Rancagua 154
+70,Punta Cortes 220,F,MesDic-2010,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Punta Cortes 220,F,Alto Jahuel 220,CliCmn,F,Rancagua 154
+71,Punta Cortes 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Punta Cortes 154,F,Alto Jahuel 220,CliCmn,F,San Fernando 154
+72,Tinguiririca 154,T,MesDic-2008,*,1,154,154,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Tinguiririca 154,F,Itahue 220,CliCmn,F,San Fernando 154
+73,Tinguiririca 220,T,MesOct-2018,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Tinguiririca 220,F,Alto Jahuel 220,CliCmn,F,Rancagua 154
+74,Tilcoco 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Tilcoco 154,F,Alto Jahuel 220,CliCmn,F,Itahue 154
+75,San Fernando 220,F,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,San Fernando 220,F,Itahue 220,CliCmn,T,San Fernando 220
+76,San Fernando 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,San Fernando 154,F,Itahue 220,CliCmn,T,San Fernando 154
+77,Teno 220,F,MesDic-2010,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Teno 220,F,Itahue 220,CliCmn,F,Itahue 154
+78,Teno 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Teno 154,F,Itahue 220,CliCmn,F,Itahue 154
+79,Itahue 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Itahue 154,F,Itahue 220,CliCmn,T,Itahue 154
+80,M. Melado 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,M. Melado 154,F,Itahue 220,CliCmn,F,Itahue 154
+81,Curillinque 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Curillinque 154,F,Itahue 220,CliCmn,F,Itahue 154
+82,Cipreses 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Cipreses 154,F,Itahue 220,CliCmn,F,Itahue 154
+83,Maule 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Maule 154,F,Itahue 220,CliCmn,F,Itahue 154
+84,Linares 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Linares 154,F,Itahue 220,CliCmn,F,Itahue 154
+85,Itahue 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Itahue 220,T,Itahue 220,CliCmn,T,Itahue 220
+86,Ancoa 500,T,*,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Ancoa 500,T,Ancoa 500,CliCmn,T,Ancoa 500
+87,Ancoa 500 Aux Sur,T,MesDic-2017,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Ancoa 500 Aux Sur,F,Ancoa 220,CliCmn,T,Ancoa 500 Aux Sur
+88,Ancoa 500 Aux,T,*,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Ancoa 500 Aux,F,Ancoa 220,CliCmn,T,Ancoa 500 Aux
+89,Ancoa 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Ancoa 220,T,Ancoa 220,CliCmn,T,Ancoa 220
+90,Calabozo 220,T,MesAbr-2011,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Calabozo 220,F,Ancoa 220,CliCmn,F,Ancoa 220
+91,Pehuenche 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Pehuenche 220,F,Ancoa 220,CliCmn,F,Ancoa 220
+92,Loma Alta 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Loma Alta 220,F,Ancoa 220,CliCmn,F,Ancoa 220
+93,Parral 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Parral 154,F,Charrua 220,CliCmn,F,Charrua 220
+94,A. Chillan 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,A. Chillan 154,F,Charrua 220,CliCmn,F,Charrua 220
+95,Chillan 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Chillan 154,F,Charrua 220,CliCmn,F,Charrua 220
+96,Charrua 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Charrua 154,F,Charrua 220,CliCmn,F,Charrua 220
+97,Charrua 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Charrua 220,T,Charrua 220,CliCmn,T,Charrua 220
+98,Charrua 500,T,MesJun-2004,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Charrua 500,T,Charrua 500,CliCmn,T,Charrua 500
+99,Nueva Charrua 500,T,MesDic-2017,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,T,Nueva Charrua 500,F,Charrua 500,CliCmn,T,Nueva Charrua 500
+100,Nueva Charrua 220,T,MesDic-2017,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,T,Nueva Charrua 220,F,Charrua 220,CliCmn,T,Nueva Charrua 220
+101,Antuco 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Antuco 220,F,Charrua 220,CliCmn,F,Charrua 220
+102,Toro 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Toro 220,F,Charrua 220,CliCmn,F,Charrua 220
+103,Trupan 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Trupan 220,F,Charrua 220,CliCmn,F,Charrua 220
+104,Rucue 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Rucue 220,F,Charrua 220,CliCmn,F,Charrua 220
+105,Mampil 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Mampil 220,F,Charrua 220,CliCmn,F,Charrua 220
+106,Pangue 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Pangue 220,F,Charrua 220,CliCmn,F,Charrua 220
+107,Abanico 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Abanico 154,F,Charrua 220,CliCmn,F,Charrua 220
+108,Concepcion 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Concepcion 220,F,Charrua 220,CliCmn,T,Concepcion 220
+109,Concepcion 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Concepcion 154,F,Charrua 220,CliCmn,F,Concepcion 220
+110,San Vicente 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,San Vicente 154,F,Hualpen 220,CliCmn,T,San Vicente 154
+111,Hualpen 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Hualpen 220,T,Hualpen 220,CliCmn,F,Concepcion 220
+112,Hualpen 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Hualpen 154,F,Hualpen 220,CliCmn,F,San Vicente 154
+113,Lagunillas 220,T,MesAbr-2008,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Lagunillas 220,T,Lagunillas 220,CliCmn,F,Concepcion 220
+114,Coronel 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Coronel 154,F,Hualpen 220,CliCmn,F,San Vicente 154
+115,Mapal 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Mapal 154,F,Lagunillas 220,CliCmn,F,San Vicente 154
+116,Fopaco 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Fopaco 154,F,Lagunillas 220,CliCmn,F,San Vicente 154
+117,Coronel 066,T,*,*,1,66,66,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Coronel 066,F,Hualpen 220,CliCmn,F,Charrua 220
+118,Color 066,T,*,*,1,66,66,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Color 066,F,Hualpen 220,CliCmn,F,Charrua 220
+119,Arauco 066,T,*,*,1,66,66,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Arauco 066,F,Hualpen 220,CliCmn,F,Charrua 220
+120,Concepcion 066,T,*,*,1,66,66,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Concepcion 066,F,Charrua 220,CliCmn,F,Concepcion 220
+121,Petroquim 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Petroquim 154,F,Hualpen 220,CliCmn,F,San Vicente 154
+122,Temuco 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Temuco 220,T,Temuco 220,CliCmn,T,Temuco 220
+123,Ciruelos 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Ciruelos 220,T,Ciruelos 220,CliCmn,F,Valdivia 220
+124,Valdivia 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Valdivia 220,T,Valdivia 220,CliCmn,T,Valdivia 220
+125,Rahue 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Rahue 220,T,Rahue 220,CliCmn,T,Rahue 220
+126,Puerto Montt 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 220,T,Puerto Montt 220,CliCmn,T,Puerto Montt 220
+127,Puerto Montt 220 Aux,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,T,Puerto Montt 220 Aux,F,Puerto Montt 220,CliCmn,T,Puerto Montt 220 Aux
+128,Canutillar 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Canutillar 220,F,Puerto Montt 220,CliCmn,F,Puerto Montt 220
+129,Esperanza 220,F,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Esperanza 220,T,Esperanza 220,CliCmn,T,Esperanza 220
+130,Temuco 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Temuco 066,F,Temuco 220,CliCmn,F,Temuco 220
+131,Pullinque 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Pullinque 066,F,Temuco 220,CliCmn,F,Temuco 220
+132,Los Lagos 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Los Lagos 066,F,Valdivia 220,CliCmn,F,Temuco 220
+133,Valdivia 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Valdivia 066,F,Valdivia 220,CliCmn,F,Valdivia 220
+134,Osorno 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Osorno 066,F,Rahue 220,CliCmn,F,Rahue 220
+135,Rahue 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Rahue 066,F,Rahue 220,CliCmn,F,Rahue 220
+136,Puerto Montt 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 066,F,Puerto Montt 220,CliCmn,F,Puerto Montt 220
+137,Cautin 220,T,MesSep-2006,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Cautin 220,T,Cautin 220,CliCmn,T,Cautin 220
+138,Sadi 220,F,MesEne-2012,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Sadi 220,T,Sadi 220,CliCmn,T,Sadi 220
+139,Sadi Sur 220,F,MesAbr-2010,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Sadi Sur 220,T,Sadi Sur 220,CliCmn,T,Sadi Sur 220
+140,El Salto 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,El Salto 220,F,Polpaico 220,CliCmn,T,El Salto 220
+141,El Salto 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,El Salto 110,F,Polpaico 220,CliCmn,T,El Salto 110
+142,Achupallas 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Achupallas 110,F,Quillota 220,CliCmn,F,Quillota 220
+143,Aconcagua 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Aconcagua 110,F,Los Maquis 220,CliCmn,F,Polpaico 220
+144,Algarrobo 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Algarrobo 110,F,Maitencillo 220,CliCmn,F,Maitencillo 220
+145,Alonso de Cordova 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Alonso de Cordova 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+146,Altamirano 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Altamirano 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+147,Apoquindo 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Apoquindo 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+148,Carrascal 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Carrascal 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+149,Casas Viejas 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Casas Viejas 110,F,Nogales 220,CliCmn,F,Quillota 110
+150,Castilla 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Castilla 110,F,Cardones 220,CliCmn,F,Cardones 220
+151,Choapa 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Choapa 110,F,Los Vilos 220,CliCmn,F,Los Vilos 220
+152,Choapa 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Choapa 220,F,Los Vilos 220,CliCmn,F,Los Vilos 220
+153,Chumpullo 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Chumpullo 066,F,Valdivia 220,CliCmn,F,Valdivia 220
+154,La Cisterna 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,La Cisterna 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+155,Club Hipico 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Club Hipico 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+156,Dos Amigos 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Dos Amigos 110,F,Maitencillo 220,CliCmn,F,Maitencillo 220
+157,Esperanza 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Esperanza 110,F,Temuco 220,CliCmn,F,Temuco 220
+158,Frutillar 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Frutillar 066,F,Rahue 220,CliCmn,F,Rahue 220
+159,Illapel 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Illapel 110,F,Los Vilos 220,CliCmn,F,Los Vilos 220
+160,Incahuasi 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Incahuasi 110,F,Pan de Azucar 220,CliCmn,F,Pan de Azucar 220
+161,La Dehesa 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,La Dehesa 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+162,La Reina 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,La Reina 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+163,La Union 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,La Union 066,F,Valdivia 220,CliCmn,F,Valdivia 220
+164,Araña 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Araña 066,F,Rapel 220,CliCmn,F,Cerro Navia 220
+165,Las Compañias 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Las Compañias 110,F,Pan de Azucar 220,CliCmn,F,Pan de Azucar 220
+166,Lo Boza 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Lo Boza 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+167,Lo Valledor 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Lo Valledor 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+168,Loncoche 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Loncoche 066,F,Temuco 220,CliCmn,F,Temuco 220
+169,Los Dominicos 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Los Dominicos 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+170,Los Maquis 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Los Maquis 110,F,Los Maquis 220,CliCmn,F,Polpaico 220
+171,Los Maquis 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Los Maquis 220,T,Los Maquis 220,CliCmn,F,Polpaico 220
+172,Los Maquis 220 Aux,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Los Maquis 220 Aux,F,Los Maquis 220,CliCmn,T,Polpaico 220
+173,Macul 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Macul 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+174,Maipu 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Maipu 110,F,Chena 220,CliCmn,F,Chena 220
+175,Mandinga 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Mandinga 066,F,Rapel 220,CliCmn,F,Cerro Navia 220
+176,Melipilla 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Melipilla 066,F,Melipilla 220,CliCmn,F,Cerro Navia 220
+177,Melipilla 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Melipilla 110,F,Melipilla 220,CliCmn,F,Cerro Navia 110
+178,Metrenco 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Metrenco 066,F,Temuco 220,CliCmn,F,Temuco 220
+179,Ovalle 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Ovalle 110,F,Pan de Azucar 220,CliCmn,F,Pan de Azucar 220
+180,Padre Las Casas 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Padre Las Casas 066,F,Temuco 220,CliCmn,F,Temuco 220
+181,Paillaco 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Paillaco 066,F,Valdivia 220,CliCmn,F,Temuco 220
+182,Pajaritos 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Pajaritos 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+183,Pajonales 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Pajonales 110,F,Maitencillo 220,CliCmn,F,Maitencillo 220
+184,Panguipulli 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Panguipulli 066,F,Valdivia 220,CliCmn,F,Valdivia 220
+185,Picarte 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Picarte 066,F,Valdivia 220,CliCmn,F,Valdivia 220
+186,Pichirro 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Pichirro 066,F,Valdivia 220,CliCmn,F,Valdivia 220
+187,Pichirropulli 220,T,MesMay-2018,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Pichirropulli 220,F,Valdivia 220,CliCmn,F,Valdivia 220
+188,Pichirropulli 220 Aux,T,MesMay-2018,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,T,Pichirropulli 220 Aux,F,Valdivia 220,CliCmn,T,Pichirropulli 220 Aux
+189,Pitrufquen 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Pitrufquen 066,F,Temuco 220,CliCmn,F,Temuco 220
+190,Pudahuel 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Pudahuel 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+191,Puerto Varas 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Varas 066,F,Puerto Montt 220,CliCmn,F,Puerto Montt 220
+192,Punta Toro 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Punta Toro 110,F,Maitencillo 220,CliCmn,F,Maitencillo 220
+193,Purranque 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Purranque 066,F,Rahue 220,CliCmn,F,Rahue 220
+194,Quilicura 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Quilicura 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+195,Quilpue 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Quilpue 110,F,Quillota 220,CliCmn,F,Quillota 220
+196,Quinquimo 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Quinquimo 110,F,Nogales 220,CliCmn,F,Los Vilos 220
+197,Rapel 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Rapel 066,F,Rapel 220,CliCmn,F,Cerro Navia 220
+198,Recoleta 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Recoleta 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+199,Romeral 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Romeral 110,F,Pan de Azucar 220,CliCmn,F,Pan de Azucar 220
+200,San Bernardo 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,San Bernardo 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+201,San Felipe 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,San Felipe 110,F,Los Maquis 220,CliCmn,F,Polpaico 220
+202,San Fernando 066,T,*,*,1,66,66,SIC TxT Sur,TxT,50,6,CNE,CNE,F,San Fernando 066,F,Itahue 220,CliCmn,F,San Fernando 154
+203,San Joaquin 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,San Joaquin 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+204,San Jose 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,San Jose 110,F,Cerro Navia 220,CliCmn,F,Cerro Navia 110
+205,Santa Elena 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Santa Elena 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+206,Santa Raquel 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Santa Raquel 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+207,Santa Rosa 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Santa Rosa 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+208,Torre 80 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Torre 80 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+209,Totoral 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Totoral 110,F,Polpaico 220,CliCmn,F,Polpaico 220
+210,Vitacura 110,T,*,*,1,110,110,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Vitacura 110,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 110
+211,Cerro Navia 500,F,MesAbr-2014,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Cerro Navia 500,F,Cerro Navia 220,CliCmn,T,Cerro Navia 500
+212,Cerro Navia 500 Aux,F,MesAbr-2014,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Cerro Navia 500 Aux,F,Cerro Navia 220,CliCmn,T,Cerro Navia 500 Aux
+213,Lo Aguirre 500,T,MesMar-2014,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Lo Aguirre 500,F,Cerro Navia 220,CliCmn,T,Lo Aguirre 500
+214,Lo Aguirre 220,T,MesMar-2014,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Lo Aguirre 220,F,Cerro Navia 220,CliCmn,T,Lo Aguirre 220
+215,Alto Jahuel 500 Aux,T,MesJun-2008,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Alto Jahuel 500 Aux,F,Alto Jahuel 220,CliCmn,T,Alto Jahuel 500 Aux
+216,Polpaico 500 Aux,T,MesJun-2008,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Polpaico 500 Aux,F,Polpaico 220,CliCmn,T,Polpaico 500 Aux
+217,Rahue Def 220 I,F,MesAbr-2019,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Rahue Def 220 I,F,Rahue 220,CliCmn,T,Rahue 220
+218,Rahue Def 220 II,F,MesAbr-2019,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Rahue Def 220 II,F,Rahue 220,CliCmn,T,Rahue 220
+219,Pichirropulli 500,F,*,*,1,500,500,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Pichirropulli 500,T,Pichirropulli 500,CliCmn,T,Pichirropulli 500
+220,Puerto Montt 500,T,MesEne-2028,*,1,500,500,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 500,T,Puerto Montt 500,CliCmn,T,Puerto Montt 500
+221,Los Almendros 500,F,MesAbr-2021,*,1,500,500,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Los Almendros 500,F,Polpaico 500,CliCmn,T,Los Almendros 500
+222,Chacaya SING 500,F,MesJul-2017,*,1,500,500,SIC TxT Norte,TxA,50,6,CNE,CNE,F,Chacaya SING 500,F,Cardones 220,CliCmn,F,Cardones 220
+223,Carrera Pinto 220 Aux,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,T,Carrera Pinto 220 Aux,F,Carrera Pinto 220,CliCmn,T,Carrera Pinto 220 Aux
+224,Los Changos 500,T,MesAgo-2017,*,1,500,500,SIC TxT Norte,TxA,50,6,CNE,CNE,F,Los Changos 500,T,Los Changos 500,CliCmn,T,Los Changos 500
+225,Cumbre 500,T,MesAgo-2017,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Cumbre 500,T,Cumbre 500,CliCmn,T,Cumbre 500
+226,Cumbre 220 Aux,T,MesNov-2019,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Cardones 500,F,Cardones 500,CliCmn,T,Cumbre 500
+227,Los Changos 220,T,MesAgo-2017,*,1,220,220,SIC TxT Norte,TxA,50,6,CNE,CNE,F,Los Changos 220,T,Los Changos 220,CliCmn,T,Los Changos 220
+228,Cumbre 220,T,MesNov-2019,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Cumbre 220 Aux,T,Cumbre 220,CliCmn,T,Cumbre 500
+229,Puente Negro 220,T,MesOct-2017,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Puente Negro 220,F,Alto Jahuel 220,CliCmn,T,Puente Negro 220
+230,Malloa 154,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Malloa 154,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 220
+231,Tuniche I 154,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Tuniche I 154,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 220
+232,Villaseca 154,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Villaseca 154,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 220
+233,Tuniche II 154,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Tuniche II 154,F,Alto Jahuel 220,CliCmn,F,Alto Jahuel 220
+234,La Ermita 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,La Ermita 220,F,Alto Jahuel 220,CliCmn,T,La Ermita 220
+235,Las Tortolas 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Las Tortolas 220,F,Polpaico 220,CliCmn,T,Las Tortolas 220
+236,Santa Filomena 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Santa Filomena 220,F,Polpaico 220,CliCmn,T,Santa Filomena 220
+237,Confluencia 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Confluencia 220,F,Polpaico 220,CliCmn,T,Confluencia 220
+238,Los Maitenes 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Confluencia 220,F,Polpaico 220,CliCmn,T,Confluencia 220
+239,Chiloe 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Chiloe 220,T,Chiloe 220,CliCmn,T,Puerto Montt 220
+240,Don Goyo 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Don Goyo 220,T,Don Goyo 220,CliCmn,T,Pan de Azucar 220
+241,Don Goyo 220 Aux,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Don Goyo 220 Aux,F,Don Goyo 220,CliCmn,T,Pan de Azucar 220
+242,El Llano 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,El Llano 220,T,El Llano 220,CliCmn,T,Polpaico 220
+243,La Cebada 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,La Cebada 220,T,La Cebada 220,CliCmn,T,Las Palmas 220
+244,La Cebada 220 Aux,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,La Cebada 220 Aux,F,La Cebada 220,CliCmn,T,Las Palmas 220
+245,Maitencillo 220 Aux,T,MesEne-2018,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Maitencillo 220 Aux,F,Maitencillo 220,CliCmn,T,Maitencillo 220
+246,Melipulli 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Melipulli 220,T,Melipulli 220,CliCmn,T,Puerto Montt 220
+247,Nueva Valdivia 220,T,MesNov-2018,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Nueva Valdivia 220,T,Nueva Valdivia 220,CliCmn,T,Valdivia 220
+248,Nueva Valdivia 220 Aux,T,MesNov-2018,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Nueva Valdivia 220 Aux,F,Nueva Valdivia 220,CliCmn,T,Valdivia 220
+249,Pan de Azucar 220 Aux,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Pan de Azucar 220 Aux,F,Pan de Azucar 220,CliCmn,T,Pan de Azucar 220
+250,Punta Colorada 220 Aux,T,MesEne-2018,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Punta Colorada 220 Aux,F,Punta Colorada 220,CliCmn,T,Punta Colorada 220
+251,San Andres 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,San Andres 220,T,San Andres 220,CliCmn,T,Cardones 220
+252,San Andres 220 Aux,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,San Andres 220 Aux,F,San Andres 220,CliCmn,T,Cardones 220
+253,Duqueco 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Duqueco 220,T,Duqueco 220,CliCmn,T,Charrua 220
+254,Monte Redondo 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Monte Redondo 220,T,Monte Redondo 220,CliCmn,T,Pan de Azucar 220
+255,Mulchen 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Mulchen 220,T,Mulchen 220,CliCmn,T,Charrua 220
+256,Talinay 220,T,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Talinay 220,T,Talinay 220,CliCmn,T,Pan de Azucar 220
+257,El Rosal 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,El Rosal 220,T,El Rosal 220,CliCmn,T,Charrua 220
+258,Nueva Cardones Sur 500 Aux,F,*,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nueva Cardones Sur 500 Aux,F,Cardones 220,CliCmn,T,Nueva Cardones Sur 500 Aux
+259,Nueva Cardones 500,F,*,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nueva Cardones 500,F,Cardones 500,CliCmn,T,Nueva Cardones 500
+260,Nueva Cardones 220,F,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nueva Cardones 220,F,Cardones 220,CliCmn,T,Nueva Cardones 220
+261,Nueva Maitencillo 500,F,*,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nueva Maitencillo 500,F,Maitencillo 500,CliCmn,T,Nueva Maitencillo 500
+262,Nueva Maitencillo Sur 500 Aux,F,*,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nueva Maitencillo Sur 500 Aux,F,Maitencillo 500,CliCmn,T,Nueva Maitencillo Sur 500 Aux
+263,Nueva Maitencillo 220,F,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nueva Maitencillo 220,F,Maitencillo 220,CliCmn,T,Nueva Maitencillo 220
+264,Nueva Pan de Azucar 500,F,*,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nueva Pan de Azucar 500,F,Pan de Azucar 500,CliCmn,T,Nueva Pan de Azucar 500
+265,Nueva Pan de Azucar 220,F,*,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nueva Pan de Azucar 220,F,Valdivia 220,CliCmn,T,Nueva Pan de Azucar 220
+266,Nueva Pan de Azucar Sur 500 Aux,F,*,*,1,500,500,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Nueva Pan de Azucar Sur 500 Aux,F,Pan de Azucar 500,CliCmn,T,Nueva Pan de Azucar Sur 500 Aux
+267,Pichirrahue 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Pichirrahue 220,T,Pichirrahue 220,CliCmn,T,Pichirrahue 220
+268,Rahue Aux,F,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Rahue Aux,F,Rahue 220,CliCmn,T,Rahue Aux
+269,Lagunillas 154,T,*,*,1,154,154,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Lagunillas 154,F,Hualpen 220,CliCmn,F,San Vicente 154
+270,Ciruelos 500,T,MesEne-2028,*,1,500,500,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Ciruelos 500,T,Ciruelos 500,CliCmn,T,Ciruelos 500
+271,Algarrobal 220,T,MesNov-2019,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Cardones 220,T,Algarrobal 220,CliCmn,T,Cardones 220
+272,Algarrobal 220 Aux,T,MesNov-2019,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Cardones 220,F,Algarrobal 220,CliCmn,T,Cardones 220
+273,Rio Malleco 220,T,MesJul-2019,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Cautin 220,T,Rio Malleco 220,CliCmn,T,Cautin 220
+274,Rio Tolten 220,T,MesNov-2019,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Cautin 220,T,Rio Tolten 220,CliCmn,T,Cautin 220
+275,Rio Tolten 220 Aux,T,MesNov-2019,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Cautin 220,F,Rio Tolten 220,CliCmn,T,Cautin 220
+276,Frutillar Norte 220,T,MesMay-2020,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Rahue 220,T,Frutillar Norte 220,CliCmn,T,Rahue 220
+277,Frutillar Norte 220 Aux,T,MesMay-2020,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Rahue 220,F,Frutillar Norte 220,CliCmn,T,Rahue 220
+278,Cerros de Huichahue 220 Aux,T,MesMay-2020,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Ciruelos 220,F,Cerros de Huichahue 220,CliCmn,F,Valdivia 220
+279,Cerros de Huichahue 220,T,MesMay-2020,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Ciruelos 220,T,Cerros de Huichahue 220,CliCmn,F,Valdivia 220
+280,Punta Sierra 220 Aux,T,MesEne-2018,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Las Palmas 220,F,Punta Sierra 220,CliCmn,T,Las Palmas 220
+281,Punta Sierra 220,T,MesEne-2018,*,1,220,220,SIC TxT Norte,TxT,50,6,CNE,CNE,F,Las Palmas 220,T,Punta Sierra 220,CliCmn,T,Las Palmas 220
+282,Tap Mauro 220,T,*,*,1,220,220,SIC TxT Comun,TxT,50,6,CNE,CNE,F,Quillota 220,F,Quillota 220,CliCmn,T,Quillota 220
+283,Pta Barranco 220 Aux,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 220,F,Pta Barranco 220,CliCmn,T,Puerto Montt 220
+284,Pta San Gallan 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 220,T,Pta San Gallan 220,CliCmn,T,Puerto Montt 220
+285,Pta Barranco 220,T,*,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 220,T,Pta Barranco 220,CliCmn,T,Puerto Montt 220
+286,Pta Barranco 220 Aux II,T,MesJun-2023,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 220,F,Pta Barranco 220 II,CliCmn,T,Puerto Montt 220
+287,Pta Barranco 220 II,T,MesJun-2023,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 220,T,Pta Barranco 220 II,CliCmn,T,Puerto Montt 220
+288,Pta San Gallan 220 II,T,MesJun-2023,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 220,T,Pta San Gallan 220 II,CliCmn,T,Puerto Montt 220
+289,Ancud 220,T,MesDic-2020,*,1,220,220,SIC TxT Sur,TxT,50,6,CNE,CNE,F,Puerto Montt 220,T,Ancud 220,CliCmn,T,Puerto Montt 220

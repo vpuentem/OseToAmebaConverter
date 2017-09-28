@@ -1,0 +1,203 @@
+INum,SecFOpe,SecIIni,SecIFin,SecFecIni,SecFecFin,SecIBlo,EstFPri,EstFDep,EleTip,EleNom,EleFOpe,EleOpePro,EleOpePotMax,EleOpeCosVar,EleOpeCenRen,EleOpeCosOpe
+1,T,1,1,*,*,*,T,F,SecOpeBas,Caso Base,T,*,*,*,*,*
+2,T,1,1,*,*,*,F,T,LinSis,Tap Arica 66 -> Tap Quiani 66,F,1,*,*,*,*
+3,T,2,2,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000153056,*,*,*,*
+4,T,2,2,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,F,1,*,*,*,*
+5,T,2,2,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+6,T,2,2,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+7,T,2,2,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+8,T,2,2,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+9,T,2,2,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+10,T,2,2,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+11,T,2,2,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+12,T,2,2,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+13,T,2,2,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+14,T,2,2,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+15,T,2,2,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+16,T,2,2,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+17,T,3,3,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+18,T,3,3,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+19,T,3,3,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,F,1,*,*,*,*
+20,T,3,3,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+21,T,3,3,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+22,T,3,3,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+23,T,3,3,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+24,T,3,3,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+25,T,3,3,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+26,T,3,3,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+27,T,3,3,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+28,T,3,3,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+29,T,3,3,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+30,T,3,3,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+31,T,4,4,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+32,T,4,4,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+33,T,4,4,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+34,T,4,4,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,F,1,*,*,*,*
+35,T,4,4,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+36,T,4,4,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+37,T,4,4,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+38,T,4,4,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+39,T,4,4,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+40,T,4,4,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+41,T,4,4,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+42,T,4,4,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+43,T,4,4,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+44,T,4,4,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+45,T,5,5,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+46,T,5,5,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+47,T,5,5,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+48,T,5,5,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+49,T,5,5,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,F,1,*,*,*,*
+50,T,5,5,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+51,T,5,5,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+52,T,5,5,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+53,T,5,5,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+54,T,5,5,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+55,T,5,5,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+56,T,5,5,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+57,T,5,5,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+58,T,5,5,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+59,T,6,6,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+60,T,6,6,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+61,T,6,6,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+62,T,6,6,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+63,T,6,6,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+64,T,6,6,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,F,1,*,*,*,*
+65,T,6,6,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+66,T,6,6,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+67,T,6,6,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+68,T,6,6,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+69,T,6,6,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+70,T,6,6,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+71,T,6,6,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+72,T,6,6,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+73,T,7,7,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000153056,*,*,*,*
+74,T,7,7,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+75,T,7,7,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+76,T,7,7,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+77,T,7,7,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+78,T,7,7,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+79,T,7,7,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,F,1,*,*,*,*
+80,T,7,7,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+81,T,7,7,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+82,T,7,7,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+83,T,7,7,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+84,T,7,7,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+85,T,7,7,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+86,T,7,7,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+87,T,8,8,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+88,T,8,8,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+89,T,8,8,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+90,T,8,8,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+91,T,8,8,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+92,T,8,8,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+93,T,8,8,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+94,T,8,8,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,F,1,*,*,*,*
+95,T,8,8,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+96,T,8,8,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+97,T,8,8,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+98,T,8,8,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+99,T,8,8,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+100,T,8,8,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+101,T,9,9,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+102,T,9,9,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+103,T,9,9,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+104,T,9,9,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+105,T,9,9,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+106,T,9,9,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+107,T,9,9,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+108,T,9,9,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+109,T,9,9,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,F,1,*,*,*,*
+110,T,9,9,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+111,T,9,9,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+112,T,9,9,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+113,T,9,9,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+114,T,9,9,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+115,T,10,10,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+116,T,10,10,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+117,T,10,10,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+118,T,10,10,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+119,T,10,10,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+120,T,10,10,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+121,T,10,10,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+122,T,10,10,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+123,T,10,10,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+124,T,10,10,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,F,1,*,*,*,*
+125,T,10,10,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+126,T,10,10,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+127,T,10,10,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+128,T,10,10,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+129,T,11,11,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+130,T,11,11,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+131,T,11,11,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+132,T,11,11,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+133,T,11,11,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+134,T,11,11,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+135,T,11,11,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+136,T,11,11,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+137,T,11,11,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+138,T,11,11,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+139,T,11,11,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,F,1,*,*,*,*
+140,T,11,11,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+141,T,11,11,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+142,T,11,11,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+143,T,12,12,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+144,T,12,12,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+145,T,12,12,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+146,T,12,12,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+147,T,12,12,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+148,T,12,12,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+149,T,12,12,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+150,T,12,12,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+151,T,12,12,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+152,T,12,12,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+153,T,12,12,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+154,T,12,12,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,F,1,*,*,*,*
+155,T,12,12,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+156,T,12,12,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+157,T,13,13,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000221416,*,*,*,*
+158,T,13,13,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+159,T,13,13,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+160,T,13,13,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+161,T,13,13,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+162,T,13,13,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+163,T,13,13,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+164,T,13,13,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+165,T,13,13,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+166,T,13,13,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+167,T,13,13,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+168,T,13,13,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+169,T,13,13,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,F,1,*,*,*,*
+170,T,13,13,*,*,*,F,T,LinSis,Esmeralda 110 -> Uribe 110,F,1,*,*,*,*
+171,T,13,13,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+172,T,14,14,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000153056,*,*,*,*
+173,T,14,14,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+174,T,14,14,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+175,T,14,14,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+176,T,14,14,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+177,T,14,14,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+178,T,14,14,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+179,T,14,14,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+180,T,14,14,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+181,T,14,14,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+182,T,14,14,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+183,T,14,14,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+184,T,14,14,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+185,T,14,14,*,*,*,F,T,LinSis,Capricornio 220 -> Mantos Blancos 220,F,1,*,*,*,*
+186,T,14,14,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*
+187,T,15,15,*,*,*,T,F,SecOpeAlt,Fallas en Linea STx Antofagasta-Esmeralda Edelnor,T,0.000153056,*,*,*,*
+188,T,15,15,*,*,*,F,T,LinSis,Esmeralda 220 -> Atacama 220,T,1,*,*,*,*
+189,T,15,15,*,*,*,F,T,LinSis,Capricornio 110 -> Negro 110,T,1,*,*,*,*
+190,T,15,15,*,*,*,F,T,LinSis,Noranda 110 -> Negro 110,T,1,*,*,*,*
+191,T,15,15,*,*,*,F,T,LinSis,Noranda 110 -> La Negra 110,T,1,*,*,*,*
+192,T,15,15,*,*,*,F,T,LinSis,Antofagasta 110 -> La Negra 110,T,1,*,*,*,*
+193,T,15,15,*,*,*,F,T,LinSis,Chacaya 220-2 -> Mejillones 220,T,1,*,*,*,*
+194,T,15,15,*,*,*,F,T,LinSis,Pampa 110 -> Mejillones 110,T,1,*,*,*,*
+195,T,15,15,*,*,*,F,T,LinSis,Desalant 110 -> Pampa 110,T,1,*,*,*,*
+196,T,15,15,*,*,*,F,T,LinSis,Desalant 110 -> Antofagasta 110,T,1,*,*,*,*
+197,T,15,15,*,*,*,F,T,LinSis,Capricornio 110 -> Salar del Carmen 110,T,1,*,*,*,*
+198,T,15,15,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Antofagasta 110,T,1,*,*,*,*
+199,T,15,15,*,*,*,F,T,LinSis,Salar del Carmen 110 -> Esmeralda 110,T,1,*,*,*,*
+200,T,15,15,*,*,*,F,T,LinSis,Capricornio 220 -> Mantos Blancos 220,T,1,*,*,*,*
+201,T,15,15,*,*,*,F,T,LinSis,Capricornio 220 -> Chacaya 220-2,F,1,*,*,*,*
+202,T,15,15,*,*,*,F,T,SisFal,SING,T,1,*,3000,*,*

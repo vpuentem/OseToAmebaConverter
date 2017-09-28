@@ -1,0 +1,40 @@
+CenManINum,CenManFOpe,CenManNom,CenManFTip,CenManFecIni,CenManFecFin,CenBar,CenConQGen,CenPotMax,CenPotMin,CenTurRen,CenDisEne,CenFacCol,CenConPro%
+1,T,Antuco,F,SemOct02-2017,SemDic02-2017,*,*,167.6190476,*,*,*,*,*
+2,T,Canutillar,F,SemNov01-2017,SemNov01-2017,*,*,107.4227636,*,*,*,*,*
+3,T,Canutillar,F,SemAgo02-2017,SemAgo03-2017,*,*,65.891869,*,*,*,*,*
+4,T,Canutillar,F,SemJul04-2017,SemAgo01-2017,*,*,65.891869,*,*,*,*,*
+5,T,Cipreses,F,SemSep01-2017,SemSep02-2017,*,*,63.43873518,*,*,*,*,*
+6,T,Cipreses,F,SemAgo02-2017,SemAgo03-2017,*,*,73.43873518,*,*,*,*,*
+7,T,Cipreses,F,SemJul03-2017,SemJul04-2017,*,*,73.43873518,*,*,*,*,*
+8,T,Colbun,F,SemMar03-2018,SemMar04-2018,*,*,234.8838486,*,*,*,*,*
+9,T,Colbun,F,SemMar01-2018,SemMar02-2018,*,*,234.8838486,*,*,*,*,*
+10,T,Colbun,F,SemJun04-2017,SemJun04-2017,*,*,355.6685568,*,*,*,*,*
+11,T,Colbun,F,SemJun04-2017,SemJun04-2017,*,*,355.6685568,*,*,*,*,*
+12,T,El Toro,F,SemSep04-2017,SemOct01-2017,*,*,341.3722508,*,*,*,*,*
+13,T,El Toro,F,SemSep01-2017,SemSep02-2017,*,*,341.3722508,*,*,*,*,*
+14,T,El Toro,F,SemAgo03-2017,SemAgo04-2017,*,*,341.3722508,*,*,*,*,*
+15,T,El Toro,F,SemAgo02-2017,SemAgo02-2017,*,*,347.9366365,*,*,*,*,*
+16,T,Machicura,F,SemMar03-2018,SemMar04-2018,*,*,51.96428571,*,*,*,*,*
+17,T,Machicura,F,SemMar01-2018,SemMar02-2018,*,*,51.96428571,*,*,*,*,*
+18,T,Pehuenche,F,SemMar03-2018,SemMar04-2018,*,*,318.6216066,*,*,*,*,*
+19,T,Pehuenche,F,SemMar02-2018,SemMar02-2018,*,*,318.6216066,*,*,*,*,*
+20,T,Ralco,F,SemFeb01-2018,SemFeb03-2018,*,*,330.5888115,*,*,*,*,*
+21,T,Ralco,F,SemEne02-2018,SemEne04-2018,*,*,330.5888115,*,*,*,*,*
+22,T,Rapel,F,SemMar04-2018,SemMar04-2018,*,*,271.4624506,*,*,*,*,*
+23,T,Rapel,F,SemMar03-2018,SemMar03-2018,*,*,271.4624506,*,*,*,*,*
+24,T,Rapel,F,SemFeb02-2018,SemFeb02-2018,*,*,251.4624506,*,*,*,*,*
+25,T,Rapel,F,SemEne04-2018,SemFeb01-2018,*,*,261.4624506,*,*,*,*,*
+26,T,Rapel,F,SemEne02-2018,SemEne03-2018,*,*,261.4624506,*,*,*,*,*
+27,T,Rapel,F,SemDic01-2017,SemDic01-2017,*,*,251.4624506,*,*,*,*,*
+28,T,Rapel,F,SemNov04-2017,SemNov04-2017,*,*,251.4624506,*,*,*,*,*
+29,T,Antuco,T,SemMay04-2018,SemJun03-*,*,*,160,*,*,*,*,*
+30,T,Canutillar,T,SemMar02-2018,SemMar04-*,*,*,75.1959345,*,*,*,*,*
+31,T,Cipreses,T,SemEne04-2018,SemFeb02-*,*,*,62.29249012,*,*,*,*,*
+32,T,Colbun,T,SemMar01-2019,SemMar04-*,*,*,204.6753247,*,*,*,*,*
+33,T,El Toro,T,SemMar01-2018,SemMar04-*,*,*,300.3387917,*,*,*,*,*
+34,T,Los Condores,T,SemFeb01-2019,SemFeb03-*,*,*,0,*,*,*,*,*
+35,T,Machicura,T,SemAbr03-2019,SemMay01-*,*,*,48.5,*,*,*,*,*
+36,T,Pangue,T,SemEne03-2017,SemFeb02-*,*,*,210.014681,*,*,*,*,*
+37,T,Pehuenche,T,SemMar03-2019,SemAbr02-*,*,*,249.1699605,*,*,*,*,*
+38,T,Ralco,T,SemAbr03-2019,SemMay02-*,*,*,293.6645963,*,*,*,*,*
+39,T,Rapel,T,SemFeb03-2019,SemMar03-*,*,*,249.1699605,*,*,*,*,*

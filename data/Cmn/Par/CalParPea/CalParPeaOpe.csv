@@ -1,0 +1,24 @@
+ParInd,ParNom,ParCam01,ParCam02,ParCam03,ParCam04,ParCam05,ParCam06,ParCam07,ParCam08,ParCam09,ParCam10,ParCam11,ParCam12,ParCam13,ParCam14,ParCam15
+1,SisPeaFGblCal,F,,,,,,,,,,,,,,
+2,SisPeaNAno,5,2007,,,,,,,,,,,,,
+3,SisPeaFPerAju,T,,,,,,,,,,,,,,
+4,SisPeaFPerAjuTra,T,,,,,,,,,,,,,,
+5,SisPeaFITPer2,T,,,,,,,,,,,,,,
+6,VolSisBas,220,,,,,,,,,,,,,,
+7,SisPeaVAnuFIni,F,"Salidad Valores Anualidad (T=Inicio Ano, F=Fin Ano)",,,,,,,,,,,,,
+8,SisPeaVCOMAFIni,F,"Entrada Valores COMA (T=Inicio Ano, F=Fin Ano)",,,,,,,,,,,,,
+9,SisPeaFSalPrtGbl,F,,,,,,,,,,,,,,
+10,SisPeaFSalAno,T,,,,,,,,,,,,,,
+11,SisPeaFSalAnoCon,F,,,,,,,,,,,,,,
+12,SisPeaFSalEtaSim,F,,,,,,,,,,,,,,
+13,SisPeaFSalEtaSimCon,F,,,,,,,,,,,,,,
+14,SisPeaFSalEtaDst,F,,,,,,,,,,,,,,
+15,SisPeaFSalEtaDstCon,F,,,,,,,,,,,,,,
+16,SisPeaTasDesSTT,0.1,,,,,,,,,,,,,,
+17,#Rem,SisPeaCasINum,SisPeaCasNom,SisPeaFCasCal,SisPeaCasMet,SisPeaFLinUmb,SisPeaLinUmb,SisPeaProGblBarIny,SisPeaProGblBarRet,SisPeaPonFEtaFre,SisPeaPonFEtaPot,SisPeaFAgtLoc,SisPeaFLinDstIny,SisPeaFLinDstRet,SisPeaFLinDstCmn,SisPeaFLinNoOpe
+18,SisPeaCasDef,1,Base SU Loc Dst Iny y Ret,T,LeyCorDst,F,0.9,0.8,0.2,T,F,T,T,T,T,T
+19,SisPeaCasDef,2,Base SU Loc Dst Iny,T,LeyCorDst,F,0.9,0.8,0.2,T,F,T,T,F,T,T
+20,SisPeaCasDef,3,Base SU Loc Kas SU,T,LeyCorKas,F,0.9,0.8,0.2,T,F,T,*,*,*,*
+21,SisPeaCasDef,4,Base SU Loc Kas CU,T,LeyCorKas,T,0.9,0.8,0.2,T,F,T,*,*,*,*
+22,SisPeaCasDef,5,Base SU Loc Dst Ret,F,LeyCorDst,F,0.9,0.8,0.2,T,F,T,F,T,T,T
+23,SisPeaCasDef,6,Base SU Loc Dst,F,LeyCorDst,F,0.9,0.8,0.2,T,F,T,F,F,T,T

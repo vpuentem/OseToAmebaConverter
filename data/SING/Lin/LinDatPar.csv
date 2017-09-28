@@ -1,0 +1,279 @@
+LinINum,LinNom,LinFOpe,LinFecOpeIni,LinFecOpeFin,LinBarA,LinBarB,LinBarSis,LinFPrtFlu,LinFPrtHis,LinNIntHis,LinFPrtInd,LinFCC,LinPotMaxA->B,LinPotMaxB->A,LinFMax,LinFPri,LinFN-1,LinPotN-1A->B,LinPotN-1B->A,LinVolt,LinR,LinX,LinFPer,LinNTra,LinDisEne,LinFPeaCal,LinPeaSis,LinPeaTip,LinFTipDef,LinFInv,LinFecInv,LinVI,LinCOMA,LinVidUti,LinEmp,LinAux,LinAux,LinAux
+1,Chapiquiña 066->El Aguila 066,T,*,*,Chapiquiña 066,El Aguila 066,BarB,F,F,101,F,F,48,48,F,F,F,48,48,66,8.6913,14.8333,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,66
+2,El Aguila 066->Arica 066,T,*,*,El Aguila 066,Arica 066,BarA,F,F,101,F,F,48,48,F,F,F,48,48,66,11.0403,18.8423,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,66
+3,CD Arica 066->Arica 066,T,*,*,CD Arica 066,Arica 066,BarA,F,F,101,F,F,17,17,F,F,F,17,17,66,3.398,4.2704,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,66
+4,Arica 110->Arica 066,T,*,*,Arica 110,Arica 066,*,F,F,101,F,F,30,30,F,F,F,30,30,110,0,23.837,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,66
+5,Arica 110->Dolores 110,T,*,*,Arica 110,Dolores 110,*,F,F,101,F,F,29,29,T,F,F,29,29,110,40.4561,51.8271,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163 (a través de tapoff),110
+6,Dolores 110->Pozo Almonte 110,T,*,*,Dolores 110,Pozo Almonte 110,*,F,F,101,F,F,29,29,T,F,F,29,29,110,23.3287,29.8857,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163 (a través de tapoff),110
+7,Pozo Almonte 066->Tamarugal 066,T,*,*,Pozo Almonte 066,Tamarugal 066,*,F,F,101,F,F,10,10,F,F,F,10,10,66,6.2733,9.2789,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,66
+8,Iquique 066->Pozo Almonte 066,T,*,*,Iquique 066,Pozo Almonte 066,BarA,F,F,101,F,F,46,46,F,F,F,46,46,66,9.3398,16.3631,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,66
+9,Iquique 066->Cavancha 066,T,*,*,Iquique 066,Cavancha 066,*,F,F,101,F,F,41,41,F,F,F,41,41,66,0.9951,1.4541,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,66
+10,Cavancha 066->Pozo Almonte 066,T,*,*,Cavancha 066,Pozo Almonte 066,BarA,F,F,101,F,F,41,41,F,F,F,41,41,66,13.069,19.0972,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,66
+11,CD Iquique 066->Iquique 066,T,*,*,CD Iquique 066,Iquique 066,*,F,F,101,F,F,48,48,F,F,F,48,48,66,0.4792,0.6099,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,66
+12,Pozo Almonte 220->Pozo Almonte1 110,T,*,*,Pozo Almonte 220,Pozo Almonte1 110,BarB,F,F,101,F,F,100,100,T,F,F,100,100,220,0,64.251,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),220/110
+13,Pozo Almonte1 110->Cerro Colorado 110,T,*,*,Pozo Almonte1 110,Cerro Colorado 110,BarB,F,F,101,F,F,164,164,F,F,F,164,164,110,6.0878,24.3451,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+14,Lagunas 220->Pozo Almonte 220,T,*,MesMay-2019,Lagunas 220,Pozo Almonte 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,6.993,29.218,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT Decreto23T,220
+15,Lagunas 220->Lagunas 023,T,*,*,Lagunas 220,Lagunas 023,BarB,F,F,101,F,F,24,24,T,F,F,24,24,220,0,385.0489,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/23
+16,Tarapaca 220->Lagunas 220,T,*,*,Tarapaca 220,Lagunas 220,*,F,F,101,F,F,366,366,T,T,T,183,183,220,1.3692,10.9592,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+17,Tarapaca 220->Condores 220,T,*,*,Tarapaca 220,Condores 220,*,F,F,101,F,F,182.9,182.9,T,F,T,182.9,182.9,220,6.2453,28.6098,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT Decreto23T,220
+18,Condores 220->Condores 110,T,*,*,Condores 220,Condores 110,BarB,F,F,101,F,F,195,195,T,F,F,195,195,220,0,34.364,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/110
+19,Condores 110->Pacifico 110,T,*,*,Condores 110,Pacifico 110,*,F,F,101,F,F,98,98,T,F,F,98,98,110,1.3597,3.2608,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+20,Condores 110->Palafitos 110,T,*,*,Condores 110,Palafitos 110,*,F,F,101,F,F,98,98,T,F,F,98,98,110,1.2279,3.106,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+21,Condores 110->Alto Hospicio 110,T,*,*,Condores 110,Alto Hospicio 110,*,F,F,101,F,F,98,98,T,F,F,98,98,110,0.3822,0.9667,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+22,Alto Hospicio 110->Cerro Dragon 110,T,*,*,Alto Hospicio 110,Cerro Dragon 110,*,F,F,101,F,F,98,98,T,F,F,98,98,110,0.318,0.8044,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+23,Condores 220->Parinacota 220,T,*,*,Condores 220,Parinacota 220 Aux,*,F,F,101,F,F,91.45,91.45,T,F,T,91.45,91.45,220,19.8851,91.0938,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT Decreto23T,220
+24,Parinacota 220->Parinacota 066,T,*,*,Parinacota 220,Parinacota 066,BarB,F,F,101,F,F,120,120,T,F,F,120,120,220,0,53.1896,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/66
+25,Parinacota 066->Pukara 066,T,*,*,Parinacota 066,Pukara 066,*,F,F,101,F,F,59,59,F,F,F,59,59,66,0.3536,0.8958,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),66
+26,Parinacota 066->Chinchorro 066,T,*,*,Parinacota 066,Chinchorro 066,*,F,F,101,F,F,59,59,F,F,F,59,59,66,0.4977,1.2588,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,66
+27,Parinacota 066->Quiani 066,T,*,*,Parinacota 066,Quiani 066,*,F,F,101,F,F,59,59,F,F,F,59,59,66,0.559,1.4908,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),66
+28,Lagunas 220->Collahuasi 220,T,*,*,Lagunas 220,Collahuasi 220,BarB,F,F,101,F,F,218,218,T,F,F,218,218,220,4.72,23.7416,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+29,Collahuasi 220->Quebrada Blanca 220,T,*,MesDic-2018,Collahuasi 220,Quebrada Blanca 220,*,F,F,101,F,F,180,180,F,F,F,180,180,220,1.503,9.747,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+30,Encuentro 220->Collahuasi 220,F,*,MesAbr-2012,Encuentro 220,Collahuasi 220,BarB,F,F,101,F,F,129,129,T,F,F,129,129,220,17.9895,82.1085,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+31,Crucero 220->Lagunas 220 AUX,F,*,MesAgo-2013,Crucero 220,Lagunas AUX 220,*,F,F,101,F,F,122,122,T,T,T,122,122,220,15.5014,68.6218,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+32,Crucero 220->Nueva Victoria 220,F,*,MesAgo-2013,Crucero 220,Nueva Victoria 220,*,F,F,101,F,F,122,122,T,T,T,122,122,220,15.38,64.0731,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+33,Nueva Victoria 220->Lagunas 220,F,*,MesAgo-2013,Nueva Victoria 220,Lagunas 220,*,F,F,101,F,F,122,122,T,T,T,122,122,220,1.62,6.7489,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+34,La Cruz 220->Crucero 220,T,*,*,La Cruz 220,Crucero 220,BarA,F,F,101,F,F,750,750,F,F,F,750,750,220,0.29,2.32,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+35,Barril 220->La Cruz 220,T,*,*,Barril 220,La Cruz 220,*,F,F,101,F,F,750,750,F,F,F,750,750,220,1.0243,8.2174,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+36,Barril 220->Barril 110,T,*,*,Barril 220,Barril 110,*,F,F,101,F,F,30,30,F,F,F,30,30,220,0,193.6,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/110
+37,Norgener 220->Barril 220,T,*,*,Norgener 220,Barril 220,*,F,F,101,F,F,750,750,F,F,F,750,750,220,0.42,3.38,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+38,Barril 110->Mantos de la Luna 110,T,*,*,Barril 110,Mantos de la Luna 110,*,F,F,101,F,F,70,70,F,F,F,70,70,110,7.3008,10.638,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+39,Tocopilla 220->El Loa 220,T,*,*,Tocopilla 220,El Loa 220,*,F,F,101,F,F,714,714,F,F,F,357,357,220,1.956,12.7432,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+40,El Loa 220->Crucero 220,T,*,MesAbr-2019,El Loa 220,Crucero 220,BarA,F,F,101,F,F,714,714,F,F,F,357,357,220,0.3,1.98,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+41,Tocopilla 220->Tocopilla 110,T,*,*,Tocopilla 220,Tocopilla 110,*,F,F,101,F,F,200,200,F,F,F,200,200,220,0,34.6544,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/110
+42,Tocopilla 110->Tocopilla 005,T,*,*,Tocopilla 110,Tocopilla 005,BarA,F,F,101,F,F,30,30,F,F,F,30,30,110,0,2.6217,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110/5
+43,Tocopilla 110->Salar 110,T,*,*,Tocopilla 110,Salar 110,BarA,F,F,101,F,F,90,90,F,F,F,90,90,110,17.7536,53.3824,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+44,Tocopilla 110->A 110,T,*,*,Tocopilla 110,A 110,*,F,F,101,F,F,270,270,F,F,F,270,270,110,5.8546,16.5173,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+45,Crucero 220->Radomiro Tomic 220,T,*,*,Crucero 220,Radomiro Tomic 220,BarB,F,F,101,F,F,218.3,218.3,F,F,F,218.3,218.3,220,4.2148,32.6442,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+46,Crucero 220->El Abra 220,T,*,*,Crucero 220,El Abra 220,BarB,F,F,101,F,F,218.3,218.3,F,F,F,218.3,218.3,220,5.1813,40.4303,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+47,Crucero 220->Chuquicamata 220,T,*,MesAbr-2019,Crucero 220,Chuquicamata 220,*,F,F,101,F,F,356.7,356.7,T,F,T,356.7,356.7,220,3.8896,28.0772,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+48,Chuquicamata 220->Chuquicamata 110,T,*,*,Chuquicamata 220,Chuquicamata 110,BarB,F,F,101,F,F,240,240,F,F,F,240,240,220,0,28.2333,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/110
+49,Chuquicamata 110->A 110,T,*,*,Chuquicamata 110,A 110,*,F,F,101,F,F,200,200,F,F,F,200,200,110,0.2502,0.7502,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+50,Chuquicamata 110->KM6 110,T,*,*,Chuquicamata 110,KM6 110,*,F,F,101,F,F,100,100,F,F,F,100,100,110,0.4803,2.0143,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+51,Salar 220->Chuquicamata 220,T,*,*,Salar 220,Chuquicamata 220,*,F,F,101,F,F,458,458,T,F,T,458,458,220,1.1,7.53,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+52,Crucero 220->Salar 220,T,*,MesAbr-2019,Crucero 220,Salar 220,*,F,F,101,F,F,356.7,356.7,T,F,T,356.7,356.7,220,4.31,29.48,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+53,Salar 220->Salar 110,T,*,*,Salar 220,Salar 110,BarB,F,F,101,F,F,120,120,T,F,F,120,120,220,0,34.2833,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/110
+54,Salar 110->KM6 110,T,*,*,Salar 110,KM6 110,BarB,F,F,101,F,F,62,62,F,F,F,62,62,110,0.58,1.74,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+55,Salar 110->Calama 110,F,*,*,Salar 110,Calama 110,*,F,F,101,F,F,44,44,T,F,F,44,44,110,2.745,4.543,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+56,Crucero 220->Encuentro 220  I,T,*,MesNov-2015,Crucero 220,Encuentro 220 Aux,*,F,F,101,F,F,365.81,365.81,T,T,T,365.81,365.81,220,0.0344,0.3212,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+57,Crucero 220->Encuentro 220  II,T,*,MesNov-2015,Crucero 220,Encuentro 220 Aux,*,F,F,101,F,F,365.81,365.81,T,T,T,365.81,365.81,220,0.0344,0.3212,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+58,Encuentro 220->Encuentro 220 Aux,T,*,MesNov-2015,Encuentro 220,Encuentro 220 Aux,*,F,F,101,F,F,470,470,T,T,T,470,470,220,0,0.0001,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+59,Crucero 220->Laberinto 220 I,T,*,MesAbr-2019,Crucero 220,Laberinto 220 Aux,*,F,F,101,F,F,293.03,293.03,T,F,T,293.03,293.03,220,10.6425,54.5397,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+60,Crucero 220->Escondida 220,F,*,MesJun-2010,Crucero 220,Escondida 220,BarB,F,F,101,F,F,180,180,T,F,F,180,180,220,18.9272,96.996,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+61,Crucero 220->Laberinto 220 II,T,*,MesAbr-2019,Crucero 220,Laberinto 220 Aux,*,F,F,101,F,F,304.84,304.84,T,F,T,304.84,304.84,220,9.6425,53.2532,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+62,Laberinto 220->Nueva Zaldivar 220 II,T,*,*,Laberinto 220,Nueva Zaldivar 220,BarB,F,F,101,F,F,377,377,T,F,F,377,377,220,5.2925,29.2292,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+63,Nueva Zaldivar 220->Escondida 220,F,*,*,Nueva Zaldivar 220,Escondida 220,*,F,F,101,F,F,293,293,T,F,F,293,293,220,1.0038,5.5216,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+64,Chacaya 220->Crucero 220,T,*,*,Chacaya 220,Crucero 220,BarA,F,F,101,F,F,266,266,T,F,F,266,266,220,15.27,63.6148,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+65,Chacaya 220->El Cobre 220,T,*,*,Chacaya 220,El Cobre 220,BarA,F,F,101,F,F,846,846,T,F,F,423,423,220,3.3154,28.1688,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+66,Encuentro 220->El Tesoro 220,T,*,MesAbr-2020,Encuentro 220,El Tesoro 220,*,F,F,101,F,F,125,125,T,F,T,125,125,220,9.522,37.476,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+67,El Tesoro 220->Esperanza SING 220,T,*,MesAbr-2020,El Tesoro 220,Esperanza SING 220,*,F,F,101,F,F,266,266,T,F,T,266,266,220,1.25,5.1875,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+68,Encuentro 220->El Tesoro 220 2,T,MesMay-2020,*,Encuentro 220,Centinela 220,*,F,F,101,F,F,125,125,T,F,T,125,125,220,10.09332,39.72456,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+69,El Tesoro 220->Centinela 220,T,MesMay-2020,*,El Tesoro 220,Centinela 220,*,F,F,101,F,F,266,266,T,F,T,266,266,220,0.566037736,2.349056604,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+70,Centinela 220->Esperanza SING 220,T,MesMay-2020,*,Centinela 220,Esperanza SING 220,*,F,F,101,F,F,266,266,T,F,T,266,266,220,0.683962264,2.838443396,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+71,El Cobre 220->Esperanza SING 220,T,*,*,El Cobre 220,Esperanza SING 220,*,F,F,101,F,F,222,222,T,F,F,111,111,220,4.16,16.6,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+72,Encuentro 220->Spence 220,T,*,*,Encuentro 220,Spence 220,BarB,F,F,101,F,F,318,318,F,F,F,318,318,220,4.891,27.202,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+73,Atacama 220->Encuentro 220 I,T,*,MesDic-2015,Atacama 220 Aux,Encuentro 220,*,F,F,101,F,F,386,386,T,F,T,386,386,220,7.3134,46.1754,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+74,Atacama 220->Encuentro 220 II,T,*,MesDic-2015,Atacama 220 Aux,Encuentro 220,*,F,F,101,F,F,386,386,T,F,T,386,386,220,7.3134,46.1754,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+75,Chacaya 220->Capricornio 220,T,*,*,Chacaya 220,Capricornio 220,BarA,F,F,101,F,F,305,305,T,F,F,305,305,220,4.015,20.475,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+76,Chacaya 220->Mejillones 220,T,*,*,Chacaya 220,Mejillones 220,*,F,F,101,F,F,305,305,T,F,F,305,305,220,0.1044,0.5324,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+77,Capricornio 220->Capricornio 110,T,*,*,Capricornio 220,Capricornio 110,*,F,F,101,F,F,80,80,T,F,F,80,80,220,0,78.0853,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/110
+78,Capricornio 220->Mantos Blancos 220,T,*,*,Capricornio 220,Mantos Blancos 220,BarB,F,F,101,F,F,305,305,T,F,F,305,305,220,1.2848,6.552,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+79,Laberinto 220->Gaby 220,F,*,MesJun-2010,Laberinto 220,Gaby 220,BarB,F,F,101,F,F,274,274,T,F,F,274,274,220,6.1814,25.78332,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+80,Laberinto 220->El Cobre 220,T,*,*,Laberinto 220,El Cobre 220,*,F,F,101,F,F,360.86,360.86,T,F,T,360.86,360.86,220,0.189,1.0362,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+81,El Cobre 220->Gaby 220,T,*,*,El Cobre 220,Gaby 220,BarB,F,F,101,F,F,266,266,F,F,F,266,266,220,5.89996,24.62592,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+82,Laberinto 220->Mantos Blancos 220,T,*,*,Laberinto 220,Mantos Blancos 220,BarB,F,F,101,F,F,290,290,T,F,F,290,290,220,6.33,29.15,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+83,Laberinto 220->Lomas Bayas 220,T,*,*,Laberinto 220,Lomas Bayas 220,BarB,F,F,101,F,F,209,209,F,F,F,209,209,220,0.904,4.164,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+84,Laberinto 220->Nueva Zaldivar 220 I,T,*,*,Laberinto 220,Nueva Zaldivar 220,BarB,F,F,101,F,F,293,293,T,F,F,293,293,220,7.5789,38.8395,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+85,Oeste 220->Laberinto 220,T,*,*,Oeste 220,Laberinto 220,BarA,F,F,101,F,F,242,242,T,F,F,242,242,220,7.68,35.39,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+86,Oeste 220->Oeste 110,T,*,*,Oeste 220,Oeste 110,*,F,F,101,F,F,55,55,F,F,F,55,55,220,0,131.12,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/110
+87,Oeste 110->Minsal 110,T,*,*,Oeste 110,Minsal 110,*,F,F,101,F,F,50,50,F,F,F,50,50,110,6.9894,13.959,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+88,Minsal 110->Minsal 023,T,*,*,Minsal 110,Minsal 023,*,F,F,101,F,F,20,20,F,F,F,20,20,110,0,40.7165,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110/23
+89,Andes 220->Oeste 220,T,*,*,Andes 220,Oeste 220,*,F,F,101,F,F,242,242,T,F,F,242,242,220,3.4307,15.8024,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+90,Salta 345->Andes 345,T,*,*,Salta 345,Andes 345,*,F,F,101,F,F,777,777,T,F,F,777,777,345,11.46,143.19,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,345
+91,Andes 345->Andes 220,T,*,*,Andes 345,Andes 220,*,F,F,101,F,F,750,750,T,F,F,750,750,345,0,18.0918,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,354/220
+92,Andes 220->Nueva Zaldivar 220,T,*,*,Andes 220,Nueva Zaldivar 220,*,F,F,101,F,F,634,634,T,F,F,634,634,220,1.7218,12.485,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+93,Nueva Zaldivar 220->Zaldivar 220,T,*,*,Nueva Zaldivar 220,Zaldivar 220,*,F,F,101,F,F,269,269,T,F,F,269,269,220,0.02,0.08,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+94,Zaldivar 220->Escondida 220,T,*,*,Zaldivar 220,Escondida 220,*,F,F,101,F,F,293,293,T,F,F,293,293,220,1.0038,5.5216,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+95,Nueva Zaldivar 220->Sulfuros 220,T,*,*,Nueva Zaldivar 220,Sulfuros 220,*,F,F,101,F,F,293,293,T,F,F,293,293,220,1.2961,5.3209,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+96,Domeyko 220->Sulfuros 220,T,*,*,Domeyko 220,Sulfuros 220,*,F,F,101,F,F,293,293,T,F,F,293,293,220,0.0997,0.4093,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+97,Domeyko 220->Escondida 220,T,*,*,Domeyko 220,Escondida 220,*,F,F,101,F,F,246,246,T,F,F,246,246,220,0.7021,2.9085,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+98,Atacama 220->Domeyko 220,T,*,MesMay-2016,Atacama 220,Domeyko 220,BarB,F,F,101,F,F,512,512,T,F,F,246,246,220,10.1475,42.107,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+99,O'higgins 220->Palestina 220,T,*,*,O'higgins 220,Palestina 220,BarB,F,F,101,F,F,183,183,T,F,F,183,183,220,5.02,23.44,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+100,Palestina 220->Domeyko 220,T,*,*,Palestina 220,Domeyko 220,*,F,F,101,F,F,183,183,T,F,F,183,183,220,6.6,30.81,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+101,Mejillones 220->O'higgins 220,T,*,*,Mejillones 220,O'higgins 220,BarA,F,F,101,F,F,183,183,T,F,F,183,183,220,5.2414,20.9656,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+102,Atacama 220->Esmeralda 220,T,*,*,Atacama 220,Esmeralda 220,BarB,F,F,101,F,F,127,127,T,F,F,127,127,220,6.265,28.21,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220
+103,Esmeralda 220->Esmeralda 110,T,*,*,Esmeralda 220,Esmeralda 110,*,F,F,101,F,F,195,195,T,F,F,195,195,220,0,34.364,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/110
+104,Esmeralda 110->Centro 110,T,*,*,Esmeralda 110,Centro 110,*,F,F,101,F,F,98,98,T,F,F,98,98,110,0.0827,0.2092,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+105,Esmeralda 110->La Portada 110,T,*,*,Esmeralda 110,La Portada 110,*,F,F,101,F,F,98,98,T,F,F,98,98,110,2.4385,6.168,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+106,Esmeralda 110->Sur 110,T,*,*,Esmeralda 110,Sur 110,*,F,F,101,F,F,98,98,T,F,F,98,98,110,0.9483,2.3987,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+107,Esmeralda 110->Uribe 110,T,*,*,Esmeralda 110,Uribe 110,*,F,F,101,F,F,98,98,T,F,F,98,98,110,2.3101,5.8433,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(ojo),110
+108,Mejillones 220->Mejillones 110,T,*,*,Mejillones 220,Mejillones 110,BarA,F,F,101,F,F,100,100,T,F,F,100,100,220,0,64.0695,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/110
+109,Mejillones 110->Enaex 110,T,*,*,Mejillones 110,Enaex 110,BarB,F,F,101,F,F,93,93,F,F,F,93,93,110,0.3622,0.5541,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+110,Mejillones 110->Lince 110,T,*,*,Mejillones 110,Lince 110,BarB,F,F,101,F,F,48,48,F,F,F,48,48,110,11.34,28.26,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+111,Pampa 110->Mejillones 110,T,*,*,Pampa 110,Mejillones 110,*,F,F,101,F,F,57,57,T,F,F,57,57,110,4.8765,11.6655,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+112,Desalant 110->Pampa 110,T,*,*,Desalant 110,Pampa 110,*,F,F,101,F,F,57,57,T,F,F,57,57,110,3.1939,7.6404,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+113,Antofagasta 110->Desalant 110,T,*,*,Antofagasta 110,Desalant 110,*,F,F,101,F,F,57,57,T,F,F,57,57,110,1.7917,4.2861,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+114,Antofagasta 110->Capricornio 110,T,*,*,Antofagasta 110,Capricornio 110,*,F,F,101,F,F,91,91,T,F,F,91,91,110,2.1056,6.7144,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(ojo),110
+115,Antofagasta 110->La Negra 110,T,*,*,Antofagasta 110,La Negra 110,*,F,F,101,F,F,122,122,T,F,F,122,122,110,3.0336,7.5264,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+116,La Negra 110->Alto Norte 110,T,*,*,La Negra 110,Alto Norte 110,*,F,F,101,F,F,122,122,T,F,F,122,122,110,0.7584,1.8816,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-Tramos que lo rodean son stx,110
+117,Capricornio 110->El Negro 110,T,*,*,Capricornio 110,El Negro 110,*,F,F,101,F,F,137,137,T,F,F,137,137,110,3.4373,10.6042,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+118,El Negro 110->Alto Norte 110,T,*,*,El Negro 110,Alto Norte 110,*,F,F,101,F,F,137,137,T,F,F,137,137,110,0.6596,2.0349,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+119,Antofagasta 013->Antofagasta 110,T,*,*,Antofagasta 013,Antofagasta 110,*,F,F,101,F,F,30,30,F,F,F,30,30,110,0,46.65,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),13/110
+120,CD Antofagasta 013->Antofagasta 013,T,*,*,CD Antofagasta 013,Antofagasta 013,BarA,F,F,101,F,F,28,28,F,F,F,28,28,13.8,0.2,0.3,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,13
+121,Crucero 220->Chuquicamata 220 II,F,MesEne-2014,*,Crucero 220,Chuquicamata 220,*,F,F,101,F,F,330,330,T,F,T,330,330,220,3.8896,28.0772,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+122,Salar 110->Calama 110 II,F,MesEne-2014,*,Salar 110,Calama 110,*,F,F,101,F,F,44,44,T,F,F,44,44,110,2.745,4.543,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+123,Salar 110->Calama 110 III,F,MesEne-2014,*,Salar 110,Calama 110,*,F,F,101,F,F,44,44,T,F,F,44,44,110,2.745,4.543,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+124,Salar 220->Salar 110 II,F,MesEne-2014,*,Salar 220,Salar 110,BarB,F,F,101,F,F,120,120,T,F,F,120,120,220,0,34.2833,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/110
+125,Salar 220->Salar 110 III,F,MesEne-2014,*,Salar 220,Salar 110,BarB,F,F,101,F,F,120,120,T,F,F,120,120,220,0,34.2833,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/110
+126,Dolores 110->Cerro Balcon 110,T,*,*,Dolores 110,Cerro Balcon 110,*,F,F,101,F,F,29,29,T,F,F,29,29,110,5.52211,7.07421,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+127,Cerro Balcon 110->Pozo Almonte 110,T,*,*,Cerro Balcon 110,Pozo Almonte 110,*,F,F,101,F,F,29,29,T,F,F,29,29,110,17.80659,22.81149,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+128,Pozo Almonte 220->Pozo Almonte PMT,T,*,*,Pozo Almonte 220,Pozo Almonte PMT,BarB,F,F,101,F,F,100,100,T,F,F,100,100,220,0.41322314,6.198347107,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/PMT
+129,Pozo Almonte PMT->Pozo Almonte 110,T,*,*,Pozo Almonte PMT,Pozo Almonte 110,*,F,F,101,F,F,100,100,T,F,F,100,100,110,1.652892562,24.79338843,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,PMT/110
+130,Pozo Almonte PMT->Pozo Almonte 13.8,T,*,*,Pozo Almonte PMT,Pozo Almonte 13.8,*,F,F,101,F,F,20,20,F,F,F,20,20,13.8,0.2415,64.251,T,5,1,F,STx,Ret,F,F,*,0,0,30,CNE,SING,STx-DS163,PMT/13.8
+131,Pozo Almonte 110->Pozo Almonte 066,T,*,*,Pozo Almonte 110,Pozo Almonte 066,*,F,F,101,F,F,30,30,F,F,F,30,30,110,0.597,41.503,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110/66
+132,Capricornio 110->Salar del Carmen 110,F,MesEne-2007,*,Capricornio 110,Salar del Carmen 110,*,F,F,101,F,F,116,116,T,F,F,116,116,110,1.609,5.13,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(ojo),110
+133,Salar del Carmen 110->Antofagasta 110,F,MesEne-2007,*,Salar del Carmen 110,Antofagasta 110,*,F,F,101,F,F,116,116,T,F,F,116,116,110,0.496,1.585,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(ojo),110
+134,Salar del Carmen 110->Uribe 110,F,MesEne-2007,*,Salar del Carmen 110,Uribe 110,*,F,F,101,F,F,80,80,T,F,F,80,80,110,0.52,1.656,T,5,1,F,STx,Ret,F,F,*,0,0,30,CNE,SING,STx-DS163(ojo),110
+135,Chacaya 220->Andes 220 I,F,MesJul-2018,*,Chacaya 220,Andes 220,*,F,F,101,F,F,740,740,T,F,F,740,740,220,5.60268254,40.62579365,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+136,Chacaya 220->Andes 220 II,F,MesJul-2018,*,Chacaya 220,Andes 220,*,F,F,101,F,F,740,740,T,F,F,740,740,220,5.60268254,40.62579365,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+137,Tarapaca 220->Lagunas 220 II,F,MesEne-2027,*,Tarapaca 220,Lagunas 220,*,F,F,101,F,F,620,620,T,T,T,366,366,220,0.91333,7.27333,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+138,Tarapaca 220->Lagunas 220 III,F,MesEne-2017,*,Tarapaca 220,Lagunas 220,*,F,F,101,F,F,366,366,T,T,T,366,366,220,0.91333,7.27333,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+139,Crucero 220->Lagunas 220 II,F,*,MesAbr-2019,Crucero 220,Lagunas AUX 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,15.5014,68.6218,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+140,Crucero 220->Nueva Victoria 220 II,T,*,MesAgo-2018,Crucero 220,Nueva Victoria 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,15.76422,65.8657,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+141,Nueva Victoria 220->Lagunas 220 II,T,*,*,Nueva Victoria 220,Lagunas AUX 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,1.61838,6.7619,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+142,Encuentro 220->Lagunas 220 III,T,MesAbr-2017,*,Encuentro 220,Lagunas AUX 220,*,F,F,101,F,F,290,290,T,T,T,290,290,220,15.5014,68.6218,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+143,Encuentro 220->Lagunas 220 IV,T,MesAbr-2017,*,Encuentro 220,Lagunas AUX 220,*,F,F,101,F,F,290,290,T,T,T,290,290,220,15.5014,68.6218,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+144,Mejillones 220->Mejillones 110 I,T,MesEne-2015,*,Mejillones 220,Mejillones 110,BarA,F,F,101,F,F,100,100,T,F,F,100,100,220,0,64.0695,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/110
+145,Mejillones 220->Mejillones 110 II,T,MesEne-2015,*,Mejillones 220,Mejillones 110,BarA,F,F,101,F,F,100,100,T,F,F,100,100,220,0,64.0695,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/110
+146,Salar 110->KM6 110 I,T,MesEne-2015,*,Salar 110,KM6 110,BarB,F,F,101,F,F,62,62,F,F,F,62,62,110,0.58,1.74,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+147,Salar 110->KM6 110 II,T,MesEne-2016,*,Salar 110,KM6 110,BarB,F,F,101,F,F,62,62,F,F,F,62,62,110,0.58,1.74,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+148,Minsal 110->Minsal 023 I,T,MesEne-2015,*,Minsal 110,Minsal 023,*,F,F,101,F,F,20,20,F,F,F,20,20,110,0,40.7165,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110/23
+149,Chuquicamata 110->KM6 110 I,T,MesEne-2015,*,Chuquicamata 110,KM6 110,*,F,F,101,F,F,100,100,F,F,F,100,100,110,0.4803,2.0143,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,110
+150,Capricornio 220->Capricornio 110 I,T,MesEne-2015,*,Capricornio 220,Capricornio 110,*,F,F,101,F,F,80,80,T,F,F,80,80,220,0,78.0853,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-Pendiente,220/110
+151,Lagunas 220->Collahuasi 220 I,F,MesEne-2015,*,Lagunas 220,Collahuasi 220,BarB,F,F,101,F,F,240,240,T,F,F,240,240,220,4.72,23.7416,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+152,Mejillones 220->O'higgins 220 I,F,MesEne-2015,*,Mejillones 220,O'higgins 220,BarA,F,F,101,F,F,183,183,T,F,F,183,183,220,5.2414,20.9656,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+153,Mejillones 220->O'higgins 220 II,T,MesEne-2020,*,Mejillones 220,O'higgins 220,BarA,F,F,101,F,F,183,183,T,F,F,183,183,220,5.2414,20.9656,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+154,Chacaya 220->Mejillones 220 I,F,MesEne-2015,*,Chacaya 220,Mejillones 220,*,F,F,101,F,F,332,332,T,F,F,332,332,220,0.1044,0.5324,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+155,O'higgins 220->Palestina 220 I,F,MesEne-2015,*,O'higgins 220,Palestina 220,BarB,F,F,101,F,F,183,183,T,F,F,183,183,220,3.97,15.88,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+156,Salar 110->Calama 110 I,F,MesEne-2015,*,Salar 110,Calama 110,*,F,F,101,F,F,44,44,T,F,F,44,44,110,2.745,4.543,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,110
+157,Barril 220->Barril 110 I,T,MesEne-2015,*,Barril 220,Barril 110,*,F,F,101,F,F,30,30,F,F,F,30,30,220,0,193.6,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/110
+158,Pozo Almonte 110->Pozo Almonte 066 I,T,MesEne-2015,*,Pozo Almonte 110,Pozo Almonte 066,*,F,F,101,F,F,30,30,F,F,F,30,30,110,0.597,41.503,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-Pendiente,110/66
+159,Palestina 220->Domeyko 220 I,F,MesEne-2015,*,Palestina 220,Domeyko 220,*,F,F,101,F,F,183,183,T,F,F,183,183,220,5.22,20.88,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+160,Laberinto 220->Nueva Zaldivar 220 III,F,MesEne-2015,*,Laberinto 220,Nueva Zaldivar 220,BarB,F,F,101,F,F,183,183,T,F,F,183,183,220,6.4525,35.6356,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+161,Encuentro 220->Collahuasi 220 I,T,*,*,Encuentro 220,Collahuasi 220 Aux,BarB,F,F,101,F,F,170,170,T,F,F,170,170,220,17.999,81.4368,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+162,Antofagasta 110->Capricornio 110 I,T,MesEne-2016,*,Antofagasta 110,Capricornio 110,*,F,F,101,F,F,76,76,T,F,F,76,76,110,2.1056,6.7144,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(ojo),110
+163,Arica 110->Arica 066 I,T,MesMay-2016,*,Arica 110,Arica 066,*,F,F,101,F,F,30,30,F,F,F,30,30,110,0,23.837,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-Pendiente,110/66
+164,Arica 110->Arica 066 II,T,MesMay-2016,*,Arica 110,Arica 066,*,F,F,101,F,F,30,30,F,F,F,30,30,110,0,23.837,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-Pendiente,110/66
+165,Arica 110->Dolores 110 I,T,MesMay-2016,*,Arica 110,Dolores 110,*,F,F,101,F,F,29,29,T,F,F,29,29,110,40.4561,51.8271,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163 (a través de tapoff),110
+166,Arica 110->Dolores 110 II,T,MesMay-2016,*,Arica 110,Dolores 110,*,F,F,101,F,F,29,29,T,F,F,29,29,110,40.4561,51.8271,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163 (a través de tapoff),110
+167,Chapiquiña 066->El Aguila 066 I,T,MesMay-2016,*,Chapiquiña 066,El Aguila 066,BarB,F,F,101,F,F,48,48,F,F,F,48,48,66,8.6913,14.8333,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,66
+168,El Aguila 066->Arica 066 I,T,MesMay-2016,*,El Aguila 066,Arica 066,BarA,F,F,101,F,F,48,48,F,F,F,48,48,66,11.0403,18.8423,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,66
+169,Tarapaca 220->Condores 220 I,F,MesEne-2017,*,Tarapaca 220,Condores 220,*,F,F,101,F,F,160,160,T,F,T,160,160,220,6.27,28,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+170,Dolores 110->Cerro Balcon 110 I,T,MesMay-2016,*,Dolores 110,Cerro Balcon 110,*,F,F,101,F,F,29,29,T,F,F,29,29,110,5.52211,7.07421,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+171,Dolores 110->Pozo Almonte 110 I,T,MesMay-2016,*,Dolores 110,Pozo Almonte 110,*,F,F,101,F,F,29,29,T,F,F,29,29,110,23.3287,29.8857,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163 (a través de tapoff),110
+172,Cerro Balcon 110->Pozo Almonte 110 I,T,MesMay-2016,*,Cerro Balcon 110,Pozo Almonte 110,*,F,F,101,F,F,29,29,T,F,F,29,29,110,17.80659,22.81149,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+173,Pozo Almonte 220->Pozo Almonte1 110 I,T,MesEne-2018,*,Pozo Almonte 220,Pozo Almonte1 110,BarB,F,F,101,F,F,100,100,T,F,F,100,100,220,0,64.251,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),220/110
+174,Salar 220->Salar 110 I,T,MesEne-2018,*,Salar 220,Salar 110,BarB,F,F,101,F,F,120,120,T,F,F,120,120,220,0,34.2833,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,220/110
+175,Chuquicamata 220->Chuquicamata 110 I,T,MesEne-2018,*,Chuquicamata 220,Chuquicamata 110,BarB,F,F,101,F,F,240,240,F,F,F,240,240,220,0,28.2333,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/110
+176,Nueva Zaldivar 220->Escondida 220 II,F,MesEne-2018,*,Nueva Zaldivar 220,Escondida 220,*,F,F,101,F,F,183,183,T,F,F,183,183,220,1.0038,5.5216,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+177,Esmeralda 110->Centro 110 I,T,MesEne-2018,*,Esmeralda 110,Centro 110,*,F,F,101,F,F,98,98,T,F,F,98,98,110,0.0827,0.2092,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-Pendiente,110
+178,Laberinto 220->Lomas Bayas 220 I,T,MesEne-2020,*,Laberinto 220,Lomas Bayas 220,BarB,F,F,101,F,F,209,209,F,F,F,209,209,220,0.904,4.164,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+179,Pampa 110->Mejillones 110 I,T,MesEne-2020,*,Pampa 110,Mejillones 110,*,F,F,101,F,F,57,57,T,F,F,57,57,110,4.8765,11.6655,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+180,Pozo Almonte 066->Tamarugal 066 I,T,MesEne-2020,*,Pozo Almonte 066,Tamarugal 066,*,F,F,101,F,F,10,10,F,F,F,10,10,66,6.2733,9.2789,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-Pendiente,66
+181,Desalant 110->Pampa 110 I,T,MesEne-2020,*,Desalant 110,Pampa 110,*,F,F,101,F,F,57,57,T,F,F,57,57,110,3.1939,7.6404,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+182,Nueva Zaldivar 220->Zaldivar 220 I,T,MesEne-2020,*,Nueva Zaldivar 220,Zaldivar 220,*,F,F,101,F,F,360,360,T,F,F,360,360,220,0.02,0.08,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+183,Antofagasta 110->Desalant 110 I,T,MesEne-2020,*,Antofagasta 110,Desalant 110,*,F,F,101,F,F,57,57,T,F,F,57,57,110,1.7917,4.2861,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),110
+184,Encuentro 220->Spence 220 I,T,MesEne-2020,*,Encuentro 220,Spence 220,BarB,F,F,101,F,F,318,318,F,F,F,318,318,220,4.891,27.202,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+185,Condores 220->Parinacota 220 I,F,MesEne-2020,*,Condores 220,Parinacota 220,*,F,F,101,F,F,91,91,T,F,T,91,91,220,20.1375,90.675,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+186,Lagunas 220->Lagunas 220 AUX,F,*,MesMar-2013,Lagunas 220,Lagunas AUX 220,*,F,F,101,F,F,160,160,T,T,T,160,160,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+187,Lagunas 220->Lagunas 220 AUX II,F,*,MesAgo-2013,Lagunas 220,Lagunas AUX 220,*,F,F,101,F,F,180,180,T,T,T,180,180,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+188,Lagunas 220->Lagunas 220 AUX III,T,*,MesMar-2017,Lagunas 220,Lagunas AUX 220,*,F,F,101,F,F,366,366,T,T,T,183,183,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+189,Lagunas 220->Lagunas 220 AUX IV,T,MesAbr-2017,*,Lagunas 220,Lagunas AUX 220,*,F,F,101,F,F,549,549,T,T,T,549,549,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+190,Encuentro 220->Collahuasi 220 II,T,*,*,Encuentro 220,Collahuasi 220 Aux,BarB,F,F,101,F,F,170,170,T,F,F,170,170,220,17.999,81.4368,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+191,Crucero 220->Encuentro 220 III,F,MesAgo-2018,*,Crucero 220,Encuentro 220,*,F,F,101,F,F,1600,1600,T,T,T,1098,1098,220,0.011,0.103,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+192,CD Arica 066->Tap Quiani 066,T,*,*,CD Arica 066,Tap Quiani,BarB,F,F,101,F,F,17,17,F,F,F,17,17,66,1.599,2.0096,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163(alcance_nombre),66
+193,Tap Quiani 066->Arica 066,T,*,*,Tap Quiani,Arica 066,*,F,F,101,F,F,17,17,F,F,F,17,17,66,1.79894,2.2608,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,66
+194,Tap Quiani 066->Quiani 066,F,MesAbr-2012,MesMay-2012,Tap Quiani,Quiani 066,*,F,F,101,F,F,17,17,T,F,F,17,17,66,0,0.0001,T,5,1,F,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-DS163,66
+195,Nueva Mejillones 220->Chacaya 220,F,MesFeb-2020,*,Nueva Mejillones 220,Chacaya 220,*,F,F,101,F,F,1500,1500,T,F,F,1500,1500,220,0.02,0.2,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+196,Nueva Mejillones 220->Nueva Mejillones 500 I,F,MesFeb-2020,*,Nueva Mejillones 220,Nueva Mejillones 500,*,F,F,101,F,F,750,750,T,T,F,750,750,500,0.5,45,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/500
+197,Nueva Mejillones 220->Nueva Mejillones 500 II,F,MesFeb-2020,*,Nueva Mejillones 220,Nueva Mejillones 500,*,F,F,101,F,F,750,750,T,T,F,750,750,500,0.5,45,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220/500
+198,Atacama 220->Nueva Mejillones 220,F,MesAbr-2021,*,Atacama 220,Nueva Mejillones 220,BarB,F,F,101,F,F,1500,1500,T,F,F,1500,1500,220,0.02,0.2,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+199,Crucero 220->Encuentro 220  III,T,MesDic-2015,MesOct-2018,Crucero 220,Encuentro 220 Aux,*,F,F,101,F,F,1000,1000,T,T,T,1000,1000,220,0.022,0.206,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+200,Crucero 220->Encuentro 220  IV,T,MesDic-2015,MesOct-2018,Crucero 220,Encuentro 220 Aux,*,F,F,101,F,F,1000,1000,T,T,T,1000,1000,220,0.022,0.206,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+201,Encuentro 220->Encuentro 220 Aux II,T,MesDic-2015,MesNov-2018,Encuentro 220,Encuentro 220 Aux,*,F,F,101,F,F,1000,1000,T,T,T,1000,1000,220,0,0.0001,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+202,Crucero 220->Crucero 220 Aux S,T,MesNov-2018,*,Crucero 220,Crucero 220 Aux S,*,F,F,101,F,F,1000,1000,T,T,T,500,500,220,0,0.0001,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+203,Encuentro 220 Aux->EnlaceCE 220 I,F,MesAgo-2018,*,Encuentro 220 Aux,EnlaceCE 220,*,F,F,101,F,F,1000,1000,T,T,T,1000,1000,220,0.011,0.103,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT(relleno en F),220
+204,Encuentro 220 Aux->EnlaceCE 220 II,F,MesAgo-2018,*,Encuentro 220 Aux,EnlaceCE 220,*,F,F,101,F,F,1000,1000,T,T,T,1000,1000,220,0.011,0.103,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT(relleno en F),220
+205,EnlaceCE 220->EnlaceCE 220 Aux,F,MesAgo-2018,*,EnlaceCE 220,EnlaceCE 220 Aux,*,F,F,101,F,F,1500,1500,T,T,T,1500,1500,220,0,0.0001,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT(relleno en F),220
+206,Crucero 220 Aux S->EnlaceCE 220 I,F,MesAgo-2018,*,Crucero 220 Aux S,EnlaceCE 220,*,F,F,101,F,F,1000,1000,T,T,T,1000,1000,220,0.011,0.103,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT(relleno en F),220
+207,Crucero 220 Aux S->EnlaceCE 220 II,F,MesAgo-2018,*,Crucero 220 Aux S,EnlaceCE 220,*,F,F,101,F,F,1000,1000,T,T,T,1000,1000,220,0.011,0.103,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT(relleno en F),220
+208,EnlaceCE 220 Aux->Nueva Crucero Encuentro 220 I,F,MesAgo-2018,*,EnlaceCE 220 Aux,Nueva Crucero Encuentro 220,*,F,F,101,F,F,500,500,T,F,T,500,500,220,0.5,48.75,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT(relleno en F),220
+209,EnlaceCE 220 Aux->Nueva Crucero Encuentro 220 II,F,MesAgo-2018,*,EnlaceCE 220 Aux,Nueva Crucero Encuentro 220,*,F,F,101,F,F,500,500,T,F,T,500,500,220,0.5,48.75,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT(relleno en F),220
+210,EnlaceCE 220 Aux->Nueva Crucero Encuentro 220 III,F,MesAgo-2018,*,EnlaceCE 220 Aux,Nueva Crucero Encuentro 220,*,F,F,101,F,F,500,500,T,F,T,500,500,220,0.5,48.75,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT(relleno en F),220
+211,EnlaceCE 220 Aux->Nueva Crucero Encuentro 220 IV,F,MesAgo-2018,*,EnlaceCE 220 Aux,Nueva Crucero Encuentro 220,*,F,F,101,F,F,500,500,T,F,T,500,500,220,0.5,48.75,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT(relleno en F),220
+212,Lagunas 220->Lagunas 220 Aux S,F,MesAbr-2017,*,Lagunas 220,Lagunas 220 Aux S,*,F,F,101,F,F,290,290,T,T,T,1000,1000,220,0,0.0001,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_relleno,220
+213,Encuentro 220->Lagunas 220 I,F,MesAbr-2017,*,Encuentro 220,Lagunas 220 Aux S,*,F,F,101,F,F,290,290,T,T,T,290,290,220,15.5014,68.6218,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+214,Encuentro 220->Lagunas 220 II,F,MesAbr-2017,*,Encuentro 220,Lagunas 220 Aux S,*,F,F,101,F,F,290,290,T,T,T,290,290,220,15.5014,68.6218,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+215,Miraje 220->Miraje 220 Aux,T,MesEne-2016,*,Miraje 220,Miraje 220 Aux,*,F,F,101,F,F,491.6,491.6,T,T,T,245.8,245.8,220,0,0.0001,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+216,Encuentro 220->Miraje 220 Aux I,T,MesEne-2016,*,Encuentro 220,Miraje 220 Aux,*,F,F,101,F,F,245.8,245.8,T,F,T,245.8,245.8,220,0.6467,4.0832,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+217,Encuentro 220->Miraje 220 Aux II,T,MesEne-2016,*,Encuentro 220,Miraje 220 Aux,*,F,F,101,F,F,245.8,245.8,T,F,T,245.8,245.8,220,0.6467,4.0832,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+218,Miraje 220->Atacama 220 Aux I,T,MesEne-2016,*,Miraje 220,Atacama 220 Aux,*,F,F,101,F,F,245.8,245.8,T,F,T,245.8,245.8,220,6.6667,42.0922,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+219,Miraje 220->Atacama 220 Aux II,T,MesEne-2016,*,Miraje 220,Atacama 220 Aux,*,F,F,101,F,F,245.8,245.8,T,F,T,245.8,245.8,220,6.6667,42.0922,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+220,Nueva Crucero Encuentro 500->Nueva Crucero Encuentro 220 I,T,MesDic-2020,*,Nueva Crucero Encuentro 500,Nueva Crucero Encuentro 220,*,F,F,101,F,F,750,750,T,T,T,750,750,500,0.5,45,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,500/220
+221,Nueva Crucero Encuentro 500->Nueva Crucero Encuentro 220 II,T,MesDic-2020,*,Nueva Crucero Encuentro 500,Nueva Crucero Encuentro 220,*,F,F,101,F,F,750,750,T,T,T,750,750,500,0.5,45,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,500/220
+222,Nueva Mejillones 500->Nueva Mejillones 500 Aux,F,MesFeb-2020,*,Nueva Mejillones 500,Nueva Mejillones 500 Aux,*,F,F,101,F,F,1500,1500,T,T,F,1500,1500,500,0,0.0001,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,500
+223,Nueva Mejillones 500->Nueva Crucero Encuentro 500 I,F,MesFeb-2020,*,Nueva Mejillones 500 Aux,Nueva Crucero Encuentro 500,BarA,F,F,101,F,F,1500,1500,T,T,F,1500,1500,500,3.2064,18.4022,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,500
+224,Nueva Mejillones 500->Nueva Crucero Encuentro 500 II,F,MesFeb-2020,*,Nueva Mejillones 500 Aux,Nueva Crucero Encuentro 500,BarA,F,F,101,F,F,1500,1500,T,T,F,1500,1500,500,3.2064,18.4022,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,500
+225,Atacama 220->Atacama 220 Aux,T,*,*,Atacama 220,Atacama 220 Aux,*,F,F,101,F,F,772,772,T,T,T,386,386,220,0,0.0001,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+226,Encuentro 220 Aux->Nueva Crucero Encuentro 220 I,T,MesNov-2018,*,Encuentro 220 Aux,Nueva Crucero Encuentro 220,*,F,F,101,F,F,500,500,T,T,T,500,500,220,0.011,0.103,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+227,Encuentro 220 Aux->Nueva Crucero Encuentro 220 II,T,MesNov-2018,*,Encuentro 220 Aux,Nueva Crucero Encuentro 220,*,F,F,101,F,F,500,500,T,T,T,500,500,220,0.011,0.103,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+228,Nueva Crucero Encuentro 220->Crucero 220 Aux S I,T,MesNov-2018,*,Nueva Crucero Encuentro 220,Crucero 220 Aux S,*,F,F,101,F,F,500,500,T,T,T,500,500,220,0.011,0.103,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+229,Nueva Crucero Encuentro 220->Crucero 220 Aux S II,T,MesNov-2018,*,Nueva Crucero Encuentro 220,Crucero 220 Aux S,*,F,F,101,F,F,500,500,T,T,T,500,500,220,0.011,0.103,T,5,1,T,TxT,Cmn,F,F,*,0,10000,30,CNE,SING,TxT_Decreto_23T,220
+230,Laberinto 220->Kapatur 220,T,MesOct-2016,*,Laberinto 220,Kapatur 220,*,F,F,101,F,F,1400,1400,T,F,T,700,700,220,1.775,20.345,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+231,Kapatur 220->O'higgins 220,T,MesOct-2016,*,Kapatur 220,O'higgins 220,*,F,F,101,F,F,1400,1400,T,F,T,700,700,220,0.735,10.33,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+232,Quebrada Blanca 220->Lagunas 220,T,MesEne-2019,*,Quebrada Blanca 220,Lagunas 220,BarA,F,F,101,F,F,610,610,F,F,F,305,305,220,3.80067,28.38,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+233,Atacama 220->O'higgins 220,T,MesJun-2016,*,Atacama 220,O'higgins 220,*,F,F,101,F,F,491.56,491.56,T,F,T,245.78,245.78,220,3.7125,15.405,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+234,O'Higgins 220->Domeyko 220,T,MesJun-2016,*,O'higgins 220,Domeyko 220,BarB,F,F,101,F,F,512,512,T,F,F,246,246,220,6.336,26.2912,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+235,Enlace->Nueva Crucero Encuentro 220,F,MesFeb-2020,*,Kapatur 220,Nueva Crucero Encuentro 220,*,F,F,101,F,F,3000,3000,T,T,T,1500,1500,500,2.3368125,27.7695,T,5,1,T,TxT,Lat,F,F,*,600,13,30,CNE,SING,TxT_Decreto_23T,220
+236,Nueva Crucero-Encuentro 220->Chuquicamata 220,T,MesMay-2019,MesMay-2020,Nueva Crucero Encuentro 220,Chuquicamata 220,*,F,F,101,F,F,357,357,T,F,T,357,357,220,3.8896,28.0772,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+237,Nueva Crucero Encuentro 220->Laberinto 220 I,T,MesMay-2019,*,Nueva Crucero Encuentro 220,Laberinto 220 Aux,*,F,F,101,F,F,293.03,293.03,T,F,T,293.03,293.03,220,10.6425,54.5397,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+238,Nueva Crucero Encuentro 220->Laberinto 220 II,T,MesMay-2019,*,Nueva Crucero Encuentro 220,Laberinto 220 Aux,*,F,F,101,F,F,304.84,304.84,T,F,T,304.84,304.84,220,9.6425,53.2532,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+239,Nueva Crucero Encuentro 220->Lagunas 220 II,F,MesMay-2019,*,Nueva Crucero Encuentro 220,Lagunas AUX 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,15.5014,68.6218,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+240,Nueva Crucero Encuentro 220->Nueva Victoria 220,F,MesMay-2019,*,Nueva Crucero Encuentro 220,Nueva Victoria 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,15.76422,65.8657,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+241,El Loa 220->Nueva Crucero Encuentro 220,T,MesMay-2019,*,El Loa 220,Nueva Crucero Encuentro 220,BarA,F,F,101,F,F,714,714,F,F,F,357,357,220,0.3,1.98,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+242,Nueva Crucero Encuentro 220->Salar 220,T,MesMay-2019,MesMay-2020,Nueva Crucero Encuentro 220,Salar 220,*,F,F,101,F,F,330,330,T,F,T,330,330,220,4.31,29.48,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+243,Nueva Crucero Encuentro 220->Nueva Chuquicamata 220 1,T,MesJun-2020,*,Nueva Crucero Encuentro 220,Nueva Chuquicamata 220,*,F,F,101,F,F,357,357,T,F,T,357,357,220,2.786246418,20.11260745,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+244,Nueva Crucero Encuentro 220->Nueva Chuquicamata 220 2,T,MesJun-2020,*,Nueva Crucero Encuentro 220,Nueva Chuquicamata 220,*,F,F,101,F,F,330,330,T,F,T,330,330,220,2.786246418,20.11260745,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+245,Nueva Chuquicamata 220->Nueva Chuquicamata 220 Aux,T,MesJun-2020,*,Nueva Chuquicamata 220,Nueva Chuquicamata 220 Aux,*,F,F,101,F,F,660,660,T,F,T,330,330,220,0,0.0001,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+246,Nueva Chuquicamata 220 Aux->Chuquicamata 220,T,MesJun-2020,*,Nueva Chuquicamata 220 Aux,Chuquicamata 220,*,F,F,101,F,F,357,357,T,F,T,357,357,220,1.103353582,7.96459255,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+247,Nueva Chuquicamata 220 Aux->Salar 220,T,MesJun-2020,*,Nueva Chuquicamata 220 Aux,Salar 220,*,F,F,101,F,F,330,330,T,F,T,330,330,220,1.523753582,9.36739255,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+248,Nueva Chuquicamata 220 Aux->Calama 220,T,MesJun-2022,*,Nueva Chuquicamata 220 Aux,Calama 220,*,F,F,101,F,F,260,260,T,F,T,330,330,220,2,8.33199738,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+249,Collahuasi 220->Collahuasi 220 Aux,T,*,*,Collahuasi 220,Collahuasi 220 Aux,*,F,F,101,F,F,340,340,T,F,F,170,170,220,0,0.0001,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+250,Laberinto 220 Aux->Laberinto 220,T,*,*,Laberinto 220 Aux,Laberinto 220,*,F,F,101,F,F,597.87,597.87,T,F,T,293.03,293.03,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+251,Salar 220->Calama 220,T,MesMar-2015,*,Salar 220,Calama 220,*,F,F,101,F,F,330,330,T,F,T,330,330,220,1.12488,7.1122,T,2,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+252,Calama 220->Calama 100,T,MesMar-2015,*,Calama 220,Calama 110,BarB,F,F,101,F,F,150,150,T,F,F,150,150,220,0,27.43796,T,2,1,T,STx,Cmn,F,F,*,0,0,30,CNE,SING,STx-Pendiente,220/100
+253,Parinacota 220 Aux->Parinacota 220,T,*,*,Parinacota 220 Aux,Parinacota 220,*,F,F,101,F,F,182.9,182.9,T,F,T,91.45,91.45,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+254,Parinacota 220 Aux->Nueva Pozo Almonte 220 Aux,T,MesJun-2021,*,Parinacota 220 Aux,Nueva Pozo Almonte 220 Aux,*,F,F,101,F,F,260,260,T,F,T,260,260,220,22.5,93.73497053,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+255,Condores 220->Nueva Pozo Almonte 220 Aux,T,MesJun-2021,*,Condores 220,Nueva Pozo Almonte 220 Aux,*,F,F,101,F,F,260,260,T,F,T,260,260,220,3.8,15.83079502,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+256,Nueva Pozo Almonte 220 Aux->Nueva Pozo Almonte 220,T,MesJun-2021,*,Nueva Pozo Almonte 220 Aux,Nueva Pozo Almonte 220,*,F,F,101,F,F,520,520,T,F,T,260,260,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+257,Pozo Almonte 220 Aux->Pozo Almonte 220,T,MesJun-2019,*,Pozo Almonte 220 Aux,Pozo Almonte 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+258,Nueva Pozo Almonte 220->Pozo Almonte 220 Aux I,T,MesJun-2019,*,Nueva Pozo Almonte 220,Pozo Almonte 220 Aux,*,F,F,101,F,F,183,183,T,T,T,183,183,220,0.7992,3.3392,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+259,Lagunas 220->Nueva Pozo Almonte 220,T,MesJun-2019,*,Lagunas 220,Nueva Pozo Almonte 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,6.1938,25.8788,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+260,Nueva Pozo Almonte 220->Pozo Almonte 220 Aux II,T,MesJun-2021,*,Nueva Pozo Almonte 220,Pozo Almonte 220 Aux,*,F,F,101,F,F,260,260,T,F,T,260,260,220,0.8,3.332798952,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+261,Quillagua 220 Aux->Lagunas AUX 220,T,*,*,Quillagua 220 Aux,Lagunas AUX 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,8.838007502,39.12420705,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+262,Quillagua 220->Quillagua 220 Aux,T,*,*,Quillagua 220,Quillagua 220 Aux,*,F,F,101,F,F,366,366,T,T,T,183,183,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+263,Maria Elena 220 Aux->Quillagua 220 I,T,*,*,Maria Elena 220 Aux,Quillagua 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,6.038112413,26.7295949,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+264,Maria Elena 220->Maria Elena 220 Aux,T,*,*,Maria Elena 220,Maria Elena 220 Aux,*,F,F,101,F,F,366,366,T,T,T,183,183,220,0,0.0001,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+265,Crucero 220->Maria Elena 220 I,T,*,MesAbr-2019,Crucero 220,Maria Elena 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,0.625280085,2.76799805,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+266,Quillagua 220 Aux->Nueva Victoria 220,T,MesSep-2018,*,Quillagua 220 Aux,Nueva Victoria 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,8.322669,34.77358344,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+267,Maria Elena 220 Aux->Quillagua 220 II,T,MesSep-2018,*,Maria Elena 220 Aux,Quillagua 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,6.74325,28.17449144,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+268,Crucero 220->Maria Elena 220 II,T,MesSep-2018,MesAbr-2019,Crucero 220,Maria Elena 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,0.698301,2.917625114,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+269,Nueva Crucero Encuentro 220->Maria Elena 220 I,T,MesMay-2019,*,Nueva Crucero Encuentro 220,Maria Elena 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,0.625280085,2.76799805,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+270,Nueva Crucero Encuentro 220->Maria Elena 220 II,T,MesMay-2019,*,Nueva Crucero Encuentro 220,Maria Elena 220,*,F,F,101,F,F,183,183,T,T,T,183,183,220,0.698301,2.917625114,T,5,1,F,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+271,Encuentro 220->Encuentro 220 Aux III,T,MesDic-2018,*,Encuentro 220,Encuentro 220 Aux,*,F,F,101,F,F,1000,1000,T,T,T,500,500,220,0,0.0001,T,5,1,T,TxT,Cmn,F,F,*,0,0,30,CNE,SING,TxT_Decreto_23T,220
+272,Antucoya 220 Aux->Antucoya 220,F,MesJul-2018,*,Antucoya 220 Aux,Antucoya 220,*,F,F,101,F,F,386,386,T,F,F,386,386,220,0,0.0001,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+273,Miraje 220->Antucoya 220 Aux,F,MesJul-2018,*,Miraje 220,Antucoya 220 Aux,BarB,F,F,101,F,F,386,386,T,F,F,386,386,220,3.728460044,23.54071844,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+274,Miraje 220->Antucoya 220 Aux II,F,MesJul-2018,*,Miraje 220,Antucoya 220 Aux,BarB,F,F,101,F,F,386,386,T,F,F,386,386,220,3.728460044,23.54071844,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+275,Antucoya 220->Atacama 220 Aux,F,MesJul-2018,*,Antucoya 220,Atacama 220 Aux,BarA,F,F,101,F,F,386,386,T,F,F,386,386,220,2.938239956,18.55148156,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+276,Antucoya 220->Atacama 220 Aux II,F,MesJul-2018,*,Antucoya 220,Atacama 220 Aux,BarA,F,F,101,F,F,386,386,T,F,F,386,386,220,2.938239956,18.55148156,T,5,1,T,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+277,Zaldivar 220->OGP1 220,T,*,*,Zaldivar 220,OGP1 220,*,F,F,101,F,F,264,264,T,F,F,264,264,220,8.7677,32.6872,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220
+278,OGP1 220->Domeyko 220,T,*,*,OGP1 220,Domeyko 220,*,F,F,101,F,F,264,264,T,F,F,264,264,220,4.491,17.259,T,5,1,F,TxA,Cmn,F,F,*,0,0,30,CNE,SING,TxA,220

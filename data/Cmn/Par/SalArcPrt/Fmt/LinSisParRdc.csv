@@ -1,0 +1,2 @@
+CamHdr,LinINum,LinNom,LinFOpe,LinFecOpeIni,LinFecOpeFin,LinBarA,LinBarB,LinBarSis,LinFPri,LinFCC,LinFMax,LinPotMaxA->B,LinPotMaxB->A,LinFN-1,LinPotN-1A->B,LinPotN-1B->A,LinVolt,LinR,LinX,LinFPer,LinNTra,LinFPeaCal,LinPeaSis,LinPeaTip,LinFTipDef,LinFInv,LinFecInv,LinVI,LinCOMA,LinVidUti,LinEmp,LinAux,LinCVar,LinDisEne,LinSisGbl,LinSisPri,LinSisSec,LinSisCmr
+CamFlg,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,F,F,T,T,T,T

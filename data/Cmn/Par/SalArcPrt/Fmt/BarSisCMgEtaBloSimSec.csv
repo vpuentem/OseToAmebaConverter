@@ -1,0 +1,2 @@
+CamHdr,INum,AñoHid,AñoCld,IAño,EtaTip,EtaHid,EtaCld,EtaNom,MesHid,MesCld,MesNom,TriHid,TriCld,TriNom,ISim,IHid,ISec,BarNum,BarNom,BarCMg [US$/MWh],BarCMgPon [US$/MWh],SisGbl,SisPri,SisSec,BarDemPot [MW],BarDemEne [GWh],SecPro [PU],BarTipPNd,BarDemPotPNd [MW],BarDemPotPNdInd [MW],BarDemPotPNdVeg [MW],BarDemEnePNd [GWh],BarDemEnePNdInd [GWh],BarDemEnePNdVeg [GWh],EtaHrs,EtaTas
+CamFlg,T,T,T,F,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,F,T,T,T,T,T,T,T,F,F,F,T,T,T,T,T

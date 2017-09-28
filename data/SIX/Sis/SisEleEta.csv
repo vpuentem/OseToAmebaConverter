@@ -1,0 +1,12 @@
+SisINum,SisFAñoRlt,SisAñoIni,SisAñoFin,SisIBlo,SisNom,SisTipDat,SisTipEta,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic,Ene,Feb,Mar
+1,F,*,*,*,Sistema,PNdEne,EtaMes,T,T,T,T,T,T,T,T,T,T,T,T
+1,F,*,*,*,Sistema,PNdPot,EtaMes,T,T,T,T,T,T,T,T,T,T,T,T
+1,F,*,*,*,SING,PNdEne,EtaMes,T,T,T,T,T,T,T,T,T,T,T,T
+2,F,*,*,15,SING,PNdPot,EtaMes,F,F,F,F,F,T,F,T,F,T,T,F
+4,F,*,*,1,SING,PNdPot,EtaMes,T,F,T,T,T,F,T,F,F,F,F,T
+6,F,*,*,2,SING,PNdPot,EtaMes,F,T,F,F,F,F,F,F,F,F,F,F
+7,F,*,*,3,SING,PNdPot,EtaMes,F,F,F,F,F,F,F,F,T,F,F,F
+8,F,*,*,*,SIC,PNdEne,EtaMes,T,T,T,T,T,T,T,T,T,T,T,T
+9,F,*,*,10,SIC,PNdPot,EtaMes,T,F,F,F,F,F,F,F,F,F,F,F
+10,F,*,*,8,SIC,PNdPot,EtaMes,F,T,T,T,T,F,F,F,F,F,F,F
+11,F,*,*,15,SIC,PNdPot,EtaMes,F,F,F,F,F,T,F,F,F,F,F,F

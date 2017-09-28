@@ -1,0 +1,12 @@
+EmbINum,EmbNom,EmbFOpe,EmbFecOpeIni,EmbFecOpeFin,EmbFRegEta,EmbFRegBlo,EmbKRegBlo,EmbConQGen,EmbConQVer,EmbConQFil,EmbCotIni,EmbCotFin,EmbCotMax,EmbCotMin,EmbCotMed,EmbRenSerCen,EmbRenSerVer,EmbConEva,EmbVolExp,EmbNwtFV2C,EmbNwtErr,EmbNwtNIte,EmbFFilMod,EmbFFilSim,EmbFFilOpt,EmbFEvaMod,EmbFEvaSim,EmbFEvaOpt,EmbCosQDef,EmbFInv,EmbFecInv,EmbVI,EmbCOMA,EmbVidUti,EmbSis,EmbEmp,EmbAux
+1,Lago Laja,T,*,*,T,F,0,El Toro,Abanico,Boc. Filtraciones Lago Laja,1308.42,1324,1368,1308.42,1350,8.25,4.78,44,1000000,T,0.001,100,T,T,T,F,F,F,5.00E+04,F,*,0,0,50,SIC,Endesa,CNE
+2,Laguna Del Maule,T,*,*,T,F,0.05,Los Condores,Boc. Riego Laguna Del Maule,NoCon,2157.8,2170,2183,2152,2170,5.881,8.881,44,1000000,T,0.001,100,F,F,F,F,F,F,5.00E+04,F,*,0,0,50,SIC,Endesa,CNE
+3,Lago Rapel,T,*,*,F,T,0.8,Rapel,NoCon,NoCon,102.57,100.5,105,100.5,102.5,0.674,0,44,1000000,T,0.001,100,F,F,F,F,F,F,5.00E+04,F,*,0,0,50,SIC,Endesa,CNE
+4,Laguna Invernada,T,*,*,T,F,0.1,Cipreses,Boc. Cipreses Isla,Ojos de Agua,1289.21,1302.26,1319,1280,1300,8.667,5.881,44,1000000,T,0.001,100,T,T,T,F,F,F,5.00E+04,F,*,0,0,50,SIC,Endesa,CNE
+5,Lago Chapo,T,*,*,T,F,0.1,Canutillar,NoCon,NoCon,228.85,230,243,220,230,1.92,0,44,1000000,T,0.001,100,F,F,F,F,F,F,5.00E+04,F,*,0,0,50,SIC,Endesa,CNE
+6,Embalse Colbun,T,*,*,T,F,0.05,Colbun,Riego Maule Norte Bajo,Boc. Colorado Sistema Maitenes,410.84,425.71,437,397,425,1.941,0.97,44,1000000,T,0.001,100,T,T,T,F,F,F,5.00E+04,F,*,0,0,50,SIC,Colbún S.A.,CNE
+7,Embalse Melado,T,*,*,F,T,0.8,Pehuenche,Riego Maule Norte Alto,NoCon,641.82,644,647,641,644,3.607,1.941,44,1000000,T,0.001,100,F,F,F,F,F,F,5.00E+04,F,*,0,0,50,SIC,Pehuenche S.A.,CNE
+8,Embalse Ralco,T,*,*,T,F,0.1,Ralco,Caudal Ecologico Ralco,NoCon,700.21,700,725,692,700,2.435,2.028,44,1000000,T,0.001,100,F,F,F,F,F,F,5.00E+04,F,*,0,0,50,SIC,Endesa,CNE
+9,Embalse Pangue,T,*,*,F,T,0.8,Pangue,Angostura,NoCon,508.85,508,510,500,508,0.885,0,44,1000000,T,0.001,100,F,F,F,F,F,F,5.00E+04,F,*,0,0,50,SIC,Endesa,CNE
+10,Poza Polcura,T,*,*,F,T,0.8,Antuco,Riego A. Rucue,NoCon,734.32,733,736,730,733,3.51,1.88,44,1000000,T,0.001,100,F,F,F,F,F,F,5.00E+04,F,*,0,0,50,SIC,Endesa,CNE
+11,Embalse Machicura,T,*,*,F,T,0.8,Machicura,Riego Sur 1-2 y 3,NoCon,256.96,256,257.5,254.5,256,0.512,0.191,44,1000000,T,0.001,100,F,F,F,F,F,F,5.00E+04,F,*,0,0,50,SIC,Colbún S.A.,CNE

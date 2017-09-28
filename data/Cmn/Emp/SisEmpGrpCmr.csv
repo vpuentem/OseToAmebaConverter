@@ -1,0 +1,70 @@
+EmpINum,EmpNom,GrpNom,EmpRelGrp
+1,Endesa,Enersis,1
+2,Ibener S.A.,Ibener S.A.,1
+3,AesGener S.A.,AesGener S.A.,1
+4,Guacolda,Guacolda,1
+5,Colbún S.A.,Colbún S.A.,1
+6,HGV,Colbún S.A.,1
+7,Hidroeléctrica Aconcagua S.A.,Colbún S.A.,1
+8,Pullinque S.A.,Puyehue S.A.,1
+9,Puyehue S.A.,Puyehue S.A.,1
+10,Chilectra,Enersis,1
+11,Chilquinta,Chilquinta,1
+12,Emel,Emel,1
+13,Emelectric,Emel,1
+14,Emelat,Emel,1
+15,CGE Distribucion,CGE,1
+16,Rio Maipo,CGE,1
+18,Saesa,Saesa,1
+19,Frontel,Saesa,1
+20,Conafe,CGE,1
+21,E.E.Puente Alto,E.E.Puente Alto,1
+22,Arauco Generacion,Arauco Generacion,1
+23,Energia Verde,Aes Gener,1
+24,Petropower,Petropower,1
+25,Electrica de Santiago,Aes Gener,1
+26,San Isidro,Enersis,1
+27,Cenelca,Colbún S.A.,1
+28,PSEG Generacion y Energia Chile Ltda.,PSEG,1
+29,Soc. de Canalistas del Maipo,Soc. de Canalistas del Maipo,1
+30,Generadora Sauce Andes,Chilquinta,1
+31,Los Morros,Los Morros,1
+32,E.E. Capullo S.A.,E.E. Capullo S.A.,1
+33,E.E. Puntilla S.A.,E.E. Puntilla S.A.,1
+34,Pehuenche,Enersis,1
+35,Riego Laja,Riego Laja,1
+36,Riego Maule,Riego Maule,1
+37,Copelec,Otros,1
+38,Luz Linares,Otros,1
+39,CEC,Otros,1
+41,CMPC,CMPC,1
+42,Campanario,Campanario,1
+43,Pacific Hydro,Pacific Hydro,1
+44,Suez,Suez,1
+45,Codelco,Codelco,1
+46,CNE,CNE,1
+47,Otros,Otros,1
+48,Obras y Desarrollo S.A.,Colbún S.A.,1
+49,Enor,Enor,1
+50,Elektragen,Elektragen,1
+51,SGA,Saesa,1
+52,SWC,SWC,1
+53,Plan de Obra,Plan de Obra,1
+54,Barrick,Barrick,1
+55,Hidroeléctrica La Higuera S.A.,Hidroeléctrica La Higuera S.A.,1
+56,Hidroeléctrica La Confluencia S.A.,Hidroeléctrica La Confluencia S.A.,1
+57,SN Power,SN Power,1
+58,Termopacífico,Termopacífico,1
+59,Termoelectrica Los Espinos,Termoelectrica Los Espinos,1
+60,Energia Latina,Energia Latina,1
+61,Agrocomercial AS,Agrocomercial AS,1
+62,GASATACAMA,ENDESA,1
+63,EDELNOR,SUEZ,1
+64,CELTA,ENDESA,1
+65,OTRO,OTRO,1
+66,NORGENER,GENER,1
+67,AES GENER,GENER,1
+68,ELECTROANDINA,SUEZ,1
+69,TRASEMEL,TRASEMEL,1
+70,NORACID,NORACID,1
+71,ELÉCTRICA PANGUIPULLI,ELÉCTRICA PANGUIPULLI,1
