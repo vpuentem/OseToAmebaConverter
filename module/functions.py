@@ -69,8 +69,9 @@ def datetime_to_ameba(date_time):
     return str(year) + '-' + str(month).zfill(2) + '-' + str(day).zfill(2) + '-' + '00:00'
 
 
-def datetime_to_ameba2(date_time):
-    year = date_time.year
+def datetime_to_ameba2(date_time,year=None):
+    if not year:
+        year = date_time.year
     month = date_time.month
     day = date_time.day
     hour = date_time.hour

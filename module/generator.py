@@ -156,7 +156,7 @@ class Generator(object):
         self._ameba_dir = ameba_dir
         # READS FILES FROM DIR 'Termica'
         self._reader_thermal_SING_1 = list(reader_csv(os.path.join(DIR_OSE_SING, DIR_OSE_GENERATOR, DIR_OSE_THERMAL),
-                                                 FILE_OSE_THERMAL_SING_1, ose_dir))
+                                                      FILE_OSE_THERMAL_SING_1, ose_dir))
         if model in ['Ope', 'ope', 'OPE']:
             # READS FILES FROM DIR 'Termica'
             self._reader_thermal_SIC_1 = list(reader_csv(os.path.join(DIR_OSE_SIC, DIR_OSE_GENERATOR, DIR_OSE_THERMAL),
