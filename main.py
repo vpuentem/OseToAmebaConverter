@@ -13,11 +13,10 @@ import os
 from module import busbar
 from module import branch
 from module import generator
+from module import demandload
 
-# from ose2ameba_generator import *
-# from ose2ameba_gen_unavailability import *
 # from ose2ameba_profile_GNLv2 import *
-# from ose2ameba_demand_load import *
+
 # from ose2ameba_fuel import *
 # from ose2ameba_profile_inflow import *
 # from ose2ameba_profiles_ERNC import *
@@ -32,6 +31,8 @@ parser = argparse.ArgumentParser(description='OSE2000 to Ameba converter')
 parser.add_argument(
     'model', default='opt', type=str, help='select model to get data from (Opt or Ope)')
 args = parser.parse_args()
+
+print 'starting process..........'
 
 #  - - - - - - LEER RUTAS DE DATOS Y RESULTADOS  - - - - - - #
 
@@ -54,15 +55,38 @@ if not os.path.exists(path_resultados):
 # - - - - - - CONFIG PARAMETERS  - - - - - - #
 BLOCK_RESOLUTION = False
 
-#  - - - - - - RUN  - - - - - - #
+#  - - - - - - BUSBAR  - - - - - - #
+print '|------------------------|'
+print '| generating busbar data |'
+print '|------------------------|'
+print ''
 busbar = busbar.Busbar(path_datos, path_resultados, args.model)
 busbar.run()
-
+# - - - - - - BRANCH  - - - - - - #
+print '|------------------------|'
+print '| generating branch data |'
+print '|------------------------|'
+print ''
 branch = branch.Branch(path_datos, path_resultados, args.model)
 branch.run()
-
+# - - - - - - GENERATOR  - - - - - - #
+print '|---------------------------|'
+print '| generating generator data |'
+print '|---------------------------|'
+print ''
 generator = generator.Generator(path_datos, path_resultados, args.model)
 generator.run()
+
+# - - - - - - DEMAND  - - - - - - #
+print '|------------------------|'
+print '| generating demand data |'
+print '|------------------------|'
+print ''
+year_ini='2017'
+year_end='2018'
+year_ose='2013'
+demand = demandload.DemandLoad(path_datos, path_resultados, args.model, year_ini, year_end, year_ose)
+demand.run()
 
 # gen_unav = GenUnav(self._ose_dir, self._ameba_dir, self._model)
 # fuel = Fuel(self._ose_dir, self._ameba_dir, self._model)
@@ -70,7 +94,7 @@ generator.run()
 # profile_inflow = ProfileInflow(self._ose_dir, self._ameba_dir, self._model)
 # profile_power = ProfilePower(self._ose_dir, self._ameba_dir, self._model)
 # irrigation = Irrigation(self._ose_dir, self._ameba_dir, self._model)
-# demand = DemandLoad(self._ose_dir, self._ameba_dir, self._model)
+
 # dam = DamCot(self._ose_dir, self._ameba_dir, self._model)
 
 # gen_unav.run()
@@ -79,7 +103,7 @@ generator.run()
 # profile_inflow.run()
 # profile_power.run()
 # irrigation.run()
-# demand.run()
+
 # dam.run()
 
 # demand_block = DemandLoadBlock(self._ose_dir, self._ameba_dir, self._model)

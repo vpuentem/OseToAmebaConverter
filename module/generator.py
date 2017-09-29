@@ -40,6 +40,14 @@ FILE_OSE_EMB_SIC_OPE_1 = 'cenembparOpe.csv'
 FILE_OSE_SER_SIC_OPT_1 = 'censerparOpt.csv'
 FILE_OSE_SER_SIC_OPE_1 = 'censerparOpe.csv'
 
+FILE_OSE_THERMAL_SIC_UNAV = 'CenTerMan.csv'
+FILE_OSE_THERMAL_SING_UNAV = 'CenTerMan.csv'
+FILE_OSE_SER_SIC_UNAV = 'censerman.csv'
+FILE_OSE_PAS_SIC_UNAV = 'cenpasman.csv'
+FILE_OSE_EMB_SIC_UNAV = 'cenembman.csv'
+
+FILE_AMEBA_GEN_UNAV = 'ele-gen-unavailability.csv'
+
 FILE_AMEBA_HYDRO = 'ele-hydro.csv'
 FILE_AMEBA_THERMAL = 'ele-thermal.csv'
 FILE_AMEBA_PV = 'ele-pv.csv'

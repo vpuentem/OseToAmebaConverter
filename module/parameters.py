@@ -44,16 +44,6 @@ TABLA_NO_HABIL = 'Asignaciondianohabil.csv'
 BLOCK_LENGTH = 'tabla_duracion.csv'
 
 """_______________________________________________________________________________"""
-""" GENERATOR UNAVAILABILITY PARAMETERS """
-
-FILE_OSE_THERMAL_SIC_UNAV = 'CenTerMan.csv'
-FILE_OSE_THERMAL_SING_UNAV = 'CenTerMan.csv'
-FILE_OSE_SER_SIC_UNAV = 'censerman.csv'
-FILE_OSE_PAS_SIC_UNAV = 'cenpasman.csv'
-FILE_OSE_EMB_SIC_UNAV = 'cenembman.csv'
-
-FILE_AMEBA_GEN_UNAV = 'ele-gen-unavailability.csv'
-"""_______________________________________________________________________________"""
 """ GNL PROFILE PARAMETERS """
 FILE_AMEBA_PROFILE_GNL_MAX_SIC = 'ele-profile_gnl_max_SIC.csv'
 FILE_AMEBA_PROFILE_GNL_MIN_SIC = 'ele-profile_gnl_min_SIC.csv'
@@ -131,44 +121,6 @@ FILE_OSE_IRRIGATION = 'cenvireta.csv'
 
 FILE_AMEBA_HYDRO_CONNECTION = 'ele-hydro-connection.csv'
 FILE_AMEBA_IRRIGATION = 'ele-irrigation.csv'
-
-"""_______________________________________________________________________________"""
-""" DEMAND LOAD PARAMETERS """
-
-FILE_OSE_IND_1_SING = 'DemIndBloOpt_16_SIMP_SING.csv'
-FILE_OSE_IND_2_SING = 'DemIndDat.csv'
-FILE_OSE_VEG_1_SING = 'DemVegBloOpt_16_SIMP_SING.csv'
-FILE_OSE_VEG_2_SING = 'DemVegBar.csv'
-FILE_OSE_VEG_3_SING = 'DemVegDat.csv'
-FILE_OSE_IND_OPT_1_SIC = 'DemIndBloOpt_16_SIMP_SIC.csv'
-FILE_OSE_IND_OPT_2_SIC = 'DemIndDatOpt.csv'
-FILE_OSE_VEG_OPT_1_SIC = 'DemVegBlo_16_SIMP_Opt.csv'
-FILE_OSE_VEG_OPT_2_SIC = 'DemVegBarOpt.csv'
-FILE_OSE_VEG_OPT_3_SIC = 'DemVegDatOpt.csv'
-FILE_OSE_IND_OPE_1_SIC = 'DemIndBloOpe_16_SIMP_SIC.csv'
-FILE_OSE_IND_OPE_2_SIC = 'DemIndDatOpe.csv'
-FILE_OSE_VEG_OPE_1_SIC = 'DemVegBlo_16_SIMP_Ope.csv'
-FILE_OSE_VEG_OPE_2_SIC = 'DemVegBarOpe.csv'
-FILE_OSE_VEG_OPE_3_SIC = 'DemVegDatOpe.csv'
-
-OSE_IND_YEAR = 'DemIndA\xf1oIni'
-OSE_IND_BAR = 'DemIndBar'
-OSE_IND_BLOCK = 'DemIndIBlo'
-OSE_VEG_YEAR = 'DemVegA\xf1oIni'
-OSE_VEG_BAR = 'DemVegBar'
-OSE_VEG_BLOCK = 'DemVegIBlo'
-OSE_MONTHS_1 = ['Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic', 'Ene', 'Feb', 'Mar']
-OSE_MONTHS_2 = ['MesAbr', 'MesMay', 'MesJun', 'MesJul', 'MesAgo', 'MesSep', 'MesOct', 'MesNov', 'MesDic', 'MesEne',
-                'MesFeb', 'MesMar']
-
-FILE_DEM_AMEBA = 'ele-demand-load.csv'
-FILE_BLOCK_AMEBA = 'TIME-BLOCK-STAGE.csv'
-
-DEM_TIME_AMEBA = 'time'
-DEM_NAME_AMEBA = 'name'
-DEM_SCENARIO_AMEBA = 'scenario'
-DEM_BLOCK_AMEBA = 'block'
-DEM_STAGE_AMEBA = 'stage'
 
 """_______________________________________________________________________________"""
 """ DICTIONARY OSE2AMEBA PARAMETERS """
