@@ -10,11 +10,7 @@ import argparse
 import csv
 import os
 
-from module import busbar
-from module import branch
-from module import generator
-from module import demandload
-from module import profiles_ERNC
+from module import busbar, branch, generator, demandload, profiles_ERNC, fuel, inflow
 
 # from ose2ameba_profile_GNLv2 import *
 
@@ -58,11 +54,10 @@ BLOCK_RESOLUTION = False
 
 #  - - - - - - BUSBAR  - - - - - - #
 print '-- generating busbar data --'
-
 busbar = busbar.Busbar(path_datos, path_resultados, args.model)
 # busbar.run()
-# - - - - - - BRANCH  - - - - - - #
 
+# - - - - - - BRANCH  - - - - - - #
 print '-- generating branch data --'
 branch = branch.Branch(path_datos, path_resultados, args.model)
 # branch.run()
@@ -77,7 +72,7 @@ dem_year_ini='2017'
 dem_year_end='2018'
 dem_year_ose='2013'
 demand = demandload.DemandLoad(path_datos, path_resultados, args.model, dem_year_ini, dem_year_end, dem_year_ose)
-demand.run()
+# demand.run()
 
 # - - - - - - DEMAND  - - - - - - #
 print '-- generating profile data --'
@@ -85,6 +80,17 @@ profile_power_year_ini='2017'
 profile_power_year_ose='2018'
 profile_power = profiles_ERNC.ProfilePower(path_datos, path_resultados, args.model)
 # profile_power.run()
+
+# - - - - - - FUEL - - - - - - #
+print '-- generating fuel data --'
+fuel = fuel.Fuel(path_datos, path_resultados, args.model)
+# fuel.run()
+
+# - - - - - - INFLOW - - - - - - #
+print '-- generating inflow data --'
+inflow = inflow.ProfileInflow(path_datos, path_resultados, args.model)
+inflow.run()
+
 
 # gen_unav = GenUnav(self._ose_dir, self._ameba_dir, self._model)
 # fuel = Fuel(self._ose_dir, self._ameba_dir, self._model)

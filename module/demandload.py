@@ -16,9 +16,6 @@ import datetime
 import copy
 import itertools
 from workalendar.america import Chile
-
-CAL = Chile()
-
 from parameters import *
 from functions import *
 
@@ -67,10 +64,10 @@ MONTH_HRS = {9: 744, 10: 672, 11: 744, 0: 720, 1: 744, 2: 720,
              3: 744, 4: 744, 5: 720, 6: 744, 7: 720, 8: 744}
 
 HRS_REDUCED = True
+CAL = Chile()
 
 MAX_BLOCK = 16
 DEC_NUM = 1
-
 
 class DemandLoad(object):
     """Script to convert an OSE2000 database into Ameba CSV format."""

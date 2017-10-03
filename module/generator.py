@@ -337,8 +337,6 @@ class Generator(object):
 
     def __unavailability(self):
         """Reads unavailability from OSE2000 format and write Ameba unavailability."""
-        # TODO: Replace directory and file name below with correct one
-
         unav_thermal_SING = reader_csv(os.path.join(DIR_OSE_SING, DIR_OSE_GENERATOR, DIR_OSE_THERMAL),
                                        FILE_OSE_THERMAL_SING_UNAV, self._ose_dir)
         unav_thermal_SIC = reader_csv(os.path.join(DIR_OSE_SIC, DIR_OSE_GENERATOR, DIR_OSE_THERMAL),
@@ -423,7 +421,7 @@ class Generator(object):
         output_file = writer_csv(FILE_AMEBA_GEN_UNAV, ['name', 'time', 'value'],
                                  os.path.join(self._ameba_dir, DIR_AMEBA_GENERATOR))
         output_file.writeheader()
-        # REMOVER VALORES REPETIDOS
+        # ESCRIBIR VALORES Y REMOVER REPETIDOS
         for h in header:
             for i in range(0, len(indexed_parameter)):
                 if indexed_parameter[i][h] == indexed_parameter[i - 1][h] and i > 0:

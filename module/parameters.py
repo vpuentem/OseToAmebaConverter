@@ -63,34 +63,6 @@ FILE_OSE_FUEL_SING = 'CenTerEtaCVar.csv'
 
 FILE_AMEBA_FUEL = 'ele-fuel.csv'
 FILE_AMEBA_FUEL_PROFILE = 'ele-fuel_profile.csv'
-"""_______________________________________________________________________________"""
-""" INFLOW PARAMETERS """
-
-FILE_OSE_EMB_1 = 'AflBioBioEtaSemRal.csv'
-FILE_OSE_EMB_2 = 'AflChapoEtaSem.csv'
-FILE_OSE_EMB_3 = 'AflLajaEtaSem.csv'
-FILE_OSE_EMB_4 = 'AflMauleEtaSem.csv'
-FILE_OSE_EMB_5 = 'AflRapelEtaSem.csv'
-FILE_OSE_PAS = 'EnePasEtaMen.csv'
-
-FILE_AMEBA_EMB = 'ele-profile_emb.csv'
-FILE_AMEBA_PAS = 'ele-profile_pas.csv'
-
-COLUMNS_OSE_EMB = ['AflNum', 'AflNom', 'AflAnoIni', 'AflAnoFin', 'AflIBlo', 'AflHid', 'AflEtaTip', 'AflDatTip', 'Sem01',
-                   'Sem02', 'Sem03',
-                   'Sem04', 'Sem05', 'Sem06', 'Sem07', 'Sem08', 'Sem09', 'Sem10', 'Sem11', 'Sem12', 'Sem13', 'Sem14',
-                   'Sem15', 'Sem16', 'Sem17', 'Sem18', 'Sem19', 'Sem20',
-                   'Sem21', 'Sem22', 'Sem23', 'Sem24', 'Sem25', 'Sem26', 'Sem27', 'Sem28', 'Sem29', 'Sem30', 'Sem31',
-                   'Sem32', 'Sem33', 'Sem34', 'Sem35', 'Sem36', 'Sem37',
-                   'Sem38', 'Sem39', 'Sem40', 'Sem41', 'Sem42', 'Sem43', 'Sem44', 'Sem45', 'Sem46', 'Sem47', 'Sem48']
-
-COLUMNS_OSE_PAS = ['AflNum', 'AflNom', 'AflAnoIni', 'AflAnoFin', 'AflIBlo', 'AflHid', 'AflEtaTip',
-                   'AflDatTip', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC', 'ENE', 'FEB', 'MAR']
-
-INFLOW_NAME_AMEBA = 'name'
-INFLOW_TIME_AMEBA = 'time'
-INFLOW_SCENARIO_AMEBA = 'scenario'
-INFLOW_VALUE_AMEBA = 'value'
 
 """_______________________________________________________________________________"""
 """ POWER PARAMETERS """
