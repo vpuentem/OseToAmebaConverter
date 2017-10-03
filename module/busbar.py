@@ -99,8 +99,6 @@ class Busbar(object):
     def run(self):
         """Main execution point."""
         self.__parameters()
-        print 'busbar parameters ready'
-
 
 def main():
     """Main program."""

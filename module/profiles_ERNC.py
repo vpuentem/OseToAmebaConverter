@@ -264,28 +264,26 @@ class ProfilePower(object):
         directory = os.path.join(self._ameba_dir, DIR_AMEBA_PROFILE)
         check_directory(directory)
 
-        names = profile_solar_iter[0].keys()
-        names.remove('time')
-        names.remove('scenario')
-        names.remove('block')
+        header = profile_solar_iter[0].keys()
+        header.remove('time')
+        header.remove('scenario')
+        header.remove('block')
 
         output_file = writer_csv(FILE_AMEBA_SOLAR, ['name', 'time', 'scenario', 'value'], os.path.join(self._ameba_dir, DIR_AMEBA_PROFILE))
         output_file.writeheader()
         # REMOVER VALORES REPETIDOS
-        for name in names:
+        for h in header:
             for i in range(0, len(profile_solar_iter)):
-                if profile_solar_iter[i][name] == profile_solar_iter[i - 1][name] and i > 0:
+                if profile_solar_iter[i][h] == profile_solar_iter[i - 1][h] and i > 0:
                     continue
                 output_file.writerow(
-                    dict(name=name, time=profile_solar_iter[i]['time'], scenario=profile_solar_iter[i]['scenario'],
-                         value=profile_solar_iter[i][name]))
+                    dict(name=h, time=profile_solar_iter[i]['time'], scenario=profile_solar_iter[i]['scenario'],
+                         value=profile_solar_iter[i][h]))
 
     def run(self):
         """Main execution point."""
         self.__convert_profile_wind()
-        print 'profile wind ready'
         self.__convert_profile_solar()
-        print 'profile solar ready'
 
 def remove_upper(name):
     return remove(name).upper()

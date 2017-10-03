@@ -57,47 +57,34 @@ if not os.path.exists(path_resultados):
 BLOCK_RESOLUTION = False
 
 #  - - - - - - BUSBAR  - - - - - - #
-print '|------------------------|'
-print '| generating busbar data |'
-print '|------------------------|'
-print ''
+print '-- generating busbar data --'
+
 busbar = busbar.Busbar(path_datos, path_resultados, args.model)
 # busbar.run()
 # - - - - - - BRANCH  - - - - - - #
-print '|------------------------|'
-print '| generating branch data |'
-print '|------------------------|'
-print ''
+
+print '-- generating branch data --'
 branch = branch.Branch(path_datos, path_resultados, args.model)
 # branch.run()
 # - - - - - - GENERATOR  - - - - - - #
-print '|---------------------------|'
-print '| generating generator data |'
-print '|---------------------------|'
-print ''
+print '-- generating generator data --'
 generator = generator.Generator(path_datos, path_resultados, args.model)
 # generator.run()
 
 # - - - - - - DEMAND  - - - - - - #
-print '|------------------------|'
-print '| generating demand data |'
-print '|------------------------|'
-print ''
+print '-- generating demand data --'
 dem_year_ini='2017'
 dem_year_end='2018'
 dem_year_ose='2013'
 demand = demandload.DemandLoad(path_datos, path_resultados, args.model, dem_year_ini, dem_year_end, dem_year_ose)
-# demand.run()
+demand.run()
 
 # - - - - - - DEMAND  - - - - - - #
-print '|-------------------------|'
-print '| generating profile data |'
-print '|-------------------------|'
-print ''
+print '-- generating profile data --'
 profile_power_year_ini='2017'
 profile_power_year_ose='2018'
 profile_power = profiles_ERNC.ProfilePower(path_datos, path_resultados, args.model)
-profile_power.run()
+# profile_power.run()
 
 # gen_unav = GenUnav(self._ose_dir, self._ameba_dir, self._model)
 # fuel = Fuel(self._ose_dir, self._ameba_dir, self._model)

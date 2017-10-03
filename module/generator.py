@@ -367,8 +367,8 @@ class Generator(object):
             dic_pmax.update({remove(generator[GEN_NAME_OSE]): float(generator[GEN_PMAX_OSE])})
             dic_pmax_unav.update({remove(generator[GEN_NAME_OSE]): 0})
 
-        dates = self.__week_list(YEAR_INI_SIM, YEAR_END_SIM)
-        for date in dates:
+        indexed_parameter = self.__week_list(YEAR_INI_SIM, YEAR_END_SIM)
+        for date in indexed_parameter:
             date.update(dic_pmax_unav)
 
         for unav in itertools.chain(unav_thermal_SIC, unav_thermal_SING, unav_pas_SIC, unav_emb_SIC, unav_ser_SIC):
@@ -400,7 +400,7 @@ class Generator(object):
 
                 """ REPLACE PMAX WITH PMAX_UNAV"""
                 while index_ini <= index_end:
-                    dates[index_ini][name] = 1 - pmax_unav / pmax
+                    indexed_parameter[index_ini][name] = 1 - pmax_unav / pmax
                     index_ini += 1
 
             # """ CICLICAL UNAVAILABILITY"""
@@ -411,28 +411,30 @@ class Generator(object):
                     index_end = self.__get_week_list_index(month_end, week_end, YEAR_INI_SIM, year)
                     """ REPLACE PMAX WITH PMAX_UNAV"""
                     while index_ini <= index_end:
-                        dates[index_ini][name] = 1 - pmax_unav / pmax
+                        indexed_parameter[index_ini][name] = 1 - pmax_unav / pmax
                         index_ini += 1
-
-        columns = dates[0].keys()
-        columns.insert(0, columns.pop(columns.index(GEN_TIME_AMEBA)))
-        # columns.insert(1, columns.pop(columns.index('index')))
 
         directory = os.path.join(self._ameba_dir, DIR_AMEBA_GENERATOR)
         check_directory(directory)
 
-        writer = writer_csv(os.path.join(DIR_AMEBA_GENERATOR, FILE_AMEBA_GEN_UNAV), columns, self._ameba_dir)
-        writer.writeheader()
-        for date in dates:
-            writer.writerow(date)
+        header = indexed_parameter[0].keys()
+        header.remove('time')
+
+        output_file = writer_csv(FILE_AMEBA_GEN_UNAV, ['name', 'time', 'value'],
+                                 os.path.join(self._ameba_dir, DIR_AMEBA_GENERATOR))
+        output_file.writeheader()
+        # REMOVER VALORES REPETIDOS
+        for h in header:
+            for i in range(0, len(indexed_parameter)):
+                if indexed_parameter[i][h] == indexed_parameter[i - 1][h] and i > 0:
+                    continue
+                output_file.writerow(
+                    dict(name=h, time=indexed_parameter[i]['time'], value=indexed_parameter[i][h]))
 
     def run(self):
         """Main execution point."""
         self.__parameters()
-        print 'generator parameters ready'
         self.__unavailability()
-        print 'generator unavailability ready'
-
 
 def main():
     """Main program."""

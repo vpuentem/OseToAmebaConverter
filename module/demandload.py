@@ -217,7 +217,6 @@ class DemandLoad(object):
 
         """ demand profile duration"""
         # TODO: Replace below correct column values
-
         demand = self._time_year(int(self._year_ose))
 
         """ SIC & SING BAR LIST"""
@@ -263,14 +262,14 @@ class DemandLoad(object):
                 demand_reduced.append(demand[i])
 
         """ DATES FOR ALL YEARS"""
-        dem = []
+        indexed_parameter = []
         i = 0
         profile_demand_iter = demand_reduced if HRS_REDUCED is True else demand
 
         for years in range(int(self._year_ini), int(self._year_end) + 1):
             for element in (profile_demand_iter):
-                dem.append(copy.deepcopy(element))
-                dem[i].update({DEM_TIME_AMEBA: element.copy()[DEM_TIME_AMEBA].replace(year=years)})
+                indexed_parameter.append(copy.deepcopy(element))
+                indexed_parameter[i].update({DEM_TIME_AMEBA: element.copy()[DEM_TIME_AMEBA].replace(year=years)})
                 i += 1
 
         """ BLOCK & STAGE GENERATOR"""
@@ -296,8 +295,6 @@ class DemandLoad(object):
                                   os.path.join(self._ameba_dir, DIR_AMEBA_DEM))
         writer_block.writeheader()
 
-        print 'stage-block structure file ready'
-
         for element in dem1:
             element.update({'time': self._date_time(element['time'], element['time'].year)})
             element.pop(DEM_SCENARIO_AMEBA)
@@ -305,7 +302,7 @@ class DemandLoad(object):
 
         # - - - - - INDEXED PARAMETERS FILE - - - - - #
         """ ASSIGN VALUE FOR RESPECTIVE DATE AND BLOCK"""
-        for element in dem:
+        for element in indexed_parameter:
             year = int(element[DEM_TIME_AMEBA].year)
             block = int(element[DEM_BLOCK_AMEBA])
             month = MONTH_INDEX[int(element[DEM_TIME_AMEBA].month)]
@@ -380,22 +377,27 @@ class DemandLoad(object):
 
             element.update({DEM_TIME_AMEBA: self._date_time(element[DEM_TIME_AMEBA], element[DEM_TIME_AMEBA].year)})
 
-        columns = dem[0].keys()
-        columns.insert(0, columns.pop(columns.index(DEM_TIME_AMEBA)))
-        # columns.insert(1, columns.pop(columns.index(DEM_BLOCK_AMEBA)))
-        columns.insert(1, columns.pop(columns.index(DEM_SCENARIO_AMEBA)))
-        columns.pop(columns.index(DEM_BLOCK_AMEBA))
-        columns.pop(columns.index(DEM_STAGE_AMEBA))
+        # ESCRIBE ARCHIVO Y ELIMINA VALORES REPETIDOS
+        directory = os.path.join(self._ameba_dir, DIR_AMEBA_GENERATOR)
+        check_directory(directory)
 
-        writer = writer_csv(FILE_DEM_AMEBA, columns, os.path.join(self._ameba_dir, DIR_AMEBA_DEM))
-        writer.writeheader()
+        header = indexed_parameter[0].keys()
+        header.remove('time')
+        header.remove('scenario')
+        header.remove('block')
+        header.remove('stage')
 
-        for element in dem:
-            element.pop(DEM_BLOCK_AMEBA)
-            element.pop(DEM_STAGE_AMEBA)
-            writer.writerow(element)
-
-        print 'indexed parameters file ready'
+        output_file = writer_csv(FILE_DEM_AMEBA, ['name', 'time', 'scenario', 'value'],
+                                     os.path.join(self._ameba_dir, DIR_AMEBA_DEM))
+        output_file.writeheader()
+        # REMOVER VALORES REPETIDOS
+        for h in header:
+            for i in range(0, len(indexed_parameter)):
+                if indexed_parameter[i][h] == indexed_parameter[i - 1][h] and i > 0 and HRS_REDUCED:
+                    continue
+                output_file.writerow(
+                    dict(name=h, time=indexed_parameter[i]['time'], scenario=indexed_parameter[i]['scenario'],
+                         value=indexed_parameter[i][h]))
 
         # - - - - - PARAMETERS FILE - - - - - #
         writer_par = writer_csv('ele-demand_par.csv', [DEM_NAME_AMEBA, DEM_BUSBAR_AMEBA],
@@ -412,13 +414,9 @@ class DemandLoad(object):
                 DEM_BUSBAR_AMEBA : remove(bar[DEM_NAME_AMEBA])
             })
 
-        print 'parameters file ready'
-
     def run(self):
         """Main execution point."""
         self._convert_demand()
-
-
 
 class SearchDemandFactor(object):
     """ """

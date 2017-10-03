@@ -233,9 +233,9 @@ class Branch(object):
                     max_year = int(branch[BRANCH_MAXFLOW_END_TIME_OSE][7:])
 
         # LIST OF MONTH DATES FROM MIN YEAR TO MAX YEAR
-        dates = self.__month_list(min_year, max_year)
-        for date in dates:
-            date.update(dic_maxflow)
+        indexed_parameter = self.__month_list(min_year, max_year)
+        for ip in indexed_parameter:
+            ip.update(dic_maxflow)
 
         for branch in itertools.chain(self._branch_maxflow_OSE_SIC, self._branch_maxflow_OSE_SING):
             if branch[BRANCH_MAXFLOW_FLAG_OSE] == 'T':
@@ -278,22 +278,28 @@ class Branch(object):
                     )
 
                 while index_ini <= index_end:
-                    dates[index_ini][name] = maxflow
+                    indexed_parameter[index_ini][name] = maxflow
                     index_ini += 1
-
-        columns = dates[0].keys()
-        columns.insert(0, columns.pop(columns.index(BRANCH_TIME_AMEBA)))
-        columns.insert(1, columns.pop(columns.index('scenario')))
-        columns.pop(columns.index('index'))
 
         directory = os.path.join(self._ameba_dir, DIR_AMEBA_BRANCH)
         check_directory(directory)
 
-        writer = writer_csv(os.path.join(DIR_AMEBA_BRANCH, FILE_AMEBA_BRANCH_MAXFLOW), columns, self._ameba_dir)
-        writer.writeheader()
-        for date in dates:
-            date.pop('index')
-            writer.writerow(date)
+        header = indexed_parameter[0].keys()
+        header.remove('time')
+        header.remove('scenario')
+        header.remove('index')
+
+        output_file = writer_csv(FILE_AMEBA_BRANCH_MAXFLOW, ['name', 'time', 'scenario', 'value'],
+                                 os.path.join(self._ameba_dir, DIR_AMEBA_BRANCH))
+        output_file.writeheader()
+        # REMOVER VALORES REPETIDOS
+        for h in header:
+            for i in range(0, len(indexed_parameter)):
+                if indexed_parameter[i][h] == indexed_parameter[i - 1][h] and i > 0:
+                    continue
+                output_file.writerow(
+                    dict(name=h, time=indexed_parameter[i]['time'], scenario=indexed_parameter[i]['scenario'],
+                         value=indexed_parameter[i][h]))
 
     def run(self):
         """Main execution point."""
