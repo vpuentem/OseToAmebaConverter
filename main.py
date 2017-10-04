@@ -10,19 +10,13 @@ import argparse
 import csv
 import os
 
-from module import busbar, branch, generator, demandload, profiles_ERNC, fuel, inflow
+from module import busbar, branch, generator, demandload, profiles_ERNC, fuel, inflow, profile_GNL
 
-# from ose2ameba_profile_GNLv2 import *
-
-# from ose2ameba_fuel import *
-# from ose2ameba_profile_inflow import *
-# from ose2ameba_profiles_ERNC import *
 # from ose2ameba_irrigation import *
 # from ose2ameba_dam import *
 # from ose2ameba_demand_load_blocks import *
 # from ose2ameba_profile_inflow_block import *
 # from ose2ameba_profiles_ERNC_blocks import *
-
 
 parser = argparse.ArgumentParser(description='OSE2000 to Ameba converter')
 parser.add_argument(
@@ -60,7 +54,7 @@ busbar = busbar.Busbar(path_datos, path_resultados, args.model)
 # - - - - - - BRANCH  - - - - - - #
 print '-- generating branch data --'
 branch = branch.Branch(path_datos, path_resultados, args.model)
-# branch.run()
+branch.run()
 # - - - - - - GENERATOR  - - - - - - #
 print '-- generating generator data --'
 generator = generator.Generator(path_datos, path_resultados, args.model)
@@ -84,13 +78,17 @@ profile_power = profiles_ERNC.ProfilePower(path_datos, path_resultados, args.mod
 # - - - - - - FUEL - - - - - - #
 print '-- generating fuel data --'
 fuel = fuel.Fuel(path_datos, path_resultados, args.model)
-# fuel.run()
+fuel.run()
 
 # - - - - - - INFLOW - - - - - - #
 print '-- generating inflow data --'
 inflow = inflow.ProfileInflow(path_datos, path_resultados, args.model)
-inflow.run()
+# inflow.run()
 
+# - - - - - - GNL - - - - - - #
+print '-- generating GNL indexed data --'
+gnl = profile_GNL.ProfileGnl(path_datos, path_resultados, args.model)
+# gnl.run()
 
 # gen_unav = GenUnav(self._ose_dir, self._ameba_dir, self._model)
 # fuel = Fuel(self._ose_dir, self._ameba_dir, self._model)

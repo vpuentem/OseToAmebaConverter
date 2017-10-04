@@ -27,6 +27,8 @@ MONTH_NUM = {'Abr':4,'May':5,'Jun':6,'Jul':7,'Ago':8,'Sep':9,'Oct':10,'Nov':11,'
 COLUMNS_AMEBA=['name','start_time','end_time','fuel_type','fuel_price','scenario']
 COLUMNS_AMEBA_2=['name','time','scenario','value']
 
+YEAR_FLAG = False
+
 FUEL_TYPE={
 'Biomasa':'biomass',
 'Biomasa-Licor Negro-Petroleo N6':'biomass',
@@ -69,9 +71,9 @@ class Fuel(object):
         """Fecha Inicio | formato OSE a AMEBA"""
         if year == '*':
             return '1970-01-01-00:00'
-        else:
+        elif YEAR_FLAG:
             return str(year)+'-01-01-00:00'
-
+        return '1970-01-01-00:00'
     def _dateFinOSE_fuel(self, year):
         """Fecha Fin | formato OSE a AMEBA"""
         if year == '*':
@@ -79,8 +81,10 @@ class Fuel(object):
         else:
             return '3000-01-01-00:00'
 
-    def _get_fuel_type(self, name, fuel1, fuel2, fuel3):
-        for fuel_type in itertools.chain(fuel1, fuel2, fuel3):
+    def _get_fuel_type(self, name, fuel_list):
+        "@fuel_list: list of list of fueltypes"
+        joined_fuel_list = [item for sublist in fuel_list for item in sublist]
+        for fuel_type in joined_fuel_list:
             if name == remove(fuel_type[COLUMNS_OSE_FUEL_TYPE[0]]):
                 return remove(fuel_type[COLUMNS_OSE_FUEL_TYPE[1]])
     def _get_month(self, month_OSE):
@@ -115,8 +119,8 @@ class Fuel(object):
         for fuel in self._dic_fuel_SIC:
                 if fuel[COLUMNS_OSE_FUEL_SIC[1]] == year_ini:
                     fuel_type = self._get_fuel_type(remove(fuel[COLUMNS_OSE_FUEL_SIC[0]]),
-                                                    self._dic_fuel_type_SIC_1, self._dic_fuel_type_SIC_2,
-                                                    self._dic_fuel_type_SIC_3)
+                                                    [self._dic_fuel_type_SIC_1, self._dic_fuel_type_SIC_2,
+                                                    self._dic_fuel_type_SIC_3])
                     if fuel_type is not None:
                         writer.writerow({
                             COLUMNS_AMEBA[0]: 'fuel_'+remove(fuel[COLUMNS_OSE_FUEL_SIC[0]]),
@@ -127,10 +131,9 @@ class Fuel(object):
                             COLUMNS_AMEBA[5]: 'fuel_OSE'
                             })
 
-
         for fuel in self._dic_fuel_SING:
                 if fuel[COLUMNS_OSE_FUEL_SING[1]] == year_ini:
-                    fuel_type = self._get_fuel_type(remove(fuel[COLUMNS_OSE_FUEL_SING[0]]), self._dic_fuel_type_SING, [],[])
+                    fuel_type = self._get_fuel_type(remove(fuel[COLUMNS_OSE_FUEL_SING[0]]), [self._dic_fuel_type_SING])
                     if fuel_type is not None:
                         writer.writerow({
                             COLUMNS_AMEBA[0]: 'fuel_'+remove(fuel[COLUMNS_OSE_FUEL_SING[0]]),
@@ -150,26 +153,32 @@ class Fuel(object):
         #obtener lista con barras y fechas para año 2017
         for i in range(0,len(self._dic_fuel_SIC)):
             fuel_type = self._get_fuel_type(remove(self._dic_fuel_SIC[i][COLUMNS_OSE_FUEL_SIC[0]]),
-                                                    self._dic_fuel_type_SIC_1,self._dic_fuel_type_SIC_2,
-                                                    self._dic_fuel_type_SIC_3)
+                                                    [self._dic_fuel_type_SIC_1,self._dic_fuel_type_SIC_2,
+                                                    self._dic_fuel_type_SIC_3])
             if fuel_type is not None:
                 for j in range(3,15):
+                    value = self._dic_fuel_SIC[i][COLUMNS_OSE_FUEL_SIC[j]]
+                    if j>3 and value == self._dic_fuel_SIC[i][COLUMNS_OSE_FUEL_SIC[j-1]]:
+                        continue
                     writer.writerow({
                         COLUMNS_AMEBA_2[0]: 'fuel_'+remove(self._dic_fuel_SIC[i][COLUMNS_OSE_FUEL_SIC[0]]),
                         COLUMNS_AMEBA_2[1]: self._date_ameba(int(self._dic_fuel_SIC[i][COLUMNS_OSE_FUEL_SIC[1]]), int(self._mes(j))),
                         COLUMNS_AMEBA_2[2]: 'fuel_OSE',
-                        COLUMNS_AMEBA_2[3]: self._dic_fuel_SIC[i][COLUMNS_OSE_FUEL_SIC[j]]
+                        COLUMNS_AMEBA_2[3]: value
                         })
 
         for i in range(0,len(self._dic_fuel_SING)):
-            fuel_type = self._get_fuel_type(remove(self._dic_fuel_SING[i][COLUMNS_OSE_FUEL_SING[0]]), self._dic_fuel_type_SING, [],[])
+            fuel_type = self._get_fuel_type(remove(self._dic_fuel_SING[i][COLUMNS_OSE_FUEL_SING[0]]), [self._dic_fuel_type_SING])
             if fuel_type is not None:
                 for j in range(3,15):
+                    value = self._dic_fuel_SING[i][COLUMNS_OSE_FUEL_SING[j]]
+                    if j>3 and value == self._dic_fuel_SING[i][COLUMNS_OSE_FUEL_SING[j-1]]:
+                        continue
                     writer.writerow({
                         COLUMNS_AMEBA_2[0]: 'fuel_'+remove(self._dic_fuel_SING[i][COLUMNS_OSE_FUEL_SING[0]]),
                         COLUMNS_AMEBA_2[1]: self._date_ameba(int(self._dic_fuel_SING[i][COLUMNS_OSE_FUEL_SING[1]]), int(self._mes(j))),
                         COLUMNS_AMEBA_2[2]: 'fuel_OSE',
-                        COLUMNS_AMEBA_2[3]: self._dic_fuel_SING[i][COLUMNS_OSE_FUEL_SING[j]]
+                        COLUMNS_AMEBA_2[3]: value
                         })
 
     def run(self):
