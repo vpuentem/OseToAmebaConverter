@@ -121,6 +121,7 @@ class Fuel(object):
                     fuel_type = self._get_fuel_type(remove(fuel[COLUMNS_OSE_FUEL_SIC[0]]),
                                                     [self._dic_fuel_type_SIC_1, self._dic_fuel_type_SIC_2,
                                                     self._dic_fuel_type_SIC_3])
+                    # debugger.debugger()
                     if fuel_type is not None:
                         writer.writerow({
                             COLUMNS_AMEBA[0]: 'fuel_'+remove(fuel[COLUMNS_OSE_FUEL_SIC[0]]),
@@ -130,6 +131,8 @@ class Fuel(object):
                             COLUMNS_AMEBA[4]: fuel[COLUMNS_OSE_FUEL_SIC[3]],
                             COLUMNS_AMEBA[5]: 'fuel_OSE'
                             })
+                    else:
+                        print ".. fuel " + remove(fuel[COLUMNS_OSE_FUEL_SIC[0]])+" is not asociated to any generator .."
 
         for fuel in self._dic_fuel_SING:
                 if fuel[COLUMNS_OSE_FUEL_SING[1]] == year_ini:
@@ -143,6 +146,8 @@ class Fuel(object):
                             COLUMNS_AMEBA[4]: fuel[COLUMNS_OSE_FUEL_SING[3]],
                             COLUMNS_AMEBA[5]: 'fuel_OSE'
                             })
+                    else:
+                        print ".. fuel " + remove(fuel[COLUMNS_OSE_FUEL_SING[0]])+" is not asociated to any generator .."
 
     def _convert_fuel_profile(self):
         """Reads fuel profile from OSE2000 format and write Ameba fuel profile."""

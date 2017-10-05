@@ -57,7 +57,6 @@ DEC_NUM = 1
 
 YEAR_PROFILE = '2017'
 
-
 class ProfileInflow(object):
     """Script to convert an OSE2000 database into Ameba CSV format."""
 
@@ -191,6 +190,7 @@ class ProfileInflow(object):
 
     def run(self):
         """Main execution point."""
+        print ".. inflow data generated for " + str(YEAR_PROFILE) + " with " + str(DEC_NUM) + " decimal .."
         self.__convert_profile_emb()
         self.__convert_profile_pas()
 

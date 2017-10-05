@@ -64,25 +64,7 @@ FILE_OSE_FUEL_SING = 'CenTerEtaCVar.csv'
 FILE_AMEBA_FUEL = 'ele-fuel.csv'
 FILE_AMEBA_FUEL_PROFILE = 'ele-fuel_profile.csv'
 
-"""_______________________________________________________________________________"""
-""" POWER PARAMETERS """
 
-FILE_AMEBA_WIND = 'ele-profile_wind.csv'
-FILE_AMEBA_SOLAR = 'ele-profile_solar.csv'
-
-FILE_OSE_WIND_SIC = 'CenTerEtaPMax_EOLICA_16blo_SIC.csv'
-FILE_OSE_SOLAR_SIC = 'CenTerEtaPMax_SOLAR_16blo_SIC.csv'
-FILE_OSE_WIND_SING = 'CenTerEtaPMax SING_Eolico.csv'
-FILE_OSE_SOLAR_SING = 'CenTerEtaPMax SING_Solar.csv'
-
-GEN_SCENARIO_AMEBA = 'scenario'
-GEN_BLOCK_AMEBA = 'block'
-
-WIND_OSE = 'Eolica'
-SOLAR_OSE = 'Solar'
-GEN_BLOCK_OSE = 'CenIBlo'
-
-MONTHS_OSE = ['abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic', 'ene', 'feb', 'mar']
 
 """_______________________________________________________________________________"""
 """ VIRTUAL PARAMETERS """

@@ -51,11 +51,11 @@ OSE_MONTHS_2 = ['MesAbr', 'MesMay', 'MesJun', 'MesJul', 'MesAgo', 'MesSep', 'Mes
 FILE_DEM_AMEBA = 'ele-demand-load.csv'
 FILE_BLOCK_AMEBA = 'TIME-BLOCK-STAGE.csv'
 
-DEM_TIME_AMEBA = 'time'
-DEM_NAME_AMEBA = 'name'
-DEM_SCENARIO_AMEBA = 'scenario'
-DEM_BLOCK_AMEBA = 'block'
-DEM_STAGE_AMEBA = 'stage'
+TIME_AMEBA = 'time'
+NAME_AMEBA = 'name'
+SCENARIO_AMEBA = 'scenario'
+BLOCK_AMEBA = 'block'
+STAGE_AMEBA = 'stage'
 DEM_BUSBAR_AMEBA = 'busbar'
 
 MONTH_INDEX = {1: 9, 2: 10, 3: 11, 4: 0, 5: 1, 6: 2,
@@ -88,7 +88,7 @@ class DemandLoad(object):
     def _time_year(self, year):
         dates = []
         for i in range(0, 8760, 1):
-            dates.append({DEM_TIME_AMEBA: datetime.datetime(year, 01, 01, 00, 00, 00) + datetime.timedelta(hours=i)})
+            dates.append({TIME_AMEBA: datetime.datetime(year, 01, 01, 00, 00, 00) + datetime.timedelta(hours=i)})
         return dates
 
     # def _get_block(self, tablaAsign, hour, month):
@@ -213,49 +213,48 @@ class DemandLoad(object):
         energy_veg_SIC = SearchYearEnergy(dic_veg_3_SIC_min_year, dic_veg_3_SIC_max_year, dic_veg_3_SIC, OSE_MONTHS_1)
 
         """ demand profile duration"""
-        # TODO: Replace below correct column values
         demand = self._time_year(int(self._year_ose))
 
         """ SIC & SING BAR LIST"""
         bar_ind_SING = []
         for row in dic_ind_2_SING:
             if row[OSE_IND_YEAR] == self._year_ini:
-                bar_ind_SING.append({DEM_NAME_AMEBA: row[OSE_IND_BAR]})
+                bar_ind_SING.append({NAME_AMEBA: row[OSE_IND_BAR]})
         bar_veg_SING = []
         for row in dic_veg_2_SING:
             if row[OSE_VEG_YEAR] == self._year_ini:
-                bar_veg_SING.append({DEM_NAME_AMEBA: row[OSE_VEG_BAR]})
+                bar_veg_SING.append({NAME_AMEBA: row[OSE_VEG_BAR]})
         bar_ind_SIC = []
         for row in dic_ind_2_SIC:
             if row[OSE_IND_YEAR] == self._year_ini:
-                bar_ind_SIC.append({DEM_NAME_AMEBA: row[OSE_IND_BAR]})
+                bar_ind_SIC.append({NAME_AMEBA: row[OSE_IND_BAR]})
         bar_veg_SIC = []
         for row in dic_veg_2_SIC:
             if row[OSE_VEG_YEAR] == self._year_ini:
-                bar_veg_SIC.append({DEM_NAME_AMEBA: row[OSE_VEG_BAR]})
+                bar_veg_SIC.append({NAME_AMEBA: row[OSE_VEG_BAR]})
 
         """ DATES OF 1 YEAR & RESPECTIVE BLOCK LIST """
         demand_reduced = []
         for i in range(0, len(demand)):
-            if demand[i][DEM_TIME_AMEBA].weekday() == 6 or demand[i][
-                DEM_TIME_AMEBA].weekday() == 5 or CAL.is_working_day(demand[i][DEM_TIME_AMEBA]) is False:
-                block = get_block(dic_tabla_no_habil, str(demand[i][DEM_TIME_AMEBA].hour + 1),
-                                  str(demand[i][DEM_TIME_AMEBA].month))
+            if demand[i][TIME_AMEBA].weekday() == 6 or demand[i][
+                TIME_AMEBA].weekday() == 5 or CAL.is_working_day(demand[i][TIME_AMEBA]) is False:
+                block = get_block(dic_tabla_no_habil, str(demand[i][TIME_AMEBA].hour + 1),
+                                  str(demand[i][TIME_AMEBA].month))
             else:
-                block = get_block(dic_tabla_habil, str(demand[i][DEM_TIME_AMEBA].hour + 1),
-                                  str(demand[i][DEM_TIME_AMEBA].month))
+                block = get_block(dic_tabla_habil, str(demand[i][TIME_AMEBA].hour + 1),
+                                  str(demand[i][TIME_AMEBA].month))
 
-            demand[i].update({DEM_BLOCK_AMEBA: block})
-            demand[i].update({DEM_SCENARIO_AMEBA: 'demanda_OSE'})
-            demand[i].update({DEM_STAGE_AMEBA: demand[i][DEM_TIME_AMEBA].month})
+            demand[i].update({BLOCK_AMEBA: block})
+            demand[i].update({SCENARIO_AMEBA: 'demanda_OSE'})
+            demand[i].update({STAGE_AMEBA: demand[i][TIME_AMEBA].month})
 
             if i == 0:
                 demand_reduced.append(demand[i])
                 continue
-            if demand[i][DEM_BLOCK_AMEBA] != demand[i - 1][DEM_BLOCK_AMEBA]:
+            if demand[i][BLOCK_AMEBA] != demand[i - 1][BLOCK_AMEBA]:
                 demand_reduced.append(demand[i])
-            elif demand[i][DEM_BLOCK_AMEBA] == demand[i - 1][DEM_BLOCK_AMEBA] and demand[i][DEM_TIME_AMEBA].month != \
-                    demand[i - 1][DEM_TIME_AMEBA].month:
+            elif demand[i][BLOCK_AMEBA] == demand[i - 1][BLOCK_AMEBA] and demand[i][TIME_AMEBA].month != \
+                    demand[i - 1][TIME_AMEBA].month:
                 demand_reduced.append(demand[i])
 
         """ DATES FOR ALL YEARS"""
@@ -266,7 +265,7 @@ class DemandLoad(object):
         for years in range(int(self._year_ini), int(self._year_end) + 1):
             for element in (profile_demand_iter):
                 indexed_parameter.append(copy.deepcopy(element))
-                indexed_parameter[i].update({DEM_TIME_AMEBA: element.copy()[DEM_TIME_AMEBA].replace(year=years)})
+                indexed_parameter[i].update({TIME_AMEBA: element.copy()[TIME_AMEBA].replace(year=years)})
                 i += 1
 
         """ BLOCK & STAGE GENERATOR"""
@@ -276,33 +275,33 @@ class DemandLoad(object):
             for element in (demand):
                 if years == int(self._year_ini):
                     dem1.append(copy.deepcopy(element))
-                    dem1[i].update({DEM_TIME_AMEBA: element.copy()[DEM_TIME_AMEBA].replace(year=years)})
+                    dem1[i].update({TIME_AMEBA: element.copy()[TIME_AMEBA].replace(year=years)})
                 else:
                     dem1.append(copy.deepcopy(element))
-                    dem1[i].update({DEM_TIME_AMEBA: element.copy()[DEM_TIME_AMEBA].replace(year=years)})
+                    dem1[i].update({TIME_AMEBA: element.copy()[TIME_AMEBA].replace(year=years)})
                     delta = years - int(self._year_ini)
-                    dem1[i].update({DEM_STAGE_AMEBA: int(element.copy()[DEM_STAGE_AMEBA]) + (12 * delta)})
+                    dem1[i].update({STAGE_AMEBA: int(element.copy()[STAGE_AMEBA]) + (12 * delta)})
                 i += 1
         # - - - - - STAGE-BLOCK STRUCTURE FILE - - - - - #
         """ CHECK IF DIRECTORY EXIST """
         directory = os.path.join(self._ameba_dir, DIR_AMEBA_DEM)
         check_directory(directory)
 
-        writer_block = writer_csv(FILE_BLOCK_AMEBA, ['time', DEM_STAGE_AMEBA, DEM_BLOCK_AMEBA],
+        writer_block = writer_csv(FILE_BLOCK_AMEBA, ['time', STAGE_AMEBA, BLOCK_AMEBA],
                                   os.path.join(self._ameba_dir, DIR_AMEBA_DEM))
         writer_block.writeheader()
 
         for element in dem1:
             element.update({'time': self._date_time(element['time'], element['time'].year)})
-            element.pop(DEM_SCENARIO_AMEBA)
+            element.pop(SCENARIO_AMEBA)
             writer_block.writerow(element)
 
         # - - - - - INDEXED PARAMETERS FILE - - - - - #
         """ ASSIGN VALUE FOR RESPECTIVE DATE AND BLOCK"""
         for element in indexed_parameter:
-            year = int(element[DEM_TIME_AMEBA].year)
-            block = int(element[DEM_BLOCK_AMEBA])
-            month = MONTH_INDEX[int(element[DEM_TIME_AMEBA].month)]
+            year = int(element[TIME_AMEBA].year)
+            block = int(element[BLOCK_AMEBA])
+            month = MONTH_INDEX[int(element[TIME_AMEBA].month)]
 
             """ check year of every file to search"""
             if month > 8 and year != 2017:
@@ -345,34 +344,34 @@ class DemandLoad(object):
 
             """ assing values from name and date"""
             for name_ind in bar_ind_SING:
-                name = name_ind[DEM_NAME_AMEBA]
+                name = name_ind[NAME_AMEBA]
                 value_dem_factor = float(dem_factor_ind_SING.get_demand_factor(year_ind1_sing, block, name)[month])
                 value_ene = float(energy_ind_SING.get_energy(year_ind2_sing, name)[month])
                 value = value_dem_factor * value_ene * 1000 / MONTH_HRS[month]
-                element.update({str(remove(name_ind[DEM_NAME_AMEBA])) + '_ind': round(value, DEC_NUM)})
+                element.update({str(remove(name_ind[NAME_AMEBA])) + '_ind': round(value, DEC_NUM)})
             for name_veg in bar_veg_SING:
-                name = name_veg[DEM_NAME_AMEBA]
+                name = name_veg[NAME_AMEBA]
                 value_dem_factor = float(dem_factor_veg_SING.get_demand_factor(year_veg1_sing, block, name)[month])
                 value_ene_factor = float(energy_factor_veg_SING.get_energy(year_veg2_sing, name)[month])
                 value_ene = float(energy_veg_SING.get_energy(year_veg3_sing)[month])
                 value = (value_dem_factor * value_ene_factor * 1000 / MONTH_HRS[month]) * value_ene
-                element.update({str(remove(name_veg[DEM_NAME_AMEBA])) + '_veg': round(value, DEC_NUM)})
+                element.update({str(remove(name_veg[NAME_AMEBA])) + '_veg': round(value, DEC_NUM)})
             for name_ind in bar_ind_SIC:
-                name = name_ind[DEM_NAME_AMEBA]
+                name = name_ind[NAME_AMEBA]
                 value_dem_factor = float(dem_factor_ind_SIC.get_demand_factor(year_ind1_sic, block, name)[month])
                 value_ene = float(energy_ind_SIC.get_energy(year_ind2_sic, name)[month])
                 value = value_dem_factor * value_ene * 1000 / MONTH_HRS[month]
-                element.update({str(remove(name_ind[DEM_NAME_AMEBA])) + '_ind': round(value, DEC_NUM)})
+                element.update({str(remove(name_ind[NAME_AMEBA])) + '_ind': round(value, DEC_NUM)})
             for name_veg in bar_veg_SIC:
-                name = name_veg[DEM_NAME_AMEBA]
+                name = name_veg[NAME_AMEBA]
 
                 value_dem_factor = float(dem_factor_veg_SIC.get_demand_factor(year_veg1_sic, block, name)[month])
                 value_ene_factor = float(energy_factor_veg_SIC.get_energy(year_veg2_sic, name)[month])
                 value_ene = float(energy_veg_SIC.get_energy(year_veg3_sic)[month])
                 value = (value_dem_factor * value_ene_factor * 1000 / MONTH_HRS[month]) * value_ene
-                element.update({str(remove(name_veg[DEM_NAME_AMEBA])) + '_veg': round(value, DEC_NUM)})
+                element.update({str(remove(name_veg[NAME_AMEBA])) + '_veg': round(value, DEC_NUM)})
 
-            element.update({DEM_TIME_AMEBA: self._date_time(element[DEM_TIME_AMEBA], element[DEM_TIME_AMEBA].year)})
+            element.update({TIME_AMEBA: self._date_time(element[TIME_AMEBA], element[TIME_AMEBA].year)})
 
         # ESCRIBE ARCHIVO Y ELIMINA VALORES REPETIDOS
         directory = os.path.join(self._ameba_dir, DIR_AMEBA_GENERATOR)
@@ -397,18 +396,18 @@ class DemandLoad(object):
                          value=indexed_parameter[i][h]))
 
         # - - - - - PARAMETERS FILE - - - - - #
-        writer_par = writer_csv('ele-demand_par.csv', [DEM_NAME_AMEBA, DEM_BUSBAR_AMEBA],
+        writer_par = writer_csv('ele-demand_par.csv', [NAME_AMEBA, BUSBAR_AMEBA],
                                 os.path.join(self._ameba_dir, DIR_AMEBA_DEM))
         writer_par.writeheader()
         for bar in itertools.chain(bar_veg_SIC, bar_veg_SING):
             writer_par.writerow({
-                DEM_NAME_AMEBA : remove(bar[DEM_NAME_AMEBA]) + '_veg',
-                DEM_BUSBAR_AMEBA : remove(bar[DEM_NAME_AMEBA])
+                NAME_AMEBA : remove(bar[NAME_AMEBA]) + '_veg',
+                BUSBAR_AMEBA : remove(bar[NAME_AMEBA])
             })
         for bar in itertools.chain(bar_ind_SIC, bar_ind_SING):
             writer_par.writerow({
-                DEM_NAME_AMEBA : remove(bar[DEM_NAME_AMEBA]) + '_ind',
-                DEM_BUSBAR_AMEBA : remove(bar[DEM_NAME_AMEBA])
+                NAME_AMEBA : remove(bar[NAME_AMEBA]) + '_ind',
+                BUSBAR_AMEBA : remove(bar[NAME_AMEBA])
             })
 
     def run(self):

@@ -36,7 +36,6 @@ BUSBAR_VOLTAGE_AMEBA = 'voltage'
 
 DATE_FLAG = True
 
-
 class Busbar(object):
     """Script to convert an OSE2000 database into Ameba CSV format."""
 
@@ -78,7 +77,6 @@ class Busbar(object):
         busbar_ameba = []
 
         for row in itertools.chain(busbar_OSE_SING, busbar_OSE_SIC):
-
             busbar_ameba.append({})
             name = remove(row[BUSBAR_NAME_OSE])
 
@@ -98,7 +96,10 @@ class Busbar(object):
 
     def run(self):
         """Main execution point."""
+        if DATE_FLAG:
+            print "date flag activated"
         self.__parameters()
+
 
 def main():
     """Main program."""

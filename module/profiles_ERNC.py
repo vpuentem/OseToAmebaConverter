@@ -20,6 +20,27 @@ from parameters import *
 from functions import *
 from generator import*
 
+"""_______________________________________________________________________________"""
+""" POWER PARAMETERS """
+
+FILE_AMEBA_WIND = 'ele-profile_wind.csv'
+FILE_AMEBA_SOLAR = 'ele-profile_solar.csv'
+
+FILE_OSE_WIND_SIC = 'CenTerEtaPMax_EOLICA_16blo_SIC.csv'
+FILE_OSE_SOLAR_SIC = 'CenTerEtaPMax_SOLAR_16blo_SIC.csv'
+FILE_OSE_WIND_SING = 'CenTerEtaPMax SING_Eolico.csv'
+FILE_OSE_SOLAR_SING = 'CenTerEtaPMax SING_Solar.csv'
+
+GEN_SCENARIO_AMEBA = 'scenario'
+GEN_BLOCK_AMEBA = 'block'
+
+WIND_OSE = 'Eolica'
+SOLAR_OSE = 'Solar'
+GEN_BLOCK_OSE = 'CenIBlo'
+
+MONTHS_OSE = ['abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic', 'ene', 'feb', 'mar']
+
+
 MONTH_INDEX = {1: 9, 2: 10, 3: 11, 4: 0, 5: 1, 6: 2,
                7: 3, 8: 4, 9: 5, 10: 6, 11: 7, 12: 8}
 
@@ -30,17 +51,13 @@ MONTH_NAME = {1: 'ene', 2: 'feb', 3: 'mar', 4: 'abr', 5: 'may', 6: 'jun',
 
 HRS_REDUCED = True
 DEC_NUM = 3
-
-YEAR_OSE = '2013'
-YEAR_INI = '2017'
-
 MAX_BLOCK = 16
 
 
 class ProfilePower(object):
     """Script to convert an OSE2000 database into Ameba CSV format."""
 
-    def __init__(self, ose_dir, ameba_dir, model):
+    def __init__(self, ose_dir, ameba_dir, model, year_ini, year_ose):
         """Constructor of OSE2Ameba_demand.
         @param ose_dir: string directory to read OSE2000 files from
         @param ameba_dir: string directory to write Ameba files to
@@ -49,6 +66,8 @@ class ProfilePower(object):
         self._ose_dir = ose_dir
         self._ameba_dir = ameba_dir
         self._model = model
+        self._year_ini = year_ini
+        self._year_ose = year_ose
 
     def __time_year(self, year):
         dates = []
@@ -111,7 +130,7 @@ class ProfilePower(object):
         block_value_SIC = SearchProfile(MAX_BLOCK, dic_wind_SIC, GEN_NAME_OSE, GEN_BLOCK_OSE, MONTHS_OSE)
         block_value_SING = SearchProfile(MAX_BLOCK, dic_wind_SING, GEN_NAME_OSE, GEN_BLOCK_OSE, MONTHS_OSE)
 
-        profile_wind = self.__time_year(int(YEAR_OSE))
+        profile_wind = self.__time_year(int(self._year_ose))
 
         """ LIST OF GEN NAMES AND PMAX"""
         Gen_wind_SIC = []
@@ -133,7 +152,7 @@ class ProfilePower(object):
             else:
                 block = self.__get_block(dic_tabla_habil, str(profile_wind[i][GEN_TIME_AMEBA].hour + 1),
                                          str(profile_wind[i][GEN_TIME_AMEBA].month))
-            profile_wind[i].update({GEN_TIME_AMEBA: profile_wind[i][GEN_TIME_AMEBA].replace(year=int(YEAR_INI))})
+            profile_wind[i].update({GEN_TIME_AMEBA: profile_wind[i][GEN_TIME_AMEBA].replace(year=int(self._year_ini))})
             profile_wind[i].update({GEN_BLOCK_AMEBA: block})
             profile_wind[i].update({GEN_SCENARIO_AMEBA: 'profile_OSE'})
             if i == 0:
@@ -189,7 +208,6 @@ class ProfilePower(object):
         dic_tabla_habil = list(reader_csv('', TABLA_HABIL, self._ose_dir))
         dic_tabla_no_habil = list(reader_csv('', TABLA_NO_HABIL, self._ose_dir))
 
-        # TODO: Replace directory and file name below with correct one
         dic_solar_SIC = list(
             reader_csv(os.path.join(DIR_OSE_SIC, DIR_OSE_GENERATOR, DIR_OSE_THERMAL), FILE_OSE_SOLAR_SIC,
                        self._ose_dir))
@@ -219,7 +237,7 @@ class ProfilePower(object):
         block_value_SIC = SearchProfile(MAX_BLOCK, dic_solar_SIC, GEN_NAME_OSE, GEN_BLOCK_OSE, MONTHS_OSE)
         block_value_SING = SearchProfile(MAX_BLOCK, dic_solar_SING, GEN_NAME_OSE, GEN_BLOCK_OSE, MONTHS_OSE)
 
-        profile_solar = self.__time_year(int(YEAR_OSE))
+        profile_solar = self.__time_year(int(self._year_ose))
 
         """ LIST OF GEN NAMES AND PMAX"""
         Gen_solar_SIC = []
@@ -241,7 +259,7 @@ class ProfilePower(object):
             else:
                 block = self.__get_block(dic_tabla_habil, str(profile_solar[i][GEN_TIME_AMEBA].hour + 1),
                                          str(profile_solar[i][GEN_TIME_AMEBA].month))
-            profile_solar[i].update({GEN_TIME_AMEBA: profile_solar[i][GEN_TIME_AMEBA].replace(year=int(YEAR_INI))})
+            profile_solar[i].update({GEN_TIME_AMEBA: profile_solar[i][GEN_TIME_AMEBA].replace(year=int(self._year_ini))})
             profile_solar[i].update({GEN_BLOCK_AMEBA: block})
             profile_solar[i].update({GEN_SCENARIO_AMEBA: 'profile_OSE'})
             if i == 0:
@@ -332,8 +350,12 @@ def main():
         'ameba_dir', type=str, help='directory to write Ameba files to')
     parser.add_argument(
         'model', type=str, help='select model to get data from (Opt or Ope)')
+    parser.add_argument(
+        'year_ini', type=str, help='initial year to generate indexed profile')
+    parser.add_argument(
+        'year_ose', type=str, help='year take dates from')
     args = parser.parse_args()
-    ProfilePower(args.ose_dir, args.ameba_dir, args.model).run()
+    ProfilePower(args.ose_dir, args.ameba_dir, args.model, args.year_ini, args.year_ose).run()
 
 
 if __name__ == '__main__':

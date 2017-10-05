@@ -7,16 +7,11 @@ Current version developer: Ameba Team
 _______________________________________________________________________________
 """
 import argparse
-import csv
+# import csv
 import os
 
-from module import busbar, branch, generator, demandload, profiles_ERNC, fuel, inflow, profile_GNL
-
-# from ose2ameba_irrigation import *
-# from ose2ameba_dam import *
-# from ose2ameba_demand_load_blocks import *
-# from ose2ameba_profile_inflow_block import *
-# from ose2ameba_profiles_ERNC_blocks import *
+from module import busbar, branch, generator, demandload, profiles_ERNC, fuel, inflow, profile_GNL, dam, irrigation
+from module import demandload_block
 
 parser = argparse.ArgumentParser(description='OSE2000 to Ameba converter')
 parser.add_argument(
@@ -47,65 +42,60 @@ if not os.path.exists(path_resultados):
 BLOCK_RESOLUTION = False
 
 #  - - - - - - BUSBAR  - - - - - - #
-print '-- generating busbar data --'
+print '-- processing busbar data --'
 busbar = busbar.Busbar(path_datos, path_resultados, args.model)
 # busbar.run()
 
 # - - - - - - BRANCH  - - - - - - #
-print '-- generating branch data --'
+print '-- processing branch data --'
 branch = branch.Branch(path_datos, path_resultados, args.model)
-branch.run()
+# branch.run()
 # - - - - - - GENERATOR  - - - - - - #
-print '-- generating generator data --'
+print '-- processing generator data --'
 generator = generator.Generator(path_datos, path_resultados, args.model)
 # generator.run()
 
 # - - - - - - DEMAND  - - - - - - #
-print '-- generating demand data --'
+print '-- processing demand data --'
 dem_year_ini='2017'
-dem_year_end='2018'
+dem_year_end='2017'
 dem_year_ose='2013'
-demand = demandload.DemandLoad(path_datos, path_resultados, args.model, dem_year_ini, dem_year_end, dem_year_ose)
+# demand = demandload.DemandLoad(path_datos, path_resultados, args.model, dem_year_ini, dem_year_end, dem_year_ose)
+demand_block = demandload_block.DemandLoadBlock(path_datos, path_resultados, args.model, dem_year_ini, dem_year_end, dem_year_ose)
 # demand.run()
+demand_block.run()
 
 # - - - - - - DEMAND  - - - - - - #
-print '-- generating profile data --'
+print '-- processing profile data --'
 profile_power_year_ini='2017'
-profile_power_year_ose='2018'
-profile_power = profiles_ERNC.ProfilePower(path_datos, path_resultados, args.model)
-# profile_power.run()
+profile_power_year_ose='2013'
+profile_power = profiles_ERNC.ProfilePower(path_datos, path_resultados, args.model, profile_power_year_ini, profile_power_year_ose)
+profile_power.run()
 
 # - - - - - - FUEL - - - - - - #
-print '-- generating fuel data --'
+print '-- processing fuel data --'
 fuel = fuel.Fuel(path_datos, path_resultados, args.model)
-fuel.run()
+# fuel.run()
 
 # - - - - - - INFLOW - - - - - - #
-print '-- generating inflow data --'
+print '-- processing inflow data --'
 inflow = inflow.ProfileInflow(path_datos, path_resultados, args.model)
 # inflow.run()
 
 # - - - - - - GNL - - - - - - #
-print '-- generating GNL indexed data --'
+# print '-- processing GNL indexed data --'
 gnl = profile_GNL.ProfileGnl(path_datos, path_resultados, args.model)
 # gnl.run()
 
-# gen_unav = GenUnav(self._ose_dir, self._ameba_dir, self._model)
-# fuel = Fuel(self._ose_dir, self._ameba_dir, self._model)
-# profile_gnl = ProfileGnl(self._ose_dir, self._ameba_dir, self._model)
-# profile_inflow = ProfileInflow(self._ose_dir, self._ameba_dir, self._model)
-
-# irrigation = Irrigation(self._ose_dir, self._ameba_dir, self._model)
-
-# dam = DamCot(self._ose_dir, self._ameba_dir, self._model)
-
-# gen_unav.run()
-# fuel.run()
-# profile_gnl.run()
-# profile_inflow.run()
-# irrigation.run()
-
+# - - - - - - DAM - - - - - - #
+print '-- processing dam data --'
+dam = dam.DamCot(path_datos, path_resultados, args.model)
 # dam.run()
+
+# - - - - - - IRRIGATION - - - - - - #
+print '-- processing irrigation data --'
+irrigation = irrigation.Irrigation(path_datos, path_resultados, args.model)
+# irrigation.run()
 
 # demand_block = DemandLoadBlock(self._ose_dir, self._ameba_dir, self._model)
 # profile_power_block = ProfilesBlock(self._ose_dir, self._ameba_dir, self._model)
