@@ -11,7 +11,7 @@ import argparse
 import os
 
 from module import busbar, branch, generator, demandload, profiles_ERNC, fuel, inflow, profile_GNL, dam, irrigation
-from module import demandload_block
+from module import demandload_block, inflow_block, profiles_ERNC_block
 
 parser = argparse.ArgumentParser(description='OSE2000 to Ameba converter')
 parser.add_argument(
@@ -38,6 +38,7 @@ if not os.path.exists(path_resultados):
     print "output directory: " + path_resultados + " does not exists. Creating..."
     os.mkdir(path_resultados)
 
+
 # - - - - - - CONFIG PARAMETERS  - - - - - - #
 BLOCK_RESOLUTION = False
 
@@ -60,17 +61,20 @@ print '-- processing demand data --'
 dem_year_ini='2017'
 dem_year_end='2017'
 dem_year_ose='2013'
-# demand = demandload.DemandLoad(path_datos, path_resultados, args.model, dem_year_ini, dem_year_end, dem_year_ose)
+demand = demandload.DemandLoad(path_datos, path_resultados, args.model, dem_year_ini, dem_year_end, dem_year_ose)
 demand_block = demandload_block.DemandLoadBlock(path_datos, path_resultados, args.model, dem_year_ini, dem_year_end, dem_year_ose)
 # demand.run()
 demand_block.run()
 
-# - - - - - - DEMAND  - - - - - - #
+# - - - - - - PROFILE  - - - - - - #
 print '-- processing profile data --'
 profile_power_year_ini='2017'
 profile_power_year_ose='2013'
-profile_power = profiles_ERNC.ProfilePower(path_datos, path_resultados, args.model, profile_power_year_ini, profile_power_year_ose)
-profile_power.run()
+profile_power = profiles_ERNC.ProfilePower(path_datos, path_resultados, args.model, profile_power_year_ini,
+                                           profile_power_year_ose)
+profile_power_block = profiles_ERNC_block.ProfilesBlock(path_datos, path_resultados, args.model)
+# profile_power.run()
+profile_power_block.run()
 
 # - - - - - - FUEL - - - - - - #
 print '-- processing fuel data --'
@@ -80,10 +84,12 @@ fuel = fuel.Fuel(path_datos, path_resultados, args.model)
 # - - - - - - INFLOW - - - - - - #
 print '-- processing inflow data --'
 inflow = inflow.ProfileInflow(path_datos, path_resultados, args.model)
+inflow_block = inflow_block.InflowBlock(path_datos, path_resultados, args.model)
 # inflow.run()
+inflow_block.run()
 
 # - - - - - - GNL - - - - - - #
-# print '-- processing GNL indexed data --'
+print '-- processing GNL indexed data --'
 gnl = profile_GNL.ProfileGnl(path_datos, path_resultados, args.model)
 # gnl.run()
 
@@ -96,13 +102,5 @@ dam = dam.DamCot(path_datos, path_resultados, args.model)
 print '-- processing irrigation data --'
 irrigation = irrigation.Irrigation(path_datos, path_resultados, args.model)
 # irrigation.run()
-
-# demand_block = DemandLoadBlock(self._ose_dir, self._ameba_dir, self._model)
-# profile_power_block = ProfilesBlock(self._ose_dir, self._ameba_dir, self._model)
-# profile_inflow_block = ProfileInflowBlock(self._ose_dir, self._ameba_dir, self._model)
-# if BLOCK_RESOLUTION:
-#     demand_block.run()
-#     profile_power_block.run()
-#     profile_inflow_block.run()
 
 print "process finished"

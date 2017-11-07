@@ -109,13 +109,6 @@ def select_max_flow(maxf_ab, maxf_ba, maxf_abn, maxf_ban, flag):
             return max([float(maxf_ab), float(maxf_ba)])
 
 
-def max_flow_true(maxf_ab, maxf_ba, maxf_abn, maxf_ban):
-    if maxf_ab == '*' and maxf_ba == '*' and maxf_abn == '*' and maxf_ban == '*':
-        return False
-    else:
-        return True
-
-
 def ameba_to_datetime(date_ameba):
     return datetime.datetime(int(date_ameba[0:4]), int(date_ameba[5:7]),
                              int(date_ameba[8:10]), int(date_ameba[11:13]), 00)

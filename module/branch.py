@@ -13,6 +13,7 @@ _______________________________________________________________________________
 from functions import *
 from parameters import *
 import itertools
+import argparse
 
 """_______________________________________________________________________________"""
 """ BRANCH PARAMETERS """
@@ -28,6 +29,7 @@ FILE_OSE_BRANCH_MAXFLOW_SIC_OPT = 'LinDatManOpt.csv'
 FILE_OSE_BRANCH_MAXFLOW_SIC_OPE = 'LinDatManOpe.csv'
 FILE_OSE_BRANCH_MAXFLOW_SING = 'LinDatMan.csv'
 FILE_AMEBA_BRANCH_MAXFLOW = 'ele-branch-maxflow.csv'
+FILE_AMEBA_BRANCH_MAXFLOW_REVERSE = 'ele-branch-maxflow_reverse.csv'
 
 """ OSE COLUMN NAMES """
 BRANCH_NAME_OSE = 'LinNom'
@@ -61,6 +63,7 @@ BRANCH_CONNECTED_AMEBA = 'connected'
 BRANCH_REPORT_AMEBA = 'report'
 BRANCH_VOLTAGE_AMEBA = 'voltage'
 BRANCH_MAXFLOW_AMEBA = 'max_flow'
+BRANCH_MAXFLOW_REVERSE_AMEBA='max_flow_reverse'
 BRANCH_R_AMEBA = 'r'
 BRANCH_X_AMEBA = 'x'
 BRANCH_LOSSES_AMEBA = 'losses'
@@ -73,7 +76,7 @@ BRANCH_TIME_AMEBA = 'time'
 
 COLUMNS_AMEBA = [BRANCH_NAME_AMEBA, BRANCH_BUSBARI_AMEBA, BRANCH_BUSBARF_AMEBA, BRANCH_CONNECTED_AMEBA,
                  BRANCH_REPORT_AMEBA, BRANCH_START_TIME_AMEBA, BRANCH_END_TIME_AMEBA, BRANCH_VOLTAGE_AMEBA,
-                 BRANCH_MAXFLOW_AMEBA, BRANCH_R_AMEBA, BRANCH_X_AMEBA, BRANCH_LOSSES_AMEBA, BRANCH_LIFETIME_AMEBA,
+                 BRANCH_MAXFLOW_AMEBA, BRANCH_MAXFLOW_REVERSE_AMEBA, BRANCH_R_AMEBA, BRANCH_X_AMEBA, BRANCH_LOSSES_AMEBA, BRANCH_LIFETIME_AMEBA,
                  BRANCH_INV_COST_AMEBA, BRANCH_COMA_COST_AMEBA]
 
 MONTH_NUM_INT = {'Ene': 1, 'Feb': 2, 'Mar': 3, 'Abr': 4, 'May': 5, 'Jun': 6,
@@ -123,19 +126,19 @@ class Branch(object):
             for month in range(1, 13):
                 dates.append({
                     BRANCH_TIME_AMEBA: self.__datetime_to_ameba(datetime.datetime(year, month, 1, 00, 00, 00)),
-                    'index': self.__get_month_list_index(month, year_ini, year),
-                    'scenario': 'branch_OSE'
+                    'index': self.__get_month_list_index(month, year_ini, year)
                 })
         return dates
 
     def __get_month_list_index(self, month_num, year_ini, year_end):
         return (year_end - year_ini) * 12 + (month_num - 1)
 
-    def __max_flow_true(self, maxf_AB, maxf_BA, maxf_ABN, maxf_BAN):
-        if maxf_AB == '*' and maxf_BA == '*' and maxf_ABN == '*' and maxf_BAN == '*':
+    def __max_flow_true(self, maxf_ab, maxf_ba, maxf_abn, maxf_ban):
+        if maxf_ab == '*' and maxf_ba == '*' and maxf_abn == '*' and maxf_ban == '*':
             return False
         else:
             return True
+
 
     def __parameters(self):
         """@Reads branch from OSE2000 format and write Ameba branch."""
@@ -162,12 +165,12 @@ class Branch(object):
 
             date_end = date_end_ose(row[BRANCH_END_TIME_OSE])
             voltage = row[BRANCH_VOLTAGE_OSE]
-            max_flow = select_max_flow(row[BRANCH_MAXFLOW_AB_OSE],
-                                       row[BRANCH_MAXFLOW_BA_OSE],
-                                       row[BRANCH_MAXFLOW_ABN1_OSE],
-                                       row[BRANCH_MAXFLOW_BAN1_OSE],
-                                       row[BRANCH_FLAG_N1_OSE]
-                                       )
+            if row[BRANCH_FLAG_N1_OSE] == 'T':
+                maxflow = row[BRANCH_MAXFLOW_ABN1_OSE]
+                maxflow_reverse = row[BRANCH_MAXFLOW_BAN1_OSE]
+            else:
+                maxflow = row[BRANCH_MAXFLOW_AB_OSE]
+                maxflow_reverse = row[BRANCH_MAXFLOW_BA_OSE]
             r = round(float(row[BRANCH_R_OSE]) / (float(row[BRANCH_VOLTAGE_OSE]) ** 2 / S_BASE), 3)
             x = round(float(row[BRANCH_X_OSE]) / (float(row[BRANCH_VOLTAGE_OSE]) ** 2 / S_BASE), 3)
             if x < 0.001:
@@ -187,7 +190,8 @@ class Branch(object):
                 BRANCH_VOLTAGE_AMEBA: voltage,
                 BRANCH_CONNECTED_AMEBA: connected,
                 BRANCH_REPORT_AMEBA: report,
-                BRANCH_MAXFLOW_AMEBA: max_flow,
+                BRANCH_MAXFLOW_AMEBA: maxflow,
+                BRANCH_MAXFLOW_REVERSE_AMEBA: maxflow_reverse,
                 BRANCH_R_AMEBA: r,
                 BRANCH_X_AMEBA: x,
                 BRANCH_LOSSES_AMEBA: losses,
@@ -199,15 +203,21 @@ class Branch(object):
 
     def __max_flow(self):
         """Reads max flow from OSE2000 format and write Ameba max flow."""
-        dic_maxflow_ab_nominal = {}
-        dic_maxflow_ab_n_nominal = {}
+        dic_maxflow_nominal = {}
+        dic_maxflow_reverse_nominal = {}
+        dic_maxflow_n_nominal = {}
+        dic_maxflow_reverse_n_nominal = {}
         dic_flag_n_nominal = {}
         for branch in itertools.chain(self._branch_par_OSE_SIC, self._branch_par_OSE_SING):
-            max_flow_ab = max([float(branch[BRANCH_MAXFLOW_AB_OSE]), float(branch[BRANCH_MAXFLOW_BA_OSE])])
-            max_flow_ab_n = max([float(branch[BRANCH_MAXFLOW_ABN1_OSE]), float(branch[BRANCH_MAXFLOW_BAN1_OSE])])
+            maxflow = float(branch[BRANCH_MAXFLOW_AB_OSE])
+            maxflow_reverse = float(branch[BRANCH_MAXFLOW_BA_OSE])
+            maxflow_n = float(branch[BRANCH_MAXFLOW_ABN1_OSE])
+            maxflow_reverse_n = float(branch[BRANCH_MAXFLOW_BAN1_OSE])
 
-            dic_maxflow_ab_nominal.update({branch[BRANCH_NAME_OSE]: max_flow_ab})
-            dic_maxflow_ab_n_nominal.update({branch[BRANCH_NAME_OSE]: max_flow_ab_n})
+            dic_maxflow_nominal.update({branch[BRANCH_NAME_OSE]: maxflow})
+            dic_maxflow_reverse_nominal.update({branch[BRANCH_NAME_OSE]: maxflow_reverse})
+            dic_maxflow_n_nominal.update({branch[BRANCH_NAME_OSE]: maxflow_n})
+            dic_maxflow_reverse_n_nominal.update({branch[BRANCH_NAME_OSE]: maxflow_reverse_n})
             dic_flag_n_nominal.update({branch[BRANCH_NAME_OSE]: branch[BRANCH_FLAG_N1_OSE]})
 
         # GET MIN & MAX YEAR
@@ -217,9 +227,9 @@ class Branch(object):
         for branch in itertools.chain(self._branch_maxflow_OSE_SIC, self._branch_maxflow_OSE_SING):
             if branch[BRANCH_NAME_OSE] not in dic_maxflow:
                 if dic_flag_n_nominal[branch[BRANCH_NAME_OSE]] == 'T':
-                    max_flow = dic_maxflow_ab_n_nominal[branch[BRANCH_NAME_OSE]]
+                    max_flow = dic_maxflow_n_nominal[branch[BRANCH_NAME_OSE]]
                 else:
-                    max_flow = dic_maxflow_ab_nominal[branch[BRANCH_NAME_OSE]]
+                    max_flow = dic_maxflow_nominal[branch[BRANCH_NAME_OSE]]
 
                 dic_maxflow.update({
                     branch[BRANCH_NAME_OSE]: max_flow
@@ -234,8 +244,13 @@ class Branch(object):
 
         # LIST OF MONTH DATES FROM MIN YEAR TO MAX YEAR
         indexed_parameter = self.__month_list(min_year, max_year)
+        indexed_parameter_reverse = self.__month_list(min_year, max_year)
         for ip in indexed_parameter:
             ip.update(dic_maxflow)
+            ip.update({'scenario':'maxflow_OSE'})
+        for ip in indexed_parameter_reverse:
+            ip.update(dic_maxflow)
+            ip.update({'scenario': 'maxflow_reverse_OSE'})
 
         for branch in itertools.chain(self._branch_maxflow_OSE_SIC, self._branch_maxflow_OSE_SING):
             if branch[BRANCH_MAXFLOW_FLAG_OSE] == 'T':
@@ -251,7 +266,7 @@ class Branch(object):
                 else:
                     index_end = self.__get_month_list_index(12, min_year, max_year)
 
-                if not max_flow_true(
+                if not self.__max_flow_true(
                         branch[BRANCH_MAXFLOW_AB_OSE],
                         branch[BRANCH_MAXFLOW_BA_OSE],
                         branch[BRANCH_MAXFLOW_ABN1_OSE],
@@ -261,24 +276,35 @@ class Branch(object):
                         continue
                     else:
                         if branch[BRANCH_FLAG_N1_OSE] == 'F':
-                            maxflow = dic_maxflow_ab_nominal[name]
+                            maxflow = dic_maxflow_nominal[name]
+                            maxflow_reverse = dic_maxflow_reverse_nominal[name]
+
                         else:
-                            maxflow = dic_maxflow_ab_n_nominal[name]
+                            maxflow = dic_maxflow_n_nominal[name]
+                            maxflow_reverse = dic_maxflow_reverse_n_nominal
                 else:
                     if branch[BRANCH_FLAG_N1_OSE] == '*':
                         flag_n = dic_flag_n_nominal[name]
                     else:
                         flag_n = branch[BRANCH_FLAG_N1_OSE]
-                    maxflow = select_max_flow(
-                        branch[BRANCH_MAXFLOW_AB_OSE],
-                        branch[BRANCH_MAXFLOW_BA_OSE],
-                        branch[BRANCH_MAXFLOW_ABN1_OSE],
-                        branch[BRANCH_MAXFLOW_BAN1_OSE],
-                        flag_n
-                    )
+                    if flag_n == 'T':
+                        if branch[BRANCH_MAXFLOW_AB_OSE] or branch[BRANCH_MAXFLOW_BA_OSE] == '*':
+                            maxflow = dic_maxflow_nominal[name]
+                            maxflow_reverse = dic_maxflow_reverse_nominal[name]
+                        else:
+                            maxflow = branch[BRANCH_MAXFLOW_AB_OSE]
+                            maxflow_reverse = branch[BRANCH_MAXFLOW_BA_OSE]
+                    else:
+                        if branch[BRANCH_MAXFLOW_ABN1_OSE] or branch[BRANCH_MAXFLOW_BAN1_OSE] == '*':
+                            maxflow = dic_maxflow_n_nominal[name]
+                            maxflow_reverse = dic_maxflow_reverse_n_nominal
+                        else:
+                            maxflow = branch[BRANCH_MAXFLOW_ABN1_OSE]
+                            maxflow_reverse = branch[BRANCH_MAXFLOW_BAN1_OSE]
 
                 while index_ini <= index_end:
                     indexed_parameter[index_ini][name] = maxflow
+                    indexed_parameter_reverse[index_ini][name] = maxflow_reverse
                     index_ini += 1
 
         directory = os.path.join(self._ameba_dir, DIR_AMEBA_BRANCH)
@@ -291,7 +317,10 @@ class Branch(object):
 
         output_file = writer_csv(FILE_AMEBA_BRANCH_MAXFLOW, ['name', 'time', 'scenario', 'value'],
                                  os.path.join(self._ameba_dir, DIR_AMEBA_BRANCH))
+        output_file_reverse = writer_csv(FILE_AMEBA_BRANCH_MAXFLOW_REVERSE, ['name', 'time', 'scenario', 'value'],
+                                 os.path.join(self._ameba_dir, DIR_AMEBA_BRANCH))
         output_file.writeheader()
+        output_file_reverse.writeheader()
         # REMOVER VALORES REPETIDOS
         for h in header:
             for i in range(0, len(indexed_parameter)):
@@ -300,6 +329,12 @@ class Branch(object):
                 output_file.writerow(
                     dict(name=h, time=indexed_parameter[i]['time'], scenario=indexed_parameter[i]['scenario'],
                          value=indexed_parameter[i][h]))
+            for i in range(0, len(indexed_parameter_reverse)):
+                if indexed_parameter_reverse[i][h] == indexed_parameter_reverse[i - 1][h] and i > 0:
+                    continue
+                output_file_reverse.writerow(
+                    dict(name=h, time=indexed_parameter_reverse[i]['time'], scenario=indexed_parameter_reverse[i]['scenario'],
+                         value=indexed_parameter_reverse[i][h]))
 
     def run(self):
         """Main execution point."""
